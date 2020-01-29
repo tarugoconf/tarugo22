@@ -1,0 +1,35 @@
+.sponsorship {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-normal);
+}
+
+.sponsorship-title {
+    font-size: var(--font-medium);
+}
+.sponsorship-subtitle {
+    font-weight: var(--bold);
+    font-variation-settings: 'wght' var(--bold);
+    text-align: center;
+}
+
+.sponsorship-sponsors {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        display: block;
+    }
+
+    li {
+        margin: 1em;
+    }
+}
+
+.sponsorship-footer {
+    text-align: center;
+}

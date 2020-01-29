@@ -1,0 +1,16 @@
+.navbar {
+    text-align: center;
+    font-size: var(--font-small);
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+    }
+
+    a {
+        padding: 1em;
+        text-transform: uppercase;
+    }
+}

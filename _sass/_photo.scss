@@ -1,0 +1,18 @@
+.photo {
+    margin: 0;
+}
+.photo-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: cover;
+}
+.photo-caption {
+    font-size: var(--font-normal);
+    text-align: center;
+
+    a {
+        font-weight: var(--bold);
+        font-variation-settings: 'wght' var(--bold);
+    }
+}

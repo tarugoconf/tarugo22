@@ -1,0 +1,200 @@
+---
+layout: home
+title: '#Tarugo5'
+
+menu:
+- text: Qué es
+  href: --
+- text: Cómo patrocinar
+  href: --
+- text: Contacto
+  href: --
+
+header:
+  title: '#Tarugo5'
+  subtitle: Madrid, 22-24 octubre 2020
+
+description:
+  title: '3 días | 8 charlas | 6 talleres | 700 asistentes | 1 comunidad'
+  text: |
+    La Tarugoconf es **una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
+
+    Es ante todo, **un punto de encuentro para gente que «hace cosas»** alrededor del software, la innovación tecnológica e Internet: diseñadores, inversores, programadores, comerciales, gente de marketing o soporte, administradores de sistemas, recruiters... camaradas del metal, *tarugos* todos.
+
+    Organizada con un único objetivo: cuidar cada detalle del evento forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para **transformar la asistencia en una experiencia,** sin olvidar nunca que lo más importante de la Tarugoconf, lo que verdaderamente la diferencia, son sus charlas.
+
+  features:
+  - title: Útil
+    img: https://placehold.it/100x100
+    description: Problemas reales y las soluciones aplicadas para superarlos, que podrás incorporar a tu caja de herramientas y aplicar en tu día a día.
+  - title: Práctica
+    img: https://placehold.it/100x100
+    description: Un speaker de la Tarugoconf no habla de lo que ha leído sino de lo que ha vivido.
+  - title: Divertida
+    img: https://placehold.it/100x100
+    description: Lo contrario de «divertido» no es «serio» sino «aburrido» y lo único que está prohibido en la Tarugoconf es aburrirse.
+  - title: Awesómica
+    img: https://placehold.it/100x100
+    description: Las charlas de la Tarugoconf se trabajan durante meses para que duren unos pocos minutos y se recuerden durante años.
+
+image:
+  src: img/tarugo4.jpg
+  alt: Tarugo4
+  width: 4810
+  height: 3207
+  link:
+    text: Ver 752 fotos más en Flickr
+    href: https://www.flickr.com/photos/tarugoconf/albums/72157711626689128
+
+sponsorship:
+  title: Cómo patrocinar
+  text: |
+    En la tarugo intentamos huir de la figura del «sponsor» habitual y **queremos convertir a nuestros patrocinadores en verdaderos socios** que sean una parte más del evento: nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
+    
+    Si quieres ser parte de la próxima #tarugo5 puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) o llamarnos al **650 888 900**
+    
+  subtitle: Patrocinadores en pasadas ediciones
+
+  sponsors:
+  - img: https://placehold.it/100x100
+    alt: texto
+  - img: https://placehold.it/100x100
+    alt: texto
+  - img: https://placehold.it/100x100
+    alt: texto
+  - img: https://placehold.it/100x100
+    alt: texto
+  - img: https://placehold.it/100x100
+    alt: texto
+
+  footer: ...y muchos más
+
+contact:
+  title: Contacto
+  candela:
+    img: https://placehold.it/100x100
+    name: Candela Milán Dopico
+    position: Event manager
+    phone: +34 650 888 900
+    email: candela@bonillaware.com
+    twitter: '@candelamd'
+  address: |
+    **Bonillaware SLU**
+    Castellana 194, Cink Coworking
+    28046 Madrid (España)
+  
+  map: https://g.page/cink-coworking?share
+  slack: tarugoconf.slack.com
+  twitter: '@tarugoconf'
+
+footer:
+  copyright: © 2020 Bonillaware SLU
+  menu:
+  - text: Aviso legal
+    href: --
+  - text: Política de privacidad
+    href: --
+---
+
+<nav class="navbar">
+  {% include menu.html menu=page.menu %}
+</nav>
+
+<header class="header">
+  <h1 class="header-title">{{ page.header.title }}</h1>
+  <p class="header-subtitle">{{ page.header.subtitle }}</p>
+  <progress value=20 min=0 max=100 class="header-progress"></progress>
+</header>
+
+<figure class="video">
+  <div class="video-ratio">
+    <iframe
+    src="https://player.vimeo.com/video/384584744?title=0&byline=0&portrait=0"
+    width="640"
+    height="360"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    title="Vídeo resumen de la pasada edición"
+    allowfullscreen
+    ></iframe>
+  </div>
+</figure>
+
+<section class="description">
+  <h2 class="description-title">{{ page.description.title }}</h2>
+
+  {{ page.description.text | markdownify }}
+
+  <ul class="description-features">
+      {% for item in page.description.features %}
+      <li>
+          <img src="{{ item.img }}" alt="{{ item.title }}">
+          <h3>{{ item.title }}</h3>
+          {{ item.description | markdownify }}
+      </li>
+      {% endfor %}
+  </u>
+</section>
+
+<figure class="photo">
+  <img
+    class="photo-image"
+    src="{{ page.image.src }}"
+    alt="{{ page.image.alt }}"
+    width="{{ page.image.width }}"
+    height="{{ page.image.height }}"
+    >
+  <figcaption class="photo-caption">
+    <a href="{{ page.image.link.href }}">{{ page.image.link.text }}</a>
+  </figcaption>
+</figure>
+
+<section class="sponsorship">
+  <h2 class="sponsorship-title">{{ page.sponsorship.title }}</h2>
+
+  {{ page.sponsorship.text | markdownify }}
+
+  <h3 class="sponsorship-subtitle">{{ page.sponsorship.subtitle }}</h3>
+
+  <ul class="sponsorship-sponsors">
+      {% for item in page.sponsorship.sponsors %}
+      <li>
+          <img src="{{ item.img }}" alt="{{ item.alt }}">
+      </li>
+      {% endfor %}
+  </ul>
+  <footer class="sponsorship-footer">
+    {{ page.sponsorship.footer | markdownify }}
+  </footer>
+</section>
+
+<section class="contact">
+  <h2 class="contact-title">{{ page.contact.title }}</h2>
+
+  <div>
+    <img src="{{ page.contact.candela.img }}" alt="Foto de Candela">
+    <strong>{{ page.contact.candela.name }}</strong>
+    <p>{{ page.contact.candela.position }}</p>
+
+    <address>
+      <span>{{ page.contact.candela.phone }}</span>
+      <a href="mailto:{{ page.contact.candela.email }}">{{ page.contact.candela.email }}</a>
+      <a href="https://twitter.com/{{ page.contact.candela.twitter }}">{{ page.contact.candela.twitter }}</a>
+    </address>
+  </div>
+
+  <div>
+    {{ page.contact.address | markdownify }}
+
+    <address>
+      <a href="{{ page.contact.map }}">Ver mapa</a>
+      <a href="https://{{ page.contact.slack }}">{{ page.contact.slack }}</a>
+      <a href="https://twitter.com/{{ page.contact.twitter }}">{{ page.contact.twitter }}</a>
+    </address>
+  </div>
+</section>
+
+<footer class="footer">
+  {{ page.footer.copyright | markdownify }}
+  {% include menu.html menu=page.footer.menu %}
+</footer>

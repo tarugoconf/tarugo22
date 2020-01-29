@@ -1,0 +1,30 @@
+.description {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-normal);
+}
+
+.description-title {
+    font-size: var(--font-medium);
+}
+
+.description-features {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    font-size: var(--font-small);
+    text-align: center;
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: var(--medium);
+        font-variation-settings: 'wght' var(--medium);
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}

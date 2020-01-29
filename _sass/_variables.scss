@@ -1,0 +1,26 @@
+:root {
+    --scale: 1.5;
+    --font-small: 1rem;
+    --font-normal: calc(var(--font-small) * var(--scale));
+    --font-medium: calc(var(--font-normal) * var(--scale));
+    --font-big: calc(var(--font-medium) * var(--scale));
+    --font-xbig: calc(var(--font-big) * var(--scale));
+    --font-xxbig: calc(var(--font-xbig) * var(--scale));
+
+    --normal: 400;
+    --medium: 600;
+    --bold: 800;
+}
+
+body, html {
+    font-family: 'Manrope VF', Manrope, sans-serif;
+    font-variation-ligatures: normal;
+    font-feature-settings:'calt', 'liga';
+    font-weight: var(--normal);
+    font-variation-settings: 'wght' var(--normal);
+  }
+  *,*:before,*:after {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}

@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+}
+.header-title {
+    font-size: var(--font-xxbig);
+    text-transform: uppercase;
+    font-weight: var(--bold);
+    font-variation-settings: 'wght' var(--bold);
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+.header-subtitle {
+    font-size: var(--font-normal);
+    margin: 0;
+}
+.header-progress {
+    height: var(--font-big);
+}

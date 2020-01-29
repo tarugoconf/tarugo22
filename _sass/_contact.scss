@@ -1,0 +1,13 @@
+.contact {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-normal);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact-title {
+    font-size: var(--font-medium);
+    grid-column: 1 / 3;
+}
