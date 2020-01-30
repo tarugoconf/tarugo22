@@ -1,11 +1,11 @@
 .video {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    grid-column: 2 / 3;
+    margin: 0;
 }
 .video-ratio {
     position: relative;
     padding-bottom: 56%;
+    margin-top: -10vh;
 
     iframe {
         position: absolute;
@@ -13,5 +13,6 @@
         height: 100%;
         top: 0;
         left: 0;
+        background-color: var(--black);
     }
 }

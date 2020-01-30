@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "SpaceGrotesk Variable";
+  src: url("/fonts/SpaceGroteskVariable.ttf") format("truetype-variations");
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("/fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("/fonts/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}

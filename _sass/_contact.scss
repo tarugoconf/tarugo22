@@ -1,13 +1,42 @@
 .contact {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: var(--font-normal);
+    grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+    @include font-normal;
+    justify-content: center;
+    grid-column-gap: var(--column-space);
+    grid-row-gap: var(--row-space);
+
+    p {
+        margin: 0;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+    @media (min-width: 700px) {
+        grid-template-columns: auto auto;
+    }
 }
 
 .contact-title {
-    font-size: var(--font-medium);
-    grid-column: 1 / 3;
+    grid-column: 1 / -1;
+    @include font-big;
+    @include bold;
+    margin-top: 0;
+    text-align: center;
+}
+.contact-candela {
+    padding-left: 120px;
+    position: relative;
+}
+
+.contact-candela-photo {
+    width: 100px;
+    position: absolute;
+    left: 0;
+}
+.contact-candela-name {
+    @include bold;
 }

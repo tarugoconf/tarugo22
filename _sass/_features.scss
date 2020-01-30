@@ -1,0 +1,36 @@
+.features {
+    grid-column: 1 / 4;
+    list-style: none;
+    margin: auto;
+    padding: 0 2vw;
+    @include font-small;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 40rem;
+
+    > li {
+        max-width: 15em;
+        padding: 2vw;
+    }
+
+    h3 {
+        @include font-medium;
+        @include bold;
+        margin: .5em 0;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    p {
+        margin: 0;
+    }
+
+    @media (min-width: 1100px) {
+        flex-wrap: nowrap;
+        max-width: none;
+    }
+}

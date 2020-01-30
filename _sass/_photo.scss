@@ -1,5 +1,7 @@
 .photo {
     margin: 0;
+    grid-column: 1 / 4;
+    position: relative;
 }
 .photo-image {
     max-width: 100%;
@@ -10,9 +12,27 @@
 .photo-caption {
     font-size: var(--font-normal);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1em 2em;
 
     a {
-        font-weight: var(--bold);
-        font-variation-settings: 'wght' var(--bold);
+        @include bold;
+        color: white;
+        display: block;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    svg {
+        background: currentColor;
+        padding: 6px;
+        border-radius: 6px;
+        margin-right: .5em;
+        position: relative;
+        top: .4em;
     }
 }

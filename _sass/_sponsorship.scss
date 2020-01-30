@@ -1,35 +1,60 @@
 .sponsorship {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: var(--font-normal);
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-areas: 'title' 'text' 'sponsors';
+    grid-column-gap: var(--column-space);
+    grid-row-gap: var(--row-space);
+    align-items: start;
+
+    @media (min-width: 800px) {
+        grid-template-columns: minmax(min-content, 22rem) 1fr;
+        grid-template-areas: 'title text' 'title sponsors';
+    }
 }
 
 .sponsorship-title {
-    font-size: var(--font-medium);
+    @include font-big;
+    @include bold;
+    grid-area: title;
+
+    @media (min-width: 800px) {
+        margin: 0;
+        position: sticky;
+        top: 6rem;
+    }
 }
+
+.sponsorship-text {
+    @include font-normal;
+    grid-area: text;
+
+    p {
+        margin: 0 0 1em;
+    }
+}
+
 .sponsorship-subtitle {
-    font-weight: var(--bold);
-    font-variation-settings: 'wght' var(--bold);
-    text-align: center;
+    @include font-normal;
+    @include bold;
 }
 
 .sponsorship-sponsors {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-    display: flex;
-    flex-wrap: wrap;
+    grid-area: sponsors;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100px);
+        grid-gap: 1rem;
+    }
 
     img {
         display: block;
     }
-
-    li {
-        margin: 1em;
-    }
 }
 
 .sponsorship-footer {
-    text-align: center;
+    @include font-normal;
 }

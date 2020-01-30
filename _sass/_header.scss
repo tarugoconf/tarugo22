@@ -1,18 +1,58 @@
 .header {
     text-align: center;
+    grid-column: 2 / 3;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .header-title {
-    font-size: var(--font-xxbig);
-    text-transform: uppercase;
-    font-weight: var(--bold);
-    font-variation-settings: 'wght' var(--bold);
-    letter-spacing: -0.04em;
-    margin: 0;
+    @include font-xbig;
+    @include black;
+    margin: 0 0 .4rem;
 }
 .header-subtitle {
-    font-size: var(--font-normal);
+    @include font-big;
     margin: 0;
 }
 .header-progress {
-    height: var(--font-big);
+    width: 300px;
+    max-width: 100%;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    margin: var(--row-space) 0 0;
+    position: relative;
+    box-shadow: inset 0 0 2px #999;
+    border-radius: 4px;
+    padding: 1em;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: var(--progress);
+        height: 100%;
+        background-image: linear-gradient(to right, #5289ca, #5289ca 50%, #7ccdff 50%);
+        background-repeat: repeat-x;
+        background-size: 10px 100%;
+        animation-name: progressing;
+        animation-timing-function: linear;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+        mix-blend-mode: multiply;
+        border-radius: 4px 0 0 4px;
+    }
+}
+@keyframes progressing {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -10px 0;
+    }
 }

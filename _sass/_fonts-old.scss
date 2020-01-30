@@ -1,42 +1,48 @@
 @charset "UTF-8";
+
 @font-face {
   font-family: "Manrope VF";
-  src: url("/fonts/ManropeGX.ttf") format("truetype-variations");
-  font-style: normal;
-  font-weight: 200 800; }
-
+  src: url("/fonts/ManropeGX.woff2") format("woff2-variations");
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-ExtraBold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 800; }
+  font-weight: 800;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-Bold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 700;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-SemiBold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 600; }
+  font-weight: 600;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-Medium.woff2") format("woff2");
   font-style: normal;
-  font-weight: 500; }
+  font-weight: 500;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-Regular.woff2") format("woff2");
   font-style: normal;
-  font-weight: 400; }
+  font-weight: 400;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-Light.woff2") format("woff2");
   font-style: normal;
-  font-weight: 300; }
+  font-weight: 300;
+}
 @font-face {
   font-family: "Manrope";
   src: url("/fonts/web/Manrope-ExtraLight.woff2") format("woff2");
   font-style: normal;
-  font-weight: 200; }
+  font-weight: 200;
+}

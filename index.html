@@ -13,9 +13,10 @@ menu:
 header:
   title: '#Tarugo5'
   subtitle: Madrid, 22-24 octubre 2020
+  progress: 15%
 
 description:
-  title: '3 días | 8 charlas | 6 talleres | 700 asistentes | 1 comunidad'
+  title: '3 días<br>8 charlas<br>6 talleres<br>700 asistentes<br>1 comunidad'
   text: |
     La Tarugoconf es **una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
 
@@ -79,8 +80,8 @@ contact:
     email: candela@bonillaware.com
     twitter: '@candelamd'
   address: |
-    **Bonillaware SLU**
-    Castellana 194, Cink Coworking
+    **Bonillaware SLU**<br>
+    Castellana 194, Cink Coworking<br>
     28046 Madrid (España)
   
   map: https://g.page/cink-coworking?share
@@ -97,13 +98,25 @@ footer:
 ---
 
 <nav class="navbar">
-  {% include menu.html menu=page.menu %}
+  <div class="navbar-content">
+    {% include menu.html menu=page.menu class="navbar-menu" %}
+    <span class="navbar-logo">
+      <svg width="36" height="42" viewBox="0 0 245 280" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" fill-rule="evenodd">
+          <path stroke="#000" stroke-width="10" fill="#FFF" d="M122.5 8L237 74.107V206.32l-114.5 66.106L8 206.32V74.107z"/>
+          <path fill="#000" d="M122.4 11.7l56 32-56 32-56-32zM11.2 204.867l56 32.333v-64.667l-56-32.333zM233.7 75.7v64.13l-56 32.333v64.618l-55.5 32.044v-128.75z"/>
+        </g>
+      </svg>
+    </span>
+  </div>
 </nav>
 
 <header class="header">
   <h1 class="header-title">{{ page.header.title }}</h1>
   <p class="header-subtitle">{{ page.header.subtitle }}</p>
-  <progress value=20 min=0 max=100 class="header-progress"></progress>
+  <div class="header-progress" style="--progress: {{ page.header.progress }}">
+    {{ page.header.progress }}
+  </div>
 </header>
 
 <figure class="video">
@@ -123,18 +136,21 @@ footer:
 <section class="description">
   <h2 class="description-title">{{ page.description.title }}</h2>
 
-  {{ page.description.text | markdownify }}
+  <div class="description-text">
+    {{ page.description.text | markdownify }}
+  </div>
 
-  <ul class="description-features">
-      {% for item in page.description.features %}
-      <li>
-          <img src="{{ item.img }}" alt="{{ item.title }}">
-          <h3>{{ item.title }}</h3>
-          {{ item.description | markdownify }}
-      </li>
-      {% endfor %}
-  </u>
 </section>
+
+<ul class="features">
+    {% for item in page.description.features %}
+    <li>
+        <img src="{{ item.img }}" alt="{{ item.title }}">
+        <h3>{{ item.title }}</h3>
+        {{ item.description | markdownify }}
+    </li>
+    {% endfor %}
+</ul>
 
 <figure class="photo">
   <img
@@ -145,50 +161,61 @@ footer:
     height="{{ page.image.height }}"
     >
   <figcaption class="photo-caption">
-    <a href="{{ page.image.link.href }}">{{ page.image.link.text }}</a>
+    <a href="{{ page.image.link.href }}">
+      <svg role="img" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <title>Flickr icon</title>
+        <path d="M0 12c0 3.074 2.494 5.564 5.565 5.564 3.075 0 5.569-2.49 5.569-5.564S8.641 6.436 5.565 6.436C2.495 6.436 0 8.926 0 12zm12.866 0c0 3.074 2.493 5.564 5.567 5.564C21.496 17.564 24 15.074 24 12s-2.492-5.564-5.564-5.564c-3.075 0-5.57 2.49-5.57 5.564z"/>
+      </svg>
+      {{ page.image.link.text }}
+    </a>
   </figcaption>
 </figure>
 
 <section class="sponsorship">
   <h2 class="sponsorship-title">{{ page.sponsorship.title }}</h2>
 
-  {{ page.sponsorship.text | markdownify }}
+  <div class="sponsorship-text">
+    {{ page.sponsorship.text | markdownify }}
+  </div>
 
-  <h3 class="sponsorship-subtitle">{{ page.sponsorship.subtitle }}</h3>
-
-  <ul class="sponsorship-sponsors">
+  <div class="sponsorship-sponsors">
+    <h3 class="sponsorship-subtitle">{{ page.sponsorship.subtitle }}</h3>
+    
+    <ul class="sponsorship-sponsors">
       {% for item in page.sponsorship.sponsors %}
       <li>
-          <img src="{{ item.img }}" alt="{{ item.alt }}">
+        <img src="{{ item.img }}" alt="{{ item.alt }}">
       </li>
       {% endfor %}
-  </ul>
-  <footer class="sponsorship-footer">
-    {{ page.sponsorship.footer | markdownify }}
-  </footer>
+    </ul>
+
+    <footer class="sponsorship-footer">
+      {{ page.sponsorship.footer | markdownify }}
+    </footer>
+  </div>
 </section>
 
 <section class="contact">
   <h2 class="contact-title">{{ page.contact.title }}</h2>
 
-  <div>
-    <img src="{{ page.contact.candela.img }}" alt="Foto de Candela">
-    <strong>{{ page.contact.candela.name }}</strong>
-    <p>{{ page.contact.candela.position }}</p>
+  <div class="contact-candela">
+    <img src="{{ page.contact.candela.img }}" alt="Foto de Candela" class="contact-candela-photo">
+    <strong class="contact-candela-name">{{ page.contact.candela.name }}</strong>
+    <p class="contact-candela-position">{{ page.contact.candela.position }}</p>
 
-    <address>
-      <span>{{ page.contact.candela.phone }}</span>
-      <a href="mailto:{{ page.contact.candela.email }}">{{ page.contact.candela.email }}</a>
+    <address class="contact-candela-address">
+      <span>{{ page.contact.candela.phone }}</span><br>
+      <a href="mailto:{{ page.contact.candela.email }}">{{ page.contact.candela.email }}</a><br>
       <a href="https://twitter.com/{{ page.contact.candela.twitter }}">{{ page.contact.candela.twitter }}</a>
     </address>
   </div>
 
-  <div>
+  <div class="contact-tarugo">
     {{ page.contact.address | markdownify }}
 
     <address>
-      <a href="{{ page.contact.map }}">Ver mapa</a>
-      <a href="https://{{ page.contact.slack }}">{{ page.contact.slack }}</a>
+      <a href="{{ page.contact.map }}">Ver mapa</a><br>
+      <a href="https://{{ page.contact.slack }}">{{ page.contact.slack }}</a><br>
       <a href="https://twitter.com/{{ page.contact.twitter }}">{{ page.contact.twitter }}</a>
     </address>
   </div>

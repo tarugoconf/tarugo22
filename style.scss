@@ -1,13 +1,38 @@
 ---
 ---
 
-@import './fonts/index.css';
+@import 'fonts';
 @import 'variables';
+
+:root {
+    @include regular;
+    font-family: var(--font-family);
+    font-variation-ligatures: normal;
+    font-feature-settings: 'calt', 'liga';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color: var(--black);
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+    grid-column-gap: 5vw;
+    grid-row-gap: 10vh;
+    padding: 5vh 0;
+}
+
+a {
+    color: var(--color-links);
+}
 
 @import 'navbar';
 @import 'header';
 @import 'video';
 @import 'description';
+@import 'features';
 @import 'photo';
 @import 'sponsorship';
 @import 'contact';
