@@ -23,7 +23,7 @@ body::before {
 .navbar-content {
     display: flex;
     align-items: center;
-    height: 5rem;
+    min-height: 5rem;
     max-width: 1200px;
     margin: auto;
 }
@@ -32,21 +32,13 @@ body::before {
 }
 
 .navbar-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    @include font-normal;
-    @include bold;
-
-    li {
-        margin-right: 2rem;
-    }
-
     a {
+        @include font-normal;
+        @include bold;
         display: block;
         text-decoration: none;
         color: inherit;
+        white-space: nowrap;
 
         &:hover {
             text-decoration: underline;
@@ -78,5 +70,65 @@ body::before {
     &:hover span {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+.navbar-menu-button {
+    background: none;
+    border: none;
+    padding: .5em;
+    margin-left: -.5em;
+    @include font-normal;
+    @include bold;
+
+    &::before {
+        content: "☰";
+        display: inline-block;
+        margin-right: .3em;
+    }
+    &:hover {
+        background: var(--color-accent);
+    }
+    @media (min-width: 600px) {
+        display: none;
+    }
+}
+
+ul.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @media (max-width: 600px) {
+        position: absolute;
+        top: -10vh;
+        left: 0;
+        padding-top: calc(2em + 10vh);
+        padding-bottom: 2em;
+        padding-left: 5vw;
+        padding-right: 70px;
+        box-sizing: border-box;
+        width: 100%;
+        background: white;
+        box-shadow: 0 0 8px #00000033;
+        transform: translateX(-100%);
+        transition: transform 300ms, opacity 200ms;
+        opacity: 0;
+
+        a {
+            padding: .5em 0;
+        }
+
+        &.is-open {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    @media (min-width: 600px) {
+        display: flex;
+
+        li {
+            margin-right: 2rem;
+        }
     }
 }

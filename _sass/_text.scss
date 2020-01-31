@@ -1,0 +1,17 @@
+.text {
+    grid-column: 2 / 3;
+    @include font-normal;
+    padding-top: 6rem;
+    max-width: 40em;
+    margin: auto;
+    background-image: url('data:image/svg+xml;utf8,<svg width="112" height="194" viewBox="0 0 112 194" xmlns="http://www.w3.org/2000/svg"><path d="M0 0l111.5 64.375v128.75L56 161.081V96.458L0 64.125z" fill="%23efefef" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 66% 0;
+
+    h1 {
+        @include font-big;
+        @include bold;
+        margin-top: 0;
+    }
+}

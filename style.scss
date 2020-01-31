@@ -23,6 +23,8 @@ body {
     grid-column-gap: 5vw;
     grid-row-gap: 10vh;
     padding: 5vh 0;
+    overflow-x: hidden;
+    min-width: 300px;
 }
 
 mark {
@@ -43,3 +45,5 @@ strong {
 @import 'sponsorship';
 @import 'contact';
 @import 'footer';
+
+@import 'text';

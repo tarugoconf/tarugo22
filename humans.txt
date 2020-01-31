@@ -5,7 +5,7 @@
 	Diseño y desarrollo web: Óscar Otero Marzoa
 	Website: https://oscarotero.com
 	Twitter: @misteroom
-	From: Santiago de Compostela, Galiza, Spain
+	From: Santiago de Compostela, Galicia, España
 
 /* THANKS */
 

@@ -107,13 +107,17 @@ footer:
   copyright: © 2020 Bonillaware SLU
   menu:
   - text: Aviso legal
-    href: --
+    href: aviso-legal.html
   - text: Política de privacidad
-    href: --
+    href: politica-de-privacidad.html
 ---
 
 <nav class="navbar">
   <div class="navbar-content">
+    <button class="navbar-menu-button">
+      Menú
+    </button>
+
     {% include menu.html menu=page.menu class="navbar-menu" %}
     <a href="#top" class="navbar-logo">
       <span>Tarugoconf</span>
@@ -309,3 +313,5 @@ footer:
   {{ page.footer.copyright | markdownify }}
   {% include menu.html menu=page.footer.menu %}
 </footer>
+
+<script src="interaction.js"></script>
