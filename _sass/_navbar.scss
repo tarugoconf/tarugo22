@@ -53,3 +53,30 @@ body::before {
         }
     }
 }
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    @include font-small;
+    @include bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+
+    svg {
+        margin-left: 1em;
+        position: relative;
+        z-index: 1;
+    }
+    span {
+        will-change: transform, opacity;
+        transform: translateX(100%);
+        opacity: 0;
+        transition-property: transform, opacity;
+        transition-duration: 200ms;
+    }
+    &:hover span {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

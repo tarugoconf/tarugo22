@@ -5,6 +5,11 @@
     grid-column-gap: var(--column-space);
     grid-row-gap: var(--row-space);
     align-items: start;
+    background-image: url('data:image/svg+xml;utf8,<svg width="112" height="194" viewBox="0 0 112 194" xmlns="http://www.w3.org/2000/svg"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z" fill="%23EBFF00" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    padding-top: 6rem;
 
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) 1fr;

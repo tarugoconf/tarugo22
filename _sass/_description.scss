@@ -4,6 +4,11 @@
     align-items: start;
     grid-template-areas: 'title' 'text';
     grid-column-gap: var(--font-big);
+    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23EBFF00" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 33% 0;
+    padding-top: 6rem;
     
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) 1fr;

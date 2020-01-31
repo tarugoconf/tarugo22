@@ -13,6 +13,7 @@
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     color: var(--black);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -30,6 +31,7 @@ a {
 
 @import 'navbar';
 @import 'header';
+@import 'cube';
 @import 'video';
 @import 'description';
 @import 'features';
