@@ -25,8 +25,12 @@ body {
     padding: 5vh 0;
 }
 
-a {
-    color: var(--color-links);
+mark {
+    background-color: var(--color-accent);
+    padding: .1em .1em 0;
+}
+strong {
+   @include bold; 
 }
 
 @import 'navbar';

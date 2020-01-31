@@ -36,6 +36,18 @@
     p {
         margin: 0 0 1em;
     }
+
+    a {
+        color: var(--color-gray);
+        text-underline-offset: .2em;
+        padding: .2em 0;
+
+        &:hover {
+            color: var(--black);
+            background-color: var(--color-accent);
+            text-decoration: none;
+        }
+    }
 }
 
 .sponsorship-subtitle {
@@ -51,12 +63,13 @@
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(auto-fit, 100px);
-        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, 120px);
+        grid-gap: var(--column-space);
     }
 
     img {
         display: block;
+        max-width: 100%;
     }
 }
 

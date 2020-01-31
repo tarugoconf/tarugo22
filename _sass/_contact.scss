@@ -7,6 +7,10 @@
     grid-column-gap: var(--column-space);
     grid-row-gap: var(--row-space);
     padding-top: 6rem;
+    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path fill="%23efefef" d="M0 64.667L56 97V32.333L0 0z" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 33%;
 
     p {
         margin: 0;
@@ -14,10 +18,34 @@
 
     address {
         font-style: normal;
+        margin-top: .5em;
+        color: var(--color-gray);
     }
 
     @media (min-width: 700px) {
         grid-template-columns: auto auto;
+    }
+    svg {
+        vertical-align: middle;
+        fill: currentColor;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--color-gray);
+        padding: .2em 0;
+        
+        &:hover {
+            color: var(--black);
+            background-color: var(--color-accent);
+        }
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li + li {
+        margin-top: .3em;
     }
 }
 
@@ -31,13 +59,19 @@
 .contact-candela {
     padding-left: 120px;
     position: relative;
+    perspective: 500px;
+
+    &:hover .contact-candela-photo {
+        transform: rotateX(0) rotateY(0);
+        filter: grayscale(0);
+    }
 }
 
 .contact-candela-photo {
     width: 100px;
     position: absolute;
     left: 0;
-}
-.contact-candela-name {
-    @include bold;
+    transform: rotateX(10deg) rotateY(55deg);
+    transition: transform 300ms;
+    filter: grayscale(100%);
 }
