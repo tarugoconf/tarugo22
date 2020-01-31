@@ -48,8 +48,7 @@
         left: 0;
         width: var(--progress);
         height: 100%;
-        background-image: linear-gradient(to right, #d4e319, #afbd0c, #d4e319);
-        background-image: linear-gradient(to right, #888, #666, #888);
+        background-image: linear-gradient(to right, #000, #999, #000);
         background-repeat: repeat-x;
         background-size: 200px 100%;
         animation-name: progressing;
