@@ -238,6 +238,7 @@ footer:
       alt="{{ page.image.alt }}"
       width="{{ page.image.width }}"
       height="{{ page.image.height }}"
+      loading="lazy"
       >
   </picture>
   <figcaption class="photo-caption">
@@ -264,7 +265,7 @@ footer:
     <ul class="sponsorship-sponsors">
       {% for item in page.sponsorship.sponsors %}
       <li>
-        <img src="{{ item.img }}" alt="{{ item.alt }}">
+        <img src="{{ item.img }}" alt="{{ item.alt }}" loading="lazy">
       </li>
       {% endfor %}
     </ul>
@@ -279,7 +280,12 @@ footer:
   <h2 class="contact-title">{{ page.contact.title }}</h2>
 
   <div class="contact-candela">
-    <img src="{{ page.contact.candela.img }}" alt="Foto de Candela" class="contact-candela-photo">
+    <img
+      src="{{ page.contact.candela.img }}"
+      alt="Foto de Candela"
+      class="contact-candela-photo"
+      loading="lazy"
+    >
     <strong class="contact-candela-name">{{ page.contact.candela.name }}</strong>
     <p class="contact-candela-position">{{ page.contact.candela.position }}</p>
 
