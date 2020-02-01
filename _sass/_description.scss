@@ -13,8 +13,8 @@
     animation-iteration-count: infinite;
     
     @media (min-width: 800px) {
-        grid-template-columns: minmax(min-content, 22rem) 1fr;
-        grid-template-areas: 'title text';
+        grid-template-columns: 1fr minmax(min-content, 22rem);
+        grid-template-areas: 'text title';
     }
 }
 
