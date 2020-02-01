@@ -2,7 +2,7 @@
 body::before {
     content: "";
     display: block;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@ body::before {
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
     padding: 0 5vw;
 }
 .navbar-content {

@@ -19,7 +19,7 @@
 
 .sponsorship-title {
     @include font-big;
-    @include bold;
+    @include black;
     grid-area: title;
 
     @media (min-width: 800px) {

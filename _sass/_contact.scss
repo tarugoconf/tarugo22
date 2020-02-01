@@ -52,7 +52,7 @@
 .contact-title {
     grid-column: 1 / -1;
     @include font-big;
-    @include bold;
+    @include black;
     margin-top: 0;
     text-align: center;
 }

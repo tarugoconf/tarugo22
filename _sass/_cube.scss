@@ -11,12 +11,13 @@
     width: var(--size);
     transform-style: preserve-3d;
     animation: rotate 30s infinite linear;
-
+    
     > div {
         position: absolute;
         height: 100%;
         width: 100%;
         background-color: white;
+        backface-visibility: hidden;
     }
 
     svg {
