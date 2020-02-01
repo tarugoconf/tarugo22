@@ -34,6 +34,10 @@ mark {
 strong {
    @include bold; 
 }
+::selection {
+    background-color: var(--color-accent);
+    color: var(--black);
+}
 
 @import 'navbar';
 @import 'header';

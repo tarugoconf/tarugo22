@@ -11,6 +11,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 33%;
+    animation: contactAnim 300s both;
+    animation-iteration-count: infinite;
 
     p {
         margin: 0;
@@ -74,4 +76,16 @@
     transform: rotateX(10deg) rotateY(55deg);
     transition: transform 300ms;
     filter: grayscale(100%);
+}
+
+@keyframes contactAnim {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
 }

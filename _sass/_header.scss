@@ -40,6 +40,7 @@
     font-size: 20px;
     position: relative;
     z-index: 1;
+    box-shadow: inset 0 0 5px #0006;
     
     &::before {
         content: "";
@@ -48,14 +49,19 @@
         left: 0;
         width: var(--progress);
         height: 100%;
-        background-image: linear-gradient(to right, #000, #999, #000);
+        background-image: linear-gradient(
+            to right,
+            var(--color-secondary) 25%,
+            #1300ff 25%,
+            #1300ff 75%,
+            var(--color-secondary) 75%
+        );
         background-repeat: repeat-x;
-        background-size: 200px 100%;
+        background-size: 10px 100%;
         animation-name: progressing;
         animation-timing-function: linear;
         animation-duration: 2s;
         animation-iteration-count: infinite;
-        opacity: .5;
     }
 }
 @keyframes progressing {
@@ -63,6 +69,6 @@
         background-position: 0 0;
     }
     100% {
-        background-position: -200px 0;
+        background-position: -50px 0;
     }
 }

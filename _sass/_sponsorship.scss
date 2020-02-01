@@ -10,6 +10,8 @@
     background-size: contain;
     background-position: 100% 0;
     padding-top: 6rem;
+    animation: sponsorshipAnim 200s both;
+    animation-iteration-count: infinite;
 
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) 1fr;
@@ -75,4 +77,16 @@
 
 .sponsorship-footer {
     @include font-normal;
+}
+
+@keyframes sponsorshipAnim {
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 30% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
 }

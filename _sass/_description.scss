@@ -9,6 +9,8 @@
     background-size: contain;
     background-position: 33% 0;
     padding-top: 6rem;
+    animation: descriptionAnim 200s both;
+    animation-iteration-count: infinite;
     
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) 1fr;
@@ -26,6 +28,10 @@
         position: sticky;
         top: 6rem;
     }
+
+    strong {
+        color: #5446ff;
+    }
 }
 
 .description-text {
@@ -34,5 +40,16 @@
 
     p {
         margin: 0 0 1em;
+    }
+}
+@keyframes descriptionAnim {
+    0% {
+        background-position: 33% 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 33% 0;
     }
 }
