@@ -13,23 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Tarugoconf
+tagline: El evento más awesómico del mundo
+email: candela@bonillaware.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "httsp://tarugoconf.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: tarugoconf
+github_username:  tarugoconf
+logo: favicon-260x260.png
+lang: es_ES
 
 # Build settings
 markdown: kramdown
 theme: false
 plugins:
+  - jekyll-seo-tag
+  # - jekyll-feed
 
-# Exclude from processing.
+  # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:

@@ -1,4 +1,4 @@
-.description {
+.intro {
     grid-column: 2 / 3;
     display: grid;
     align-items: start;
@@ -9,7 +9,7 @@
     background-size: contain;
     background-position: 33% 0;
     padding-top: 6rem;
-    animation: descriptionAnim 200s both;
+    animation: introAnim 200s both;
     animation-iteration-count: infinite;
     
     @media (min-width: 800px) {
@@ -18,7 +18,7 @@
     }
 }
 
-.description-title {
+.intro-title {
     @include font-big;
     @include black;
     grid-area: title;
@@ -34,7 +34,7 @@
     }
 }
 
-.description-text {
+.intro-text {
     @include font-normal;
     grid-area: text;
 
@@ -42,7 +42,7 @@
         margin: 0 0 1em;
     }
 }
-@keyframes descriptionAnim {
+@keyframes introAnim {
     0% {
         background-position: 33% 0;
     }
