@@ -1,6 +1,6 @@
 
 :root {
-    --font-family: 'SpaceGrotesk Variable', sans-serif;
+    --font-family: CircularStd, sans-serif;
 
     --scale: 1.2;
     --font-small: .9rem;
@@ -43,22 +43,19 @@
 @mixin font-big {
     font-size: var(--font-big);
     line-height: 1.1;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
 }
 @mixin font-xbig {
     font-size: var(--font-xxbig);
     line-height: 1;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
 }
 @mixin regular {
-    font-variation-settings: 'wght' 400;
     font-weight: 400;
 }
 @mixin bold {
-    font-variation-settings: 'wght' 600;
     font-weight: 600;
 }
 @mixin black {
-    font-variation-settings: 'wght' 700;
-    font-weight: 700;
+    font-weight: 600;
 }
