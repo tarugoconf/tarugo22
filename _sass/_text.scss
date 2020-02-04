@@ -14,4 +14,45 @@
         @include bold;
         margin-top: 0;
     }
+
+    h2 {
+        @include font-medium;
+        @include bold;
+        margin-top: 2em;
+        margin-bottom: .5em;
+    }
+
+    h3 {
+        @include font-normal;
+        @include bold;
+        margin-top: 2em;
+        margin-bottom: .5em;
+    }
+
+    h4 {
+        @include font-normal;
+        @include bold;
+        font-style: italic;
+        margin-top: 2em;
+        margin-bottom: .5em;
+    }
+
+    a {
+        color: var(--color-gray);
+        text-underline-offset: .2em;
+        padding: .2em 0;
+
+        &:hover {
+            color: var(--black);
+            background-color: var(--color-accent);
+            text-decoration: none;
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: solid 1px;
+        margin: 3em 2em 2em;
+        color: var(--color-gray);
+    }
 }

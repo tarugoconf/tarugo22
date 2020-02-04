@@ -120,14 +120,6 @@ contact:
   map: https://g.page/cink-coworking?share
   slack: tarugoconf.slack.com
   twitter: tarugoconf
-
-footer:
-  copyright: © 2020 Bonillaware SLU
-  menu:
-  - text: Aviso legal
-    href: aviso-legal.html
-  - text: Política de privacidad
-    href: politica-de-privacidad.html
 ---
 
 <nav class="navbar">
@@ -259,6 +251,15 @@ footer:
     {{ page.sponsorship.text | markdownify }}
   </div>
 
+  <div class="sponsorship-document">
+    <iframe
+      frameborder="0"
+      scrolling="yes"
+      src="https://drive.google.com/a/bonillaware.com/file/d/1FdWUDC5ExEaXC7UiuxBDIiG_gffV1ZCY/preview?usp=drivesdk"
+      allowfullscreen="">
+      </iframe>
+  </div>
+
   <div class="sponsorship-sponsors">
     <h3 class="sponsorship-subtitle">{{ page.sponsorship.subtitle }}</h3>
     
@@ -331,7 +332,4 @@ footer:
   </div>
 </section>
 
-<footer class="footer">
-  {{ page.footer.copyright | markdownify }}
-  {% include menu.html menu=page.footer.menu %}
-</footer>
+{% include footer.html menu=page.footer.menu %}

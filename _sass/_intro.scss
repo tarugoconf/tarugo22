@@ -20,7 +20,7 @@
 
 .intro-title {
     @include font-big;
-    @include black;
+    @include bold;
     grid-area: title;
 
     @media (min-width: 800px) {

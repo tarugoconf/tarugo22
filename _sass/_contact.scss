@@ -63,7 +63,7 @@
 .contact-title {
     grid-column: 1 / -1;
     @include font-big;
-    @include black;
+    @include bold;
     margin-top: 0;
     text-align: center;
 }

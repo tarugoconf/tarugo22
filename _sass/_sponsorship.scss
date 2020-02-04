@@ -1,7 +1,7 @@
 .sponsorship {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-areas: 'title' 'text' 'sponsors';
+    grid-template-areas: 'title' 'text' 'document' 'sponsors';
     grid-column-gap: var(--column-space);
     grid-row-gap: var(--row-space);
     align-items: start;
@@ -15,13 +15,13 @@
 
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) 1fr;
-        grid-template-areas: 'title text' 'title sponsors';
+        grid-template-areas: 'title text' 'title document' 'title sponsors';
     }
 }
 
 .sponsorship-title {
     @include font-big;
-    @include black;
+    @include bold;
     grid-area: title;
 
     @media (min-width: 800px) {
@@ -51,7 +51,16 @@
         }
     }
 }
+.sponsorship-document {
+    grid-area: document;
 
+    iframe {
+        display: block;
+        width: 100%;
+        height: 500px;
+        max-height: 80vh;
+    }
+}
 .sponsorship-subtitle {
     @include font-normal;
     @include bold;

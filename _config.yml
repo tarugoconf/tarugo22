@@ -24,6 +24,15 @@ twitter_username: tarugoconf
 github_username:  tarugoconf
 logo: favicon-260x260.png
 lang: es_ES
+footer:
+  copyright: © 2020 — Gestionado con ♥ e inconsciencia por Bonillaware SLU
+  menu:
+  - text: Aviso legal
+    href: aviso-legal.html
+  - text: Política de privacidad
+    href: politica-de-privacidad.html
+  - text: Código de conducta
+    href: codigo-de-conducta.html
 
 # Build settings
 markdown: kramdown

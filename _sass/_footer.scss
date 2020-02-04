@@ -2,17 +2,13 @@
     text-align: center;
     @include font-small;
     grid-column: 2 / 3;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     color: var(--color-gray);
 
     ul {
         list-style: none;
         margin: 0 2em;
         padding: 0;
-        display: flex;
+        display: inline-flex;
     }
     li + li {
         margin-left: 2em;
