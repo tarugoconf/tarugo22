@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 66% 0;
+    @include link;
 
     h1 {
         @include font-big;
@@ -35,18 +36,6 @@
         font-style: italic;
         margin-top: 2em;
         margin-bottom: .5em;
-    }
-
-    a {
-        color: var(--color-gray);
-        text-underline-offset: .2em;
-        padding: .2em 0;
-
-        &:hover {
-            color: var(--black);
-            background-color: var(--color-accent);
-            text-decoration: none;
-        }
     }
 
     hr {

@@ -3,8 +3,5 @@
   "description": "Web para la Tarugoconf",
   "scripts": {
     "start": "bundle exec jekyll serve"
-  },
-  "dependencies": {
-    
   }
 }

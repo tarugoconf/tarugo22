@@ -1,0 +1,74 @@
+.homeHeader {
+    text-align: center;
+    grid-column: 2 / 3;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 10vh;
+
+    .cube-container {
+        position: absolute;
+        margin-top: -10vh;
+    }
+}
+.homeHeader-title {
+    @include font-xbig;
+    @include black;
+    margin: 0 0 .4rem;
+    position: relative;
+    z-index: 1;
+}
+.homeHeader-subtitle {
+    @include font-medium;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+.homeHeader-progress {
+    width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: var(--row-space) 0 0;
+    position: relative;
+    border: solid 3px;
+    border-radius: 4px;
+    padding: .5rem;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: inset 0 0 3px #0003;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        height: calc(100% + 6px);
+        border-radius: 4px 0 0 4px;
+        width: calc(var(--progress) + 6px);
+        background-image: linear-gradient(
+            to right,
+            var(--color-secondary) 25%,
+            #4637ff 25%,
+            #4637ff 75%,
+            var(--color-secondary) 75%
+        );
+        background-repeat: repeat-x;
+        background-size: 10px 100%;
+        animation-name: progressing;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+@keyframes progressing {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -50px 0;
+    }
+}

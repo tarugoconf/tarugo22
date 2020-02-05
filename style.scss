@@ -39,15 +39,20 @@ strong {
     color: var(--black);
 }
 
-@import 'navbar';
-@import 'header';
-@import 'cube';
-@import 'video';
-@import 'intro';
-@import 'features';
-@import 'photo';
-@import 'sponsorship';
+@import 'benefits';
 @import 'contact';
+@import 'cube';
+@import 'features';
 @import 'footer';
-
+@import 'header';
+@import 'highlights';
+@import 'homeHeader';
+@import 'homeIntro';
+@import 'intro';
+@import 'navbar';
+@import 'photo';
+@import 'resources';
+@import 'speakers';
+@import 'sponsorship';
 @import 'text';
+@import 'video';

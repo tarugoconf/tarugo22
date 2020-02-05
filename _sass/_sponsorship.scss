@@ -39,17 +39,7 @@
         margin: 0 0 1em;
     }
 
-    a {
-        color: var(--color-gray);
-        text-underline-offset: .2em;
-        padding: .2em 0;
-
-        &:hover {
-            color: var(--black);
-            background-color: var(--color-accent);
-            text-decoration: none;
-        }
-    }
+    @include link;
 }
 .sponsorship-document {
     grid-area: document;

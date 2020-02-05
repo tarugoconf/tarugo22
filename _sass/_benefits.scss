@@ -1,0 +1,41 @@
+.benefits {
+    grid-column: 2 / 3;
+    padding-top: 6rem;
+}
+.benefits-title {
+    @include font-big;
+    @include bold;
+    text-align: center;
+}
+.benefits-intro {
+    @include font-normal;
+    @include link;
+    max-width: 30em;
+    margin: auto;
+
+    p {
+        margin: 0 0 1em;
+    }
+}
+.benefits-benefits {
+    list-style: none;
+    margin: 4em 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-column-gap: 2em;
+    grid-row-gap: 4em;
+    justify-content: space-around;
+    text-align: center;
+
+    h3 {
+        @include font-normal;
+        @include bold;
+        margin: 1em 0 .3em;
+    }
+
+    p {
+        @include font-small;
+        margin: 0;
+    }
+}

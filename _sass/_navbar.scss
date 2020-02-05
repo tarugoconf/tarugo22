@@ -42,8 +42,15 @@ body::before {
 
         &:hover {
             text-decoration: underline;
+            text-underline-offset: 0.2em;
+            text-decoration-thickness: 1px;
         }
     }
+}
+div.navbar-menu:first-child:not(:nth-last-child(2)) {
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    border-right: solid 1px;
 }
 .navbar-logo {
     display: flex;

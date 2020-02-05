@@ -1,0 +1,56 @@
+.homeIntro {
+    grid-column: 2 / 3;
+    display: grid;
+    align-items: start;
+    grid-template-areas: 'title' 'text';
+    grid-column-gap: var(--font-big);
+    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23EBFF00" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 33% 0;
+    padding-top: 6rem;
+    animation: introAnim 200s both;
+    animation-iteration-count: infinite;
+    
+    @media (min-width: 800px) {
+        grid-template-columns: 1fr minmax(min-content, 24rem);
+        grid-template-areas: 'text title';
+    }
+}
+
+.homeIntro-title {
+    @include font-big;
+    @include bold;
+    grid-area: title;
+
+    @media (min-width: 800px) {
+        margin-top: 0;
+        position: sticky;
+        top: 6rem;
+    }
+
+    strong {
+        color: var(--color-secondary);
+    }
+}
+
+.homeIntro-text {
+    @include font-normal;
+    grid-area: text;
+    @include link;
+
+    p {
+        margin: 0 0 1em;
+    }
+}
+@keyframes introAnim {
+    0% {
+        background-position: 33% 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 33% 0;
+    }
+}

@@ -2,7 +2,7 @@
     grid-column: 2 / 3;
     display: grid;
     align-items: start;
-    grid-template-areas: 'title' 'text';
+    grid-template-areas: 'title' 'aside' 'text';
     grid-column-gap: var(--font-big);
     background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23EBFF00" fill-rule="evenodd"/></svg>');
     background-repeat: no-repeat;
@@ -12,9 +12,9 @@
     animation: introAnim 200s both;
     animation-iteration-count: infinite;
     
-    @media (min-width: 800px) {
-        grid-template-columns: 1fr minmax(min-content, 22rem);
-        grid-template-areas: 'text title';
+    @media (min-width: 1000px) {
+        grid-template-columns: 1fr minmax(min-content, 24rem);
+        grid-template-areas: 'title title' 'text aside';
     }
 }
 
@@ -22,34 +22,33 @@
     @include font-big;
     @include bold;
     grid-area: title;
+}
+.intro-aside {
+    @include font-medium;
+    @include bold;
+    grid-area: aside;
 
-    @media (min-width: 800px) {
+    @media (max-width: 999px) {
+        margin-bottom: 1em;
+    }
+
+    @media (min-width: 1000px) {
         margin-top: 0;
         position: sticky;
         top: 6rem;
     }
 
     strong {
-        color: #5446ff;
+        color: var(--color-secondary);
     }
 }
 
 .intro-text {
     @include font-normal;
     grid-area: text;
+    @include link;
 
     p {
         margin: 0 0 1em;
-    }
-}
-@keyframes introAnim {
-    0% {
-        background-position: 33% 0;
-    }
-    50% {
-        background-position: 100% 0;
-    }
-    100% {
-        background-position: 33% 0;
     }
 }

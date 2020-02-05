@@ -11,7 +11,6 @@ navbar.addEventListener('click', e => e.stopPropagation());
 
 //Vimeo player
 const player = new Vimeo.Player('video', {
-    id: 384584744,
     title: false,
     byline: false,
     portrait: false,

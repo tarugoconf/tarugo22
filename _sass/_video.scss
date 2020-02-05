@@ -1,6 +1,7 @@
 .video {
     grid-column: 1 / -1;
     margin: 0;
+    padding-top: 6rem;
 
     @media (min-width: 500px) {
         grid-column: 2 / 3;

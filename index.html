@@ -11,6 +11,8 @@ menu:
   href: '#como-patrocinar'
 - text: Contacto
   href: '#contacto'
+- text: Speakers
+  href: speakers.html
 
 header:
   title: '#Tarugo5'
@@ -27,7 +29,7 @@ intro:
   text: |
     La Tarugoconf es **una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
 
-    Es ante todo, **un punto de encuentro para gente que “hace cosas”** alrededor del software, la innovación tecnológica e Internet: diseñadores, inversores, programadores, comerciales, gente de marketing o soporte, administradores de sistemas, recruiters... camaradas del metal, *tarugos* todos.
+    Es ante todo, **un punto de encuentro para gente que «hace cosas»** alrededor del software, la innovación tecnológica e Internet: diseñadores, inversores, programadores, comerciales, gente de marketing o soporte, administradores de sistemas, recruiters... camaradas del metal, *tarugos* todos.
 
     Organizada con un único objetivo: cuidar cada detalle del evento forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para **transformar la asistencia en una experiencia,** sin olvidar nunca que lo más importante de la Tarugoconf, lo que verdaderamente la diferencia, son sus charlas.
 
@@ -57,7 +59,7 @@ features:
       <path class="fill-secondary" d="M112 194l56 32-56 32-56-32z"/>
     </svg>
   img: https://placehold.it/100x100
-  description: Lo contrario de “divertido” no es “serio” sino “aburrido” y lo único que está prohibido en la Tarugoconf es aburrirse.
+  description: Lo contrario de «divertido» no es «serio» sino «aburrido» y lo único que está prohibido en la Tarugoconf es aburrirse.
 - title: Awesómica
   svg: |
     <svg width="150" viewBox="0 0 223 355" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax meet">
@@ -81,7 +83,7 @@ image:
 sponsorship:
   title: Cómo patrocinar
   text: |
-    En la tarugo intentamos huir de la figura del “sponsor” habitual y **queremos convertir a nuestros patrocinadores en verdaderos socios** que sean una parte más del evento: nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
+    En la tarugo intentamos huir de la figura del «sponsor» habitual y **queremos convertir a nuestros patrocinadores en verdaderos socios** que sean una parte más del evento: nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
     
     Si quieres ser parte de la próxima #tarugo5 puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) o llamarnos al **650 888 900**
     
@@ -122,26 +124,9 @@ contact:
   twitter: tarugoconf
 ---
 
-<nav class="navbar">
-  <div class="navbar-content">
-    <button class="navbar-menu-button">
-      Menú
-    </button>
+{% include navbar.html %}
 
-    {% include menu.html menu=page.menu class="navbar-menu" %}
-    <a href="#top" class="navbar-logo">
-      <span>Tarugoconf</span>
-      <svg width="36" height="42" viewBox="0 0 245 280" xmlns="http://www.w3.org/2000/svg">
-        <g fill="none" fill-rule="evenodd">
-          <path stroke="#000" stroke-width="10" fill="#FFF" d="M122.5 8L237 74.107V206.32l-114.5 66.106L8 206.32V74.107z"/>
-          <path fill="#000" d="M122.4 11.7l56 32-56 32-56-32zM11.2 204.867l56 32.333v-64.667l-56-32.333zM233.7 75.7v64.13l-56 32.333v64.618l-55.5 32.044v-128.75z"/>
-        </g>
-      </svg>
-    </a>
-  </div>
-</nav>
-
-<header class="header">
+<header class="homeHeader">
   <div class="cube-container">
     <div class="cube">
       <div class="cube-front">
@@ -182,26 +167,25 @@ contact:
       </div>
     </div>
   </div>
-  <h1 class="header-title">{{ page.header.title }}</h1>
-  <p class="header-subtitle">{{ page.header.subtitle }}</p>
-  <div class="header-progress" style="--progress: {{ page.header.progress }}">
+  <h1 class="homeHeader-title">{{ page.header.title }}</h1>
+  <p class="homeHeader-subtitle">{{ page.header.subtitle }}</p>
+  <div class="homeHeader-progress" style="--progress: {{ page.header.progress }}">
     {{ page.header.progress }}
   </div>
 </header>
 
 <figure class="video">
-  <div id="video" class="video-ratio">
+  <div id="video" class="video-ratio" data-vimeo-id="384584744">
     <a href="https://vimeo.com/384584744">Resumen de la #Tarugo4</a>
   </div>
 </figure>
 
-<section class="intro" id="que-es">
-  <h2 class="intro-title">{{ page.intro.title }}</h2>
+<section class="homeIntro" id="que-es">
+  <h2 class="homeIntro-title">{{ page.intro.title }}</h2>
 
-  <div class="intro-text">
+  <div class="homeIntro-text">
     {{ page.intro.text | markdownify }}
   </div>
-
 </section>
 
 <ul class="features">

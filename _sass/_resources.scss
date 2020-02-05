@@ -1,0 +1,57 @@
+.resources {
+    grid-column: 2 / 3;
+    padding-top: 6rem;
+    display: grid;
+    grid-template-areas: 'title' 'links';
+    grid-column-gap: var(--column-space);
+    grid-row-gap: var(--row-space);
+    align-items: start;
+    background-image: url('data:image/svg+xml;utf8,<svg width="98" height="223" viewBox="0 0 98 223" xmlns="http://www.w3.org/2000/svg"><path fill="%23EBFF00" d="M.636 55.974L32.989-.062l64.375 111.5-64.375 111.5L.636 166.9l31.978-55.464z" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 0;
+    animation: resourcesAnim 200s both;
+    animation-iteration-count: infinite;
+
+    @media (min-width: 800px) {
+        grid-template-columns: minmax(min-content, 22rem) auto;
+        grid-template-areas: 'title links';
+        justify-content: center;
+    }
+}
+
+.resources-title {
+    @include font-big;
+    @include bold;
+    grid-area: title;
+    text-align: right;
+
+    @media (min-width: 800px) {
+        margin: 0;
+        position: sticky;
+        top: 6rem;
+    }
+}
+
+.resources-links {
+    @include font-small;
+    grid-area: links;
+    @include link;
+    margin-top: 0;
+
+    li + li {
+        margin-top: .5em;
+    }
+}
+
+@keyframes resourcesAnim {
+    0% {
+        background-position: 45% center;
+    }
+    50% {
+        background-position: 55% center;
+    }
+    100% {
+        background-position: 45% center;
+    }
+}
