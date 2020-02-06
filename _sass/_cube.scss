@@ -2,6 +2,10 @@
     --size: 50vmin;
     perspective: 1000px;
     perspective-origin: 50% 50%;
+
+    @media (min-width: 1000px) AND (min-height: 1000px) {
+        --size: 500px;
+    }
 }
 
 .cube {
@@ -63,10 +67,10 @@
 
 @keyframes rotate {
     from {
-        transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(-360deg);
     }
     
     to {
-        transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(-360deg) rotateY(0);
     }
 }

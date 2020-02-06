@@ -20,6 +20,10 @@
     margin: 0 0 .4rem;
     position: relative;
     z-index: 1;
+
+    span {
+        @include regular;
+    }
 }
 .homeHeader-subtitle {
     @include font-medium;
