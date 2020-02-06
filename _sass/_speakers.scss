@@ -29,6 +29,11 @@
         @include link;
         padding: 1em;
 
+        &:disabled {
+            opacity: .2;
+            text-decoration: none;
+            background: none;
+        }
     }
 }
 
