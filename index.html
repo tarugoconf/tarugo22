@@ -15,7 +15,7 @@ menu:
   href: speakers.html
 
 header:
-  title: '<span>#</span>tarugo5'
+  title: '#tarugo5'
   subtitle: Madrid, 22-24 octubre 2020
   progress: 15%
 
@@ -168,10 +168,8 @@ contact:
     </div>
   </div>
   <h1 class="homeHeader-title">{{ page.header.title }}</h1>
+  <div class="homeHeader-progress" style="--progress: {{ page.header.progress }}">{{ page.header.progress }}</div>
   <p class="homeHeader-subtitle">{{ page.header.subtitle }}</p>
-  <div class="homeHeader-progress" style="--progress: {{ page.header.progress }}">
-    {{ page.header.progress }}
-  </div>
 </header>
 
 <figure class="video">
