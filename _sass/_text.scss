@@ -8,7 +8,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 66% 0;
-    @include link;
+    
+    a {
+        @include link;
+    }
 
     h1 {
         @include font-big;

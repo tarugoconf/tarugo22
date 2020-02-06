@@ -45,7 +45,10 @@
 .intro-text {
     @include font-normal;
     grid-area: text;
-    @include link;
+    
+    a {
+        @include link;
+    }
 
     p {
         margin: 0 0 1em;

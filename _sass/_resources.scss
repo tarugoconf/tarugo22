@@ -12,20 +12,21 @@
     background-position: 50% 0;
     animation: resourcesAnim 200s both;
     animation-iteration-count: infinite;
+    justify-content: center;
 
     @media (min-width: 800px) {
         grid-template-columns: minmax(min-content, 22rem) auto;
         grid-template-areas: 'title links';
-        justify-content: center;
     }
 }
 
 .resources-title {
     @include font-big;
     grid-area: title;
-    text-align: right;
-
+    text-align: center;
+    
     @media (min-width: 800px) {
+        text-align: right;
         margin: 0;
         position: sticky;
         top: 6rem;
@@ -35,8 +36,11 @@
 .resources-links {
     @include font-small;
     grid-area: links;
-    @include link;
     margin-top: 0;
+
+    a {
+        @include link;
+    }
 
     li + li {
         margin-top: .5em;

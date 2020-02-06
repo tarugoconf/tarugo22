@@ -8,9 +8,12 @@
 }
 .benefits-intro {
     @include font-normal;
-    @include link;
     max-width: 30em;
     margin: auto;
+
+    a {
+        @include link;
+    }
 
     p {
         margin: 0 0 1em;

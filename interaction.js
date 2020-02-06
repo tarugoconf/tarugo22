@@ -28,3 +28,17 @@ document.querySelectorAll('.video-ratio').forEach(el =>
 
 //Carousel
 customElements.define('tarugo-carousel', Carousel);
+
+document.querySelectorAll('tarugo-carousel').forEach(carousel => {
+    const player = new Player(carousel);
+    player.play();
+
+    carousel.parentElement.querySelector('.js-carousel-next').addEventListener('click', e => {
+        player.stop();
+        carousel.next();
+    })
+    carousel.parentElement.querySelector('.js-carousel-prev').addEventListener('click', e => {
+        player.stop();
+        carousel.prev();
+    })
+})

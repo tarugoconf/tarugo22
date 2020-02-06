@@ -39,7 +39,9 @@
         margin: 0 0 1em;
     }
 
-    @include link;
+    a {
+        @include link;
+    }
 }
 .sponsorship-document {
     grid-area: document;

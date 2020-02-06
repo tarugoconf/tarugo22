@@ -65,15 +65,18 @@
     font-weight: 800;
 }
 @mixin link {
-    a {
-        color: var(--color-gray);
-        text-underline-offset: .2em;
-        padding: .2em 0;
-    
-        &:hover {
-            color: var(--black);
-            background-color: var(--color-accent);
-            text-decoration: none;
-        }
+    color: var(--color-gray);
+    text-underline-offset: .2em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+
+    &:hover {
+        color: var(--black);
+        background-color: var(--color-accent);
+        text-decoration: none;
+    }
+    &:focus {
+        outline: dotted 1px var(--color-gray);
+        outline-offset: 3px;
     }
 }

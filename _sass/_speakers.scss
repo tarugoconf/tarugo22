@@ -8,12 +8,28 @@
 }
 .speakers-quotes {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 .5em;
     display: flex;
     overflow-x: scroll;
     @include font-normal;
     max-width: 40em;
     scroll-snap-type: x mandatory;
+}
+.speakers-quotes-nav {
+    text-align: center;
+    margin-top: .5em;
+
+    button {
+        @include font-small;
+        @include bold;
+        color: var(--color-gray);
+        background: none;
+        border: none;
+        text-decoration: underline;
+        @include link;
+        padding: 1em;
+
+    }
 }
 
 .speakers-quote {
