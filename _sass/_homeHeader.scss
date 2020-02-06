@@ -15,12 +15,24 @@
     }
 }
 .homeHeader-title {
-    @include font-xbig;
-    font-size: 18vw;
-    @include black;
-    margin: 0 0 .4rem;
+    margin: 0 0 var(--row-space);
     position: relative;
     z-index: 1;
+    @include black;
+    @include font-big;
+    line-height: .7em;
+    
+    em {
+        text-transform: uppercase;
+        display: block;
+        font-style: normal;
+    }
+    strong {
+        display: block;
+        font-weight: inherit;
+        font-size: 18vw;
+        line-height: .7em;
+    }
 }
 .homeHeader-subtitle {
     @include font-normal;
