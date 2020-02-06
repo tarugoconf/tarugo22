@@ -22,7 +22,6 @@
 
 .resources-title {
     @include font-big;
-    @include bold;
     grid-area: title;
     text-align: right;
 

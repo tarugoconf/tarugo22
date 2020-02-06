@@ -3,6 +3,7 @@
 }
 .header-title {
     @include font-xbig;
+    @include black;
     text-align: center;
 }
 .header-intro {

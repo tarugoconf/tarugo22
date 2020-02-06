@@ -63,28 +63,40 @@ benefits:
     El esfuerzo invertido en preparar una charla es igual que el esfuerzo invertido en preparar un evento —nunca es rentable desde el punto de vista económico— así que lo menos que podemos hacer es compensar a nuestros ponentes en su justa medida. Ellos son las verdaderas estrellas de la Tarugoconf.
   benefits:
   - title: Viaje
+    icon: plane.svg
     description: Por supuesto, nos hacemos cargo de tu viaje para que puedas disfrutar del evento completo, no sólo el día de tu charla.
   - title: Alojamiento
+    icon: bed.svg
     description: Tambien cubrimos tu alojamiento. Y si quieres venir con la familia, reservaremos una habitación en la que quepáis todos.
   - title: Diseño
+    icon: artboard.svg
     description: Si lo deseas, nuestro diseñador revisará tu presentación y la «vestirá» con un aspecto profesional para que brille.
   - title: Storytelling
+    icon: unicorn.svg
     description: Si quieres, te ayudaremos a descubrir la historia detrás de los datos y los hechos, para cautivar a la audiencia.
   - title: Acceso VIP
+    icon: vip.svg
     description: Tu entrada te dará acceso a todas las actividades de la Tarugoconf, desde los talleres hasta la jornada familiar.
   - title: Regalo
+    icon: gift.svg
     description: Somos gallegos, así que, cuenta con un regalo de cortesía y, probablemente, relacionado con la gastronomía...
   - title: Entradas
+    icon: tickets.svg
     description: Todos los ponentes de la Tarugoconf tienen garantizada una entrada para la siguiente edición. Sin coste.
   - title: Sketchnoting
+    icon: blueprint.svg
     description: Tu charla será «dibujada» por nuestro sketchnoter y podrás disponer del dibujo y difundirlo como consideres.
   - title: Video
+    icon: video.svg
     description: Tu charla será grabada por 4 cámaras que recogeran todos los detalles y publicada en Vimeo. Si nos das tu consentimiento, claro :)
   - title: Transporte
+    icon: taxi.svg
     description: Nos haremos cargo no sólo de tu viaje hasta Madrid sino de tus desplazamientos dentro de la ciudad. Faltaría más.
   - title: Networking
+    icon: networking.svg
     description: Acceso a la exclusiva cena de mecenas y ponentes donde conoceras y te conocerán en un ambiente familiar.
   - title: Cariño
+    icon: music.svg
     description: Para nosotros no serás un ponente sino nuestro invitado. Nos dejaremos la piel para que te sientas como en casa.
 
 speakers:
@@ -231,7 +243,7 @@ resources:
 </section>
 
 <figure class="video">
-    <div id="video" class="video-ratio" data-vimeo-id="305100749">
+    <div id="video" class="video-ratio" data-id="305100749">
       <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
     </div>
 </figure>
@@ -245,7 +257,7 @@ resources:
     <ul class="benefits-benefits">
         {% for item in page.benefits.benefits %}
         <li>
-            <img src="//placehold.it/100x100">
+            {% include {{ item.icon }} %}
             <h3>{{ item.title }}</h3>
             {{ item.description | markdownify }}
         </li>
@@ -256,25 +268,22 @@ resources:
 <section class="speakers">
     <h2 class="speakers-title">{{ page.speakers.title }}</h2>
 
-    <ul class="speakers-quotes">
+    <tarugo-carousel class="speakers-quotes">
         {% for item in page.speakers.quotes %}
-        <li>
+        <figure class="speakers-quote">
             <blockquote>
               {{ item.quote | markdownify }}
-
-              <footer>
-                <img src="{{ item.image }}">
-                <p>
-                  <cite>{{ item.name }}</cite><br>
-                  {{ item.position }}
-                </p>
-              </footer>
             </blockquote>
-            <h3>{{ item.title }}</h3>
-            {{ item.description | markdownify }}
-        </li>
+            <figcaption>
+              <img src="{{ item.image }}">
+              <p>
+                <cite>{{ item.name }}</cite><br>
+                {{ item.position }}
+              </p>
+            </figcaption>
+          </figure>
         {% endfor %}
-    </ul>
+    </tarugo-carousel>
 
     <ul class="speakers-speakers">
         {% for item in page.speakers.speakers %}

@@ -19,8 +19,8 @@
     }
 
     h3 {
+        font-family: var(--font-title);
         @include font-normal;
-        @include bold;
         margin: 2rem 0 .5em;
     }
 

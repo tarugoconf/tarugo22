@@ -4,11 +4,9 @@
 }
 .speakers-title {
     @include font-big;
-    @include bold;
     text-align: center;
 }
 .speakers-quotes {
-    list-style: none;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -16,21 +14,22 @@
     @include font-normal;
     max-width: 40em;
     scroll-snap-type: x mandatory;
+}
 
-    > li {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0 2em;
-        flex: 0 0 auto;
-        scroll-snap-align: center;
-    }
+.speakers-quote {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2em;
+    margin: 0;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
 
     blockquote {
         @include font-medium;
         background-image: url('data:image/svg+xml;utf8,<svg width="223" height="194" viewBox="0 0 223 194" xmlns="http://www.w3.org/2000/svg"><g fill="%23EBFF00" fill-rule="evenodd"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z"/><path d="M223 0v64.13l-56 32.333v64.618l-55.5 32.044V64.375z"/></g></svg>');
         background-repeat: no-repeat;
-        padding-left: 2em;
-        padding-top: 1em;
+        padding-left: 3rem;
+        padding-top: 2rem;
         margin: 0;
 
         p {
@@ -38,11 +37,12 @@
         }
     }
 
-    footer {
+    figcaption {
         @include font-small;
         display: flex;
         align-items: center;
         color: var(--color-gray);
+        padding-left: 3rem;
     }
     cite {
         font-style: normal;

@@ -4,7 +4,6 @@
 }
 .benefits-title {
     @include font-big;
-    @include bold;
     text-align: center;
 }
 .benefits-intro {
@@ -30,7 +29,6 @@
 
     h3 {
         @include font-normal;
-        @include bold;
         margin: 1em 0 .3em;
     }
 

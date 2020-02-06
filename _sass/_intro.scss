@@ -20,7 +20,6 @@
 
 .intro-title {
     @include font-big;
-    @include bold;
     grid-area: title;
 }
 .intro-aside {

@@ -12,13 +12,11 @@
 
     h1 {
         @include font-big;
-        @include bold;
         margin-top: 0;
     }
 
     h2 {
         @include font-medium;
-        @include bold;
         margin-top: 2em;
         margin-bottom: .5em;
     }

@@ -33,6 +33,7 @@ body::before {
 
 .navbar-menu {
     a {
+        font-family: var(--font-title);
         @include font-normal;
         @include bold;
         display: block;
@@ -55,6 +56,7 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
 .navbar-logo {
     display: flex;
     align-items: center;
+    font-family: var(--font-title);
     @include font-small;
     @include bold;
     text-transform: uppercase;

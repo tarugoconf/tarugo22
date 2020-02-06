@@ -14,3 +14,8 @@
 	Doctype: HTML5
 	Standards: HTML5, CSS3, ES6, SVG
 	Sofware: Jekyll, Visual Studio Code
+
+	Icons:
+	https://www.flaticon.com/authors/good-ware
+	https://www.flaticon.com/authors/smashicons
+	https://www.flaticon.com/authors/freepik
