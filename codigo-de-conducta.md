@@ -3,7 +3,7 @@ layout: text
 title: Código de conducta
 
 back:
-  text: ← Volver
+  text: ← Home
   href: './'
 ---
 

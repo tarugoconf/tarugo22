@@ -3,7 +3,7 @@ layout: text
 title: Aviso legal
 
 back:
-  text: ← Volver
+  text: ← Home
   href: './'
 ---
 

@@ -46,6 +46,16 @@ body::before {
             text-underline-offset: 0.2em;
             text-decoration-thickness: 1px;
         }
+        &:focus {
+            outline: dotted 1px var(--color-gray);
+            outline-offset: 3px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        &.is-back {
+            display: none;
+        }
     }
 }
 div.navbar-menu:first-child:not(:nth-last-child(2)) {
@@ -86,9 +96,10 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
     background: none;
     border: none;
     padding: .5em;
-    margin-left: -.5em;
+    // margin-left: -.5em;
     @include font-normal;
     @include bold;
+    white-space: nowrap;
 
     &::before {
         content: "☰";
@@ -98,7 +109,11 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
     &:hover {
         background: var(--color-accent);
     }
-    @media (min-width: 600px) {
+    &:focus {
+        outline: dotted 1px var(--color-gray);
+        outline-offset: 3px;
+    }
+    @media (min-width: 700px) {
         display: none;
     }
 }
@@ -108,7 +123,7 @@ ul.navbar-menu {
     margin: 0;
     padding: 0;
 
-    @media (max-width: 600px) {
+    @media (max-width: 699px) {
         position: absolute;
         top: -10vh;
         left: 0;
@@ -133,7 +148,7 @@ ul.navbar-menu {
             opacity: 1;
         }
     }
-    @media (min-width: 600px) {
+    @media (min-width: 700px) {
         display: flex;
 
         li {
