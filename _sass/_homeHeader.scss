@@ -25,11 +25,14 @@
     em {
         text-transform: uppercase;
         display: block;
+        margin-bottom: .3em;
+        font-style: normal;
+        @include bold;
     }
     strong {
         display: block;
         font-weight: inherit;
-        font-size: 18vw;
+        font-size: 20vw;
         line-height: .7em;
 
         @media (min-width: 1000px) {
@@ -41,7 +44,7 @@
     }
 }
 .homeHeader-subtitle {
-    @include font-normal;
+    @include font-small;
     margin: .3em 0 0;
     position: relative;
     z-index: 1;

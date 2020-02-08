@@ -14,7 +14,7 @@
     height: var(--size);
     width: var(--size);
     transform-style: preserve-3d;
-    animation: rotate 30s infinite linear;
+    animation: rotate 120s infinite linear;
     
     > div {
         position: absolute;
@@ -42,7 +42,7 @@
 }
   
 .cube-back {
-    transform: translateZ(calc(var(--size) / 2 * 1)) rotateY(180deg);
+    transform: translateZ(calc(var(--size) / 2 * -1)) rotateY(180deg);
 }
   
 .cube-right {
@@ -67,10 +67,10 @@
 
 @keyframes rotate {
     from {
-        transform: rotateX(0deg) rotateY(-360deg);
+        transform: rotateX(180deg) rotateY(-180deg);
     }
-    
+
     to {
-        transform: rotateX(-360deg) rotateY(0);
+        transform: rotateX(-180deg) rotateY(180deg);
     }
 }
