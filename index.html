@@ -19,7 +19,6 @@ header:
     <em>Todo es posible</em>
     <strong>#tarugo5</strong>
   subtitle: Madrid, 22-24 octubre 2020
-  progress: 15%
 
 intro:
   title: |
@@ -171,7 +170,7 @@ contact:
     </div>
   </div>
   <h1 class="homeHeader-title">{{ page.header.title }}</h1>
-  <div class="homeHeader-progress" style="--progress: {{ page.header.progress }}">{{ page.header.progress }}</div>
+  <div class="homeHeader-progress" style="--progress: 0" id="progress">&nbsp;</div>
   <p class="homeHeader-subtitle">{{ page.header.subtitle }}</p>
 </header>
 

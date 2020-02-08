@@ -64,3 +64,17 @@ document.querySelectorAll('tarugo-carousel').forEach(carousel => {
 
     showHideButtons();
 })
+
+//Progress bar
+document.querySelectorAll('#progress').forEach(element => {
+    const start = new Date(2020, 2, 1);
+    const now = new Date();
+    const end = new Date(2020, 10, 22);
+
+    const total = Math.abs(start - end);
+    const progress = Math.abs(start - now);
+
+    const percentage = Math.round(progress / total * 100) + '%';
+    element.innerText = percentage;
+    element.style.setProperty('--progress', percentage);
+})
