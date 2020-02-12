@@ -67,9 +67,9 @@ document.querySelectorAll('tarugo-carousel').forEach(carousel => {
 
 //Progress bar
 document.querySelectorAll('#progress').forEach(element => {
-    const start = new Date(2020, 2, 1);
+    const start = new Date(2020, 0, 1);
     const now = new Date();
-    const end = new Date(2020, 10, 22);
+    const end = new Date(2020, 9, 22);
 
     const total = Math.abs(start - end);
     const progress = Math.abs(start - now);
