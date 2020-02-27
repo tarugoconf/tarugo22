@@ -1,13 +1,28 @@
 /* TEAM */
-    Organización del evento:
-    ...
+    
+	Event Manager: Candela Milán Dopico
+	Twitter: @candelamd
+	Mail: candela@bonillaware.com
+	From: A Coruña, Galicia, Spain
 
-	Diseño y desarrollo web: Óscar Otero Marzoa
+	CTO: Jerónimo Lopez Bezanilla
+	Twitter: @jerolba
+	Mail: jerolba@gmail.com
+	From: Madrid, Spain
+
+	Design & Web Development: Óscar Otero Marzoa
 	Website: https://oscarotero.com
 	Twitter: @misteroom
-	From: Santiago de Compostela, Galicia, España
+	From: Santiago de Compostela, Galicia, Spain
+
+	Showrunner: David Bonilla Fuertes
+	Twitter: @david_bonilla
+	Mail: david@bonillaware.com
+	From: Mordor/Las Tablas, Madrid, Spain
 
 /* THANKS */
+
+Yeray, Gorka, Marina, Ricardo, Cris, Yago, Bea, Gonzalo, Jose, Juan Antonio, Ricardo, Susana, Elena, Silvia, Joana, Nuria, Lucia, Elias, Juan, Xoel, Adolfo and the rest of volunteers. You rock!
 
 /* SITE */
 	Language: Español
