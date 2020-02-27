@@ -113,7 +113,7 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
         outline: dotted 1px var(--color-gray);
         outline-offset: 3px;
     }
-    @media (min-width: 700px) {
+    @media (min-width: 800px) {
         display: none;
     }
 }
@@ -123,7 +123,7 @@ ul.navbar-menu {
     margin: 0;
     padding: 0;
 
-    @media (max-width: 699px) {
+    @media (max-width: 799px) {
         position: absolute;
         top: -10vh;
         left: 0;
@@ -148,7 +148,7 @@ ul.navbar-menu {
             opacity: 1;
         }
     }
-    @media (min-width: 700px) {
+    @media (min-width: 800px) {
         display: flex;
 
         li {
