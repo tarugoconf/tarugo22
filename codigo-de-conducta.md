@@ -19,7 +19,7 @@ Sin paños calientes, **los organizadores nos reservamos el derecho de expulsar 
 
 Si algo o alguien te molesta o si observas cómo molestan a alguien, por favor, **ponte en contacto inmediatamente** con alguno de los organizadores de la Tarugoconf:
 
-* [David Bonilla](mailto:david@bonillaware.com), Responsable de Contenidos (616 53 63 70)
-* [Candela Milán](mailto:candela@bonillaware.com), Directora del Evento (616 927 642)
+* [David Bonilla](mailto:david@bonillaware.com), Responsable de Contenidos
+* [Candela Milán](mailto:candela@bonillaware.com), Directora del Evento
 
 Gracias a todos por hacer de la Tarugoconf la conferencia más awesómica y gallega del mundo.
