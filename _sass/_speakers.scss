@@ -14,6 +14,7 @@
     @include font-normal;
     max-width: 40em;
     scroll-snap-type: x mandatory;
+    scrollbar-width: none;
 }
 .speakers-quotes-nav {
     text-align: center;
