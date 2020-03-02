@@ -56,6 +56,7 @@
 .sponsorship-subtitle {
     @include font-normal;
     @include bold;
+    text-align: center;
 }
 
 .sponsorship-sponsors {
@@ -68,6 +69,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, 120px);
         grid-gap: var(--column-space);
+        justify-content: center;
     }
 
     img {
@@ -78,6 +80,7 @@
 
 .sponsorship-footer {
     @include font-normal;
+    text-align: center;
 }
 
 @keyframes sponsorshipAnim {
