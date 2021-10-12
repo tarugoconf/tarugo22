@@ -1,0 +1,23 @@
+.video {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding-top: 6rem;
+
+    @media (min-width: 500px) {
+        grid-column: 2 / 3;
+    }
+}
+.video-ratio {
+    position: relative;
+    padding-bottom: 56%;
+    margin-top: -10vh;
+
+    & iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--black);
+    }
+}

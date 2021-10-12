@@ -1,0 +1,17 @@
+.header {
+    grid-column: 2 / 3;
+}
+.header-title {
+    font: var(--font-xbig);
+    font-weight: var(--xbold);
+    text-align: center;
+}
+.header-intro {
+    font: var(--font-normal);
+    max-width: 30em;
+    margin: auto;
+
+    p {
+        margin: 0 0 1em;
+    }
+}

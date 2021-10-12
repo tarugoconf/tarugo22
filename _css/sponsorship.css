@@ -1,0 +1,93 @@
+.sponsorship {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-areas: 'title' 'text' 'document' 'sponsors';
+    grid-column-gap: var(--column-space);
+    grid-row-gap: var(--row-space);
+    align-items: start;
+    background-image: url('data:image/svg+xml;utf8,<svg width="112" height="194" viewBox="0 0 112 194" xmlns="http://www.w3.org/2000/svg"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z" fill="%23EBFF00" fill-rule="evenodd"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    padding-top: 6rem;
+    animation: sponsorshipAnim 200s both;
+    animation-iteration-count: infinite;
+
+    @media (min-width: 800px) {
+        grid-template-columns: minmax(min-content, 22rem) 1fr;
+        grid-template-areas: 'title text' 'title document' 'title sponsors';
+    }
+}
+
+.sponsorship-title {
+    font: var(--font-big);
+    letter-spacing: var(--font-big-spacing);
+    font-weight: var(--bold);
+    grid-area: title;
+
+    @media (min-width: 800px) {
+        margin: 0;
+        position: sticky;
+        top: 6rem;
+    }
+}
+
+.sponsorship-text {
+    font: var(--font-normal);
+    grid-area: text;
+
+    & p {
+        margin: 0 0 1em;
+    }
+}
+.sponsorship-document {
+    grid-area: document;
+
+    & iframe {
+        display: block;
+        width: 100%;
+        height: 500px;
+        max-height: 80vh;
+    }
+}
+.sponsorship-subtitle {
+    font: var(--font-normal);
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.sponsorship-sponsors {
+    grid-area: sponsors;
+
+    & ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 120px);
+        grid-gap: var(--column-space);
+        justify-content: center;
+    }
+
+    & img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.sponsorship-footer {
+    font: var(--font-normal);
+    text-align: center;
+}
+
+@keyframes sponsorshipAnim {
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 30% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}

@@ -1,0 +1,18 @@
+title: Tarugoconf
+tagline: El evento más awesómico del mundo
+email: candela@bonillaware.com
+description: >- # this means to ignore newlines until "baseurl:"
+  La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista
+twitter_username: tarugoconf
+github_username:  tarugoconf
+logo: favicon-260x260.png
+lang: es_ES
+footer:
+  copyright: © 2020 — Gestionado con ♥ e inconsciencia por Bonillaware SLU
+  menu:
+  - text: Aviso legal
+    href: /aviso-legal/
+  - text: Política de privacidad
+    href: /politica-de-privacidad/
+  - text: Código de conducta
+    href: /codigo-de-conducta/
