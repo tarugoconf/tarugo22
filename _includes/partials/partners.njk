@@ -1,0 +1,56 @@
+<section class="maincontent-partners" id="partners">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {{ content.intro | md | safe }}
+
+  <ul class="partners-list is-main" aria-label="Lista de patrocinadores principales">
+    {% set partner = content.main %}
+    <li>
+      <figure class="partner">
+          <a href="{{ partner.url }}" rel="noopener">
+            <img src="{{ partner.img }}" alt="{{ partner.alt }}">
+          </a>
+
+          <figcaption>
+          {{ partner.text | md | safe }}
+          </figcaption>
+      </figure>
+    </li>
+  </ul>
+
+  <ul class="partners-list has-partners" arial-label="Lista de partners">
+  {% for partner in content.partners %}
+    <li>
+      <figure class="partner">
+          <a href="{{ partner.url }}" rel="noopener">
+            <img src="{{ partner.img }}" alt="{{ partner.alt }}">
+          </a>
+
+          <figcaption>
+          {{ partner.text | md | safe }}
+          </figcaption>
+      </figure>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <hr>
+
+  <ul class="partners-list has-patrons" aria-label="Lista de mecenas">
+    {% for partner in content.patrons %}
+      <li class="partner">
+        <a href="{{ partner.url }}" rel="noopener">
+          <img src="{{ partner.img }}" alt="{{ partner.alt }}">
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {# Join #}
+  {% set cont = content.join %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+</section>

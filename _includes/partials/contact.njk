@@ -1,0 +1,54 @@
+<section class="contact" id="contacto">
+  <h2 class="contact-title">{{ content.title }}</h2>
+
+  <div class="contact-candela">
+    <img
+      src="{{ content.manager.img }}"
+      alt="{{ content.manager.alt }}"
+      class="contact-candela-photo"
+      loading="lazy"
+    >
+    <strong class="contact-candela-name">{{ content.manager.name }}</strong>
+    <p class="contact-candela-position">{{ content.manager.position }}</p>
+
+    <address class="contact-candela-address">
+      <ul>
+        <li>{{ content.manager.phone }}</li>
+        <li><a href="mailto:{{ content.candela.email }}">{{ content.manager.email }}</a></li>
+        <li>
+          <a href="https://twitter.com/{{ content.manager.twitter }}">
+            <img src="/img/icons/twitter.svg" inline>
+            {{ content.manager.twitter }}
+          </a>
+        </li>
+      </ul>
+    </address>
+  </div>
+
+  <div class="contact-tarugo">
+    {{ content.address | md | safe }}
+
+    <address>
+      <ul>
+        <li>
+          <a href="{{ content.map }}">
+            <img src="/img/icons/googlemaps.svg" inline>
+            Ver mapa
+          </a>
+        </li>
+        <li>
+          <a href="https://{{ content.slack }}">
+            <img src="/img/icons/slack.svg" inline>
+            {{ content.slack }}
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/{{ content.twitter }}">
+            <img src="/img/icons/twitter.svg" inline>
+            {{ content.twitter }}
+          </a>
+        </li>
+      </ul>
+    </address>
+  </div>
+</section>

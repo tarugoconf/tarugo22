@@ -1,0 +1,78 @@
+<section class="maincontent-speakers" id="speakers">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {{ content.intro | md | safe }}
+
+  <ul class="maincontent-cardlist has-3cols">
+
+    {% for speaker in content.speakers %}
+    <li>
+        <article class="speaker">
+          <img src="{{ speaker.image }}">
+          <h4 class="speaker-name">{{ speaker.name }}</h4>
+
+          <p class="speaker-company">
+            {% if speaker.company | trim %}
+            {{ speaker.company }}<br>
+            {% endif %}
+            <em class="speaker-position">{{ speaker.position }}</em>
+          </p>
+
+          <button class="speaker-button js-openDialog" data-target="speaker-{{ speaker.id }}">
+            <span>Más info</span>
+          </button>
+        </article>
+
+        <dialog class="speaker-modal" id="speaker-{{ speaker.id }}">
+            <button class="js-closeDialog speaker-modal-close button is-primary">Cerrar</button>
+            
+            <div class="speaker-modal-content">
+                <div class="speaker-photo">
+                  <img src="{{ speaker.image }}">
+                </div>
+
+                <div class="speaker-modal-header">
+                    <h4 class="speaker-name">{{ speaker.name }}</h4>
+                    <p class="speaker-company">{{ speaker.company }}</p>
+                    <em class="speaker-position">{{ speaker.position }}</em>
+                </div>
+
+                <address class="speaker-links">
+                    {% for link in speaker.links %}
+                    <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
+                      <img src="/img/{{ link.type }}.svg" inline>
+                    </a>
+                    {% endfor %}
+                </address>
+
+                <div class="speaker-bio">
+                    {{ speaker.bio | md | safe }}
+                </div>
+                <ul class="speaker-events">
+                    {% for day in home.calendar.days %}
+                    {% for event in day.events %}
+                    {% for id in event.speakers %}
+                    {% if id == speaker.id %}
+                    <li>
+                      <details>
+                        <summary>
+                            <time>{{ day.day }} - {{ event.time }}</time>
+                            <strong>{{ event.title }}</strong>
+                        </summary>
+
+                        {{ event.details | md | safe }}
+                      </details>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </dialog>
+      </li>
+      {% endfor %}
+    </ul>
+</section>

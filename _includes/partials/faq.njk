@@ -1,0 +1,14 @@
+<section class="maincontent-faq" id="faq">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {% for item in content.questions %}
+  <details>
+    <summary>{{ item.question }}</summary>
+    <div>
+      {{ item.answer | md | safe }}
+    </div>
+  </details>
+  {% endfor %}
+</section>

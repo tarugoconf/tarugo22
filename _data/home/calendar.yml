@@ -1,0 +1,262 @@
+title: Agenda
+intro: >
+  Continuaremos mejorando contenidos y confirmando más invitados hasta el día
+  del evento, pero aquí siempre podrás consultar la última versión de la agenda.
+
+  El jueves nuestra **Premiere de cine** y el posterior debate; y **el viernes 22 de octubre celebraremos el evento principal.**
+
+  Finalmente, el sábado por la mañana disfrutaremos de la **Tarugoff,** nuestro *Open Space*, donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
+days:
+  - day: Jueves, 21 de octubre
+    events:
+      - title: Apertura de Stands y Networking 🤝
+        time: 10:00-17:00h
+        details: >
+          Podrás **saludar a nuestros patrocinadores y conocer sus productos,
+          servicios u oportunidades de empleo**.
+
+
+          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
+      - title: Icebreakers 🧊
+        time: 17:15-18:45h
+        details: >
+          3 rondas de distintos juegos y actividades online, gestionadas por
+          voluntarios de la organización y diseñados para que los asistentes a
+          la #tarugo21 que lo deseéis podáis conocer gente de forma fácil,
+          divertida y segura ;) Podrás apuntarte a la que mejor te encaje (o a
+          todas, si te animas):
+
+
+          * De 17:15 a 17:40 Tarugobreaker 🏓 Warm Up 
+
+          * De 17:45 a 18:10 Super-Tarugobreaker 🦸‍♀️🦸‍♂️ 
+
+          * De 18:15 a 18:45 Tarugobreaker de After 🤠
+      - title: Networking 🤝
+        time: 18:45-20:00h
+        details: >
+          Último slot del día bloqueado para que -si así lo deseáis- podáis
+          **celebrar 1:1s como en cualquier evento presencial**, gracias a
+          nuestras herramientas de networking.
+      - title: Premiere de cine 🎞️
+        time: 20:00-22:00h
+        details: >
+          Dependiendo de lo que decidan los asistentes, stremearemos en alta
+          definición «Conspiración en la Red» —una película tan políticamente
+          incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— que, en
+          2021, celebra a su 20º aniversario; o «Terminator 2: el día del juicio
+          final» que cumple 30 años aunque el futuro distópico que plantea sigue
+          siendo completamente vigente.
+
+
+          Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
+      - title: "Panel moderado: El sector, 20 años después 🎤"
+        time: 22:00-22:45h
+        details: >
+          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
+          FUERTE sobre **la evolución de la tecnología y la industría desde el
+          estreno de la película**.
+
+
+          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
+  - day: Viernes, 22 de octubre
+    events:
+      - title: Apertura de Stands y Networking 🤝
+        time: 10:00-16:00h
+        details: >
+          Podrás **saludar a nuestros patrocinadores y conocer sus productos,
+          servicios u oportunidades de empleo**.
+
+
+          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
+      - title: Warm Up! 🤖
+        time: 16:00-16:30h
+        details: Mientras nos preparamos para el arranque del evento, nuestro DJ
+          residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
+          amenizará la espera con una sesión llena de ROMPEPISTAS.
+      - title: Keynote
+        time: 16:30-16:40h
+        details: >
+          Un rápido resumen de un año que nunca olvidaremos en forma de
+          monólogo, en el que repasaremos las noticias más importantes y los
+          sucesos más relevantes.
+      - title: Aportando transparencia a la Administración Pública mediante la
+          Informática
+        time: 16:40-17:10h
+        speakers:
+          - jaime
+        details: >
+          Jaime es un desarrollador especializado en procesar grandes volúmenes
+          de datos. Después de 16 años trabajando en la empresa privada, dejó su
+          trabajo para dedicarse durante un año a usar sus «superpoderes» para
+          impulsar la transparencia en la Administración mediante datos y
+          tecnología.
+
+
+          En esta charla nos contará **cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público**. ¿Puede un solo informático cambiar las cosas?
+      - title: "Concurso: El Precio Justo 💰"
+        time: 17:10-17:15h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que estimar el coste más aproximado, sin
+          pasarse, de famosos proyectos de software públicos y privados.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: Reportaje 📹
+        time: 17:15-17:20h
+        details: >-
+          Reportaje original de calidad profesional, como los que ya produjimos
+          el año pasado sobre [cocinas
+          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
+          espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
+
+
+          El contenido final lo decidirán los asistentes a la #tarugo21.
+      - title: Palabras Mágicas
+        time: 17:20-17:50h
+        speakers:
+          - eva
+        details: >-
+          En esta charla sabremos qué es eso del UX Writing, en qué se
+          diferencia de otras disciplinas y **por qué es fundamental en el
+          proceso de diseño de productos y servicios digitales**.
+
+
+          Aprenderemos cuáles son los principios de la disciplina, cómo aplicarlos y revisaremos un montón de ejemplos para que quede todo cristalino. También hablaremos de lenguaje inclusivo y de cómo podemos hacer un mundo más amable para todo tipo de personas, a través de las palabras.
+      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
+        time: 17:50-17:55h
+        details: >-
+          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
+          Profesional y Grado universitario de Informática sobre **su
+          perspectiva de la profesión y las expectativas que tienen puestas en
+          la misma**.
+
+
+          Sus respuestas no te dejarán indiferente.
+      - title: Cómo construir tu propio páncreas
+        speakers:
+          - antonio
+        time: 17:55-18:25h
+        details: >-
+          El movimiento #WeAreNotWaiting nace de la necesidadde un padre de
+          conocer el estado de su hijo —diabético— cuando no estaba físicamente
+          con él.
+
+
+          Basado en la filosofía *maker* y el DIY (Do It Yourself), este movimiento ha impulsado la democratización del uso de tecnología para mejorar la salud y el bienestar de los pacientes. Exactamente lo que hizo Antonio —que padece diabetes de tipo 1— que en esta charla nos contará **cómo construir un páncreas artificial usando hardware y software *open source***, pero sobre todo, las lecciones aprendidas en el proceso.
+      - title: ¿Puede sobrevivir una Comunidad 100% online?
+        details: Para muchos, Google for Startups Campus no es más que un edificio, pero
+          en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
+          mucho más que eso: **una verdadera Comunidad de emprendedores y
+          técnicos** que -a pesar de estar separada fisicamente- se ha mantenido
+          más unida que nunca para superar esta pandemia.
+        time: 18:25-18:30h
+      - title: La tecnología que mueve el mundo
+        time: 18:30-19:00h
+        speakers:
+          - yaiza
+        details: >-
+          La logística es como la administración de sistemas: si es buena,
+          apenas se percibe, pero es la responsable de que nunca falten galletas
+          de dinosaurios en el Super; o que podamos comprar online una lavadora
+          y recibirla menos de 24 horas después.
+
+
+          En esta charla, Yaiza nos explicará **cómo la tecnología ha permitido optimizar y democratizar la logística de «última milla»** o, lo que es lo mismo, todos los procesos y recursos necesarios para que las distintas mercancías lleguen a un pequeño comercio o a nuestra casa.
+      - time: 19:00-19:30h
+        title: Intermedio 🍟
+        details: >-
+          Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
+          cojáis fuerzas para sobrevivir a la segunda parte del show.
+
+
+          El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
+      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+        time: 19:30-19:35h
+        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
+          mano, para averiguar hasta qué punto el público general -sin
+          experiencia técnica- conoce conceptos como "criptomoneda", "huella
+          digital" u "open source" y cuál es su opinión al respecto.
+      - title: Cómo hacer las Américas en 2021
+        speakers:
+          - diego
+          - varis
+        details: >-
+          LATAM es un mercado inmenso y lleno de oportunidades que, sin embargo,
+          ha sido ignorado sistematicamente por la mayoría de empresas y
+          emprendedores españoles.
+
+
+          En esta charla, Varis y Diego nos contarán **las principales peculiaridades a tener en cuenta a la hora de hacer negocios en América latina en general, y en el sector digital en particular**, a partir de su propia experiencia montando (y vendiendo) SinDelantal.com en México. 
+
+
+          Sal de esta charla con trucos, consejos y un montón de buenas prácticas para que puedas «hacer las Américas» con las mayores posibilidades de éxito.
+        time: 19:35-20:05h
+      - title: "Concurso: Juegos de Niños 🎲"
+        time: 20:05-20:15h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que averiguar cuales de las absurdas
+          anécdotas informáticas que presentaremos son reales y cuales no.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: La historia de la primera programadora de España
+        details: >-
+          Conoceremos la historia de Paz, que empezó a trabajar en IBM en 1962
+          después de licenciarse en Físicas y recibir un curso de programación
+          en Fortran.
+
+
+          Era la primera programadora de la compañía en España en un tiempo en el que la presencia de las mujeres no era habitual no ya en los departamentos técnicos sino en el mercado laboral en general.
+
+
+          En esta entrevista disfrutaremos de anécdotas, destaparemos mitos y conoceremos la realidad del pasado de la Informática, para intentar comprender mejor su presente.
+        time: 20:15-20:45h
+        speakers:
+          - paz
+      - title: Spots
+        time: 20:45-20:50h
+        details: Breve receso en el que emitiremos unos spots antes de encarar la traca
+          final.
+      - title: "Menores y Redes Sociales: la realidad que no conoces"
+        speakers:
+          - pablo
+        details: >-
+          Todos —especialmente los informáticos— creemos controlar las Redes
+          Sociales y los peligros que ocultan, pero  hay todo un mundo oculto
+          ahí fuera que desconocemos. 
+
+
+          Durante su charla, Pablo nos guiará por ese oscuro universo a través de sus experiencias trabajando en casos reales y nos dará  las claves para navegar por el mismo con una cierta seguridad, para que sepamos como proteger tanto a los menores a nuestro cargo como... a nosotros mismos.
+        time: 20:50-21:20h
+      - title: Reportaje + charla sorpresa 📹
+        time: 21:20-21:50h
+        details: >-
+          Reportaje original de calidad profesional, como los que ya produjimos
+          el año pasado sobre [cocinas
+          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
+          espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
+
+
+          El contenido final lo decidirán los asistentes a la #tarugo21.
+      - title: Despedida y cierre
+        time: 21:50-22:00h 👋
+        speakers:
+          - david
+        details: Como ya es tradición, **haremos públicas todas las cifras del
+          evento** -fuentes de ingresos, partidas de gastos y cuenta de
+          resultados-, acreditaremos y agradeceremos el esfuerzo a todo el
+          equipo de profesionales y voluntarios que lo harán posible y pondremos
+          un broche de oro entonando el 'Miña Terra Galega' 💪
+  - day: Sábado, 23 de octubre
+    events:
+      - title: TarugOff
+        time: 11:00-14:00h
+        details: El Open Space de la Tarugo
+      - title: Replay 📼
+        time: 16:00-22:00h
+        details: "Redifusión de la #tarugo21"

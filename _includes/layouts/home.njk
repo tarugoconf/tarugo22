@@ -1,15 +1,120 @@
-<!DOCTYPE html>
+---
+layout: layouts/base.njk
+---
 
-<html lang="es">
-<head>
-    {% include "partials/metas.njk" %}
+{% include "partials/navbar.njk" %}
 
-    <link rel="stylesheet" href="/style.css">
-    <script src="https://player.vimeo.com/api/player.js" defer></script>
-    <script src="/interaction.js" type="module"></script>
-</head>
+<header class="homeHeader">
+  <div class="cube-container">
+    <div class="cube">
+      <div class="cube-top">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-black" x="100" y="0" width="100" height="100"></rect>
+        </svg>
+      </div>
+      <div class="cube-front">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-black" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-white" x="100" y="100" width="100" height="100"></rect>
+        </svg>
+      </div>
+      <div class="cube-left">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-black" x="0" y="100" width="100" height="100"></rect>
+        </svg>
+      </div>
 
-<body id="top">
-    {{ content | safe }}
-</body>
-</html>
+      <div class="cube-bottom">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-black" x="0" y="100" width="100" height="100"></rect>
+        </svg>
+      </div>
+      <div class="cube-back">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-black" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-white" x="100" y="100" width="100" height="100"></rect>
+        </svg>
+      </div>
+      <div class="cube-right">
+        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
+          <rect class="cube-black" x="100" y="0" width="100" height="100"></rect>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <h1 class="homeHeader-title">{{ header.title | safe }}</h1>
+  <p class="homeHeader-subtitle">{{ header.subtitle }}</p>
+</header>
+
+<figure class="video">
+  <div id="video" class="video-ratio" data-id="384584744">
+    <a href="https://vimeo.com/384584744">Resumen de la #Tarugo4</a>
+  </div>
+</figure>
+
+<section class="homeIntro" id="que-es">
+  <h2 class="homeIntro-title">{{ intro.title | safe }}</h2>
+
+  <div class="homeIntro-text has-links">
+    {{ intro.text | md | safe }}
+  </div>
+</section>
+
+<ul class="features">
+    {% for item in features %}
+    <li>
+      {{ item.svg | safe }}
+      <h3>{{ item.title }}</h3>
+      {{ item.description | md | safe }}
+    </li>
+    {% endfor %}
+</ul>
+
+<figure class="photo">
+  <picture>
+    <source srcset="{{ image.src }}-3200px.webp" media="(min-width:2400px)" type="image/webp">
+    <source srcset="{{ image.src }}-3200px.jpg" media="(min-width:2400px)">
+    <source srcset="{{ image.src }}-2400px.webp" media="(min-width:1600px)" type="image/webp">
+    <source srcset="{{ image.src }}-2400px.jpg" media="(min-width:1600px)">
+    <source srcset="{{ image.src }}-1600px.webp" media="(min-width:800px)" type="image/webp">
+    <source srcset="{{ image.src }}-1600px.jpg" media="(min-width:800px)">
+    <source srcset="{{ image.src }}-800px.webp" type="image/webp">
+
+    <img
+      class="photo-image"
+      src="{{ image.src }}-800px.jpg"
+      alt="{{ image.alt }}"
+      width="{{ image.width }}"
+      height="{{ image.height }}"
+      loading="lazy"
+      >
+  </picture>
+  <figcaption class="photo-caption">
+    <a href="{{ image.link.href }}">
+      <svg role="img" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <title>Flickr icon</title>
+        <path d="M0 12c0 3.074 2.494 5.564 5.565 5.564 3.075 0 5.569-2.49 5.569-5.564S8.641 6.436 5.565 6.436C2.495 6.436 0 8.926 0 12zm12.866 0c0 3.074 2.493 5.564 5.567 5.564C21.496 17.564 24 15.074 24 12s-2.492-5.564-5.564-5.564c-3.075 0-5.57 2.49-5.57 5.564z"/>
+      </svg>
+      {{ image.link.text }}
+    </a>
+  </figcaption>
+</figure>
+
+{% set content = home.calendar %}
+{% include "partials/calendar.njk" %}
+
+{% set content = home.speakers %}
+{% include "partials/speakers.njk" %}
+
+{% set content = home.partners %}
+{% include "partials/partners.njk" %}
+
+{% set content = home.contact %}
+{% include "partials/contact.njk" %}
+
+{% set content = home.faq %}
+{% include "partials/faq.njk" %}

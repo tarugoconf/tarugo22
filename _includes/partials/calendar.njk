@@ -1,0 +1,41 @@
+<section class="maincontent-calendar" id="calendar">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {{ content.intro | md | safe }}
+
+  <ul class="calendar">
+    {% for day in content.days %}
+    <li>
+      <h4>{{ day.day }}</h4>
+
+      <ul class="calendar-events">
+        {% for event in day.events %}
+        <li>
+          <details class="calendar-event">
+            <summary class="calendar-event-header">
+              {% for id in event.speakers %}
+              {% for speaker in home.speakers.speakers %}
+              {% if id == speaker.id %}
+                <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}" class="js-openDialog" data-target="speaker-{{ speaker.id }}">
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+
+              {{ event.time }}
+              <strong>{{ event.title }}</strong>
+            </summary>
+
+            <div class="calendar-event-text">
+              {{ event.details | md | safe }}
+            </div>
+          </details>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+
+</section>

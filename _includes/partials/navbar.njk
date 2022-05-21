@@ -13,8 +13,16 @@
       Menú
     </button>
 
-    {% set class = "navbar-menu" %}
-    {% include "partials/menu.njk" %}
+    <ul class="navbar-menu">
+      {% for item in menu %}
+      <li>
+          <a href="{{ item.href }}">
+              {{ item.text }}
+          </a>
+      </li>
+      {% endfor %}
+    </ul>
+
     <a href="./#top" class="navbar-logo">
       <span>Tarugoconf</span>
       <svg width="36" height="42" viewBox="0 0 245 280" xmlns="http://www.w3.org/2000/svg">
