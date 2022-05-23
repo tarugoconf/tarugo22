@@ -13,14 +13,16 @@
 
     <address class="contact-candela-address">
       <ul>
-        <li>{{ content.manager.phone }}</li>
-        <li><a href="mailto:{{ content.candela.email }}">{{ content.manager.email }}</a></li>
+        {% for link in content.manager.links %}
         <li>
-          <a href="https://twitter.com/{{ content.manager.twitter }}">
-            <img src="/img/icons/twitter.svg" inline>
-            {{ content.manager.twitter }}
+          <a href="{{ link.url }}">
+            {% if link.icon %}
+            <img src="{{ link.icon }}" inline>
+            {% endif %}
+            {{ link.text }}
           </a>
         </li>
+        {% endfor %}
       </ul>
     </address>
   </div>
@@ -30,24 +32,16 @@
 
     <address>
       <ul>
+        {% for link in content.links %}
         <li>
-          <a href="{{ content.map }}">
-            <img src="/img/icons/googlemaps.svg" inline>
-            Ver mapa
+          <a href="{{ link.url }}">
+            {% if link.icon %}
+            <img src="{{ link.icon }}" inline>
+            {% endif %}
+            {{ link.text }}
           </a>
         </li>
-        <li>
-          <a href="https://{{ content.slack }}">
-            <img src="/img/icons/slack.svg" inline>
-            {{ content.slack }}
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/{{ content.twitter }}">
-            <img src="/img/icons/twitter.svg" inline>
-            {{ content.twitter }}
-          </a>
-        </li>
+        {% endfor %}
       </ul>
     </address>
   </div>

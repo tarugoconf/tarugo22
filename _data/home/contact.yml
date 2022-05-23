@@ -6,30 +6,30 @@ manager:
   position: Event manager
   email: candela@bonillaware.com
   twitter: candelamd
+  links:
+    - text: tarugoconf@bonillaware.com
+      url: "mailto:tarugoconf@bonillaware.com"
+
+    - text: "@candelamd"
+      icon: /img/icons/twitter.svg
+      url: "https://twitter.com/candelamd"
+
 address: |
   **Bonillaware SLU**<br>
   Castellana 194, Cink Coworking<br>
   28046 Madrid (España)
 
-map: https://g.page/cink-coworking?share
-slack: tarugoconf.slack.com
-twitter: tarugoconf
-
 links:
-  - text: tarugoconf@bonillaware.com
-    type: email
-    url: "mailto:tarugoconf@bonillaware.com"
-
-  - text: "@candelamd"
-    type: twitter
-    url: "https://twitter.com/candelamd"
+  - text: "Ver mapa"
+    icon: /img/icons/googlemaps.svg
+    url: https://g.page/cink-coworking?share
 
   - text: "tarugoconf.slack.com"
-    type: slack
+    icon: /img/icons/slack.svg
     url: "https://tarugoconf.slack.com"
 
   - text: "@tarugoconf"
-    type: twitter
+    icon: /img/icons/twitter.svg
     url: "https://twitter.com/tarugoconf"
 
 team:

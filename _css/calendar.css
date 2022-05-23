@@ -1,0 +1,5 @@
+.calendar {
+    margin: 0;
+    grid-column: 2 / 3;
+    position: relative;
+}

@@ -1,13 +1,16 @@
 .homeHeader {
     text-align: center;
-    grid-column: 2 / 3;
-    min-height: 60vh;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    min-height: min(80vw, 1000px);
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     padding-bottom: 10vh;
+    background: radial-gradient(circle closest-side, var(--color-secondary), white) no-repeat center center;
 
     & .cube-container {
         position: absolute;
@@ -33,18 +36,11 @@
     & strong {
         display: block;
         font-weight: inherit;
-        font-size: 20vw;
+        font-size: clamp(5rem, 20vw, 15rem);
+        letter-spacing: -0.025em;
         line-height: .7em;
-        -webkit-text-stroke: 3px var(--color-secondary);
+        -webkit-text-stroke: 2px var(--color-secondary);
         color: transparent;
-
-
-        @media (min-width: 1000px) {
-            letter-spacing: -0.02em;
-        }
-        @media (min-width: 1400px) {
-            letter-spacing: -0.03em;
-        }
     }
 }
 .homeHeader-subtitle {
