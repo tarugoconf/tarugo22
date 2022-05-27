@@ -1,3 +1,13 @@
+import f from "https://deno.land/x/netlify_cms_config@v0.1.0/mod.ts";
+
+// Set defaults
+f.defaultRequired = false;
+f.defaults.image.media_library.allow_multiple = false;
+f.defaults.object.collapsed = true;
+f.defaults.list.collapsed = true;
+f.defaults.list.minimize_collapsed = true;
+f.defaults.markdown.minimal = true;
+
 const config = {
   backend: {
     name: "git-gateway",
@@ -7,142 +17,59 @@ const config = {
   collections: [],
 };
 
-config.collections.push({
-  label: "Datos",
-  name: "data",
-  description: "Editar diferentes datos de la web",
-  sortable_fields: ["title"],
-  preview: false,
-  files: [
-    {
-      label: "Agenda",
-      name: "calendar",
-      file: "/_data/home/calendar.yml",
-      fields: [
-        field("Title"),
-        field("Intro", "markdown"),
-        field("Days", "list", {
-          fields: [
-            field("Day"),
-            field("Events", "list", {
-              fields: [
-                field("Title"),
-                field("Time"),
-                field("Speakers", "list", {
-                  hint: "Comma separated list of speakers identities",
-                }),
-                field("Details", "markdown"),
-              ],
-            }),
-          ],
-        }),
-      ]
-    },{
-      label: "Speakers",
-      name: "speakers",
-      file: "/_data/home/speakers.yml",
-      fields: [
-        field("Title"),
-        field("Intro", "markdown"),
-        field("Speakers", "list", {
-          fields: [
-            field("Name"),
-            field("Id"),
-            field("Company"),
-            field("Position"),
-            field("Image", "image", {
-              allow_multiple: false,
-              media_folder: "/img/speakers",
-            }),
-            field("Links", "list", {
-              fields: [
-                field("Text"),
-                field("Type", "select", {
-                  options: ["twitter", "linkedin", "web"],
-                }),
-                field("URL"),
-              ]
-            }),
-          ],
-        }),
-      ]
-    }, {
-      label: "Partners",
-      name: "partners",
-      file: "_data/home/partners.yml",
-      fields: [
-        field("Title"),
-        field("Intro", "markdown"),
-        field("Main", "object", {
-          fields: [
-            field("Alt"),
-            field("Img", "image", {
-              allow_multiple: false,
-              media_folder: "/img/partners",
-            }),
-            field("URL"),
-            field("Text", "markdown"),
-          ]
-        }),
-        field("Partners", "list", {
-          fields: [
-            field("Alt"),
-            field("Img", "image", {
-              allow_multiple: false,
-              media_folder: "/img/partners",
-            }),
-            field("URL"),
-            field("Text", "markdown"),
-          ]
-        }),
-        field("Patrons", "list", {
-          fields: [
-            field("Alt"),
-            field("Img", "image", {
-              allow_multiple: false,
-              media_folder: "/img/partners",
-            }),
-            field("URL"),
-          ]
-        }),
-        field("Join", "object", {
-          fields: [
-            field("Title"),
-            field("Content", "markdown"),
-          ]
-        }) 
-      ]
-    }
-  ]
-});
+// Create Data files collection
+const data = f.files("Data")
+  .description("Editar diferentes datos de la web")
+  .sortableFields("title")
+  .preview(false)
+  .file("Agenda", "/_data/home/calendar.yml", [
+    f.string("Title"),
+    f.markdown("Intro"),
+    f.list("Days", [
+      f.string("Day"),
+      f.list("Events", [
+        f.string("Title"),
+        f.string("Time"),
+        f.list("Speakers").hint("Comma separated list of speakers identities"),
+        f.markdown("Details"),
+      ]),
+    ]),
+  ])
+  .file("Speakers", "/_data/home/speakers.yml", [
+    f.string("Title"),
+    f.markdown("Intro"),
+    f.list("Speakers", [
+      f.string("Name"),
+      f.string("Id"),
+      f.string("Company"),
+      f.image("Image").mediaFolder("img/speakers"),
+      f.list("Links", [
+        f.string("Title"),
+        f.select("Type", ["twitter", "linkedin", "web"]),
+        f.string("Url"),
+      ]),
+    ]),
+  ])
+  .file("Partners", "/_data/home/partners.yml", [
+    f.string("Title"),
+    f.markdown("Intro"),
+    f.object("Main", [
+      f.string("Alt"),
+      f.image("Img").mediaFolder("img/partners"),
+      f.string("Url"),
+      f.markdown("Text"),
+    ]),
+    f.list("Partners", [
+      f.string("Alt"),
+      f.image("Img").mediaFolder("img/partners"),
+      f.string("Url"),
+    ]),
+    f.object("Join", [
+      f.string("Title"),
+      f.markdown("Content"),
+    ]),
+  ]);
 
-
-function field(label, widget = "string", extra = {}) {
-  const defaults = {};
-
-  if (typeof widget === "object") {
-    extra = widget;
-    widget = "string";
-  }
-
-  if (widget === "list") {
-    defaults.collapsed = true;
-    defaults.minimize_collapsed = true;
-  } else if (widget === "object") {
-    defaults.collapsed = true;
-  } else if (widget === "markdown") {
-    defaults.minimal = true;
-  } else if (widget === "select" || widget === "boolean") {
-    defaults.required = false;
-  }
-
-  return {
-    label,
-    name: label.toLowerCase().replaceAll(" ", "_"),
-    widget,
-    ...defaults,
-    ...extra,
-  };
-}
+config.collections.push(data.toJSON());
 
 export default config;
