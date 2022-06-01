@@ -1,12 +1,11 @@
-import f from "https://deno.land/x/netlify_cms_config@v0.1.1/mod.ts";
+import f from "https://deno.land/x/netlify_cms_config@v0.2.0/mod.ts";
 
 // Set defaults
 f.defaultRequired = false;
-f.defaults.image.media_library.allow_multiple = false;
-f.defaults.object.collapsed = true;
-f.defaults.list.collapsed = true;
-f.defaults.list.minimize_collapsed = true;
-f.defaults.markdown.minimal = true;
+f.defaults.image.allowMultiple(false);
+f.defaults.object.collapsed();
+f.defaults.list.collapsed().minimizeCollapsed();
+f.defaults.markdown.minimal();
 
 const config = {
   backend: {
