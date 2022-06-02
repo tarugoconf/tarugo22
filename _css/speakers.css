@@ -83,7 +83,7 @@
     margin: 0;
     padding: 0;
 }
-.speakers-speakers {
+.speakers-list {
     list-style: none;
     margin: 4em auto;
     padding: 0;
@@ -105,7 +105,11 @@
 .speaker-name {
     font: var(--font-normal);
     font-weight: var(--bold);
-    display: block;
+    margin: 0;
+}
+.speaker-company {
+    font: var(--font-small);
+    margin: 0;
 }
 .speaker-position {
     font: var(--font-small);

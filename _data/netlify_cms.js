@@ -29,7 +29,13 @@ const data = f.files("Data")
       f.list("Events", [
         f.string("Title"),
         f.string("Time"),
-        f.list("Speakers").hint("Comma separated list of speakers identities"),
+        f.relation("Speakers")
+          .multiple()
+          .collection("data")
+          .file("agenda")
+          .valueField("speakers.*.id")
+          .searchFields(["speakers.*.name"])
+          .displayFields(["speakers.*.name"]),
         f.markdown("Details"),
       ]),
     ]),
@@ -38,8 +44,8 @@ const data = f.files("Data")
     f.string("Title"),
     f.markdown("Intro"),
     f.list("Speakers", [
-      f.string("Name"),
-      f.string("Id"),
+      f.string("Name").required(),
+      f.string("Id").required(),
       f.string("Company"),
       f.image("Image").mediaFolder("img/speakers"),
       f.list("Links", [

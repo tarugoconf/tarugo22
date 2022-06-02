@@ -1,16 +1,15 @@
 <section class="speakers" id="speakers">
   <header>
-    <h2>{{ content.title | md(true) | safe }}</h2>
+    <h2 class="speakers-title">{{ content.title | md(true) | safe }}</h2>
   </header>
 
   {{ content.intro | md | safe }}
 
-  <ul class="maincontent-cardlist has-3cols">
-
+  <ul class="speakers-list">
     {% for speaker in content.speakers %}
     <li>
-        <article class="speaker">
-          <img src="{{ speaker.image }}">
+        <article class="speaker" id="speaker-{{ speaker.id }}">
+          <img class="speaker-image" src="{{ speaker.image }}">
           <h4 class="speaker-name">{{ speaker.name }}</h4>
 
           <p class="speaker-company">
