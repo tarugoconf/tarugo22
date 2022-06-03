@@ -9,11 +9,11 @@
     {% endif %}
 
     {% if menu %}
-    <button class="navbar-menu-button">
-      Menú
-    </button>
+    <tarugo-buttons>
+      <button data-action="toggle" data-target="menu" class="navbar-menu-button">Menú</button>
+    </tarugo-buttons>
 
-    <ul class="navbar-menu">
+    <ul class="navbar-menu" id="menu">
       {% for item in menu %}
       <li>
           <a href="{{ item.href }}">

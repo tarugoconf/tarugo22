@@ -1,4 +1,4 @@
-import f from "https://deno.land/x/netlify_cms_config@v0.2.0/mod.ts";
+import f from "https://deno.land/x/netlify_cms_config@v0.2.1/mod.ts";
 
 // Set defaults
 f.defaultRequired = false;
@@ -20,41 +20,40 @@ const config = {
 const data = f.files("Data")
   .description("Editar diferentes datos de la web")
   .sortableFields("title")
-  .preview(false)
-  .file("Agenda", "/_data/home/calendar.yml", [
-    f.string("Title"),
-    f.markdown("Intro"),
-    f.list("Days", [
-      f.string("Day"),
-      f.list("Events", [
-        f.string("Title"),
-        f.string("Time"),
-        f.relation("Speakers")
-          .multiple()
-          .collection("data")
-          .file("agenda")
-          .valueField("speakers.*.id")
-          .searchFields(["speakers.*.name"])
-          .displayFields(["speakers.*.name"]),
-        f.markdown("Details"),
-      ]),
+  .preview(false);
+
+const speakers = data.createFile("Speakers", "/_data/home/speakers.yml", [
+  f.string("Title"),
+  f.markdown("Intro"),
+  f.list("Speakers", [
+    f.string("Name").required(),
+    f.string("Id").required(),
+    f.string("Company"),
+    f.image("Image").mediaFolder("img/speakers"),
+    f.list("Links", [
+      f.string("Title"),
+      f.select("Type", ["twitter", "linkedin", "link"]),
+      f.string("Url"),
     ]),
-  ])
-  .file("Speakers", "/_data/home/speakers.yml", [
-    f.string("Title"),
-    f.markdown("Intro"),
-    f.list("Speakers", [
-      f.string("Name").required(),
-      f.string("Id").required(),
-      f.string("Company"),
-      f.image("Image").mediaFolder("img/speakers"),
-      f.list("Links", [
-        f.string("Title"),
-        f.select("Type", ["twitter", "linkedin", "web"]),
-        f.string("Url"),
-      ]),
+  ]),
+]);
+
+data.file("Agenda", "/_data/home/calendar.yml", [
+  f.string("Title"),
+  f.markdown("Intro"),
+  f.list("Days", [
+    f.string("Day"),
+    f.list("Events", [
+      f.string("Title"),
+      f.string("Time"),
+      f.relation("Speakers", speakers, "speakers.*.id")
+        .multiple()
+        .searchFields(["speakers.*.name"])
+        .displayFields(["speakers.*.name"]),
+      f.markdown("Details"),
     ]),
-  ])
+  ]),
+])
   .file("Partners", "/_data/home/partners.yml", [
     f.string("Title"),
     f.markdown("Intro"),

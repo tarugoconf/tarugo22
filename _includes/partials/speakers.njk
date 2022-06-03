@@ -19,13 +19,17 @@
             <em class="speaker-position">{{ speaker.position }}</em>
           </p>
 
-          <button class="speaker-button js-openDialog" data-target="speaker-{{ speaker.id }}">
-            <span>Más info</span>
+          <tarugo-buttons>
+          <button class="speaker-button" data-action="open" data-target="dialog-{{ speaker.id }}">
+            Más info
           </button>
+          </tarugo-buttons>
         </article>
 
-        <dialog class="speaker-modal" id="speaker-{{ speaker.id }}">
-            <button class="js-closeDialog speaker-modal-close button is-primary">Cerrar</button>
+        <dialog class="speaker-modal" id="dialog-{{ speaker.id }}">
+            <tarugo-buttons>
+              <button data-action="close" class="speaker-modal-close button is-primary">Cerrar</button>
+            </tarugo-buttons>
             
             <div class="speaker-modal-content">
                 <div class="speaker-photo">
@@ -41,7 +45,7 @@
                 <address class="speaker-links">
                     {% for link in speaker.links %}
                     <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
-                      <img src="/img/{{ link.type }}.svg" inline>
+                      <img src="/img/icons/{{ link.type }}.svg" inline>
                     </a>
                     {% endfor %}
                 </address>
