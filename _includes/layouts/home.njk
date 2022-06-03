@@ -46,8 +46,10 @@ layout: layouts/base.njk
       </div>
     </div>
   </div>
-  <h1 class="homeHeader-title">{{ header.title | safe }}</h1>
-  <p class="homeHeader-subtitle">{{ header.subtitle }}</p>
+  <div class="homeHeader-content">
+    <h1 class="homeHeader-title">{{ header.title | safe }}</h1>
+    <p class="homeHeader-subtitle">{{ header.subtitle }}</p>
+  </div>
 </header>
 
 <figure class="video">

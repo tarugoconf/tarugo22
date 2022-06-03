@@ -1,9 +1,9 @@
 <section class="speakers" id="speakers">
-  <header>
-    <h2 class="speakers-title">{{ content.title | md(true) | safe }}</h2>
+  <header class="speakers-header">
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  
+    {{ content.intro | md | safe }}
   </header>
-
-  {{ content.intro | md | safe }}
 
   <ul class="speakers-list">
     {% for speaker in content.speakers %}

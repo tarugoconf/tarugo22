@@ -4,122 +4,97 @@ manager:
   img: /img/candela.jpg
   alt: Foto de Candela
   position: Event manager
-  email: candela@bonillaware.com
-  twitter: candelamd
   links:
     - text: tarugoconf@bonillaware.com
-      url: "mailto:tarugoconf@bonillaware.com"
-
+      url: mailto:tarugoconf@bonillaware.com
     - text: "@candelamd"
       icon: /img/icons/twitter.svg
-      url: "https://twitter.com/candelamd"
-
+      url: https://twitter.com/candelamd
 address: |
   **Bonillaware SLU**<br>
   Castellana 194, Cink Coworking<br>
   28046 Madrid (España)
-
 links:
-  - text: "Ver mapa"
+  - text: Ver mapa
     icon: /img/icons/googlemaps.svg
     url: https://g.page/cink-coworking?share
-
-  - text: "tarugoconf.slack.com"
+  - text: tarugoconf.slack.com
     icon: /img/icons/slack.svg
-    url: "https://tarugoconf.slack.com"
-
+    url: https://tarugoconf.slack.com
   - text: "@tarugoconf"
     icon: /img/icons/twitter.svg
-    url: "https://twitter.com/tarugoconf"
-
+    url: https://twitter.com/tarugoconf
 team:
-  title: "El equipo de la #tarugo21"
+  title: "El equipo de la #tarugo5"
   people:
     - name: Alberto
       title: Merchandising
       img: /img/equipo/Alberto_Gombau.png
       url: https://twitter.com/gombau
-
     - name: Alberto
       title: Corista
       img: /img/equipo/Alberto.png
       url: https://twitter.com/makotogim
-
     - name: Alex
       title: Corista
       img: /img/equipo/Alex_Bryszkowski.png
       url: https://twitter.com/alexbki
-
     - name: Bea
       title: Producción
       img: /img/equipo/Bea_Jimenez.png
       url: https://twitter.com/beajmnz
-
     - name: Candela
       title: Event Manager
       img: /img/equipo/Candela.png
       url: https://twitter.com/candelamd
-
     - name: Cris
       title: Producción
       img: /img/equipo/Cris_Miguel.png
       url: https://twitter.com/crismiquelg
-
     - name: Dani
       title: Realización
       img: /img/equipo/Dani_Rebner.png
       url: https://twitter.com/DaniRebner
-
     - name: David
       title: Contenidos
       img: /img/equipo/David_Bonilla.png
       url: https://twitter.com/david_bonilla
-
     - name: David
       title: Audiovisual
       img: /img/equipo/David_Roldan.png
       url: https://twitter.com/droldan15
-
     - name: Hugo
       title: Ilustración & Diseño
       img: /img/equipo/Hugo_Tobio.png
       url: https://twitter.com/HugoTobio
-
     - name: Javier
       title: Sketchnoting
       img: /img/equipo/Javier_Alonso.png
       url: https://twitter.com/oyabun
-
     - name: Jeroclo
       title: Backender
       img: /img/equipo/Jero.png
       url: https://twitter.com/jerolba
-
     - name: Marina
       title: Maquillaje
       img: /img/equipo/Marina.png
       url: https://twitter.com/MinaMRP
-
     - name: Miguel
       title: Corista
       img: /img/equipo/Miguel_Caballero.png
       url: https://twitter.com/mcaballero
-
     - name: Molpe
       title: Corista
       img: /img/equipo/Molpe.png
       url: https://twitter.com/molpe
-
     - name: Oscar
       title: Web & Diseño
       img: /img/equipo/Oscar.png
       url: https://twitter.com/misteroom
-
     - name: Ruben
       title: DJ
       img: /img/equipo/Ruben.png
       url: https://twitter.com/agileando
-
     - name: Yeray
       title: Tarugoff & Foto
       img: /img/equipo/Yeray.png

@@ -1,9 +1,9 @@
 <section class="partners" id="partners">
-  <header>
-    <h2 class="partners-title">{{ content.title | md(true) | safe }}</h2>
+  <header class="partners-header">
+    <h2 class="partners">{{ content.title | md(true) | safe }}</h2>
+  
+    {{ content.intro | md | safe }}
   </header>
-
-  {{ content.intro | md | safe }}
 
   <ul class="partners-list is-main" aria-label="Lista de patrocinadores principales">
     {% set partner = content.main %}

@@ -16,7 +16,6 @@ body {
     grid-template-columns: 1fr minmax(0, 1200px) 1fr;
     grid-column-gap: 5vw;
     grid-row-gap: 10vh;
-    padding: 5vh 0;
     min-width: 300px;
 }
 

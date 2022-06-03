@@ -68,9 +68,50 @@ data.file("Agenda", "/_data/home/calendar.yml", [
       f.image("Img").mediaFolder("img/partners"),
       f.string("Url"),
     ]),
+    f.list("Patrons", [
+      f.string("Alt"),
+      f.image("Img").mediaFolder("img/patrons"),
+      f.string("Url"),
+    ]),
     f.object("Join", [
       f.string("Title"),
       f.markdown("Content"),
+    ]),
+  ])
+  .file("Faq", "/_data/home/faq.yml", [
+    f.string("Title"),
+    f.list("Questions", [
+      f.string("Question"),
+      f.markdown("Answer"),
+    ]),
+  ])
+  .file("Contact", "/_data/home/contact.yml", [
+    f.string("Title"),
+    f.object("Manager", [
+      f.string("Name"),
+      f.image("Img"),
+      f.string("Alt"),
+      f.string("Position"),
+      f.list("Links", [
+        f.string("Text"),
+        f.string("Url"),
+        f.string("Icon"),
+      ]),
+    ]),
+    f.markdown("Address"),
+    f.list("Links", [
+      f.string("Text"),
+      f.string("Url"),
+      f.string("Icon"),
+    ]),
+    f.object("Team", [
+      f.string("Title"),
+      f.list("People", [
+        f.string("Name"),
+        f.string("Title"),
+        f.image("Img").mediaFolder("img/equipo"),
+        f.string("Url"),
+      ]),
     ]),
   ]);
 

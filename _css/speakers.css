@@ -2,11 +2,21 @@
     grid-column: 2 / 3;   
     padding-top: 6rem;
 }
-.speakers-title {
-    font: var(--font-big);
-    font-weight: var(--bold);
-    letter-spacing: var(--font-big-spacing);
+.speakers-header {
+    max-width: 30rem;
+    margin: 0 auto;
+    font: var(--font-normal);
     text-align: center;
+
+    & h2 {
+        font: var(--font-big);
+        font-weight: var(--bold);
+        letter-spacing: var(--font-big-spacing);
+        margin: 0;
+    }
+    & p {
+        margin: 0;
+    }
 }
 .speakers-quotes {
     margin: 0 auto;

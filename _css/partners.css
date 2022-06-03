@@ -3,11 +3,18 @@
   grid-column: 2 / 3;
   position: relative;
 }
-.partners-title {
-  font: var(--font-big);
-  font-weight: var(--bold);
-  letter-spacing: var(--font-big-spacing);
-  text-align: center;
+.partners-header {
+  max-width: 45rem;
+  margin: 0 auto;
+  font: var(--font-normal);
+
+  & h2 {
+    text-align: center;
+    font: var(--font-big);
+    font-weight: var(--bold);
+    letter-spacing: var(--font-big-spacing);
+    text-align: center;
+  }
 }
 .partners-list {
   list-style: none;
