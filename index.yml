@@ -1,5 +1,5 @@
 layout: layouts/home.njk
-title: '#Tarugo5'
+title: Tarugo22
 description: |
   La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista
 
@@ -18,7 +18,7 @@ menu:
 header:
   title: |
     <em>Todo es posible</em>
-    <strong>#tarugo5</strong>
+    <strong>Tarugo22</strong>
   subtitle: Madrid, 20-21-22 octubre 2022
 
 intro:

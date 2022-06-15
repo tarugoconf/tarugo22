@@ -48,7 +48,7 @@
         
         &:hover {
             color: var(--black);
-            background-color: var(--color-accent);
+            background-color: var(--color-yellow);
         }
     }
     & ul {

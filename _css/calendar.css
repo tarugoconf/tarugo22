@@ -3,3 +3,17 @@
     grid-column: 2 / 3;
     position: relative;
 }
+
+.calendar-header {
+    max-width: 50rem;
+    margin: 0 auto;
+    font: var(--font-normal);
+
+    & h2 {
+        text-align: center;
+        font: var(--font-big);
+        font-weight: var(--bold);
+        letter-spacing: var(--font-big-spacing);
+        margin: 0;
+    }
+}

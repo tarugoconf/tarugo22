@@ -3,3 +3,73 @@
     grid-column: 2 / 3;
     position: relative;
 }
+
+.faq-header {
+    margin: 0 auto;
+    font: var(--font-normal);
+
+    & h2 {
+        text-align: center;
+        font: var(--font-big);
+        font-weight: var(--bold);
+        letter-spacing: var(--font-big-spacing);
+        margin: 0;
+    }
+}
+
+.faq-question {
+    grid-column: 1 / -1;
+    transition-property: color, background-color;
+    transition-duration: var(--duration);
+
+    & > summary {
+        font: var(--font-normal-bold);
+        cursor: pointer;
+        padding: 1.5rem 2rem;
+
+        &:hover {
+            background: var(--color-yellow);
+        }
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    &[open] {
+        color: var(--black);
+        background: var(--color-yellow);
+
+        & .faq-answer {
+            animation: show var(--duration);
+            transform-origin: center top;
+        }
+    }
+}
+.faq-answer {
+    padding: 0 2rem 1.5rem;
+    animation: show var(--duration);
+    transform-origin: center top;
+    font: var(--font-small);
+
+    & p {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .faq {
+        display: grid;
+        grid-template-columns: 30% 1fr;
+        align-items: start;
+        column-gap: 2rem;
+    }
+    .faq-header {
+        position: sticky;
+        top: 2rem;
+
+        & h2 {
+            margin-top: 1rem;
+            text-align: left;
+        }
+    }
+}

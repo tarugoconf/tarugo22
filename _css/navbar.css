@@ -94,7 +94,7 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
         margin-right: .3em;
     }
     &:hover {
-        background: var(--color-accent);
+        background: var(--color-yellow);
     }
     &:focus {
         outline: dotted 1px var(--color-gray);

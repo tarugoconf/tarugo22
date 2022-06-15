@@ -9,7 +9,9 @@
     {% for speaker in content.speakers %}
     <li>
         <article class="speaker" id="speaker-{{ speaker.id }}">
-          <img class="speaker-image" src="{{ speaker.image }}">
+          <div class="speaker-image-wrapper">
+            <img class="speaker-image" src="{{ speaker.image }}">
+          </div>
           <h4 class="speaker-name">{{ speaker.name }}</h4>
 
           <p class="speaker-company">

@@ -14,9 +14,6 @@
         letter-spacing: var(--font-big-spacing);
         margin: 0;
     }
-    & p {
-        margin: 0;
-    }
 }
 .speakers-quotes {
     margin: 0 auto;
@@ -109,7 +106,15 @@
     display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top center;
+    filter: grayscale(100%);
     margin-bottom: 1em;
+    mix-blend-mode: multiply;
+}
+.speaker-image-wrapper {
+    background-color: var(--color-blue);
 }
 
 .speaker-name {
@@ -145,7 +150,7 @@
         }
 
         &:hover {
-            background-color: var(--color-accent);
+            background-color: var(--color-yellow);
             color: var(--black);
         }
     }

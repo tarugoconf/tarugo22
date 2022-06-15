@@ -1,9 +1,8 @@
 <section class="calendar" id="calendar">
-  <header>
+  <header class="calendar-header">
     <h2>{{ content.title | md(true) | safe }}</h2>
+    {{ content.intro | md | safe }}
   </header>
-
-  {{ content.intro | md | safe }}
 
   <ul class="calendar">
     {% for day in content.days %}

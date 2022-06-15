@@ -33,11 +33,11 @@
     }
 
     & path {
-        fill: var(--black);
+        fill: var(--color-blue);
     }
 
     & path.fill-secondary {
-        fill: var(--color-secondary);
+        fill: var(--color-black);
     }
     & p {
         margin: 0;

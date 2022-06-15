@@ -29,14 +29,13 @@
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        /* border: solid 1px var(--color-secondary); */
     }
 }
 .cube-black {
-    fill: var(--color-accent);
+    fill: var(--color-yellow-dark);
 }
 .cube-white {
-    fill: white;
+    fill: var(--color-yellow);
 }
 
 .cube-front {
