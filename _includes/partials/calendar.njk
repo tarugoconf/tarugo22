@@ -4,38 +4,39 @@
     {{ content.intro | md | safe }}
   </header>
 
-  <ul class="calendar-days">
-    {% for day in content.days %}
-    <li>
-      <h4>{{ day.day | safe }}</h4>
+  <tarugo-calendar>
+    <ul class="calendar-days">
+      {% for day in content.days %}
+      <li class="calendar-day">
+        <h4>{{ day.day | safe }}</h4>
 
-      <ul class="calendar-events">
-        {% for event in day.events %}
-        <li>
-          <details class="calendar-event">
-            <summary class="calendar-event-header">
-              <time>{{ event.time }}</time>
-              <strong>{{ event.title }}</strong>
+        <ul class="calendar-events">
+          {% for event in day.events %}
+          <li>
+            <details class="calendar-event">
+              <summary class="calendar-event-header">
+                <time>{{ event.time }}</time>
+                <strong>{{ event.title }}</strong>
 
-              {% for id in event.speakers %}
-              {% for speaker in home.speakers.speakers %}
-              {% if id == speaker.id %}
-                <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}" class="js-openDialog" data-target="speaker-{{ speaker.id }}">
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
+                {% for id in event.speakers %}
+                {% for speaker in home.speakers.speakers %}
+                {% if id == speaker.id %}
+                  <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}" class="js-openDialog" data-target="speaker-{{ speaker.id }}">
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
 
-            </summary>
+              </summary>
 
-            <div class="calendar-event-text">
-              {{ event.details | md | safe }}
-            </div>
-          </details>
-        </li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
-
+              <div class="calendar-event-text">
+                {{ event.details | md | safe }}
+              </div>
+            </details>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </tarugo-calendar>
 </section>
