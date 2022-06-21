@@ -7,7 +7,7 @@ import cms from "lume/plugins/netlify_cms.ts";
 import gpm from "https://deno.land/x/gpm@v0.3.0/mod.ts";
 
 const site = lume({
-  location: new URL("https://tarugoconf.github.io/tarugo5/"),
+  location: new URL("https://tarugoconf.github.io/tarugo22/"),
 });
 
 site
