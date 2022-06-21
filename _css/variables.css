@@ -17,6 +17,7 @@
     --font-medium-bold: var(--bold) var(--font-medium);
 
     --font-big: var(--font-size-big)/1.3 var(--font-title);
+    --font-big-bold: var(--bold) var(--font-big);
     --font-big-spacing: -0.015em;
 
     --font-xbig: var(--font-size-xbig)/1 var(--font-title);

@@ -1,6 +1,5 @@
 .speakers {
-    grid-column: 2 / 3;   
-    padding-top: 6rem;
+    grid-column: 2 / 3;
 }
 .speakers-header {
     max-width: 30rem;

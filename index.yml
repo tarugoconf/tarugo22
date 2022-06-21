@@ -6,20 +6,29 @@ description: |
 menu:
 - text: Qué es
   href: '#que-es'
-- text: Cómo patrocinar
-  href: '#join'
+- text: Lugar
+  href: '#location'
+- text: Agenda
+  href: '#calendar'
+- text: Speakers
+  href: '#speakers'
+- text: Sponsors
+  href: '#partners'
 - text: Contacto
   href: '#contacto'
-- text: Speakers
-  href: /speakers/
+- text: FAQ
+  href: '#faq'
 - text: Blog
   href: /blog
 
 header:
-  title: |
-    <em>Todo es posible</em>
-    <strong>Tarugo22</strong>
-  subtitle: Madrid, 20-21-22 octubre 2022
+  title: Todo es posible
+  subtitle: Madrid, 20-22 de octubre de 2022
+
+quote:
+  text: |
+    El objetivo de la #tarugo22 es que todo el mundo se vaya de aquí con al menos **3 nuevos conocimientos** que pueda aplicar en su día a día y **3 nuevos contactos** que puedan ayudarles a en su carrera profesional, pero, sobre todo **que, dentro de 3 años, aun sigan sonriendo cuando recuerden el evento.**
+  footer: David Bonilla, organizador del evento
 
 intro:
   title: |
@@ -81,3 +90,16 @@ image:
   link:
     text: Ver 1033 fotos más en Flickr
     href: https://www.flickr.com/photos/tarugoconf/albums/72157711626689128
+
+location:
+  title: Lugar
+  description: |
+    Por primera vez en la Historia de la Tarugoconf, para mayor comodidad de los asistentes, **las tres jornadas del evento se celebrarán íntegramente en la misma ubicación:** [La Nave](https://www.lanavemadrid.com/), un awesómico espacio a 5 minutos andando de la parada de metro Villaverde Bajo - Cruce y a 7 de la estación de cercanías Puente Alcocer. Aunque, si os animáis a ir en coche, tendréis sitio de sobra para aparcar.
+  address: |
+    **La nave**  
+    Calle Cifuentes 5  
+    28021 Madrid
+  map:
+    src: /img/mapa.jpg
+    url: https://goo.gl/maps/VXBiqhUvz8onSLmd9
+    text: Abrir en Google Maps

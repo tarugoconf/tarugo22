@@ -1,0 +1,18 @@
+<section class="location" id="location">
+  <div class="location-content">
+    <h2 class="location-title">{{ content.title }}</h2>
+
+    <div class="location-description">
+      {{ content.description | md | safe }}
+    </div>
+
+    <div class="location-address">
+      {{ content.address | md | safe }}
+    </div>
+  </div>
+
+  <a href="{{ content.map.href }}" class="location-map">
+    <img src="{{ content.map.src }}" alt="{{ content.map.alt }}" />
+    <span>{{ content.map.text }}</span>
+  </a>
+</section>

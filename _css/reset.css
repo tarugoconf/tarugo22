@@ -8,6 +8,7 @@
     font-smoothing: antialiased;
     color: var(--black);
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 body {

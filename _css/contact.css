@@ -6,7 +6,6 @@
     justify-content: center;
     grid-column-gap: var(--column-space);
     grid-row-gap: var(--row-space);
-    padding-top: 6rem;
     background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path fill="%23efefef" d="M0 64.667L56 97V32.333L0 0z" fill-rule="evenodd"/></svg>');
     background-repeat: no-repeat;
     background-size: contain;
