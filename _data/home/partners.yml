@@ -160,14 +160,6 @@ join:
 
 
     Si quieres ser parte de la próxima #tarugo21, echa un vistazo a nuestro deck de patrocinio y escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
-
-
-    <iframe
-      frameborder="0"
-      scrolling="yes"
-      title="Descarga el dossier de patrocinio en PDF"
-      src="https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview" 
-      allowfullscreen=""
-      class="partners-dossier"
-      loading="lazy">
-    </iframe>
+  cta:
+    text: Descarga el dossier de patrocinio en PDF
+    href: https://drive.google.com/file/d/1htAdRp6da4USC35FBV_f9Hp37la8WljO/view

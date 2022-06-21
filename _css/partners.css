@@ -63,3 +63,19 @@
     }
   }
 }
+.partners-join {
+  padding-top: var(--row-space);
+  margin-top: var(--row-space);
+
+  & h3 {
+    font: var(--font-medium-bold);
+  }
+
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
+}
+.partners-join-content {
+  font: var(--font-normal);
+}

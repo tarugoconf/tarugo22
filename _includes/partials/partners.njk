@@ -47,9 +47,19 @@
       </li>
     {% endfor %}
   </ul>
-
   {% set cont = content.join %}
-  <h3>{{ cont.title | md(true) | safe }}</h3>
 
-  {{ cont.content | md | safe }}
+  <section class="partners-join" id="join">
+    <h3>{{ cont.title | md(true) | safe }}</h3>
+
+    <div class="partners-join-content">
+      {{ cont.content | md | safe }}
+
+      <p>
+        <a href="{{ cont.cta.href }}" class="button is-primary" target="_blank">
+          {{ cont.cta.text }}
+        </a>
+      </p>
+    </div>
+  </section>
 </section>

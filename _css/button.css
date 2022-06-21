@@ -1,0 +1,28 @@
+.button {
+    font: var(--font-normal-bold);
+    padding: .5em .9em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    color: var(--black);
+    border: none;
+    background: var(--color-yellow);
+    transition: background-color .2s;
+    cursor: pointer;
+    
+    &:hover {
+        background: var(--color-yellow-dark);
+        position: relative;
+    }
+
+    &:focus {
+        outline: dotted 1px var(--color-primary);
+        outline-offset: 5px;
+    }
+    &.is-disabled,
+    &:disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: .2;
+    }
+}

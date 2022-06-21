@@ -12,7 +12,9 @@
     --font-small: var(--font-size-small)/1.5 var(--font-family);
     --font-normal: var(--font-size-normal)/1.5 var(--font-family);
     --font-normal-bold: var(--bold) var(--font-normal);
+
     --font-medium: var(--font-size-medium)/1.1 var(--font-title);
+    --font-medium-bold: var(--bold) var(--font-medium);
 
     --font-big: var(--font-size-big)/1.3 var(--font-title);
     --font-big-spacing: -0.015em;
