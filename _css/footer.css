@@ -3,6 +3,7 @@
     font: var(--font-small);
     grid-column: 2 / 3;
     color: var(--color-gray);
+    padding: var(--row-space) 0;
 
     & ul {
         list-style: none;

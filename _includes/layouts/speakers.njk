@@ -1,0 +1,142 @@
+---
+layout: layouts/base.njk
+---
+{% include "partials/navbar.njk" %}
+
+<header class="header">
+  <h1 class="header-title">{{ header.title }}</h1>
+  <div class="header-intro has-links">
+      {{ header.intro | md | safe }}
+  </div>
+</header>
+
+<div class="highlights">
+    <ul>
+        {% for item in highlights %}
+        <li>
+          <h3>{{ item.title | safe }}</h3>
+          {{ item.description | md | safe }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<figure class="photo">
+    <picture>
+      <source srcset="{{ image.src }}-3200px.webp" media="(min-width:2400px)" type="image/webp">
+      <source srcset="{{ image.src }}-3200px.jpg" media="(min-width:2400px)">
+      <source srcset="{{ image.src }}-2400px.webp" media="(min-width:1600px)" type="image/webp">
+      <source srcset="{{ image.src }}-2400px.jpg" media="(min-width:1600px)">
+      <source srcset="{{ image.src }}-1600px.webp" media="(min-width:800px)" type="image/webp">
+      <source srcset="{{ image.src }}-1600px.jpg" media="(min-width:800px)">
+      <source srcset="{{ image.src }}-800px.webp" type="image/webp">
+  
+      <img
+        class="photo-image"
+        src="{{ image.src }}-800px.jpg"
+        alt="{{ image.alt }}"
+        width="{{ image.width }}"
+        height="{{ image.height }}"
+        loading="lazy"
+        >
+    </picture>
+</figure>
+
+<section class="intro" id="las-charlas">
+  <h2 class="intro-title">{{ intro.title }}</h2>
+  <div class="intro-aside">{{ intro.aside | safe }}</div>
+
+  <div class="intro-text has-links">
+    {{ intro.text | md | safe }}
+  </div>
+
+</section>
+
+<figure class="video">
+  <tarugo-video id="video" class="video-ratio" data-id="305100749">
+    <img src="https://via.placeholder.com/100x100" alt="">
+    <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
+  </tarugo-video>
+</figure>
+
+<section class="benefits" id="beneficios">
+    <h2 class="benefits-title">{{ benefits.title }}</h2>
+    <div class="benefits-intro has-links">
+        {{ benefits.intro | md | safe }}
+    </div>
+
+    <ul class="benefits-benefits">
+        {% for item in benefits.benefits %}
+        <li>
+            <img src="/img/icons/{{ item.icon }}" inline>
+            <h3>{{ item.title }}</h3>
+            {{ item.description | md | safe }}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section class="speakers">
+    <header class="speakers-header">
+      <h2>{{ speakers.title }}</h2>
+    </header>
+
+    <tarugo-carousel class="speakers-quotes" id="speakers-quotes">
+        {% for item in speakers.quotes %}
+        <figure class="speakers-quote">
+            <blockquote>
+              {{ item.quote | md | safe }}
+            </blockquote>
+            <figcaption>
+              <img src="{{ item.image }}">
+              <p>
+                <cite>{{ item.name }}</cite><br>
+                {{ item.position }}
+              </p>
+            </figcaption>
+          </figure>
+        {% endfor %}
+    </tarugo-carousel>
+
+    <tarugo-carousel-navigation for="speakers-quotes" class="speakers-quotes-nav has-links">
+      <button type="button" value="prev" class="js-carousel-prev is-link">Anterior</button>
+      <button type="button" value="next" class="js-carousel-next is-link">Siguiente</button>
+    </tarugo-carousel-navigation>
+      
+    <ul class="speakers-list">
+        {% for item in speakers.speakers %}
+        <li>
+          <figure class="speaker">
+            <img class="speaker-image" src="{{ item.image }}">
+
+            <figcaption>
+              <strong class="speaker-name">{{ item.name }}</strong>
+              <p class="speaker-company">{{ item.position }}</p>
+              
+              <address class="speaker-social">
+                {% for link in item.social %}
+                  <a href="{{ link.href }}" title="{{ link.title }}">
+                    <img src="{{ link.icon }}" alt="{{ link.title }}" inline>
+                  </a>
+                {% endfor %}
+              </address>
+            </figcaption>
+          </figure>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section class="resources" id="recursos">
+  <h2 class="resources-title">{{ resources.title }}</h2>
+
+  <ul class="resources-links has-links">
+    {% for item in resources.links %}
+    <li>
+      <a href="{{ item.href }}">
+        {{ item.text }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

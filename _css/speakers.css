@@ -26,6 +26,7 @@
     scrollbar-width: none;
 }
 .speakers-quotes-nav {
+    display: block;
     text-align: center;
     margin-top: .5em;
 
@@ -100,6 +101,10 @@
     grid-row-gap: 4em;
     justify-content: space-around;
     text-align: center;
+
+    @media (min-width: 1200px) {
+        justify-content: space-between;
+    }
 }
 
 .speaker-image {
