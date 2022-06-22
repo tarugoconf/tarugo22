@@ -34,28 +34,30 @@
             </tarugo-buttons>
             
             <div class="speaker-modal-content">
-                <div class="speaker-photo">
-                  <img src="{{ speaker.image }}">
-                </div>
+                <header class="speaker-modal-header">
+                  <div class="speaker-modal-photo">
+                    <img src="{{ speaker.image }}">
+                  </div>
 
-                <div class="speaker-modal-header">
-                    <h4 class="speaker-name">{{ speaker.name }}</h4>
-                    <p class="speaker-company">{{ speaker.company }}</p>
-                    <em class="speaker-position">{{ speaker.position }}</em>
-                </div>
+                  <div class="speaker-modal-title">
+                      <h4 class="speaker-name">{{ speaker.name }}</h4>
+                      <p class="speaker-company">{{ speaker.company }}</p>
+                      <em class="speaker-position">{{ speaker.position }}</em>
+                  </div>
 
-                <address class="speaker-links">
-                    {% for link in speaker.links %}
-                    <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
-                      <img src="/img/icons/{{ link.type }}.svg" inline>
-                    </a>
-                    {% endfor %}
-                </address>
+                  <address class="speaker-modal-links">
+                      {% for link in speaker.links %}
+                      <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
+                        <img src="/img/icons/{{ link.type }}.svg" inline>
+                      </a>
+                      {% endfor %}
+                  </address>
+                </header>
 
-                <div class="speaker-bio">
+                <div class="speaker-modal-bio">
                     {{ speaker.bio | md | safe }}
                 </div>
-                <ul class="speaker-events">
+                <ul class="speaker-modal-events">
                     {% for day in home.calendar.days %}
                     {% for event in day.events %}
                     {% for id in event.speakers %}

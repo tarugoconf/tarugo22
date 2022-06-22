@@ -44,7 +44,7 @@ layout: layouts/base.njk
 
 <section class="intro" id="las-charlas">
   <h2 class="intro-title">{{ intro.title }}</h2>
-  <div class="intro-aside">{{ intro.aside | safe }}</div>
+  <div class="intro-aside">{{ intro.aside | md(true) | safe }}</div>
 
   <div class="intro-text has-links">
     {{ intro.text | md | safe }}

@@ -85,7 +85,7 @@ data.file("Agenda", "/_data/home/calendar.yml", [
       f.markdown("Answer"),
     ]),
   ])
-  .file("Contact", "/_data/home/contact.yml", [
+  .file("Contacto", "/_data/home/contact.yml", [
     f.string("Title"),
     f.object("Manager", [
       f.string("Name"),
@@ -116,5 +116,154 @@ data.file("Agenda", "/_data/home/calendar.yml", [
   ]);
 
 config.collections.push(data.toJSON());
+
+// Create Pages collection
+const pages = f.files("Pages")
+  .description("Páginas sueltas de la web")
+  .sortableFields("title")
+  .preview(false)
+  .file("Home", "/index.yml", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.string("Description"),
+    f.list("Menu", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Header", [
+      f.string("Title"),
+      f.string("Subtitle"),
+    ]),
+    f.object("Quote", [
+      f.markdown("Text"),
+      f.string("Footer"),
+    ]),
+    f.object("Intro", [
+      f.markdown("Title"),
+      f.markdown("Text"),
+    ]),
+    f.list("Features", [
+      f.string("Title"),
+      f.string("Svg"),
+      f.string("Img"),
+      f.string("Description"),
+    ]),
+    f.object("Image", [
+      f.string("Src"),
+      f.string("Alt"),
+      f.number("Width"),
+      f.number("Height"),
+      f.object("Link", [
+        f.string("Text"),
+        f.string("Href"),
+      ]),
+    ]),
+    f.object("Location", [
+      f.string("Title"),
+      f.markdown("Description"),
+      f.markdown("Address"),
+      f.object("Map", [
+        f.string("Src"),
+        f.string("Url"),
+        f.string("Text"),
+      ]),
+    ]),
+  ])
+  .file("Speakers", "/speakers.yml", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.string("Description"),
+    f.list("Menu", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Header", [
+      f.string("Title"),
+      f.markdown("Intro"),
+    ]),
+    f.list("Highlights", [
+      f.string("Title"),
+      f.markdown("Description"),
+    ]),
+    f.object("Image", [
+      f.string("Src"),
+      f.string("Alt"),
+      f.number("Width"),
+      f.number("Height"),
+    ]),
+    f.object("Intro", [
+      f.string("Title"),
+      f.markdown("aside"),
+      f.markdown("Text"),
+    ]),
+    f.object("Benefits", [
+      f.string("Title"),
+      f.markdown("Intro"),
+      f.list("Benefits", [
+        f.string("Title"),
+        f.string("Icon"),
+        f.text("Description"),
+      ]),
+    ]),
+    f.object("Speakers", [
+      f.string("Title"),
+      f.list("Quotes", [
+        f.markdown("Quote"),
+        f.string("Name"),
+        f.string("Position"),
+        f.image("Image"),
+      ]),
+      f.list("Speakers", [
+        f.string("Name"),
+        f.string("Position"),
+        f.image("Image"),
+        f.list("Social", [
+          f.string("Title"),
+          f.image("Icon"),
+          f.string("Href"),
+        ]),
+      ]),
+    ]),
+    f.object("Resources", [
+      f.string("Title"),
+      f.list("Links", [
+        f.string("Text"),
+        f.string("Href"),
+      ]),
+    ]),
+  ])
+  .file("Aviso Legal", "/aviso-legal.md", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.markdown("Body"),
+  ])
+  .file("Código de conducta", "/codigo-de-conducta.md", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.markdown("Body"),
+  ])
+  .file("Política de privacidad", "/politica-de-privacidad.md", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.markdown("Body"),
+  ]);
+
+config.collections.push(pages.toJSON());
 
 export default config;

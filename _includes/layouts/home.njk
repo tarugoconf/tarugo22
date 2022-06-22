@@ -66,7 +66,7 @@ layout: layouts/base.njk
 </figure>
 
 <section class="homeIntro" id="que-es">
-  <h2 class="homeIntro-title">{{ intro.title | safe }}</h2>
+  <h2 class="homeIntro-title">{{ intro.title | md(true) | safe }}</h2>
 
   <div class="homeIntro-text has-links">
     {{ intro.text | md | safe }}
