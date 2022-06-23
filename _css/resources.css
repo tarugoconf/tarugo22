@@ -6,7 +6,7 @@
     grid-column-gap: var(--column-space);
     grid-row-gap: var(--row-space);
     align-items: start;
-    background-image: url('data:image/svg+xml;utf8,<svg width="98" height="223" viewBox="0 0 98 223" xmlns="http://www.w3.org/2000/svg"><path fill="%23EBFF00" d="M.636 55.974L32.989-.062l64.375 111.5-64.375 111.5L.636 166.9l31.978-55.464z" fill-rule="evenodd"/></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="98" height="223" viewBox="0 0 98 223" xmlns="http://www.w3.org/2000/svg"><path fill="%23f0e300" d="M.636 55.974L32.989-.062l64.375 111.5-64.375 111.5L.636 166.9l31.978-55.464z" fill-rule="evenodd"/></svg>');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 0;

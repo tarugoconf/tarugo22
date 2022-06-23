@@ -5,7 +5,10 @@
     padding: 0 5vw;
     position: sticky;
     top: 0;
-    color: white;
+    background-color: #fffe;
+    color: var(--black);
+    transition-property: background, color;
+    transition-duration: .5s;
 }
 .navbar-content {
     display: flex;
@@ -86,8 +89,9 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
     font: var(--font-normal);
     font-weight: var(--bold);
     white-space: nowrap;
+    color: inherit;
 
-    @media (min-width: 800px) {
+    @media (min-width: 1050px) {
         display: none;
     }
 
@@ -98,6 +102,7 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
     }
     &:hover {
         background: var(--color-yellow);
+        color: var(--black);
     }
     &:focus {
         outline: dotted 1px var(--color-gray);
@@ -110,7 +115,7 @@ ul.navbar-menu {
     margin: 0;
     padding: 0;
 
-    @media (max-width: 799px) {
+    @media (max-width: 1049px) {
         position: absolute;
         top: -10vh;
         left: 0;
@@ -120,6 +125,7 @@ ul.navbar-menu {
         padding-right: 70px;
         box-sizing: border-box;
         width: 100%;
+        color: var(--black);
         background: white;
         box-shadow: 0 0 8px #00000033;
         transform: translateX(-100%);
@@ -135,7 +141,7 @@ ul.navbar-menu {
             opacity: 1;
         }
     }
-    @media (min-width: 800px) {
+    @media (min-width: 1050px) {
         display: flex;
 
         & li {
@@ -143,8 +149,7 @@ ul.navbar-menu {
         }
     }
 }
-
-.is-scrolled .navbar {
-    background-color: #fffe;
-    color: var(--black);
+.needs-scroll:not(.is-scrolled) .navbar {
+    background: none;
+    color: white;
 }

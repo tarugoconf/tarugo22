@@ -1,7 +1,7 @@
 .highlights {
     grid-column: 1 / -1;
     padding: 6rem var(--column-space) 0;
-    background-image: url('data:image/svg+xml;utf8,<svg width="338" height="120" viewBox="0 0 338 120" xmlns="http://www.w3.org/2000/svg"><g fill="%23EBFF00" fill-rule="evenodd"><path d="M104 120V60l52-30v30l-26 15v30z"/><path d="M156 0v60l52 30V60l-26-15V15z"/><path d="M286 105V45l-52-30v30l26 15v30z"/><path d="M338 15v60l-52 30V75l26-15V30z"/><path d="M0 60.033l51.962 30L103.942 60l-25.98-15-25.99 15.017-25.982-15z"/><path d="M208 30v30l26-15V15z"/></g></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="338" height="120" viewBox="0 0 338 120" xmlns="http://www.w3.org/2000/svg"><g fill="%23f0e300" fill-rule="evenodd"><path d="M104 120V60l52-30v30l-26 15v30z"/><path d="M156 0v60l52 30V60l-26-15V15z"/><path d="M286 105V45l-52-30v30l26 15v30z"/><path d="M338 15v60l-52 30V75l26-15V30z"/><path d="M0 60.033l51.962 30L103.942 60l-25.98-15-25.99 15.017-25.982-15z"/><path d="M208 30v30l26-15V15z"/></g></svg>');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center center;

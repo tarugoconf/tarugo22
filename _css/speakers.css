@@ -56,7 +56,7 @@
 
   & blockquote {
     font: var(--font-medium);
-    background-image: url('data:image/svg+xml;utf8,<svg width="223" height="194" viewBox="0 0 223 194" xmlns="http://www.w3.org/2000/svg"><g fill="%23EBFF00" fill-rule="evenodd"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z"/><path d="M223 0v64.13l-56 32.333v64.618l-55.5 32.044V64.375z"/></g></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="223" height="194" viewBox="0 0 223 194" xmlns="http://www.w3.org/2000/svg"><g fill="%23f0e300" fill-rule="evenodd"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z"/><path d="M223 0v64.13l-56 32.333v64.618l-55.5 32.044V64.375z"/></g></svg>');
     background-repeat: no-repeat;
     padding-left: 3rem;
     padding-top: 2rem;

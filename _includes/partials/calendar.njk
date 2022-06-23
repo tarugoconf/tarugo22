@@ -16,7 +16,6 @@
             <details class="calendar-event">
               <summary class="calendar-event-header">
                 <time>{{ event.time }}</time>
-                <strong>{{ event.title }}</strong>
 
                 {% for id in event.speakers %}
                 {% for speaker in home.speakers.speakers %}
@@ -26,6 +25,7 @@
                 {% endfor %}
                 {% endfor %}
 
+                <strong>{{ event.title }}</strong>
               </summary>
 
               <div class="calendar-event-text">
