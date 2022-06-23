@@ -8,7 +8,8 @@
   <ul class="speakers-list">
     {% for speaker in content.speakers %}
     <li>
-        <article class="speaker" id="speaker-{{ speaker.id }}">
+      <tarugo-buttons>
+        <button class="speaker" data-action="open" data-target="dialog-{{ speaker.id }}">
           <div class="speaker-image-wrapper">
             <img class="speaker-image" src="{{ speaker.image }}">
           </div>
@@ -20,17 +21,14 @@
             {% endif %}
             <em class="speaker-position">{{ speaker.position }}</em>
           </p>
-
-          <tarugo-buttons>
-          <button class="speaker-button" data-action="open" data-target="dialog-{{ speaker.id }}">
-            Más info
-          </button>
-          </tarugo-buttons>
-        </article>
+        </button>
+      </tarugo-buttons>
 
         <dialog class="speaker-modal" id="dialog-{{ speaker.id }}">
             <tarugo-buttons>
-              <button data-action="close" class="speaker-modal-close button is-primary">Cerrar</button>
+              <button data-action="close" class="speaker-modal-close" aria-label="Cerrar">
+                <img src="/img/icons/close.svg">
+              </button>
             </tarugo-buttons>
             
             <div class="speaker-modal-content">

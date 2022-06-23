@@ -3,7 +3,7 @@
     padding: .5em .9em;
     text-decoration: none;
     display: inline-block;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     color: var(--black);
     border: none;
     background: var(--color-yellow);
@@ -24,5 +24,24 @@
         pointer-events: none;
         cursor: default;
         opacity: .2;
+    }
+
+    &.is-social {
+        background: none;
+        padding: .9rem;
+        background: var(--color-gray-light);
+        border: solid 1px var(--color-gray-light);
+        color: var(--color-gray);
+
+        &:hover {
+            border-color: var(--color-gray-medium);
+            color: var(--black);
+        }
+    }
+
+    & svg,
+    & img {
+        display: block;
+        fill: currentColor;
     }
 }
