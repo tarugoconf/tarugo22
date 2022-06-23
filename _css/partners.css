@@ -23,9 +23,13 @@
   padding: 0;
   display: grid;
   gap: 20px;
+  text-align: center;
 
   & img {
     max-width: 100%;
+    width: 800px;
+    margin: auto;
+    display: block;
     height: auto;
   }
 

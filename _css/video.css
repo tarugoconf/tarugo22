@@ -43,19 +43,19 @@ tarugo-video {
   }
 
   &::before {
-    content: "▶ PLAY";
-    font: var(--font-16-bold);
-    padding: 10px 20px;
-    color: white;
-    display: flex;
-    background: var(--color-black);
+    content: "";
+    display: block;
     position: absolute;
     z-index: 2;
-    border: solid 2px white;
     cursor: pointer;
+    background: url("./img/video-play.svg") no-repeat center center;
+    background-size: contain;
+    width: 120px;
+    height: 100px;
+    transition: transform 0.2s;
   }
 
   &:hover::before {
-    background: var(--color-primary);
+    transform: scale(1.2);
   }
 }
