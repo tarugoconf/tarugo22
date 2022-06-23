@@ -4,7 +4,6 @@ import inline from "lume/plugins/inline.ts";
 import basePath from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
 import cms from "lume/plugins/netlify_cms.ts";
-import gpm from "https://deno.land/x/gpm@v0.3.0/mod.ts";
 
 const site = lume({
   location: new URL("https://tarugoconf.github.io/tarugo22/"),
@@ -20,8 +19,14 @@ site
   .use(basePath())
   .use(date())
   .use(cms())
-  .use(inline());
-
-site.addEventListener("beforeBuild", () => gpm(["oom-components/carousel"]));
+  .use(inline())
+  .remoteFile(
+    "vendor/carousel/carousel.js",
+    "https://unpkg.com/@oom/carousel@4.2.0/src/carousel.js"
+  )
+  .remoteFile(
+    "vendor/carousel/navigation.js",
+    "https://unpkg.com/@oom/carousel@4.2.0/src/navigation.js"
+  );
 
 export default site;
