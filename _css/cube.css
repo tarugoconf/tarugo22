@@ -24,6 +24,7 @@
         backface-visibility: hidden;
     }
 
+    & img,
     & svg {
         display: block;
         width: 100%;

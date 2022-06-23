@@ -6,47 +6,8 @@ body_class: needs-scroll
 {% include "partials/navbar.njk" %}
 
 <header class="homeHeader">
-  <div class="cube-container">
-    <div class="cube">
-      <div class="cube-top">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-black" x="100" y="0" width="100" height="100"></rect>
-        </svg>
-      </div>
-      <div class="cube-front">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-black" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-white" x="100" y="100" width="100" height="100"></rect>
-        </svg>
-      </div>
-      <div class="cube-left">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-black" x="0" y="100" width="100" height="100"></rect>
-        </svg>
-      </div>
+  {% include "partials/cube-images.njk" %}
 
-      <div class="cube-bottom">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-black" x="0" y="100" width="100" height="100"></rect>
-        </svg>
-      </div>
-      <div class="cube-back">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-black" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-white" x="100" y="100" width="100" height="100"></rect>
-        </svg>
-      </div>
-      <div class="cube-right">
-        <svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <rect class="cube-white" x="0" y="0" width="200" height="200"></rect>
-          <rect class="cube-black" x="100" y="0" width="100" height="100"></rect>
-        </svg>
-      </div>
-    </div>
-  </div>
   <div class="homeHeader-content">
     <h1 class="homeHeader-title">{{ header.title | safe }}</h1>
     <img src="/logo-tarugo.svg" alt="Tarugo" class="homeHeader-logo">
