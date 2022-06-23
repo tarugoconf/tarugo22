@@ -37,7 +37,7 @@
     }
 
     & path.fill-secondary {
-        fill: var(--color-black);
+        fill: var(--color-yellow);
     }
     & p {
         margin: 0;

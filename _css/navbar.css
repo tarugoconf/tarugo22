@@ -64,6 +64,7 @@ div.navbar-menu:first-child:not(:nth-last-child(2)) {
     color: inherit;
     overflow: hidden;
 
+    & img,
     & svg {
         margin-left: 1em;
         position: relative;
