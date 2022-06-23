@@ -32,9 +32,9 @@
     --row-space: var(--font-size-big);
 
     --black: #000;
-    --color-yellow: #fbda00;
-    --color-yellow-dark: #f9bd00;
-    --color-blue: #368fe0;
+    --color-yellow: hsl(57, 100%, 47%); /* #f0e300 */
+    --color-yellow-dark: hsl(57, 100%, 43%);
+    --color-blue: hsl(210, 61%, 44%); /* #2c70b6 */
     --color-blue-dark: #2172c7;
     --color-gray: #666;
     --color-gray-light: #efefee;

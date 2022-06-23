@@ -7,7 +7,7 @@ speakers:
     id: jaime
     company: " "
     position: Programador y Activista
-    image: /img/speakers/0469627203e08f42097abe7a48e134fdf737354e.png
+    image: /img/speakers/placeholder_azul.png
     links:
       - text: "@JaimeObregon"
         type: twitter
@@ -26,7 +26,7 @@ speakers:
 
 
       Con 23 años y nada más salir de la universidad,  fundó su propia empresa especializada en software libre. 16 años después, decidió tomarse un año «libre» para desarrollar **software que ayude a concienciar a la opinión pública sobre la importancia de auditar a las distintas Administraciones** y a los cargos públicos que las dirigen.
-  - image: /img/speakers/yaiza.jpg
+  - image: /img/speakers/placeholder_amarillo.png
     name: Yaiza Canosa
     company: Goi
     position: Fundadora y CEO
@@ -53,7 +53,7 @@ speakers:
     id: antonio
     company: GitHub
     position: Site Reliability Engineer
-    image: /img/speakers/35972002_10156454695434812_1014099842248474624_n.jpeg
+    image: /img/speakers/placeholder_azul.png
     links:
       - type: twitter
         url: https://twitter.com/wottam
@@ -75,7 +75,7 @@ speakers:
   - name: Rita Sobrido
     id: rita
     company: " Vinfast"
-    image: /img/speakers/img_9265.jpg
+    image: /img/speakers/placeholder_amarillo.png
     position: " Directora IT de Fabricación"
     bio: >-
       Ingeniera industrial especializada en la implementación de software para
@@ -114,12 +114,12 @@ speakers:
         text: https://pduchement.org
     company: " "
     position: Profesor y perito judicial informático
-    image: /img/speakers/pablo-duchement.jpg
+    image: /img/speakers/placeholder_azul.png
   - name: Evaristo Babé
     id: varis
     company: Pulpomatic
     position: Fundador y CEO
-    image: /img/speakers/varis.jpg
+    image: /img/speakers/placeholder_amarillo.png
     links:
       - text: "@varisb"
         url: https://twitter.com/varisb
@@ -140,7 +140,7 @@ speakers:
       En 2016 fundó Pulpomatic, una plataforma tecnológica para gestionar flotas de vehículos que ya cuenta con más de 100 clientes y 200.000 vehículos, a caballo entre México y Madrid.
   - name: Diego Ballesteros
     id: diego
-    image: /img/speakers/diego_oficina_peq.jpg
+    image: /img/speakers/placeholder_azul.png
     company: Bewe
     position: Fundador y CEO
     links:
@@ -177,11 +177,11 @@ speakers:
       - type: link
         url: https://www.xataka.com/historia-tecnologica/yo-programaba-decada-60-asi-trabajaban-primeros-programadores-espana
         text: Así trabajaban los primeros programadores de España
-    image: /img/speakers/paz_gimeno.jpg
+    image: /img/speakers/placeholder_amarillo.png
   - name: Eva Janeiro
     id: eva
     position: Diseñadora de contenido freelance
-    image: /img/speakers/eva-janeiro.jpeg
+    image: /img/speakers/placeholder_azul.png
     bio: >-
       Eva es diseñadora de contenido y UX writer freelance, desde antes de que
       esto tuviera un nombre.

@@ -78,51 +78,51 @@ benefits:
     medida. Ellos son las verdaderas estrellas de la Tarugoconf.
   benefits:
     - title: Viaje
-      icon: plane.svg
+      icon: /img/icons/plane.svg
       description: Por supuesto, nos hacemos cargo de tu viaje para que puedas
         disfrutar del evento completo, no sólo el día de tu charla.
     - title: Alojamiento
-      icon: bed.svg
+      icon: /img/icons/bed.svg
       description: También cubrimos tu alojamiento. Y si quieres venir con la familia,
         reservaremos una habitación en la que quepáis todos.
     - title: Diseño
-      icon: artboard.svg
+      icon: /img/icons/artboard.svg
       description: Si lo deseas, nuestro diseñador revisará tu presentación y la
         «vestirá» con un aspecto profesional para que brille.
     - title: Storytelling
-      icon: unicorn.svg
+      icon: /img/icons/unicorn.svg
       description: Si quieres, te ayudaremos a descubrir la historia detrás de los
         datos y los hechos, para cautivar a la audiencia.
     - title: Acceso VIP
-      icon: vip.svg
+      icon: /img/icons/vip.svg
       description: Tu entrada te dará acceso a todas las actividades de la Tarugoconf,
         desde los talleres hasta el Open Space del sábado.
     - title: Regalo
-      icon: gift.svg
+      icon: /img/icons/gift.svg
       description: Somos gallegos, así que, cuenta con un regalo de cortesía y,
         probablemente, relacionado con la gastronomía...
     - title: Entradas
-      icon: tickets.svg
+      icon: /img/icons/tickets.svg
       description: Todos los ponentes de la Tarugoconf tienen garantizada una entrada
         para la siguiente edición. Sin coste.
     - title: Sketchnoting
-      icon: blueprint.svg
+      icon: /img/icons/blueprint.svg
       description: Tu charla será «dibujada» por nuestro sketchnoter y podrás disponer
         del dibujo y difundirlo como consideres.
     - title: Vídeo
-      icon: video.svg
+      icon: /img/icons/video.svg
       description: Tu charla será grabada por 5 cámaras que recogerán todos los
         detalles y publicada en Vimeo. Si nos das tu consentimiento, claro :)
     - title: Transporte
-      icon: taxi.svg
+      icon: /img/icons/taxi.svg
       description: Nos haremos cargo no sólo de tu viaje hasta Madrid sino de tus
         desplazamientos dentro de la ciudad. Faltaría más.
     - title: Networking
-      icon: networking.svg
+      icon: /img/icons/networking.svg
       description: Acceso a la exclusiva cena de mecenas y ponentes donde conocerás y
         te conocerán en un ambiente familiar.
     - title: Cariño
-      icon: music.svg
+      icon: /img/icons/music.svg
       description: Para nosotros no serás un ponente sino nuestro invitado. Nos
         dejaremos la piel para que te sientas como en casa.
 speakers:

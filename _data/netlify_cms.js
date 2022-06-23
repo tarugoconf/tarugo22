@@ -1,4 +1,4 @@
-import f from "https://deno.land/x/netlify_cms_config@v0.2.1/mod.ts";
+import f from "https://deno.land/x/netlify_cms_config@v0.2.2/mod.ts";
 
 // Set defaults
 f.defaultRequired = false;
@@ -29,7 +29,7 @@ const speakers = data.createFile("Speakers", "/_data/home/speakers.yml", [
     f.string("Name").required(),
     f.string("Id").required(),
     f.string("Company"),
-    f.image("Image").mediaFolder("img/speakers"),
+    f.image("Image").mediaFolder("/img/speakers"),
     f.list("Links", [
       f.string("Title"),
       f.select("Type", ["twitter", "linkedin", "link"]),
@@ -59,18 +59,18 @@ data.file("Agenda", "/_data/home/calendar.yml", [
     f.markdown("Intro"),
     f.object("Main", [
       f.string("Alt"),
-      f.image("Img").mediaFolder("img/partners"),
+      f.image("Img").mediaFolder("/img/partners"),
       f.string("Url"),
       f.markdown("Text"),
     ]),
     f.list("Partners", [
       f.string("Alt"),
-      f.image("Img").mediaFolder("img/partners"),
+      f.image("Img").mediaFolder("/img/partners"),
       f.string("Url"),
     ]),
     f.list("Patrons", [
       f.string("Alt"),
-      f.image("Img").mediaFolder("img/patrons"),
+      f.image("Img").mediaFolder("/img/partners"),
       f.string("Url"),
     ]),
     f.object("Join", [
@@ -205,7 +205,7 @@ const pages = f.files("Pages")
       f.markdown("Intro"),
       f.list("Benefits", [
         f.string("Title"),
-        f.string("Icon"),
+        f.image("Icon").mediaFolder("/img/icons/"),
         f.text("Description"),
       ]),
     ]),
@@ -220,10 +220,10 @@ const pages = f.files("Pages")
       f.list("Speakers", [
         f.string("Name"),
         f.string("Position"),
-        f.image("Image"),
+        f.image("Image").mediaFolder("/img/speakers"),
         f.list("Social", [
           f.string("Title"),
-          f.image("Icon"),
+          f.image("Icon").mediaFolder("/img/icons/"),
           f.string("Href"),
         ]),
       ]),

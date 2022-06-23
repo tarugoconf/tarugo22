@@ -31,6 +31,9 @@ strong {
     background-color: var(--color-yellow);
     color: var(--black);
 }
+a {
+    color: var(--color-blue);
+}
 
 hr {
     background: none;

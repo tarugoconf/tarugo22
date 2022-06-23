@@ -68,7 +68,7 @@ layout: layouts/base.njk
     <ul class="benefits-benefits">
         {% for item in benefits.benefits %}
         <li>
-            <img src="/img/icons/{{ item.icon }}" inline>
+            <img src="{{ item.icon }}" inline>
             <h3>{{ item.title }}</h3>
             {{ item.description | md | safe }}
         </li>

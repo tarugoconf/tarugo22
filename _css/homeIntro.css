@@ -4,7 +4,7 @@
     align-items: start;
     grid-template-areas: 'title' 'text';
     grid-column-gap: var(--font-size-big);
-    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23fbda00" fill-rule="evenodd"/></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23f0e300" fill-rule="evenodd"/></svg>');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 33% 0;

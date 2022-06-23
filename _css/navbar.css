@@ -5,7 +5,7 @@
     padding: 0 5vw;
     position: sticky;
     top: 0;
-    background-color: #fffe;
+    color: white;
 }
 .navbar-content {
     display: flex;
@@ -142,4 +142,9 @@ ul.navbar-menu {
             margin-right: 2rem;
         }
     }
+}
+
+.is-scrolled .navbar {
+    background-color: #fffe;
+    color: var(--black);
 }
