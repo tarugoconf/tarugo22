@@ -6,7 +6,7 @@ speakers:
   - name: Ana Freire
     id: ana
     company: " UPF Barcelona School of Management"
-    position: ""
+    position: Directora del Departamento de Operaciones, Tecnología y Ciencia
     image: https://comunitat.canodrom.barcelona/uploads/decidim/user/avatar/73431/profile_E1F8004B-3FC9-451E-AEF2-F76EF2B0D145.jpeg
     links:
       - text: "@JaimeObregon"
@@ -199,26 +199,3 @@ speakers:
         url: https://evajaneiro.com/
         text: evajaneiro.com
     company: " "
-  - name: Pedro Serrahima
-    id: pedro
-    company: Telefónica
-    bio: "Pedro ha cimentado su carrera en el sentido común: proporcionar a sus
-      clientes el servicio que a él le gustaría recibir. Recibió el encargo de
-      lanzar **Pepephone** y cambió las reglas del juego de la telefonía móvil
-      en España. Después pasó a Telefónica, para dirigir **O2** y **Tuenti**; y
-      ha conseguido que el espíritu y valores de las mismas calen en toda la
-      organización, que le ha nombrado Director de Experiencia de Cliente,
-      Publicidad y Multimarca para cuidar la atención al cliente de todas las
-      marcas de la histórica compañía."
-    image: /img/speakers/pedro-serrahima-cuadrada.png
-    links:
-      - type: twitter
-        url: https://twitter.com/serrahim
-        text: "@serrahim"
-      - type: web
-        text: O2
-        url: https://o2online.es/
-      - url: https://www.linkedin.com/in/pedro-serrahima/
-        type: linkedin
-        text: linkedin.com/in/pedro-serrahima/
-    position: Director de Experiencia de Cliente, Publicidad y Multimarca
