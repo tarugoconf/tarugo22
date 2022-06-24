@@ -241,7 +241,15 @@ const pages = f.files("Pages")
   .file("Entradas", "/tickets.yml", [
     f.hidden("layout"),
     f.string("Title"),
-    f.markdown("Description"),
+    f.string("Description"),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Header", [
+      f.string("Title"),
+      f.markdown("Intro"),
+    ]),
     f.list("Tickets", [
       f.string("Name"),
       f.string("Pricing"),
