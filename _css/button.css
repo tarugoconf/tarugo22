@@ -10,6 +10,12 @@
   transition: background-color .2s;
   cursor: pointer;
 
+  &.is-primary {
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
   &.is-block {
     display: block;
     text-align: center;
@@ -48,5 +54,20 @@
   & img {
     display: block;
     fill: currentColor;
+  }
+}
+
+
+.imgButton {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform .2s;
+
+  &:hover {
+    transform: scale(1.3);
   }
 }

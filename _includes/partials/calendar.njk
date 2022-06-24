@@ -17,13 +17,17 @@
               <summary class="calendar-event-header">
                 <time>{{ event.time }}</time>
 
+                <tarugo-buttons>
                 {% for id in event.speakers %}
                 {% for speaker in home.speakers.speakers %}
                 {% if id == speaker.id %}
-                  <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}" class="js-openDialog" data-target="speaker-{{ speaker.id }}">
+                  <button class="imgButton" data-action="open" data-target="dialog-{{ speaker.id }}">
+                    <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}">
+                  </button>
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
+                </tarugo-buttons>
 
                 <strong>{{ event.title }}</strong>
               </summary>

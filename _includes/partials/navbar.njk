@@ -24,9 +24,15 @@
     </ul>
     {% endif %}
 
+    {% if cta %}
+    <a href="{{ cta.url }}" class="navbar-cta button is-primary">
+      {{ cta.text }}
+    </a>
+    {% else %}
     <a href="./#top" class="navbar-logo">
       <span>Tarugoconf</span>
       <img width="36" src="/logo-cubo-amarillo.png" alt="Tarugoconf">
     </a>
+    {% endif %}
   </div>
 </nav>

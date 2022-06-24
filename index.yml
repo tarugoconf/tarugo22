@@ -21,10 +21,15 @@ menu:
     href: "#faq"
   - text: Blog
     href: /blog
+
+cta:
+  text: Ver entradas
+  url: /tickets/
+
 header:
   title: Todo es posible
   subtitle: Madrid, 20-22 de octubre de 2022
-  cta: Ver entradas
+
 quote:
   text: >
     El objetivo de la #tarugo22 es que todo el mundo se vaya de aquí con al
