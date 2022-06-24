@@ -4,33 +4,40 @@ description: Breve descripción diciendo cuando se van a poner a la venta
 back:
   text: ← Home
   href: /
-
 header:
   title: Entradas
-  intro: >
+  intro: |
     Breve descripción diciendo cuando se van a poner a la venta
 tickets:
   - name: Early Tarug@
-    pricing: Contribución <del>75€</del> 50€ + IVA
-    description: |
-      Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
-      de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a
-      toda la familia!
-    
-      ### Incluye 
+    pricing: <del>250€</del> 150€ + IVA
+    description: >-
+      Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€
+      ¡Suficiente para invitar a chocolate con churros a toda la familia!
 
-      - Más de 10h de contenido en directo
-      - Premiere de cine
-      - Acceso a grabaciones de charlas y reportajes
-      - Networking y Concursos
-      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-      - Camiseta del evento (enviada a tu casa)
 
+      ### Incluye
+
+
+      * 3 días llenos de actividades. El jueves:
+
+        * Estreno de cine
+      * El viernes:
+
+        * Desayuno, *esmorzaret*, comida (pulpeirada) y merienda.
+        * Acceso a la salvaje Fiesta Taruga
+      * Además:
+
+        * Acceso a grabaciones de charlas y reportajes
+        * Networking y Concursos
+        * Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+        * Welcome Pack
+        * Camiseta del evento
     delivery:
-      date: Octubre 2021
-      address: Toda España
+      date: ""
+      address: ""
     complements: true
-    stock: 600
+    stock: 500
   - name: Tarug@ Digital
     pricing: Contribución 60€ + IVA
     description: |
@@ -45,7 +52,6 @@ tickets:
       - Acceso a grabaciones de charlas y reportajes
       - Networking y Concursos
       - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-
     delivery:
       date: Octubre 2021
       address: Todo el mundo
@@ -65,7 +71,6 @@ tickets:
       - Networking y Concursos
       - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
       - Camiseta del evento (enviada a tu casa)
-
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -85,17 +90,22 @@ tickets:
     complements: true
   - name: Mecenas
     pricing: Contribución 500€ + IVA
-    description: |
+    description: >
       Una entrada pensada para particulares que crean en la visión de la
+
       Tarugoconf y quieran contribuir a la misma con una aportación especial.
-    
+
+
       ### Incluye:
 
-      - Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y, además...
-      - 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
-      - Tu foto en la web del evento
-      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
 
+      - Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y, además...
+
+      - 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
+
+      - Tu foto en la web del evento
+
+      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
     delivery:
       date: Octubre 2021
       address: Toda España
