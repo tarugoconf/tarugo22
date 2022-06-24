@@ -23,28 +23,26 @@ speakers:
       Management](https://www.bsm.upf.edu/es){target=“_blank”}, fundadora de
       Wisibilízalas y acumula un montón de premios por su trayectoria
       profesional que —como buena gallega— le da vergüenza siquiera mencionar.
-  - image: /img/speakers/yaiza.jpg
+  - image: https://ichef.bbci.co.uk/news/800/cpsprodpb/107FB/production/_124997576_eb689f48-628e-4359-baf7-e36b907f4fff.jpg.webp
     name: Javier G. Recuenco
     company: Singular Solving
     position: Fundador y CSO
     links:
       - type: twitter
-        url: https://twitter.com/yaizacanosa
+        url: https://twitter.com/Recuenco
         text: "@yaizacanosa"
       - type: linkedin
-        url: https://www.linkedin.com/in/yaizacanosa/
+        url: https://www.linkedin.com/in/javier-g-recuenco-70a708/
         text: Yaiza Canosa
       - type: web
-        url: https://www.letsgoi.com/
+        url: https://singularsolving.com/
         text: Goi
     bio: >-
-      Yaiza es la CEO y fundadora de la startup logística **GOI** —especializada
-      en el transporte, montaje e instalación de portes voluminosos y mudanzas—
-      que profesionaliza y añade tecnología a un sector tan fragmentado como es
-      «la última milla»
+      Javier se define a sí mismo como un «Señor Lobo», resuelve problemas
+      complejos que otros no saben manejar. 
 
 
-      En 2017 fue seleccionada como una de los 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30), pero más allá de los *fuegos artificiales*, es una curranta que lleva el emprendimiento en la sangre.
+      Además, es empresario y emprendedor en serie, podcaster, profesor en prestigiosas escuelas de negocio, Ingeniero Informático y Presidente de MENSA España, una organización de gente tan lista que sabe hacer restas y sumas sin calculadora.
     id: recuenco
   - name: Antonio Santos
     id: antonio
