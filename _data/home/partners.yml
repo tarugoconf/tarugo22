@@ -15,14 +15,17 @@ main:
 partners:
   - img: /img/partners/logo_panel_azul_rgb_300-o5fuqk76rlxeysnoi8kro1bwmlhj9b1qyiqtc6m4jq.png
     url: https://www.panel.es/
-    alt: Creación Inteligente de software, sistemas y servicios TI.
+    alt: Panel
+    text: Creación Inteligente de software, sistemas y servicios TI.
   - img: /img/partners/stackscale-logo-hi.jpeg
-    alt: Soluciones de infraestructura y cloud hosting para proyectos que necesitan
-      Alta Disponibilidad y rendimiento.
+    alt: Stackscale
     url: https://www.stackscale.com/es/
+    text: Soluciones de infraestructura y cloud hosting para proyectos que necesitan
+      Alta Disponibilidad y rendimiento.
   - img: /img/partners/deiser_-logo_positivo.png
-    alt: Te ayudamos con tus apps de Atlassian.
+    alt: Deiser
     url: https://www.deiser.com/
+    text: Te ayudamos con tus apps de Atlassian.
   - img: /img/partners/outlook-t4gashvb.png
     url: http://www.avantgardeit.es/
     alt: Ayudamos a las empresas que están transformando el mundo a resolver sus
