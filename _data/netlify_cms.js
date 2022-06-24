@@ -31,6 +31,7 @@ const speakers = data.createFile("Speakers", "/_data/home/speakers.yml", [
     f.string("Company"),
     f.string("Position"),
     f.image("Image").mediaFolder("/img/speakers"),
+    f.markdown("Bio"),
     f.list("Links", [
       f.string("Title"),
       f.select("Type", ["twitter", "linkedin", "link"]),
