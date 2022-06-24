@@ -12,7 +12,10 @@ main:
   url: https://campus.co/madrid/
   alt: Google for Startups
   text: Para los que nunca dejan de emprender.
-partners: []
+partners:
+  - img: /img/partners/logo_panel_azul_rgb_300-o5fuqk76rlxeysnoi8kro1bwmlhj9b1qyiqtc6m4jq.png
+    url: https://www.panel.es/
+    alt: Creación Inteligente de software, sistemas y servicios TI.
 patrons: []
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
