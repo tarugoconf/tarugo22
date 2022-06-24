@@ -69,6 +69,7 @@ data.file("Agenda", "/_data/home/calendar.yml", [
       f.string("Alt"),
       f.image("Img").mediaFolder("/img/partners"),
       f.string("Url"),
+      f.markdown("Text"),
     ]),
     f.list("Patrons", [
       f.string("Alt"),
