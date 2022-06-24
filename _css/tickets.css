@@ -1,0 +1,29 @@
+.tickets {
+    margin: 0;
+    grid-column: 2 / 3;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.ticket {
+  border: solid 1px var(--color-gray-light);
+  
+  & header {
+    padding: 1rem;
+    background-color: var(--color-gray-light);
+  }
+}
+.ticket-pricing {
+  font: var(--font-normal);
+  text-align: center;
+  margin: 0;
+}
+.ticket-name {
+  font: var(--font-medium-bold);
+  text-align: center;
+  margin: 0;
+}

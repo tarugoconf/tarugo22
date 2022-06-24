@@ -9,3 +9,70 @@ layout: layouts/base.njk
       {{ header.intro | md | safe }}
   </div>
 </header>
+
+<ul class="tickets" id="tickets">
+  {% for ticket in tickets %}
+  <li>
+    {% set sold = eventbrite.metrics.by_type[ticket.name] or 0 %}
+    <article class="ticket <% if ticket.stock <= sold %>is-sold-out<% endif %>">
+      <header>
+        <p class="ticket-pricing">{{ ticket.pricing | md(true) | safe }}</p>
+        <h2 class="ticket-name">{{ ticket.name }}</h2>
+      </header>
+
+      <div class="ticket-description">
+        {{ ticket.description | md | safe }}
+      </div>
+
+      <h3 class="ticket-keyname">Incluye</h3>
+      <ul class="ticket-includes ticket-value">
+        {% for inc in ticket.includes %}
+        <li>{{ inc.text | md | safe }}</li>
+        {% endfor %}
+      </ul>
+
+      <dl class="ticket-details">
+        <div>
+          <dt class="ticket-keyname">Entrega aproximada:</dt>
+          <dd class="ticket-value">{{ ticket.delivery.date }}</dd>
+        </div>
+
+        <div>
+          <dt class="ticket-keyname">Envío a:</dt>
+          <dd class="ticket-value">{{ ticket.delivery.address }}</dd>
+        </div>
+      </dl>
+
+      <p>
+        {% if ticket.stock %}
+          <strong class="ticket-flag">Stock limitado (Quedan {{ ticket.stock - sold }})</strong>
+        {% else %}
+          <strong class="ticket-flag">Vendidas {{ sold }}</strong>
+        {% endif %}
+
+        {% if ticket.complements %}
+          <strong class="ticket-flag is-complement">Complementos</strong>
+        {% endif %}
+      </p>
+
+      <strong class="button is-disabled">
+        Disponible próximamente
+      </strong>
+
+      {# {% if ticket.stock <= sold %}
+        <strong class="ticket-flag is-big">
+          Esta entrada está agotada
+        </strong>
+      {% elif ticketsClass == "is-wide" %}
+      <a href="https://www.eventbrite.es/e/entradas-tarugo21-152365841333" class="button is-primary">
+        <span>Seleccionar esta entrada</span>
+      </a>  
+      {% else %}
+      <a href="https://www.eventbrite.es/e/entradas-tarugo21-152365841333" class="ticket-cta">
+        <span>Seleccionar esta entrada</span>
+      </a>
+      {% endif %} #}
+    </article>
+  </li>
+  {% endfor %}
+</ul>

@@ -254,9 +254,6 @@ const pages = f.files("Pages")
       f.string("Name"),
       f.string("Pricing"),
       f.markdown("Description"),
-      f.list("Includes", [
-        f.markdown("Text"),
-      ]),
       f.object("Delivery", [
         f.string("Date"),
         f.string("Address"),

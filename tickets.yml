@@ -12,16 +12,20 @@ header:
 tickets:
   - name: Early Tarug@
     pricing: Contribución <del>75€</del> 50€ + IVA
-    description: Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
+    description: |
+      Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
       de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a
       toda la familia!
-    includes:
-      - text: Más de 10h de contenido en directo
-      - text: Premiere de cine
-      - text: Acceso a grabaciones de charlas y reportajes
-      - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-      - text: Camiseta del evento (enviada a tu casa)
+    
+      ### Incluye 
+
+      - Más de 10h de contenido en directo
+      - Premiere de cine
+      - Acceso a grabaciones de charlas y reportajes
+      - Networking y Concursos
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - Camiseta del evento (enviada a tu casa)
+
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -33,12 +37,14 @@ tickets:
       Una entrada creada para los que deseen que su asistencia a la Tarugo no
       deje ninguna huella de carbono y prefieran no recibir ningún tipo de
       merchandising.
-    includes:
-      - text: Más de 10h de contenido en directo
-      - text: Premiere de cine
-      - text: Acceso a grabaciones de charlas y reportajes
-      - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+
+      ### Incluye:
+
+      - Más de 10h de contenido en directo
+      - Premiere de cine
+      - Acceso a grabaciones de charlas y reportajes
+      - Networking y Concursos
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
     delivery:
       date: Octubre 2021
       address: Todo el mundo
@@ -49,13 +55,15 @@ tickets:
       Acceso completo a todos los contenidos de la Tarugoconf y, además,
       recepción en casa de todos los goodies y regalos promocionales del evento
       (camisetas, pegatinas, cuadernos, etc...)
-    includes:
-      - text: Más de 10h de contenido en directo
-      - text: Premiere de cine
-      - text: Acceso a grabaciones de charlas y reportajes
-      - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-      - text: Camiseta del evento (enviada a tu casa)
+
+      ### Incluye:
+
+      - Más de 10h de contenido en directo
+      - Premiere de cine
+      - Acceso a grabaciones de charlas y reportajes
+      - Networking y Concursos
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -78,13 +86,13 @@ tickets:
     description: |
       Una entrada pensada para particulares que crean en la visión de la
       Tarugoconf y quieran contribuir a la misma con una aportación especial.
-    includes:
-      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
-          además...
-      - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
-      - text: Tu foto en la web del evento
-      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a
-          la grabación del evento**
+    
+      ### Incluye:
+
+      - Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y, además...
+      - 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
+      - Tu foto en la web del evento
+      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
     delivery:
       date: Octubre 2021
       address: Toda España
