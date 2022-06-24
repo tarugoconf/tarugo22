@@ -33,7 +33,7 @@ tickets:
     stock: 600
   - name: Tarug@ Digital
     pricing: Contribución 60€ + IVA
-    description: >
+    description: |
       Una entrada creada para los que deseen que su asistencia a la Tarugo no
       deje ninguna huella de carbono y prefieran no recibir ningún tipo de
       merchandising.
@@ -45,13 +45,14 @@ tickets:
       - Acceso a grabaciones de charlas y reportajes
       - Networking y Concursos
       - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+
     delivery:
       date: Octubre 2021
       address: Todo el mundo
     complements: false
   - name: Tarug@ Classic
     pricing: Contribución 75€ + IVA
-    description: >
+    description: |
       Acceso completo a todos los contenidos de la Tarugoconf y, además,
       recepción en casa de todos los goodies y regalos promocionales del evento
       (camisetas, pegatinas, cuadernos, etc...)
@@ -64,6 +65,7 @@ tickets:
       - Networking y Concursos
       - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
       - Camiseta del evento (enviada a tu casa)
+
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -93,6 +95,7 @@ tickets:
       - 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
       - Tu foto en la web del evento
       - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
+
     delivery:
       date: Octubre 2021
       address: Toda España

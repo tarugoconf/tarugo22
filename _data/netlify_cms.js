@@ -135,6 +135,7 @@ const pages = f.files("Pages")
     f.object("Header", [
       f.string("Title"),
       f.string("Subtitle"),
+      f.string("Cta"),
     ]),
     f.object("Quote", [
       f.markdown("Text"),

@@ -10,6 +10,7 @@
     --font-size-xbig: calc(var(--font-size-medium) * (var(--scale) * 2));
 
     --font-small: var(--font-size-small)/1.5 var(--font-family);
+    --font-small-bold: var(--bold) var(--font-small);
     --font-normal: var(--font-size-normal)/1.5 var(--font-family);
     --font-normal-bold: var(--bold) var(--font-normal);
 
