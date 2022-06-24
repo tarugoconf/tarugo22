@@ -29,6 +29,7 @@ const speakers = data.createFile("Speakers", "/_data/home/speakers.yml", [
     f.string("Name").required(),
     f.string("Id").required(),
     f.string("Company"),
+    f.string("Position"),
     f.image("Image").mediaFolder("/img/speakers"),
     f.list("Links", [
       f.string("Title"),
@@ -235,6 +236,25 @@ const pages = f.files("Pages")
         f.string("Href"),
       ]),
     ]),
+  ])
+  .file("Entradas", "/tickets.yml", [
+    f.hidden("layout"),
+    f.string("Title"),
+    f.markdown("Description"),
+    f.list("Tickets", [
+      f.string("Name"),
+      f.string("Pricing"),
+      f.markdown("Description"),
+      f.list("Includes", [
+        f.markdown("Text"),
+      ]),
+      f.object("Delivery", [
+        f.string("Date"),
+        f.string("Address"),
+      ]),
+      f.boolean("Complements"),
+      f.number("Stock")
+    ])
   ])
   .file("Aviso Legal", "/aviso-legal.md", [
     f.hidden("layout"),

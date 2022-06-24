@@ -1,0 +1,83 @@
+title: Entradas
+description: Breve descripción.
+tickets:
+  - name: Early Tarug@
+    pricing: Contribución <del>75€</del> 50€ + IVA
+    description: Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
+      de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a
+      toda la familia!
+    includes:
+      - text: Más de 10h de contenido en directo
+      - text: Premiere de cine
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - text: Camiseta del evento (enviada a tu casa)
+    delivery:
+      date: Octubre 2021
+      address: Toda España
+    complements: true
+    stock: 600
+  - name: Tarug@ Digital
+    pricing: Contribución 60€ + IVA
+    description: >
+      Una entrada creada para los que deseen que su asistencia a la Tarugo no
+      deje ninguna huella de carbono y prefieran no recibir ningún tipo de
+      merchandising.
+    includes:
+      - text: Más de 10h de contenido en directo
+      - text: Premiere de cine
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+    delivery:
+      date: Octubre 2021
+      address: Todo el mundo
+    complements: false
+  - name: Tarug@ Classic
+    pricing: Contribución 75€ + IVA
+    description: >
+      Acceso completo a todos los contenidos de la Tarugoconf y, además,
+      recepción en casa de todos los goodies y regalos promocionales del evento
+      (camisetas, pegatinas, cuadernos, etc...)
+    includes:
+      - text: Más de 10h de contenido en directo
+      - text: Premiere de cine
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - text: Camiseta del evento (enviada a tu casa)
+    delivery:
+      date: Octubre 2021
+      address: Toda España
+    complements: true
+  - name: Family, Fools & Friends Pack
+    pricing: Contribución 111€ + IVA
+    description: |
+      ¡El pack perfecto para disfrutar del evento en familia o con amigos!
+    includes:
+      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
+          además...
+      - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis
+          (incluyendo tallas para niños)."
+    delivery:
+      date: Octubre 2021
+      address: Toda España
+    complements: true
+  - name: Mecenas
+    pricing: Contribución 500€ + IVA
+    description: |
+      Una entrada pensada para particulares que crean en la visión de la
+      Tarugoconf y quieran contribuir a la misma con una aportación especial.
+    includes:
+      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
+          además...
+      - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
+      - text: Tu foto en la web del evento
+      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA a
+          la grabación del evento**
+    delivery:
+      date: Octubre 2021
+      address: Toda España
+    complements: true
+    stock: 30
