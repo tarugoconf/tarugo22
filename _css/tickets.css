@@ -1,6 +1,10 @@
 .tickets-bg {
-  background: url("/img/header-bg.png") repeat-x top left;
+  background: url("/img/tickets-bg.png") repeat-x top left;
   background-size: auto 600px;
+
+  & .navbar {
+    color: var(--black) !important;
+  }
 }
 .tickets {
     margin: 0;
@@ -14,14 +18,15 @@
     row-gap: 2rem;
 }
 .ticket {
-  border: solid 1px var(--color-yellow-dark);
+  border: solid 1px var(--color-blue);
   height: 100%;
   display: flex;
   flex-direction: column;
   
   & header {
     padding: 1rem;
-    background-color: var(--color-yellow);
+    background-color: var(--color-blue);
+    color: white;
   }
 
   & footer {

@@ -133,6 +133,10 @@ const pages = f.files("Pages")
       f.string("Text"),
       f.string("Href"),
     ]),
+    f.object("Cta", [
+      f.string("Text"),
+      f.string("url"),
+    ]),
     f.object("Header", [
       f.string("Title"),
       f.string("Subtitle"),
