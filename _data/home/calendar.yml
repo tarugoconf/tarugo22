@@ -9,7 +9,7 @@ intro: >
 days:
   - day: Jueves 21
     events:
-      - title: "TALLER: Instrumentación de Productos Digitales"
+      - title: "🔨 TALLER: Instrumentación de Productos Digitales"
         time: 11:00-14:00h
         details: >-
           "Si traes datos, vamos con tus datos. Si lo que tienes es una opinión,
@@ -21,6 +21,14 @@ days:
 
 
           Los asistentes a este taller saldrán del mismo conociendo **las herramientas, procesos y buenas prácticas imprescindibles para dejar de intuir y empezar a decidir cómo construir un producto digital**. Tú decides... ¿pastilla roja o pastilla azul?
+      - title: "🔨 TALLER: TBA"
+        time: 11:00-14:00h
+        details: Un taller práctico del que saldrás con un nuevo superpoder.
+      - title: "🔨 TALLER: TBA"
+        time: 11:00-14:00h
+        speakers:
+          - ana
+        details: Un taller práctico del que saldrás con un nuevo superpoder.
       - title: Icebreakers 🧊
         time: 17:15-18:45h
         details: >
