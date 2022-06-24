@@ -1,6 +1,7 @@
 layout: layouts/tickets.njk
 title: Entradas
-description: Breve descripción diciendo cuando se van a poner a la venta
+description: Las entradas se pondrán a la venta el domingo 3 de julio a las
+  11:00h GMT (Galician Mean Time)
 back:
   text: ← Home
   href: /
