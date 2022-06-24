@@ -3,20 +3,20 @@ intro: >
   El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
   son los awesómicos invitados con los que contaremos este año:
 speakers:
-  - name: Jaime Gómez-Obregón
-    id: jaime
-    company: " "
-    position: Programador y Activista
-    image: /img/speakers/placeholder_azul.png
+  - name: Ana Freire
+    id: ana
+    company: " UPF Barcelona School of Management"
+    position: ""
+    image: https://comunitat.canodrom.barcelona/uploads/decidim/user/avatar/73431/profile_E1F8004B-3FC9-451E-AEF2-F76EF2B0D145.jpeg
     links:
       - text: "@JaimeObregon"
         type: twitter
-        url: https://twitter.com/JaimeObregon
+        url: https://twitter.com/ana__freire
       - text: Web de Jaime
-        type: link
-        url: https://jaime.gomezobregon.com/
+        type: web
+        url: https://anafreire.es/
       - type: linkedin
-        url: https://www.linkedin.com/in/jaimegomezobregon/
+        url: https://www.linkedin.com/in/freireana/
         text: Jaime Gómez-Obregón
     bio: >-
       Ingeniero especializado en *open data*, autor de herramientas digitales
@@ -26,10 +26,10 @@ speakers:
 
 
       Con 23 años y nada más salir de la universidad,  fundó su propia empresa especializada en software libre. 16 años después, decidió tomarse un año «libre» para desarrollar **software que ayude a concienciar a la opinión pública sobre la importancia de auditar a las distintas Administraciones** y a los cargos públicos que las dirigen.
-  - image: /img/speakers/placeholder_amarillo.png
-    name: Yaiza Canosa
-    company: Goi
-    position: Fundadora y CEO
+  - image: /img/speakers/yaiza.jpg
+    name: Javier G. Recuenco
+    company: Singular Solving
+    position: Fundador y CSO
     links:
       - type: twitter
         url: https://twitter.com/yaizacanosa
@@ -37,7 +37,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/yaizacanosa/
         text: Yaiza Canosa
-      - type: link
+      - type: web
         url: https://www.letsgoi.com/
         text: Goi
     bio: >-
@@ -48,12 +48,12 @@ speakers:
 
 
       En 2017 fue seleccionada como una de los 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30), pero más allá de los *fuegos artificiales*, es una curranta que lleva el emprendimiento en la sangre.
-    id: yaiza
+    id: recuenco
   - name: Antonio Santos
     id: antonio
     company: GitHub
     position: Site Reliability Engineer
-    image: /img/speakers/placeholder_azul.png
+    image: /img/speakers/35972002_10156454695434812_1014099842248474624_n.jpeg
     links:
       - type: twitter
         url: https://twitter.com/wottam
@@ -62,7 +62,7 @@ speakers:
         type: linkedin
         url: https://www.linkedin.com/in/santosvelasco/
       - text: Web de Antonio
-        type: link
+        type: web
         url: http://blog.santosvelasco.com/
     bio: >-
       Antonio es un ingeniero informático onubense que trabaja en GitHub como
@@ -75,7 +75,7 @@ speakers:
   - name: Rita Sobrido
     id: rita
     company: " Vinfast"
-    image: /img/speakers/placeholder_amarillo.png
+    image: /img/speakers/img_9265.jpg
     position: " Directora IT de Fabricación"
     bio: >-
       Ingeniera industrial especializada en la implementación de software para
@@ -91,7 +91,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/rita-sobrido-garcia-64a072a4/
         text: Rita Sobrido
-      - type: link
+      - type: web
         url: https://vinfastauto.com/vn_en
         text: Vinfast
   - id: pablo
@@ -109,17 +109,17 @@ speakers:
       - text: P.Duchement
         type: linkedin
         url: https://www.linkedin.com/in/pablo-santana-duchement-00a33665/
-      - type: link
+      - type: web
         url: https://pduchement.org/
         text: https://pduchement.org
     company: " "
     position: Profesor y perito judicial informático
-    image: /img/speakers/placeholder_azul.png
+    image: /img/speakers/pablo-duchement.jpg
   - name: Evaristo Babé
     id: varis
     company: Pulpomatic
     position: Fundador y CEO
-    image: /img/speakers/placeholder_amarillo.png
+    image: /img/speakers/varis.jpg
     links:
       - text: "@varisb"
         url: https://twitter.com/varisb
@@ -129,7 +129,7 @@ speakers:
         url: https://www.linkedin.com/in/evaristo/
       - text: Pulpomatic
         url: https://pulpomatic.com/es/
-        type: link
+        type: web
     bio: >-
       Emprendedor en Internet «desde que todo esto era campo». Después de una
       exitosa carrera en España, llegó a México para vender (por segunda vez)
@@ -140,7 +140,7 @@ speakers:
       En 2016 fundó Pulpomatic, una plataforma tecnológica para gestionar flotas de vehículos que ya cuenta con más de 100 clientes y 200.000 vehículos, a caballo entre México y Madrid.
   - name: Diego Ballesteros
     id: diego
-    image: /img/speakers/placeholder_azul.png
+    image: /img/speakers/diego_oficina_peq.jpg
     company: Bewe
     position: Fundador y CEO
     links:
@@ -150,7 +150,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/diegoballesteros/
         text: Diego Ballesteros
-      - type: link
+      - type: web
         url: https://www.diegoballesteros.com/
         text: diegoballesteros.com
     bio: >-
@@ -174,14 +174,14 @@ speakers:
 
       Su labor fue reconocida y se trasladó al Reino Unido durante cuatro años. Siempre fue la primera y única mujer que llegaba a todos los departamentos técnicos por donde fue pasando, aunque afortunadamente luego fueron llegando muchas más.
     links:
-      - type: link
+      - type: web
         url: https://www.xataka.com/historia-tecnologica/yo-programaba-decada-60-asi-trabajaban-primeros-programadores-espana
         text: Así trabajaban los primeros programadores de España
-    image: /img/speakers/placeholder_amarillo.png
+    image: /img/speakers/paz_gimeno.jpg
   - name: Eva Janeiro
     id: eva
     position: Diseñadora de contenido freelance
-    image: /img/speakers/placeholder_azul.png
+    image: /img/speakers/eva-janeiro.jpeg
     bio: >-
       Eva es diseñadora de contenido y UX writer freelance, desde antes de que
       esto tuviera un nombre.
@@ -195,7 +195,30 @@ speakers:
       - text: Eva Janeiro
         type: linkedin
         url: https://www.linkedin.com/in/evajaneiro/
-      - type: link
+      - type: web
         url: https://evajaneiro.com/
         text: evajaneiro.com
     company: " "
+  - name: Pedro Serrahima
+    id: pedro
+    company: Telefónica
+    bio: "Pedro ha cimentado su carrera en el sentido común: proporcionar a sus
+      clientes el servicio que a él le gustaría recibir. Recibió el encargo de
+      lanzar **Pepephone** y cambió las reglas del juego de la telefonía móvil
+      en España. Después pasó a Telefónica, para dirigir **O2** y **Tuenti**; y
+      ha conseguido que el espíritu y valores de las mismas calen en toda la
+      organización, que le ha nombrado Director de Experiencia de Cliente,
+      Publicidad y Multimarca para cuidar la atención al cliente de todas las
+      marcas de la histórica compañía."
+    image: /img/speakers/pedro-serrahima-cuadrada.png
+    links:
+      - type: twitter
+        url: https://twitter.com/serrahim
+        text: "@serrahim"
+      - type: web
+        text: O2
+        url: https://o2online.es/
+      - url: https://www.linkedin.com/in/pedro-serrahima/
+        type: linkedin
+        text: linkedin.com/in/pedro-serrahima/
+    position: Director de Experiencia de Cliente, Publicidad y Multimarca
