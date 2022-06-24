@@ -16,19 +16,20 @@ partners:
   - img: /img/partners/logo_panel_azul_rgb_300-o5fuqk76rlxeysnoi8kro1bwmlhj9b1qyiqtc6m4jq.png
     url: https://www.panel.es/
     alt: Creación Inteligente de software, sistemas y servicios TI.
-patrons: []
+patrons:
+  - img: /img/partners/logo_str.png
+    url: https://www.strsistemas.com/
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
-  content: >
-    En la Tarugo intentamos huir de la figura del «sponsor» habitual y
-    convertimos a nuestros patrocinadores en verdaderos socios, que son una
-    parte más del evento. Nos preocupamos por entender sus objetivos y
-    personalizamos los paquetes de patrocinio para intentar alcanzarlos,
-    trabajando mano a mano con ellos y creando relaciones que perduran a lo
-    largo de los años.
+  content: >-
+    En la tarugo intentamos huir de la figura del «sponsor» habitual y
+    convertimos a nuestros patrocinadores en verdaderos socios que son una parte
+    más del evento: nos preocupamos por entender sus objetivos y personalizamos
+    los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano
+    con ellos y creando relaciones que perduran a lo largo de los años.
 
 
-    Si quieres ser parte de la próxima #tarugo21, echa un vistazo a nuestro deck de patrocinio y escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
+    Si quieres ser parte de la próxima #tarugo22, echa un vistazo a nuestro deck de patrocinio y mándanos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
   cta:
     text: Descarga el dossier de patrocinio en PDF
     href: https://drive.google.com/file/d/1htAdRp6da4USC35FBV_f9Hp37la8WljO/view
