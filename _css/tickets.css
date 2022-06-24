@@ -5,6 +5,10 @@
   & .navbar {
     color: var(--black) !important;
   }
+
+  & .header-title {
+    color: var(--color-blue);
+  }
 }
 .tickets {
     margin: 0;
