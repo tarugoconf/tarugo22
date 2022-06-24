@@ -13,7 +13,7 @@ speakers:
         type: twitter
         url: https://twitter.com/ana__freire
       - text: Web de Jaime
-        type: web
+        type: link
         url: https://anafreire.es/
       - type: linkedin
         url: https://www.linkedin.com/in/freireana/
@@ -34,7 +34,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/javier-g-recuenco-70a708/
         text: Yaiza Canosa
-      - type: web
+      - type: link
         url: https://singularsolving.com/
         text: Goi
     bio: >-
@@ -57,7 +57,7 @@ speakers:
         type: linkedin
         url: https://www.linkedin.com/in/santosvelasco/
       - text: Web de Antonio
-        type: web
+        type: link
         url: http://blog.santosvelasco.com/
     bio: >-
       Antonio es un ingeniero informático onubense que trabaja en GitHub como
@@ -86,7 +86,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/rita-sobrido-garcia-64a072a4/
         text: Rita Sobrido
-      - type: web
+      - type: link
         url: https://vinfastauto.com/vn_en
         text: Vinfast
   - id: pablo
@@ -104,7 +104,7 @@ speakers:
       - text: P.Duchement
         type: linkedin
         url: https://www.linkedin.com/in/pablo-santana-duchement-00a33665/
-      - type: web
+      - type: link
         url: https://pduchement.org/
         text: https://pduchement.org
     company: " "
@@ -124,7 +124,7 @@ speakers:
         url: https://www.linkedin.com/in/evaristo/
       - text: Pulpomatic
         url: https://pulpomatic.com/es/
-        type: web
+        type: link
     bio: >-
       Emprendedor en Internet «desde que todo esto era campo». Después de una
       exitosa carrera en España, llegó a México para vender (por segunda vez)
@@ -145,7 +145,7 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/diegoballesteros/
         text: Diego Ballesteros
-      - type: web
+      - type: link
         url: https://www.diegoballesteros.com/
         text: diegoballesteros.com
     bio: >-
@@ -169,7 +169,7 @@ speakers:
 
       Su labor fue reconocida y se trasladó al Reino Unido durante cuatro años. Siempre fue la primera y única mujer que llegaba a todos los departamentos técnicos por donde fue pasando, aunque afortunadamente luego fueron llegando muchas más.
     links:
-      - type: web
+      - type: link
         url: https://www.xataka.com/historia-tecnologica/yo-programaba-decada-60-asi-trabajaban-primeros-programadores-espana
         text: Así trabajaban los primeros programadores de España
     image: /img/speakers/paz_gimeno.jpg
@@ -190,7 +190,7 @@ speakers:
       - text: Eva Janeiro
         type: linkedin
         url: https://www.linkedin.com/in/evajaneiro/
-      - type: web
+      - type: link
         url: https://evajaneiro.com/
         text: evajaneiro.com
     company: " "
