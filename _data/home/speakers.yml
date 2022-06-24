@@ -18,14 +18,11 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/freireana/
         text: Jaime Gómez-Obregón
-    bio: >-
-      Ingeniero especializado en *open data*, autor de herramientas digitales
-      para mejorar la transparencia en el sector público como
-      [contratosdecantabria.es](https://contratosdecantabria.es/) o
-      [ladonacion.es](https://ladonacion.es/).
-
-
-      Con 23 años y nada más salir de la universidad,  fundó su propia empresa especializada en software libre. 16 años después, decidió tomarse un año «libre» para desarrollar **software que ayude a concienciar a la opinión pública sobre la importancia de auditar a las distintas Administraciones** y a los cargos públicos que las dirigen.
+    bio: Ana es Doctora en Informática, investigadora, Directora del Departamento de
+      Operaciones, Tecnología y Ciencia de la [UPF School of
+      Management](https://www.bsm.upf.edu/es){target=“_blank”}, fundadora de
+      Wisibilízalas y acumula un montón de premios por su trayectoria
+      profesional que —como buena gallega— le da vergüenza siquiera mencionar.
   - image: /img/speakers/yaiza.jpg
     name: Javier G. Recuenco
     company: Singular Solving
