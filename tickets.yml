@@ -41,7 +41,7 @@ tickets:
     delivery:
       date: ""
       address: ""
-    complements: true
+    complements: false
     stock: 500
   - name: Tarug@
     pricing: 250€ + IVA
@@ -71,7 +71,7 @@ tickets:
     delivery:
       date: Octubre 2021
       address: Toda España
-    complements: true
+    complements: false
     stock: 150
   - name: Tarug@ Online
     pricing: 75€ + IVA
@@ -96,18 +96,37 @@ tickets:
       date: ""
       address: ""
     complements: false
-  - name: Family, Fools & Friends Pack
-    pricing: Contribución 111€ + IVA
-    description: |
-      ¡El pack perfecto para disfrutar del evento en familia o con amigos!
+  - name: Killer Combo
+    pricing: 350€ + IVA
+    description: >-
+      Esta entrada incluye todo el contenido y goodies de la entrada Tarug@; y
+      además acceso a dos talleres prácticos el jueves 20 a precio reducido.
+
+
+      ### Incluye
+
+
+      * Uso de la plataforma de networking antes, durante y después del evento
+
+      * Welcome Pack awesomico, lleno de goodies exclusivos
+
+      * 3 días llenos de actividades
+
+      * **Acceso a dos talleres practicos (uno por la mañana y otro por la tarde)** y al reestreno en HD de «Sneakers (Los Fisgones)» el jueves 20
+
+      * **Acceso al evento principal el viernes 21**, más de 7 horas de contenido en directo
+
+      * Comida como para una boda durante todo el viernes: desayuno, *esmorzaret*, pulpeirada y merendola
+
+      * Acceso sin coste adicional a la «jornada familiar» del sábado 22, incluyendo la TarugOff, el *open space* de la Tarugo
     includes:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
           además...
       - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis
           (incluyendo tallas para niños)."
     delivery:
-      date: Octubre 2021
-      address: Toda España
+      date: ""
+      address: ""
     complements: true
   - name: Mecenas
     pricing: Contribución 500€ + IVA
