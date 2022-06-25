@@ -7,33 +7,32 @@ back:
   href: /
 header:
   title: Entradas
-  intro: |
-    Breve descripción diciendo cuando se van a poner a la venta
+  intro: Las entradas se pondrán a la venta **el domingo 3 de julio a las 11:00h**
+    GMT (Galician Mean Time) ¡Corre si no te quieres quedar sin la tuya!
 tickets:
   - name: Early Tarug@
     pricing: <del>250€</del> 150€ + IVA
     description: >-
       Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€
-      ¡Suficiente para invitar a chocolate con churros a toda la familia!
+      ¡Suficiente para invitar a chocolate con churros a toda la familia! 
 
 
       ### Incluye
 
 
-      * 3 días llenos de actividades. El jueves:
+      * Uso de la plataforma de networking antes, durante y después del evento
 
-        * Estreno de cine
-      * El viernes:
+      * Welcome Pack awesomico, lleno de goodies exclusivos
 
-        * Desayuno, *esmorzaret*, comida (pulpeirada) y merienda.
-        * Acceso a la salvaje Fiesta Taruga
-      * Además:
+      * 3 días llenos de actividades.
 
-        * Acceso a grabaciones de charlas y reportajes
-        * Networking y Concursos
-        * Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-        * Welcome Pack
-        * Camiseta del evento
+      * Acceso al reestreno en HD de «Sneakers (Los Fisgones)» el jueves 20
+
+      * **Acceso al evento principal el viernes 21**, más de 7 horas de contenido en directo.
+
+      * Comida como para una boda durante todo el viernes: desayuno, *esmorzaret*, pulpeirada y merendola. 
+
+      * Acceso sin coste adicional a la «jornada familiar» del sábado 22.
     delivery:
       date: ""
       address: ""
