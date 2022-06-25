@@ -92,13 +92,7 @@ button.speaker {
   background: none;
   border: none;
   cursor: pointer;
-  will-change: transform;
-  transition: transform .2s ease-in-out;
-  perspective: 200px;
-
-  &:hover {
-    transform: rotateX(0) rotateY(0) rotateZ(0) !important;
-  }
+  perspective: 500px;
 }
 .speakers-list {
   list-style: none;
@@ -115,15 +109,27 @@ button.speaker {
     justify-content: space-between;
   }
 
-  & > li:nth-child(1n) .speaker {
+  & .speaker-image {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transition: transform 300s;
+    will-change: transform;
+    transition: transform .2s ease-in-out;
+    box-shadow: 0 40px 25px -25px #0003;
+
+    &[src*="placeholder_"] {
+      box-shadow: none;
+    }
+  }
+
+  & > li:nth-child(1n) .speaker:not(:hover) .speaker-image {
     transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-5deg);
   }
 
-  & > li:nth-child(2n) .speaker {
+  & > li:nth-child(2n) .speaker:not(:hover) .speaker-image {
     transform: rotateX(10deg) rotateY(20deg) rotateZ(-5deg);
   }
 
-  & > li:nth-child(3n) .speaker {
+  & > li:nth-child(3n) .speaker:not(:hover) .speaker-image {
     transform: rotateX(-10deg) rotateY(20deg) rotateZ(5deg);
   }
 }
@@ -136,7 +142,6 @@ button.speaker {
   object-fit: cover;
   object-position: top center;
   margin-bottom: 1em;
-  transition: transform 300s;
 }
 
 .speaker-name {
