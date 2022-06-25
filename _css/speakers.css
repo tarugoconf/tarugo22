@@ -92,14 +92,12 @@ button.speaker {
   background: none;
   border: none;
   cursor: pointer;
-  transition: background .2s;
+  will-change: transform;
+  transition: transform .2s ease-in-out;
+  perspective: 200px;
 
   &:hover {
-    background: radial-gradient(circle closest-side, var(--color-yellow) 0%, transparent 100%);
-
-    & img {
-      transform: scale(1.2);
-    }
+    transform: rotateX(0) rotateY(0) rotateZ(0) !important;
   }
 }
 .speakers-list {
@@ -116,6 +114,18 @@ button.speaker {
   @media (min-width: 1200px) {
     justify-content: space-between;
   }
+
+  & > li:nth-child(1n) .speaker {
+    transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-5deg);
+  }
+
+  & > li:nth-child(2n) .speaker {
+    transform: rotateX(10deg) rotateY(20deg) rotateZ(-5deg);
+  }
+
+  & > li:nth-child(3n) .speaker {
+    transform: rotateX(-10deg) rotateY(20deg) rotateZ(5deg);
+  }
 }
 
 .speaker-image {
@@ -126,9 +136,7 @@ button.speaker {
   object-fit: cover;
   object-position: top center;
   margin-bottom: 1em;
-  transition: transform .2s;
-}
-.speaker-image-wrapper {
+  transition: transform 300s;
 }
 
 .speaker-name {
@@ -188,7 +196,24 @@ button.speaker {
   margin: auto;
   border: none;
   box-shadow: 0 0 100px #0003;
+
+  &[open] {
+    animation: showModal .3s;
+    animation-fill-mode: both;
+  }
 }
+
+@keyframes showModal {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .speaker-modal-content {
   max-height: 100vh;
   overflow-y: auto;
