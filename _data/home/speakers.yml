@@ -7,7 +7,7 @@ speakers:
     id: ana
     company: " UPF Barcelona School of Management"
     position: Directora del Departamento de Operaciones, Tecnología y Ciencia
-    image: https://comunitat.canodrom.barcelona/uploads/decidim/user/avatar/73431/profile_E1F8004B-3FC9-451E-AEF2-F76EF2B0D145.jpeg
+    image: /img/speakers/profile_e1f8004b-3fc9-451e-aef2-f76ef2b0d145.jpeg
     links:
       - text: "@ana__freire"
         type: twitter
@@ -23,7 +23,7 @@ speakers:
       Management](https://www.bsm.upf.edu/es){target=“_blank”}, fundadora de
       Wisibilízalas y acumula un montón de premios por su trayectoria
       profesional que —como buena gallega— le da vergüenza siquiera mencionar.
-  - image: https://ichef.bbci.co.uk/news/800/cpsprodpb/107FB/production/_124997576_eb689f48-628e-4359-baf7-e36b907f4fff.jpg.webp
+  - image: /img/speakers/recuenco.jpg
     name: Javier G. Recuenco
     company: Singular Solving
     position: Fundador y CSO
@@ -98,10 +98,10 @@ speakers:
         url: https://www.linkedin.com/company/rcdeportivo/
       - type: link
         url: https://www.tarugoconf.com/
-        text: Tarugoconf    
+        text: Tarugoconf
   - name: TBA
     id: tba2
-    bio: "Uno de los awesómicos ponentes que quedan por anunciar."
+    bio: Uno de los awesómicos ponentes que quedan por anunciar.
     company: ""
     position: ""
     image: /img/speakers/placeholder_azul.png
@@ -114,7 +114,7 @@ speakers:
         url: https://www.linkedin.com/company/rcdeportivo/
       - text: Pulpomatic
         url: https://www.tarugoconf.com/
-        type: link   
+        type: link
   - name: TBA
     id: tba3
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
@@ -130,7 +130,7 @@ speakers:
         url: https://www.linkedin.com/company/rcdeportivo/
       - type: link
         url: https://www.tarugoconf.com/
-        text: Tarugoconf    
+        text: Tarugoconf
   - name: TBA
     id: tba4
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
