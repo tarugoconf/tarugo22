@@ -259,6 +259,7 @@ button.speaker {
 }
 .speaker-modal-bio {
   padding: 2rem;
+  font: var(--font-small);
 
   & > :first-child {
     margin-top: 0;

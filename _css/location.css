@@ -23,6 +23,7 @@
 .location-map {
   display: block;
   position: relative;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 
   & img {
     display: block;
@@ -40,14 +41,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font: var(--font-normal);
-    color: var(--color-blue-dark);
+    font: var(--font-normal-bold);
     background: var(--color-yellow);
     mix-blend-mode: multiply;
     color: transparent;
+    padding-top: 25%;
   }
   &:hover span {
-    color: var(--color-blue-dark);
-    mix-blend-mode: normal;
+    color: var(--black);
   }
 }
