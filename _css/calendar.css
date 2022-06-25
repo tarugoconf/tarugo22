@@ -201,25 +201,38 @@
 .calendar-day:nth-child(odd) .calendar-events {
   background: var(--color-blue);
 
+  & .calendar-event-header {
+      color: var(--color-yellow);
+      & time {
+        color: white;
+      }
+  }
+
   & .calendar-event {
     border-top-color: var(--color-blue-dark);
 
+    &:hover,
+    &[open] {
+      background-color: var(--color-blue-light);
+    }
+
     &:not([open]):not(:hover) {
       color: var(--color-yellow);
-
-      & .calendar-event-header time {
-        color: white;
-      }
     }
   }
 }
 .calendar-day:nth-child(even) .calendar-events {
   background: var(--color-yellow);
 
+  & .calendar-event-header {
+      color: var(--color-blue-dark);
+  }
+
   & .calendar-event {
     border-top-color: var(--color-yellow-dark);
-    &:not([open]):not(:hover) {
-      color: var(--color-blue-dark);
+    &:hover,
+    &[open] {
+      background-color: var(--color-yellow-light);
     }
   }
 }

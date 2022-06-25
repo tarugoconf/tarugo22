@@ -33,8 +33,10 @@
     --row-space: var(--font-size-big);
 
     --black: #000;
+    --color-yellow-light: hsl(57, 80%, 75%); /* #f0e300 */
     --color-yellow: hsl(57, 100%, 47%); /* #f0e300 */
     --color-yellow-dark: hsl(57, 100%, 43%);
+    --color-blue-light: hsl(210, 55%, 60%); /* #2c70b6 */
     --color-blue: hsl(210, 61%, 44%); /* #2c70b6 */
     --color-blue-dark: hsl(210, 61%, 38%);;
     --color-gray: #666;
