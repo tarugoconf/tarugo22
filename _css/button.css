@@ -3,8 +3,7 @@
   padding: .5em .9em;
   text-decoration: none;
   display: inline-block;
-  /* border-radius: 6px; */
-  color: var(--black);
+  color: var(--color-blue-dark);
   border: none;
   background: var(--color-yellow);
   transition: background-color .2s;

@@ -205,11 +205,12 @@
     border-top-color: var(--color-blue-dark);
 
     &:not([open]):not(:hover) {
-      color: white;
+      color: var(--color-yellow);
+
+      & .calendar-event-header time {
+        color: white;
+      }
     }
-  }
-  & .calendar-event-header time {
-    color: var(--black);
   }
 }
 .calendar-day:nth-child(even) .calendar-events {
@@ -217,5 +218,8 @@
 
   & .calendar-event {
     border-top-color: var(--color-yellow-dark);
+    &:not([open]):not(:hover) {
+      color: var(--color-blue-dark);
+    }
   }
 }
