@@ -51,10 +51,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
+    & > li:first-child .calendar-event {
+      border-top: none;
+    }
 }
 .calendar-event {
     border-top: solid 1px var(--color-gray-light);
-    border-radius: 6px;
 
     &:hover,
     &[open] {
@@ -63,7 +66,6 @@
     }
 }
 .calendar-event-header {
-    border-radius: 6px;
     font: var(--font-normal);
     display: flex;
     cursor: pointer;
@@ -101,8 +103,6 @@
 
   tarugo-calendar {
     display: block;
-    /* background: var(--black);
-    color: white; */
     padding: 5vh 0;
     margin-top: 5vh;
   }
@@ -182,13 +182,11 @@
                 0 0 0 1px #0001;
   }
   .calendar-event {
-    border-radius: 0;
     padding: .5rem;
   }
   .calendar-event-header {
     display: block;
     font: var(--font-small);
-    border-radius: 0;
 
     & time {
       display: block;
@@ -197,5 +195,27 @@
       float: right;
       margin-left: 8px;
     }
+  }
+}
+
+.calendar-day:nth-child(odd) .calendar-events {
+  background: var(--color-blue);
+
+  & .calendar-event {
+    border-top-color: var(--color-blue-dark);
+
+    &:not([open]):not(:hover) {
+      color: white;
+    }
+  }
+  & .calendar-event-header time {
+    color: var(--black);
+  }
+}
+.calendar-day:nth-child(even) .calendar-events {
+  background: var(--color-yellow);
+
+  & .calendar-event {
+    border-top-color: var(--color-yellow-dark);
   }
 }
