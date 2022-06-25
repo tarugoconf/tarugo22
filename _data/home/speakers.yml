@@ -9,15 +9,15 @@ speakers:
     position: Directora del Departamento de Operaciones, Tecnología y Ciencia
     image: https://comunitat.canodrom.barcelona/uploads/decidim/user/avatar/73431/profile_E1F8004B-3FC9-451E-AEF2-F76EF2B0D145.jpeg
     links:
-      - text: "@JaimeObregon"
+      - text: "@ana__freire"
         type: twitter
         url: https://twitter.com/ana__freire
-      - text: Web de Jaime
+      - text: Web de Ana
         type: link
         url: https://anafreire.es/
       - type: linkedin
         url: https://www.linkedin.com/in/freireana/
-        text: Jaime Gómez-Obregón
+        text: Ana Freire
     bio: Ana es Doctora en Informática, investigadora, Directora del Departamento de
       Operaciones, Tecnología y Ciencia de la [UPF School of
       Management](https://www.bsm.upf.edu/es){target=“_blank”}, fundadora de
@@ -30,13 +30,13 @@ speakers:
     links:
       - type: twitter
         url: https://twitter.com/Recuenco
-        text: "@yaizacanosa"
+        text: "@recuenco"
       - type: linkedin
         url: https://www.linkedin.com/in/javier-g-recuenco-70a708/
-        text: Yaiza Canosa
+        text: Javier G. Recuenco
       - type: link
         url: https://singularsolving.com/
-        text: Goi
+        text: Singular Solving
     bio: >-
       Javier se define a sí mismo como un «Señor Lobo», resuelve problemas
       complejos que otros no saben manejar. 
@@ -52,11 +52,11 @@ speakers:
     links:
       - type: twitter
         url: https://twitter.com/IrazabalElen
-        text: "@wottam"
-      - text: Antonio Santos
+        text: "@IrazabalElen"
+      - text: Elen Irazabal
         type: linkedin
         url: https://www.linkedin.com/in/elen-irazabal/
-      - text: Web de Antonio
+      - text: Web de Elen
         type: link
         url: https://advocatusai.com/
     bio: >-
@@ -78,29 +78,30 @@ speakers:
       negocio, desde F2P a modelos de subscripción.
     links:
       - type: twitter
-        text: "@SobridoRita"
+        text: "@NaeVal"
         url: https://twitter.com/NaeVal
       - type: linkedin
         url: https://www.linkedin.com/in/ramonnafria/
-        text: Rita Sobrido
+        text: Ramón Nafría
   - id: tba1
     name: TBA
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
+    company: ""
+    position: ""
+    image: /img/speakers/placeholder_amarillo.png
     links:
-      - text: "@PDuchement"
+      - text: "@tarugoconf"
         type: twitter
         url: https://twitter.com/tarugoconf
-      - text: P.Duchement
+      - text: Tarugoconf
         type: linkedin
         url: https://www.linkedin.com/company/rcdeportivo/
       - type: link
         url: https://www.tarugoconf.com/
-        text: https://pduchement.org
-    company: " "
-    position: ""
-    image: /img/speakers/placeholder_amarillo.png
+        text: Tarugoconf    
   - name: TBA
     id: tba2
+    bio: "Uno de los awesómicos ponentes que quedan por anunciar."
     company: ""
     position: ""
     image: /img/speakers/placeholder_azul.png
@@ -113,5 +114,36 @@ speakers:
         url: https://www.linkedin.com/company/rcdeportivo/
       - text: Pulpomatic
         url: https://www.tarugoconf.com/
+        type: link   
+  - name: TBA
+    id: tba3
+    bio: Uno de los awesómicos ponentes que quedan por anunciar.
+    company: ""
+    position: ""
+    image: /img/speakers/placeholder_amarillo.png
+    links:
+      - text: "@tarugoconf"
+        type: twitter
+        url: https://twitter.com/tarugoconf
+      - text: Tarugoconf
+        type: linkedin
+        url: https://www.linkedin.com/company/rcdeportivo/
+      - type: link
+        url: https://www.tarugoconf.com/
+        text: Tarugoconf    
+  - name: TBA
+    id: tba4
+    bio: Uno de los awesómicos ponentes que quedan por anunciar.
+    company: ""
+    position: ""
+    image: /img/speakers/placeholder_azul.png
+    links:
+      - text: "@tarugoconf"
+        url: https://twitter.com/tarugoconf
+        type: twitter
+      - text: Tarugoconf
+        type: linkedin
+        url: https://www.linkedin.com/company/rcdeportivo/
+      - text: Tarugoconf
+        url: https://www.tarugoconf.com/
         type: link
-    bio: ""
