@@ -75,7 +75,7 @@ tickets:
     stock: 150
   - name: Tarug@ Online
     pricing: 75€ + IVA
-    description: >
+    description: >-
       Una entrada creada para los que no puedan asistir al evento en Madrid o se
       queden sin entrada presencial.
 
@@ -90,8 +90,6 @@ tickets:
       * Streaming del reestreno en HD de «Sneakers (Los Fisgones)» el jueves 20
 
       * **Streaming del evento principal el viernes 21**, más de 7 horas de contenido en directo
-
-      * Streaming de la TarugOff, el *open space* de la Tarugo
     delivery:
       date: ""
       address: ""
@@ -108,7 +106,7 @@ tickets:
 
       * Todos los beneficios incluidos en la entrada Tarug@
 
-      * **Acceso a dos talleres practicos (uno por la mañana y otro por la tarde)**
+      * **Acceso a dos talleres (uno por la mañana y otro por la tarde)**
     includes:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
           además...
