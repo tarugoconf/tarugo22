@@ -43,43 +43,35 @@ days:
         time: 15:30-18:30h
         details: Un taller práctico del que saldrás con un nuevo superpoder.
         speakers:
-          - tba1
+          - tba3
       - title: "TALLER: TBA ⚙️ "
         time: 15:30-18:30h
         speakers:
-          - tba2
+          - tba4
         details: Un taller práctico del que saldrás con un nuevo superpoder.      
-      - title: Icebreakers 🧊
+      - title: Icebreakers y Networking 🤝
         time: 19:00-20:00h
         details: >
+          Último slot del día bloqueado para que -si así lo deseáis- podáis
+          **celebrar 1:1s con un café o una cerveza** antes del estreno de cine, gracias a
+          nuestras herramientas de networking.
+          
+          
+          Y para los que no vayáis a venir a La Nave hasta el viernes; o vayáis a vivir el evento por streaming, 
           3 rondas de distintos juegos y actividades online, gestionadas por
           voluntarios de la organización y diseñados para que los asistentes a
-          la #tarugo21 que lo deseéis podáis conocer gente de forma fácil,
-          divertida y segura ;) Podrás apuntarte a la que mejor te encaje (o a
-          todas, si te animas):
-
-
-          * De 17:15 a 17:40 Tarugobreaker 🏓 Warm Up 
-
-          * De 17:45 a 18:10 Super-Tarugobreaker 🦸‍♀️🦸‍♂️ 
-
-          * De 18:15 a 18:45 Tarugobreaker de After 🤠
-      - title: Networking 🤝
-        time: 18:45-20:00h
-        details: >
-          Último slot del día bloqueado para que -si así lo deseáis- podáis
-          **celebrar 1:1s como en cualquier evento presencial**, gracias a
-          nuestras herramientas de networking.
+          la #tarugo22 que lo deseéis podáis conocer gente de forma fácil,
+          divertida y segura ;)
       - title: Premiere de cine 🎞️
         time: 20:00-22:00h
         details: >
-          Reestrenaremos en alta definición «[Sneakers (Los Fisgones)](https://www.youtube.com/watch?v=-1I-SnmH8p4){target="__blank"}» 
+          Reestrenaremos en alta definición [«Sneakers (Los Fisgones» )](https://www.youtube.com/watch?v=-1I-SnmH8p4){target="__blank"}
           —una de las primeras películas que mostraba el mundo del hacking, con actorazos como Robert Redford o Sidney Poiter— 
           que, en 2022, celebra el 30º aniversario de su estreno, en un mundo donde los riesgos y oportunidades que planteaba siguen estando completamente vigentes.
 
 
           Si te preguntas qué sentido tiene streamear películas de hace 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia 😎
-      - title: "Panel moderado: El sector, 20 años después 🎤"
+      - title: "Panel moderado: El sector, 30 años después 🎤"
         time: 22:00-22:30h
         details: >
           Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
