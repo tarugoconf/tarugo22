@@ -18,4 +18,14 @@ jobs:
 
       - name: Run lume
         run: |
-          deno task build
+          deno task build --location=https://www.tarugoconf.com/
+
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_KEY }}
+          SOURCE: "_site/"
+          REMOTE_HOST: www.tarugoconf.com
+          REMOTE_USER: ${{ secrets.SERVER_USER }}
+          TARGET: ${{ secrets.SERVER_PATH }}
+          EXCLUDE: "/dist/, /node_modules/"
