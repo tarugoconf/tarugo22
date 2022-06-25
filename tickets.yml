@@ -13,7 +13,7 @@ tickets:
   - name: Early Tarug@
     pricing: <del>250€</del> 150€ + IVA
     description: >-
-      **Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€***
+      **Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€**
       ¡Suficiente para invitar a chocolate con churros a toda la familia!
 
 
@@ -37,7 +37,7 @@ tickets:
 
       * Comida como para una boda durante todo el viernes: desayuno, *esmorzaret*, pulpeirada y merendola. 
 
-      * Acceso sin coste adicional a la «jornada familiar» del sábado 22.
+      * Acceso sin coste adicional a la «jornada familiar» del sábado 22, incluyendo la TarugOff, el *open space* de la Tarugo.
     delivery:
       date: ""
       address: ""
@@ -45,9 +45,11 @@ tickets:
     stock: 500
   - name: Tarug@
     pricing: 250€ + IVA
-    description: >
-      Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€
-      ¡Suficiente para invitar a chocolate con churros a toda la familia! 
+    description: >-
+      Esta entrada proporciona acceso completo a las actividades generales de la
+      Tarugoconf e incluye todos los goodies y regalos promocionales del evento
+
+      (camisetas, juegos, pegatinas, cuadernos, etc...) 
 
 
       ### Incluye
@@ -65,31 +67,7 @@ tickets:
 
       * Comida como para una boda durante todo el viernes: desayuno, *esmorzaret*, pulpeirada y merendola. 
 
-      * Acceso sin coste adicional a la «jornada familiar» del sábado 22.
-
-
-
-      Acceso completo a todos los contenidos de la Tarugoconf y, además,
-
-      recepción en casa de todos los goodies y regalos promocionales del evento
-
-      (camisetas, pegatinas, cuadernos, etc...)
-
-
-      ### Incluye:
-
-
-      - Más de 10h de contenido en directo
-
-      - Premiere de cine
-
-      - Acceso a grabaciones de charlas y reportajes
-
-      - Networking y Concursos
-
-      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-
-      - Camiseta del evento (enviada a tu casa)
+      * Acceso sin coste adicional a la «jornada familiar» del sábado 22, incluyendo la TarugOff, el *open space* de la Tarugo.
     delivery:
       date: Octubre 2021
       address: Toda España
