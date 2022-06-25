@@ -135,3 +135,8 @@ tickets:
       address: Toda España
     complements: false
     stock: 30
+  - name: Taller Práctico
+    pricing: 125€ + IVA
+    description: Entrada a uno de los talleres prácticos de 3 horas, organizados el
+      jueves 20 en dos turnos, mañana (de 11:30h a 14:30h) y tarde (de 15:30h a
+      18:30h), limitados a 25 únicas plazas.
