@@ -39,8 +39,18 @@ days:
 
 
           Una comida informal, en la que nos juntaremos todos los asistentes a los talleres —tanto los de la mañana como los de la tarde— para compartir experiencias y conversaciones.
+      - title: "TALLER: TBA ⚙️ "
+        time: 15:30-18:30h
+        details: Un taller práctico del que saldrás con un nuevo superpoder.
+        speakers:
+          - tba1
+      - title: "TALLER: TBA ⚙️ "
+        time: 15:30-18:30h
+        speakers:
+          - tba2
+        details: Un taller práctico del que saldrás con un nuevo superpoder.      
       - title: Icebreakers 🧊
-        time: 17:15-18:45h
+        time: 19:00-20:00h
         details: >
           3 rondas de distintos juegos y actividades online, gestionadas por
           voluntarios de la organización y diseñados para que los asistentes a
@@ -63,17 +73,14 @@ days:
       - title: Premiere de cine 🎞️
         time: 20:00-22:00h
         details: >
-          Dependiendo de lo que decidan los asistentes, stremearemos en alta
-          definición «Conspiración en la Red» —una película tan políticamente
-          incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— que, en
-          2021, celebra a su 20º aniversario; o «Terminator 2: el día del juicio
-          final» que cumple 30 años aunque el futuro distópico que plantea sigue
-          siendo completamente vigente.
+          Reestrenaremos en alta definición «[Sneakers (Los Fisgones)](https://www.youtube.com/watch?v=-1I-SnmH8p4){target="__blank"}» 
+          —una de las primeras películas que mostraba el mundo del hacking, con actorazos como Robert Redford o Sidney Poiter— 
+          que, en 2022, celebra el 30º aniversario de su estreno, en un mundo donde los riesgos y oportunidades que planteaba siguen estando completamente vigentes.
 
 
-          Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
+          Si te preguntas qué sentido tiene streamear películas de hace 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia 😎
       - title: "Panel moderado: El sector, 20 años después 🎤"
-        time: 22:00-22:45h
+        time: 22:00-22:30h
         details: >
           Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
           FUERTE sobre **la evolución de la tecnología y la industría desde el
