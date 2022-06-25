@@ -18,11 +18,13 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/freireana/
         text: Ana Freire
-    bio: Ana es Doctora en Informática, investigadora, Directora del Departamento de
-      Operaciones, Tecnología y Ciencia de la [UPF School of
-      Management](https://www.bsm.upf.edu/es){target=“_blank”}, fundadora de
-      Wisibilízalas y acumula un montón de premios por su trayectoria
-      profesional que —como buena gallega— le da vergüenza siquiera mencionar.
+    bio: >-
+      Ana es Doctora en Informática y Directora del Departamento de Operaciones,
+      Tecnología y Ciencia de la [UPF School of
+      Management](https://www.bsm.upf.edu/es){target=“_blank”}.
+
+
+      Fundó [Wisibilízalas](https://wisibilizalas.org/){target=“_blank”} para visibilizar el trabajo de las mujeres en la Ciencia y la Tecnología, pero afortunadamente el suyo nunca pasó desapercibido. Ana es una reputada **investigadora en el campo de la Ciencia de Datos y la Inteligencia Artificial**, con un montón de premios por su trayectoria profesional que —como buena gallega— le da vergüenza siquiera mencionar.
   - image: /img/speakers/recuenco.jpg
     name: Javier G. Recuenco
     company: Singular Solving
@@ -42,7 +44,7 @@ speakers:
       complejos que otros no saben manejar. 
 
 
-      Además, es empresario y emprendedor en serie, podcaster, profesor en prestigiosas escuelas de negocio, Ingeniero Informático y Presidente de MENSA España, una organización de gente tan lista que sabe hacer restas y sumas sin calculadora.
+      Además de empresario y emprendedor en serie, podcaster, profesor en prestigiosas escuelas de negocio, **Ingeniero Informático y Presidente de MENSA España**, una organización de gente tan lista que sabe hacer restas y sumas sin calculadora.
     id: recuenco
   - name: Elen Irazabal
     id: elen
@@ -60,22 +62,25 @@ speakers:
         type: link
         url: https://advocatusai.com/
     bio: >-
-      Elen es abogada de profesión, pero no es una abogada más. Hace algunos
+      Elen es **abogada de profesión, pero no es una abogada más**. Hace algunos
       años se empezó a interesar por la programación y cómo aplicarla en el
       entorno jurídico para poder transformar el mismo. 
 
 
-      Actualmente enseña a otros abogados a programar, co-organiza R Ladies Madrid, es docente en varios cursos y másteres de legaltech en materia de programación e Inteligencia Artificial, como también en un bootcamp de Data Science.
+      Actualmente enseña a otros abogados a programar, co-organiza [R Ladies Madrid](https://twitter.com/rladiesmad){target=“_blank”}, es docente en varios cursos y másteres de *legaltech* en materia de programación e Inteligencia Artificial, como también en un bootcamp de Data Science.
   - name: Ramón Nafría
     id: ramon
     company: ""
     image: /img/speakers/ramon.jpg
     position: Desarrollador Independiente de Videojuegos
-    bio: Ramón es uno de los sospechosos habituales de la escena nacional
-      de videojuegos desde los 90, donde ha sido redactor, desarrollador,
-      profesor, mentor, activista, director, editor y emprendedor. Ha
-      experimentado con las últimas tecnologías —como VR, AR o MR— y modelos de
-      negocio, desde F2P a modelos de subscripción.
+    bio: >-
+      Ramón es uno de los sospechosos habituales de la escena nacional
+      de videojuegos desde los 90, a la que ha contribuido como redactor,
+      profesor, mentor, activista, director, editor y emprendedor, pero sobre
+      todo es **desarrollador de videojuegos**. 
+
+
+      Ha trabajado en algunos de los estudios de videojuegos más prestigiosos de España, experimentado con las últimas tecnologías —como VR, AR o MR— y modelos de negocio, desde F2P a modelos de subscripción. En su mochila cuenta con títulos como «Alex Kidd in Miracle World DX», «Blues and Bullets», «Funk of Titans», «Sugar Kid», «Football Up!», «One Sequel», «Dracula Twins» o «Wanted Guns».
     links:
       - type: twitter
         text: "@NaeVal"
