@@ -48,26 +48,25 @@ days:
         time: 15:30-18:30h
         speakers:
           - tba4
-        details: Un taller práctico del que saldrás con un nuevo superpoder.      
+        details: Un taller práctico del que saldrás con un nuevo superpoder.
       - title: Icebreakers y Networking 🤝
         time: 19:00-20:00h
         details: >
           Último slot del día bloqueado para que -si así lo deseáis- podáis
-          **celebrar 1:1s con un café o una cerveza** antes del estreno de cine, gracias a
-          nuestras herramientas de networking.
-          
-          
-          Y para los que no vayáis a venir a La Nave hasta el viernes; o vayáis a vivir el evento por streaming, 
-          3 rondas de distintos juegos y actividades online, gestionadas por
-          voluntarios de la organización y diseñados para que los asistentes a
-          la #tarugo22 que lo deseéis podáis conocer gente de forma fácil,
-          divertida y segura ;)
+          **celebrar 1:1s con un café o una cerveza** antes del estreno de cine,
+          gracias a nuestras herramientas de networking.
+
+
+          Y para los que no vayáis a venir a La Nave hasta el viernes; o vayáis a vivir el evento por streaming,  3 rondas de distintos juegos y actividades online, gestionadas por voluntarios de la organización y diseñados para que los asistentes a la #tarugo22 que lo deseéis podáis conocer gente de forma fácil, divertida y segura ;)
       - title: Premiere de cine 🎞️
         time: 20:00-22:00h
         details: >
-          Reestrenaremos en alta definición [«Sneakers (Los Fisgones» )](https://www.youtube.com/watch?v=-1I-SnmH8p4){target="__blank"}
-          —una de las primeras películas que mostraba el mundo del hacking, con actorazos como Robert Redford o Sidney Poiter— 
-          que, en 2022, celebra el 30º aniversario de su estreno, en un mundo donde los riesgos y oportunidades que planteaba siguen estando completamente vigentes.
+          Reestrenaremos en alta definición [«Sneakers (Los Fisgones»
+          )](https://www.youtube.com/watch?v=-1I-SnmH8p4){target="__blank"} —una
+          de las primeras películas que mostraba el mundo del hacking, con
+          actorazos como Robert Redford o Sidney Poiter—  que, en 2022, celebra
+          el 30º aniversario de su estreno, en un mundo donde los riesgos y
+          oportunidades que planteaba siguen estando completamente vigentes.
 
 
           Si te preguntas qué sentido tiene streamear películas de hace 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia 😎
@@ -83,7 +82,7 @@ days:
   - day: Viernes 22
     events:
       - title: Apertura de Stands y Networking 🤝
-        time: 10:00-16:00h
+        time: 9:00-16:00h
         details: >
           Podrás **saludar a nuestros patrocinadores y conocer sus productos,
           servicios u oportunidades de empleo**.
@@ -96,7 +95,7 @@ days:
           residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
           amenizará la espera con una sesión llena de ROMPEPISTAS.
       - title: Keynote
-        time: 16:30-16:40h
+        time: 10:30h
         details: >
           Un rápido resumen de un año que nunca olvidaremos en forma de
           monólogo, en el que repasaremos las noticias más importantes y los
@@ -200,21 +199,6 @@ days:
           mano, para averiguar hasta qué punto el público general -sin
           experiencia técnica- conoce conceptos como "criptomoneda", "huella
           digital" u "open source" y cuál es su opinión al respecto.
-      - title: Cómo hacer las Américas en 2021
-        speakers:
-          - diego
-          - varis
-        details: >-
-          LATAM es un mercado inmenso y lleno de oportunidades que, sin embargo,
-          ha sido ignorado sistematicamente por la mayoría de empresas y
-          emprendedores españoles.
-
-
-          En esta charla, Varis y Diego nos contarán **las principales peculiaridades a tener en cuenta a la hora de hacer negocios en América latina en general, y en el sector digital en particular**, a partir de su propia experiencia montando (y vendiendo) SinDelantal.com en México. 
-
-
-          Sal de esta charla con trucos, consejos y un montón de buenas prácticas para que puedas «hacer las Américas» con las mayores posibilidades de éxito.
-        time: 19:35-20:05h
       - title: "Concurso: Juegos de Niños 🎲"
         time: 20:05-20:15h
         details: >-
