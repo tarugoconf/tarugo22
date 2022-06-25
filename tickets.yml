@@ -13,8 +13,13 @@ tickets:
   - name: Early Tarug@
     pricing: <del>250€</del> 150€ + IVA
     description: >-
-      Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€
-      ¡Suficiente para invitar a chocolate con churros a toda la familia! 
+      **Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€***
+      ¡Suficiente para invitar a chocolate con churros a toda la familia!
+
+
+      Esta entrada proporciona acceso completo a las actividades generales de la Tarugoconf e incluye todos los goodies y regalos promocionales del evento
+
+      (camisetas, juegos, pegatinas, cuadernos, etc...) 
 
 
       ### Incluye
@@ -38,6 +43,57 @@ tickets:
       address: ""
     complements: true
     stock: 500
+  - name: Tarug@
+    pricing: 250€ + IVA
+    description: >
+      Los primeros 500 tarugos que compren su entrada, se ahorrarán 150€
+      ¡Suficiente para invitar a chocolate con churros a toda la familia! 
+
+
+      ### Incluye
+
+
+      * Uso de la plataforma de networking antes, durante y después del evento
+
+      * Welcome Pack awesomico, lleno de goodies exclusivos
+
+      * 3 días llenos de actividades.
+
+      * Acceso al reestreno en HD de «Sneakers (Los Fisgones)» el jueves 20
+
+      * **Acceso al evento principal el viernes 21**, más de 7 horas de contenido en directo.
+
+      * Comida como para una boda durante todo el viernes: desayuno, *esmorzaret*, pulpeirada y merendola. 
+
+      * Acceso sin coste adicional a la «jornada familiar» del sábado 22.
+
+
+
+      Acceso completo a todos los contenidos de la Tarugoconf y, además,
+
+      recepción en casa de todos los goodies y regalos promocionales del evento
+
+      (camisetas, pegatinas, cuadernos, etc...)
+
+
+      ### Incluye:
+
+
+      - Más de 10h de contenido en directo
+
+      - Premiere de cine
+
+      - Acceso a grabaciones de charlas y reportajes
+
+      - Networking y Concursos
+
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+
+      - Camiseta del evento (enviada a tu casa)
+    delivery:
+      date: Octubre 2021
+      address: Toda España
+    complements: true
   - name: Tarug@ Digital
     pricing: Contribución 60€ + IVA
     description: |
@@ -56,25 +112,6 @@ tickets:
       date: Octubre 2021
       address: Todo el mundo
     complements: false
-  - name: Tarug@ Classic
-    pricing: Contribución 75€ + IVA
-    description: |
-      Acceso completo a todos los contenidos de la Tarugoconf y, además,
-      recepción en casa de todos los goodies y regalos promocionales del evento
-      (camisetas, pegatinas, cuadernos, etc...)
-
-      ### Incluye:
-
-      - Más de 10h de contenido en directo
-      - Premiere de cine
-      - Acceso a grabaciones de charlas y reportajes
-      - Networking y Concursos
-      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
-      - Camiseta del evento (enviada a tu casa)
-    delivery:
-      date: Octubre 2021
-      address: Toda España
-    complements: true
   - name: Family, Fools & Friends Pack
     pricing: Contribución 111€ + IVA
     description: |
