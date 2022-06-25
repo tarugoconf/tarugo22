@@ -66,72 +66,55 @@ speakers:
 
 
       Actualmente enseña a otros abogados a programar, co-organiza R Ladies Madrid, es docente en varios cursos y másteres de legaltech en materia de programación e Inteligencia Artificial, como también en un bootcamp de Data Science.
-  - name: Rita Sobrido
-    id: rita
-    company: " Vinfast"
-    image: /img/speakers/img_9265.jpg
-    position: " Directora IT de Fabricación"
-    bio: >-
-      Ingeniera industrial especializada en la implementación de software para
-      el control de la fabricación de productos, desde el sector alimentario al
-      automovilístico.
-
-
-      Con 23 años, abandonó España para implementar diferentes soluciones de software en Australia, Singapore y Vietnam. Actualmente, **dirige el equipo de desarrollo, implementación y soporte del software que controla la producción en 16 plantas pertenecientes a la primera empresa automovilística vietnamita**, Vinfast.
+  - name: Ramón Nafría
+    id: ramon
+    company: ""
+    image: /img/speakers/ramon.jpg
+    position: Desarrollador Independiente de Videojuegos
+    bio: Ramón es uno de los sospechosos habituales de la escena nacional
+      de videojuegos desde los 90, donde ha sido redactor, desarrollador,
+      profesor, mentor, activista, director, editor y emprendedor. Ha
+      experimentado con las últimas tecnologías —como VR, AR o MR— y modelos de
+      negocio, desde F2P a modelos de subscripción.
     links:
       - type: twitter
         text: "@SobridoRita"
-        url: https://twitter.com/SobridoRita
+        url: https://twitter.com/NaeVal
       - type: linkedin
-        url: https://www.linkedin.com/in/rita-sobrido-garcia-64a072a4/
+        url: https://www.linkedin.com/in/ramonnafria/
         text: Rita Sobrido
-      - type: link
-        url: https://vinfastauto.com/vn_en
-        text: Vinfast
-  - id: pablo
-    name: Pablo Duchement
-    bio: >-
-      Pablo es profesor vocacional, ingeniero informático y perito judicial,
-      experto en delitos en redes sociales perpetrados por y contra menores.
-
-
-      Su larga trayectoria profesional habla por si misma, pero Pablo se ha esforzado por informar y educar a la Opinión Pública sobre los peligros de las Redes Sociales en general —y para los menores en particular—  así como evangelizar sobre la realidad y el día a día de los peritos informáticos, una labor tan importante como desconocida.
+  - id: tba1
+    name: TBA
+    bio: Uno de los awesómicos ponentes que quedan por anunciar.
     links:
       - text: "@PDuchement"
         type: twitter
-        url: https://twitter.com/pduchement
+        url: https://twitter.com/tarugoconf
       - text: P.Duchement
         type: linkedin
-        url: https://www.linkedin.com/in/pablo-santana-duchement-00a33665/
+        url: https://www.linkedin.com/company/rcdeportivo/
       - type: link
-        url: https://pduchement.org/
+        url: https://www.tarugoconf.com/
         text: https://pduchement.org
     company: " "
-    position: Profesor y perito judicial informático
-    image: /img/speakers/pablo-duchement.jpg
-  - name: Evaristo Babé
-    id: varis
-    company: Pulpomatic
-    position: Fundador y CEO
-    image: /img/speakers/varis.jpg
+    position: ""
+    image: /img/speakers/placeholder_amarillo.png
+  - name: TBA
+    id: tba2
+    company: ""
+    position: ""
+    image: /img/speakers/placeholder_azul.png
     links:
       - text: "@varisb"
-        url: https://twitter.com/varisb
+        url: https://twitter.com/tarugoconf
         type: twitter
       - text: Evaristo Babé
         type: linkedin
-        url: https://www.linkedin.com/in/evaristo/
+        url: https://www.linkedin.com/company/rcdeportivo/
       - text: Pulpomatic
-        url: https://pulpomatic.com/es/
+        url: https://www.tarugoconf.com/
         type: link
-    bio: >-
-      Emprendedor en Internet «desde que todo esto era campo». Después de una
-      exitosa carrera en España, llegó a México para vender (por segunda vez)
-      SinDelantal.com... y se quedó, enamorado por el dinamismo y el crecimiento
-      del país azteca. 
-
-
-      En 2016 fundó Pulpomatic, una plataforma tecnológica para gestionar flotas de vehículos que ya cuenta con más de 100 clientes y 200.000 vehículos, a caballo entre México y Madrid.
+    bio: ""
   - name: Diego Ballesteros
     id: diego
     image: /img/speakers/diego_oficina_peq.jpg
