@@ -1,4 +1,7 @@
 layout: layouts/home.njk
+metas:
+  image: img/poster-promo22.jpg
+  title: "#tarugo22"
 title: Tarugo22
 description: >
   La Tarugoconf es una conferencia sobre diseño, construcción y comercialización

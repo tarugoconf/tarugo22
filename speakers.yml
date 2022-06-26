@@ -1,4 +1,9 @@
 layout: layouts/speakers.njk
+metas:
+  title: Speakers
+  description: Todas los requisitos y ventajas que conlleva ser speaker de la
+    Tarugoconf, la conferencia sobre diseño, construcción y comercialización de
+    productos y servicios digitales más awesómica del mundo.
 title: Speakers
 description: >
   Todas los requisitos y ventajas que conlleva ser speaker de la Tarugoconf, la

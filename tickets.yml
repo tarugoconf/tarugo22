@@ -1,4 +1,6 @@
 layout: layouts/tickets.njk
+metas:
+  title: "Entradas #tarugo22 "
 title: Entradas
 description: Las entradas se pondrán a la venta el domingo 3 de julio a las
   11:00h GMT (Galician Mean Time)

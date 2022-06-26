@@ -4,6 +4,7 @@ import inline from "lume/plugins/inline.ts";
 import basePath from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
 import cms from "lume/plugins/netlify_cms.ts";
+import metas from "lume/plugins/metas.ts";
 
 const site = lume({
   location: new URL("https://tarugoconf.github.io/tarugo22/"),
@@ -19,6 +20,7 @@ site
   .use(basePath())
   .use(date())
   .use(cms())
+  .use(metas())
   .use(inline())
   .remoteFile(
     "vendor/carousel/carousel.js",

@@ -127,6 +127,7 @@ const pages = f.files("Pages")
   .preview(false)
   .file("Home", "/index.yml", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.string("Description"),
     f.list("Menu", [
@@ -179,6 +180,7 @@ const pages = f.files("Pages")
   ])
   .file("Speakers", "/speakers.yml", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.string("Description"),
     f.list("Menu", [
@@ -219,6 +221,7 @@ const pages = f.files("Pages")
     ]),
     f.object("Speakers", [
       f.string("Title"),
+      metas(),
       f.list("Quotes", [
         f.markdown("Quote"),
         f.string("Name"),
@@ -246,6 +249,7 @@ const pages = f.files("Pages")
   ])
   .file("Entradas", "/tickets.yml", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.string("Description"),
     f.object("Back", [
@@ -270,6 +274,7 @@ const pages = f.files("Pages")
   ])
   .file("Aviso Legal", "/aviso-legal.md", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.object("Back", [
       f.string("Text"),
@@ -279,6 +284,7 @@ const pages = f.files("Pages")
   ])
   .file("Código de conducta", "/codigo-de-conducta.md", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.object("Back", [
       f.string("Text"),
@@ -288,6 +294,7 @@ const pages = f.files("Pages")
   ])
   .file("Política de privacidad", "/politica-de-privacidad.md", [
     f.hidden("layout"),
+    metas(),
     f.string("Title"),
     f.object("Back", [
       f.string("Text"),
@@ -299,3 +306,11 @@ const pages = f.files("Pages")
 config.collections.push(pages.toJSON());
 
 export default config;
+
+function metas() {
+  return f.object("Metas", [
+    f.string("Title"),
+    f.string("Description"),
+    f.image("Image").mediaFolder("img"),
+  ]);
+}
