@@ -122,7 +122,7 @@ days:
         details: El año pasado, la Tarugo nos sorprendió con un juego de cartas sobre
           «Genios de la Informática» que gustó a todo el mundo... ¿volverán a
           conseguirlo este año?
-      - time: 19:00-19:30h
+      - time: 12:00-12:45h
         title: ALMUERZO ☕
         details: >-
           Pausa para que cojamos fuerzas para sobrevivir hasta la comida con
@@ -131,7 +131,7 @@ days:
 
           El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
       - title: "Concurso: El Precio Justo 💰"
-        time: 17:10-17:15h
+        time: 12:45-13:00h
         details: >-
           Los asistentes podrán participar desde sus casas en **un disparatado
           concurso** en el que tendrán que estimar el coste más aproximado, sin
@@ -139,6 +139,32 @@ days:
 
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: TBA
+        time: 13:00-13:45h
+        speakers:
+          - tba1
+        details: Una charla awesómica que te dejará con el culo torcido.
+      - title: Como producir un videojuego
+        speakers:
+          - ramon
+        details: >-
+          ¿Y si creara un videojuego? Es una pregunta que en algún momento ha
+          cruzado por la mente de todos los niños que nacimos alrededor de
+          Amstrads, Master Systems, Gameboys o Spectrums. 
+
+
+          En esta charla, Ramón nos explicará **cómo producir un videojuego —desde la búsqueda de financiación hasta su comercialización pasando por la planificación de un software tan complicado** como para que su desarrollo sólo se considere «terminado» cuando sea suficientemente «divertido»— mostrando experiencias y cifras reales de uno de los últimos éxitos de la industria nacional: el estupendo remake del mítico videojuego «Alex Kidd in Miracle World».
+        time: 13:45-14:25h
+      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
+        time: 14:25-14:30h
+        details: >-
+          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
+          Profesional y Grado universitario de Informática sobre **su
+          perspectiva de la profesión y las expectativas que tienen puestas en
+          la misma**.
+
+
+          Sus respuestas no te dejarán indiferente.
       - title: Reportaje 📹
         time: 17:15-17:20h
         details: >-
@@ -150,27 +176,6 @@ days:
 
 
           El contenido final lo decidirán los asistentes a la #tarugo21.
-      - title: Palabras Mágicas
-        time: 17:20-17:50h
-        speakers:
-          - eva
-        details: >-
-          En esta charla sabremos qué es eso del UX Writing, en qué se
-          diferencia de otras disciplinas y **por qué es fundamental en el
-          proceso de diseño de productos y servicios digitales**.
-
-
-          Aprenderemos cuáles son los principios de la disciplina, cómo aplicarlos y revisaremos un montón de ejemplos para que quede todo cristalino. También hablaremos de lenguaje inclusivo y de cómo podemos hacer un mundo más amable para todo tipo de personas, a través de las palabras.
-      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
-        time: 17:50-17:55h
-        details: >-
-          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
-          Profesional y Grado universitario de Informática sobre **su
-          perspectiva de la profesión y las expectativas que tienen puestas en
-          la misma**.
-
-
-          Sus respuestas no te dejarán indiferente.
       - title: ¿Puede sobrevivir una Comunidad 100% online?
         details: Para muchos, Google for Startups Campus no es más que un edificio, pero
           en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
@@ -223,17 +228,6 @@ days:
         time: 20:45-20:50h
         details: Breve receso en el que emitiremos unos spots antes de encarar la traca
           final.
-      - title: "Menores y Redes Sociales: la realidad que no conoces"
-        speakers:
-          - pablo
-        details: >-
-          Todos —especialmente los informáticos— creemos controlar las Redes
-          Sociales y los peligros que ocultan, pero  hay todo un mundo oculto
-          ahí fuera que desconocemos. 
-
-
-          Durante su charla, Pablo nos guiará por ese oscuro universo a través de sus experiencias trabajando en casos reales y nos dará  las claves para navegar por el mismo con una cierta seguridad, para que sepamos como proteger tanto a los menores a nuestro cargo como... a nosotros mismos.
-        time: 20:50-21:20h
       - title: Reportaje + charla sorpresa 📹
         time: 21:20-21:50h
         details: >-
