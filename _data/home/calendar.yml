@@ -83,16 +83,17 @@ days:
     events:
       - title: Apertura de puertas y acreditación
         time: 9:00-10:00h
-        details: >
-          Llega a tiempo a La Nave (Calle Cifuentes 5 28021 Madrid) para
-          acreditarte con tiempo, tomarte un café y conseguir tu asiento en el
-          Auditorio.
+        details: Llega a tiempo a La Nave (Calle Cifuentes 5 28021 Madrid) para
+          acreditarnos con tiempo, tomarnos un café y prepararnos para el
+          arranque del evento mientras nuestro DJ residente -[Don
+          Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)- ameniza la espera
+          con una sesión que cargará el ambiente de ENERGÍA.
       - title: "Keynote: un año en tecnología"
         time: 10:00-10:15h
         details: "Un breve repaso a los principales acontecimientos del mundillo
           tecnológico del último año —lo que nadie puede olvidar... y algunos no
-          querrán recordar— con una sola cosa segura: **las keynotes de la
-          Tarugo NUNCA defraudan**."
+          querrán recordar— del que solo tenemos algo claro: **no dejará
+          indiferente a nadie**."
       - title: Un framework mental para enfrentarte al mundo real
         time: 10:15-11:00h
         speakers:
