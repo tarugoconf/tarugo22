@@ -35,7 +35,7 @@
   width: min(80vw, 800px);
 }
 .homeHeader-subtitle {
-  font: var(--font-normal);
+  font: var(--font-normal-bold);
   margin: 0 0 1rem 0;
   position: relative;
   z-index: 1;

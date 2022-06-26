@@ -207,6 +207,9 @@
         color: white;
       }
   }
+  & .calendar-event-text {
+    color: white;
+  }
 
   & .calendar-event {
     border-top-color: var(--color-blue-dark);
