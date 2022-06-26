@@ -195,34 +195,36 @@ days:
 
 
           Todo el que haya tenido la desgracia de tener que demandar o ser demandado, sabe hasta qué punto. En esta charla Elen nos explicará **cómo la tecnología puede acercar el sistema jurídico al ciudadano**, pero también ayudar a sus profesionales a hacer mucho más efectivo su trabajo dentro de la misma.
+      - title: "Concurso: Juegos de Niños 🎲"
+        time: 18:15-18:30h
+        details: >-
+          Los asistentes podrán participar en **un disparatado concurso** en el
+          que tendrán que averiguar cuales de las absurdas anécdotas
+          informáticas que presentaremos son reales y cuales no.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: "MERIENDA: café y bollería artesanal para aguantar hasta el final 🍪"
+        details: >-
+          Pausa para que cojamos fuerzas para llegar al final del día A TOPE DE
+          POWER.
+
+
+          El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de BUENAS VIBRACIONES.
+        time: 18:30-19:15h
       - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
-        time: 19:30-19:35h
+        time: 19:15-19:30h
         details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
           mano, para averiguar hasta qué punto el público general -sin
           experiencia técnica- conoce conceptos como "criptomoneda", "huella
           digital" u "open source" y cuál es su opinión al respecto.
-      - title: "Concurso: Juegos de Niños 🎲"
-        time: 20:05-20:15h
-        details: >-
-          Los asistentes podrán participar desde sus casas en **un disparatado
-          concurso** en el que tendrán que averiguar cuales de las absurdas
-          anécdotas informáticas que presentaremos son reales y cuales no.
-
-
-          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
-      - title: Reportaje + charla sorpresa 📹
-        time: 21:20-21:50h
-        details: >-
-          Reportaje original de calidad profesional, como los que ya produjimos
-          el año pasado sobre [cocinas
-          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
-          espaciales
-          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
-
-
-          El contenido final lo decidirán los asistentes a la #tarugo21.
-      - title: Despedida y cierre
-        time: 21:50-22:00h 👋
+      - title: TBA
+        details: Una charla awesómica que te dejará con el culo torcido.
+        speakers:
+          - tba4
+        time: 19:30-20:15h
+      - title: Despedida y ajuste de cuentas
+        time: "20:15-20:30h "
         speakers:
           - david
         details: Como ya es tradición, **haremos públicas todas las cifras del
@@ -230,6 +232,12 @@ days:
           resultados-, acreditaremos y agradeceremos el esfuerzo a todo el
           equipo de profesionales y voluntarios que lo harán posible y pondremos
           un broche de oro entonando el 'Miña Terra Galega' 💪
+      - title: LEGENDARIA FIESTA TARUGA 🥳
+        details: Convertiremos el Parking 2 de La Nave en una auténtica "Sesión Vermú"
+          con comida y bebida al aire libre, churros, juegos, música y las
+          mejores conversaciones del planeta porque... LA VIDA PUEDE SER
+          MARAVILLOSA.
+        time: 20:30-22:30h
   - day: Sábado 23
     events:
       - title: TarugOff
