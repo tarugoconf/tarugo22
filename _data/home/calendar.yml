@@ -81,39 +81,48 @@ days:
           Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
   - day: Viernes 22
     events:
-      - title: Apertura de Stands y Networking 🤝
-        time: 9:00-16:00h
+      - title: Apertura de puertas y acreditación
+        time: 9:00-10:00h
         details: >
-          Podrás **saludar a nuestros patrocinadores y conocer sus productos,
-          servicios u oportunidades de empleo**.
+          Llega a tiempo a La Nave (Calle Cifuentes 5 28021 Madrid) para
+          acreditarte con tiempo, tomarte un café y conseguir tu asiento en el
+          Auditorio.
+      - title: "Keynote: un año en tecnología"
+        time: 10:00-10:15h
+        details: "Un breve repaso a los principales acontecimientos del mundillo
+          tecnológico del último año —lo que nadie puede olvidar... y algunos no
+          querrán recordar— con una sola cosa segura: **las keynotes de la
+          Tarugo NUNCA defraudan**."
+      - title: Un framework mental para enfrentarte al mundo real
+        time: 10:15-11:00h
+        speakers:
+          - recuenco
+        details: >
+          Los ingenieros saben cómo resolver 100 problemas de la forma más
+          óptima que la Humanidad conoce. El problema es que la infinita
+          realidad nos enfrenta a situaciones para los que no nos hemos
+          preparado.
 
 
-          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
+          Podemos intentar resolver cada nuevo reto a martillazos, pero no siempre trabajaremos con clavos, por eso —en esta charla— Javier nos proporcionará **un framework y un conjunto de reglas que nos ayudarán a resolver problemas que aún no sabemos que existen**.
+      - title: Algoritmos que salvan vidas
+        speakers:
+          - ana
+        time: 11:00-11:45h
+        details: >-
+          Tradicionalmente hemos visto la inteligencia artificial y la ciencia
+          de datos como tecnologías reservadas para oscuras megacorporaciones
+          que las emplean para maximizar sus beneficios, sin embargo tienen
+          existen múltiples aplicaciones que pueden cambiar —para bien— la vida
+          de millones de personas.
+
+
+          En esta charla, Ana nos contará cómo las ha usado para cribar el contenido de Redes Sociales y descubrir patrones comunes a personas de alto riesgo de suicidio, depresión y anorexia. Su equipo ha conseguido definir **un modelo que estima el riesgo de suicidio de un usuario con un 85 % de precisión** y, sobre todo, nos permite actuar antes de que sea demasiado tarde.
       - title: Warm Up! 🤖
         time: 16:00-16:30h
         details: Mientras nos preparamos para el arranque del evento, nuestro DJ
           residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
           amenizará la espera con una sesión llena de ROMPEPISTAS.
-      - title: Keynote
-        time: 10:30h
-        details: >
-          Un rápido resumen de un año que nunca olvidaremos en forma de
-          monólogo, en el que repasaremos las noticias más importantes y los
-          sucesos más relevantes.
-      - title: Aportando transparencia a la Administración Pública mediante la
-          Informática
-        time: 16:40-17:10h
-        speakers:
-          - jaime
-        details: >
-          Jaime es un desarrollador especializado en procesar grandes volúmenes
-          de datos. Después de 16 años trabajando en la empresa privada, dejó su
-          trabajo para dedicarse durante un año a usar sus «superpoderes» para
-          impulsar la transparencia en la Administración mediante datos y
-          tecnología.
-
-
-          En esta charla nos contará **cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público**. ¿Puede un solo informático cambiar las cosas?
       - title: "Concurso: El Precio Justo 💰"
         time: 17:10-17:15h
         details: >-
@@ -155,17 +164,6 @@ days:
 
 
           Sus respuestas no te dejarán indiferente.
-      - title: Cómo construir tu propio páncreas
-        speakers:
-          - antonio
-        time: 17:55-18:25h
-        details: >-
-          El movimiento #WeAreNotWaiting nace de la necesidadde un padre de
-          conocer el estado de su hijo —diabético— cuando no estaba físicamente
-          con él.
-
-
-          Basado en la filosofía *maker* y el DIY (Do It Yourself), este movimiento ha impulsado la democratización del uso de tecnología para mejorar la salud y el bienestar de los pacientes. Exactamente lo que hizo Antonio —que padece diabetes de tipo 1— que en esta charla nos contará **cómo construir un páncreas artificial usando hardware y software *open source***, pero sobre todo, las lecciones aprendidas en el proceso.
       - title: ¿Puede sobrevivir una Comunidad 100% online?
         details: Para muchos, Google for Startups Campus no es más que un edificio, pero
           en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
