@@ -165,6 +165,9 @@ days:
 
 
           Sus respuestas no te dejarán indiferente.
+      - title: "COMIDA: Pulpo, churrasco y empanada como si no hubiese mañana. 🐙"
+        time: 14:30-16:30h
+        details: ""
       - title: Reportaje 📹
         time: 17:15-17:20h
         details: >-
@@ -224,10 +227,6 @@ days:
         time: 20:15-20:45h
         speakers:
           - paz
-      - title: Spots
-        time: 20:45-20:50h
-        details: Breve receso en el que emitiremos unos spots antes de encarar la traca
-          final.
       - title: Reportaje + charla sorpresa 📹
         time: 21:20-21:50h
         details: >-
