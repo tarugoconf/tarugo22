@@ -4,6 +4,7 @@ intro: >
   son los awesómicos invitados con los que contaremos este año:
 speakers:
   - name: Ana Freire
+    type: speaker
     id: ana
     company: " UPF Barcelona School of Management"
     position: Directora del Departamento de Operaciones, Tecnología y Ciencia
@@ -27,6 +28,7 @@ speakers:
       Fundó [Wisibilízalas](https://wisibilizalas.org/){target=“_blank”} para visibilizar el trabajo de las mujeres en la Ciencia y la Tecnología, pero afortunadamente el suyo nunca pasó desapercibido. Ana es una reputada **investigadora en el campo de la Ciencia de Datos y la Inteligencia Artificial**, con un montón de premios por su trayectoria profesional que —como buena gallega— le da vergüenza siquiera mencionar.
   - image: /img/speakers/recuenco.jpg
     name: Javier G. Recuenco
+    type: speaker
     company: Singular Solving
     position: Fundador y CSO
     links:
@@ -47,6 +49,7 @@ speakers:
       Además de empresario y emprendedor en serie, podcaster, profesor en prestigiosas escuelas de negocio, **Ingeniero Informático y Presidente de MENSA España**, una organización de gente tan lista que sabe hacer restas y sumas con acarreo sin calculadora.
     id: recuenco
   - name: Elen Irazabal
+    type: speaker
     id: elen
     company: AdvocatusAI
     position: CEO y Fundadora
@@ -69,6 +72,7 @@ speakers:
 
       Actualmente enseña a otros abogados a programar, co-organiza [R Ladies Madrid](https://twitter.com/rladiesmad){target=“_blank”}, es docente en varios cursos y másteres de *legaltech* en materia de programación e Inteligencia Artificial, como también en un bootcamp de Data Science.
   - name: Ramón Nafría
+    type: speaker
     id: ramon
     company: ""
     image: /img/speakers/ramon_nafria.jpg
@@ -90,6 +94,7 @@ speakers:
         text: Ramón Nafría
   - id: tba1
     name: TBA
+    type: speaker
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
     company: ""
     position: ""
@@ -106,6 +111,7 @@ speakers:
         text: Tarugoconf
   - name: TBA
     id: tba2
+    type: speaker
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
     company: ""
     position: ""
@@ -122,6 +128,7 @@ speakers:
         type: link
   - name: TBA
     id: tba3
+    type: speaker
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
     company: ""
     position: ""
@@ -138,6 +145,7 @@ speakers:
         text: Tarugoconf
   - name: TBA
     id: tba4
+    type: speaker
     bio: Uno de los awesómicos ponentes que quedan por anunciar.
     company: ""
     position: ""
