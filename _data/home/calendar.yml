@@ -10,7 +10,7 @@ days:
   - day: Jueves 21
     events:
       - title: "TALLER: Instrumentación de Productos Digitales ⚙️"
-        time: 11:30-14:30h
+        time: 11:00-14:00h
         details: >-
           "Si traes datos, vamos con tus datos. Si lo que tienes es una opinión,
           me quedo con la mía". Esta frase define demasiadas tomas decisiones a
@@ -22,17 +22,17 @@ days:
 
           Los asistentes a este taller saldrán del mismo conociendo **las herramientas, procesos y buenas prácticas imprescindibles para dejar de intuir y empezar a decidir cómo construir un producto digital**. Tú decides... ¿pastilla roja o pastilla azul?
       - title: "TALLER: TBA ⚙️ "
-        time: 11:30-14:30h
+        time: 11:00-14:00h
         details: Un taller práctico del que saldrás con un nuevo superpoder.
         speakers:
           - tba1
       - title: "TALLER: TBA ⚙️ "
-        time: 11:30-14:30h
+        time: 11:00-14:00h
         speakers:
           - tba2
         details: Un taller práctico del que saldrás con un nuevo superpoder.
-      - title: 🥪 Comida
-        time: 14:30-15:30h
+      - title: "Comida 🥪 "
+        time: 14:00-15:00h
         details: >-
           Empanadas y cervezas, algo frugal, para que los talleres de la tarde
           no os sienten mal.
@@ -40,17 +40,22 @@ days:
 
           Una comida informal, en la que nos juntaremos todos los asistentes a los talleres —tanto los de la mañana como los de la tarde— para compartir experiencias y conversaciones.
       - title: "TALLER: TBA ⚙️ "
-        time: 15:30-18:30h
+        time: 15:00-18:00h
         details: Un taller práctico del que saldrás con un nuevo superpoder.
         speakers:
           - tba3
       - title: "TALLER: TBA ⚙️ "
-        time: 15:30-18:30h
+        time: 15:00-18:00h
         speakers:
           - tba4
         details: Un taller práctico del que saldrás con un nuevo superpoder.
+      - title: "TALLER: TBA ⚙️ "
+        time: 15:00-18:00h
+        speakers:
+          - tba2
+        details: Un taller práctico del que saldrás con un nuevo superpoder.
       - title: Icebreakers y Networking 🤝
-        time: 19:00-20:00h
+        time: 18:00-19:30h
         details: >
           Último slot del día bloqueado para que -si así lo deseáis- podáis
           **celebrar 1:1s con un café o una cerveza** antes del estreno de cine,
@@ -58,6 +63,15 @@ days:
 
 
           Y para los que no vayáis a venir a La Nave hasta el viernes; o vayáis a vivir el evento por streaming,  3 rondas de distintos juegos y actividades online, gestionadas por voluntarios de la organización y diseñados para que los asistentes a la #tarugo22 que lo deseéis podáis conocer gente de forma fácil, divertida y segura ;)
+      - title: "Panel moderado: El sector, 30 años después 🎤"
+        time: 19:30-20:00h
+        details: >
+          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
+          FUERTE sobre **la evolución de la tecnología y la industría desde el
+          estreno de la película**.
+
+
+          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
       - title: Premiere de cine 🎞️
         time: 20:00-22:00h
         details: >
@@ -70,15 +84,6 @@ days:
 
 
           Si te preguntas qué sentido tiene streamear películas de hace 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia 😎
-      - title: "Panel moderado: El sector, 30 años después 🎤"
-        time: 22:00-22:30h
-        details: >
-          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
-          FUERTE sobre **la evolución de la tecnología y la industría desde el
-          estreno de la película**.
-
-
-          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
   - day: Viernes 22
     events:
       - title: Apertura de puertas y acreditación
