@@ -123,10 +123,9 @@ days:
           «Genios de la Informática» que gustó a todo el mundo... ¿volverán a
           conseguirlo este año?
       - time: 12:00-12:45h
-        title: ALMUERZO ☕
+        title: "ALMUERZO: café, fruta y pastitas para llenar las tripitas ☕"
         details: >-
-          Pausa para que cojamos fuerzas para sobrevivir hasta la comida con
-          café, fruta y pastitas para llenar las tripitas.
+          Pausa para que cojamos fuerzas para sobrevivir hasta la comida.
 
 
           El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
@@ -165,39 +164,37 @@ days:
 
 
           Sus respuestas no te dejarán indiferente.
-      - title: "COMIDA: Pulpo, churrasco y empanada como si no hubiese mañana. 🐙"
+      - title: "COMIDA: pulpo, churrasco y empanada como si no hubiese mañana 🐙"
         time: 14:30-16:30h
-        details: ""
+        details: Tranquilos, también habrá opciones para vegetarianos.
       - title: Reportaje 📹
-        time: 17:15-17:20h
+        time: 16:30-16:45h
         details: >-
           Reportaje original de calidad profesional, como los que ya produjimos
-          el año pasado sobre [cocinas
-          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
-          espaciales
-          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
+          el año pasado sobre [la primera programadora
+          española](https://vimeo.com/659889179){target="_blank"} o hace dos,
+          sobre [cohetes espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/){target="_blank"}.
 
 
-          El contenido final lo decidirán los asistentes a la #tarugo21.
-      - title: ¿Puede sobrevivir una Comunidad 100% online?
-        details: Para muchos, Google for Startups Campus no es más que un edificio, pero
-          en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
-          mucho más que eso: **una verdadera Comunidad de emprendedores y
-          técnicos** que -a pesar de estar separada fisicamente- se ha mantenido
-          más unida que nunca para superar esta pandemia.
-        time: 18:25-18:30h
-      - title: La tecnología que mueve el mundo
-        time: 18:30-19:00h
+          **El contenido final lo decidirán los asistentes a la #tarugo22**.
+      - title: TBA
+        details: Una charla awesómica que te dejará con el culo torcido.
+        time: 16:45-17:30h
         speakers:
-          - yaiza
+          - tba2
+      - title: ¿Debe un abogado aprender a programar?
+        time: 17:30-18:15h
+        speakers:
+          - elen
         details: >-
-          La logística es como la administración de sistemas: si es buena,
-          apenas se percibe, pero es la responsable de que nunca falten galletas
-          de dinosaurios en el Super; o que podamos comprar online una lavadora
-          y recibirla menos de 24 horas después.
+          La industria informática ha ignorado sistemáticamente el ámbito
+          jurídico que queda más allá de la mera gestión documental, sin
+          embargo, este es uno de los que más impacto puede tener en nuestra
+          vida, tanto personal como profesionalmente.
 
 
-          En esta charla, Yaiza nos explicará **cómo la tecnología ha permitido optimizar y democratizar la logística de «última milla»** o, lo que es lo mismo, todos los procesos y recursos necesarios para que las distintas mercancías lleguen a un pequeño comercio o a nuestra casa.
+          Todo el que haya tenido la desgracia de tener que demandar o ser demandado, sabe hasta qué punto. En esta charla Elen nos explicará **cómo la tecnología puede acercar el sistema jurídico al ciudadano**, pero también ayudar a sus profesionales a hacer mucho más efectivo su trabajo dentro de la misma.
       - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
         time: 19:30-19:35h
         details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
@@ -213,20 +210,6 @@ days:
 
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
-      - title: La historia de la primera programadora de España
-        details: >-
-          Conoceremos la historia de Paz, que empezó a trabajar en IBM en 1962
-          después de licenciarse en Físicas y recibir un curso de programación
-          en Fortran.
-
-
-          Era la primera programadora de la compañía en España en un tiempo en el que la presencia de las mujeres no era habitual no ya en los departamentos técnicos sino en el mercado laboral en general.
-
-
-          En esta entrevista disfrutaremos de anécdotas, destaparemos mitos y conoceremos la realidad del pasado de la Informática, para intentar comprender mejor su presente.
-        time: 20:15-20:45h
-        speakers:
-          - paz
       - title: Reportaje + charla sorpresa 📹
         time: 21:20-21:50h
         details: >-
