@@ -85,9 +85,7 @@ days:
         time: 9:00-10:00h
         details: Llega a tiempo a La Nave (Calle Cifuentes 5 28021 Madrid) para
           acreditarnos con tiempo, tomarnos un café y prepararnos para el
-          arranque del evento mientras nuestro DJ residente -[Don
-          Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}-
-          ameniza la espera con una sesión que cargará el ambiente de ENERGÍA.
+          arranque del evento.
       - title: "Keynote: un año en tecnología"
         time: 10:00-10:15h
         details: "Un breve repaso a los principales acontecimientos del mundillo
@@ -119,11 +117,19 @@ days:
 
 
           En esta charla, Ana nos contará cómo las ha usado para cribar el contenido de Redes Sociales y descubrir patrones comunes a personas de alto riesgo de suicidio, depresión y anorexia. Su equipo ha conseguido definir **un modelo que estima el riesgo de suicidio de un usuario con un 85 % de precisión** y, sobre todo, nos permite actuar antes de que sea demasiado tarde.
-      - title: Warm Up! 🤖
-        time: 16:00-16:30h
-        details: Mientras nos preparamos para el arranque del evento, nuestro DJ
-          residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
-          amenizará la espera con una sesión llena de ROMPEPISTAS.
+      - title: Bonga! 🎁
+        time: 11:45-12:00h
+        details: El año pasado, la Tarugo nos sorprendió con un juego de cartas sobre
+          «Genios de la Informática» que gustó a todo el mundo... ¿volverán a
+          conseguirlo este año?
+      - time: 19:00-19:30h
+        title: ALMUERZO ☕
+        details: >-
+          Pausa para que cojamos fuerzas para sobrevivir hasta la comida con
+          café, fruta y pastitas para llenar las tripitas.
+
+
+          El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
       - title: "Concurso: El Precio Justo 💰"
         time: 17:10-17:15h
         details: >-
@@ -184,14 +190,6 @@ days:
 
 
           En esta charla, Yaiza nos explicará **cómo la tecnología ha permitido optimizar y democratizar la logística de «última milla»** o, lo que es lo mismo, todos los procesos y recursos necesarios para que las distintas mercancías lleguen a un pequeño comercio o a nuestra casa.
-      - time: 19:00-19:30h
-        title: Intermedio 🍟
-        details: >-
-          Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
-          cojáis fuerzas para sobrevivir a la segunda parte del show.
-
-
-          El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
       - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
         time: 19:30-19:35h
         details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
