@@ -160,3 +160,8 @@ speakers:
       - text: Tarugoconf
         url: https://www.tarugoconf.com/
         type: link
+  - name: Diego Mariño
+    id: diego
+    type: teacher
+    image: /img/speakers/diego-marino.jpeg
+    bio: TBD
