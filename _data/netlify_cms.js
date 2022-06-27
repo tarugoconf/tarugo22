@@ -24,8 +24,9 @@ const data = f.files("Data")
 
 const speakers = data.createFile("Speakers", "/_data/home/speakers.yml", [
   f.string("Title"),
-  f.string("Teacher title"),
   f.markdown("Intro"),
+  f.string("Teacher title"),
+  f.markdown("Teacher intro"),
   f.list("Speakers", [
     f.string("Name").required(),
     f.select("Type", ["speaker", "teacher"]),

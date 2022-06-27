@@ -3,6 +3,8 @@ intro: >
   El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
   son los awesómicos invitados con los que contaremos este año:
 teacher_title: Responsables de Talleres
+teacher_intro: |
+  Y también contaremos con la sabiduría y buen hacer de los siguientes invitados para los talleres:
 speakers:
   - name: Ana Freire
     type: speaker

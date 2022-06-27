@@ -12,8 +12,14 @@
     {% endif %}
     {% endfor %}
   </ul>
+</section>
 
-  <h3 class="speakers-subtitle">{{ content.teacher_title | md(true) | safe }}</h3>
+<section class="speakers" id="teachers">
+  <header class="speakers-header">
+    <h2>{{ content.teacher_title | md(true) | safe }}</h2>
+  
+    {{ content.teacher_intro | md | safe }}
+  </header>
 
   <ul class="speakers-list">
     {% for speaker in content.speakers %}
