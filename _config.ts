@@ -22,6 +22,7 @@ site
   .use(cms())
   .use(metas())
   .use(inline())
+  .data("cache", Date.now())
   .remoteFile(
     "vendor/carousel/carousel.js",
     "https://unpkg.com/@oom/carousel@4.2.0/src/carousel.js"
