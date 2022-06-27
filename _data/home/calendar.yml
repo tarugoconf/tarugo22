@@ -37,7 +37,7 @@ days:
       - title: "TALLER: TBA ⚙️ "
         time: 11:00-14:00h
         speakers:
-          - tba2
+          - tba1
         details: Un taller práctico del que saldrás con un nuevo superpoder.
       - title: "Comida 🥪 "
         time: 14:00-15:00h
@@ -52,15 +52,16 @@ days:
         details: Un taller práctico del que saldrás con un nuevo superpoder.
         speakers:
           - tba3
+      - title: "TALLER: Regulación y fiscalidad de criptomonedas y otros activos
+          digitales 💰"
+        time: 15:00-18:00h
+        speakers:
+          - cris
+        details: En este taller
       - title: "TALLER: TBA ⚙️ "
         time: 15:00-18:00h
         speakers:
-          - tba4
-        details: Un taller práctico del que saldrás con un nuevo superpoder.
-      - title: "TALLER: TBA ⚙️ "
-        time: 15:00-18:00h
-        speakers:
-          - tba2
+          - tba3
         details: Un taller práctico del que saldrás con un nuevo superpoder.
       - title: Icebreakers y Networking 🤝
         time: 18:00-19:30h
