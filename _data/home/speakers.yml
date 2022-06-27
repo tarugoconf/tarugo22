@@ -182,3 +182,25 @@ speakers:
       - type: link
         url: https://blog.productiza.me/
     position: Emprendedor y Product Manager
+  - name: Nerea Luis
+    image: /img/speakers/nerealuisretratocortado.jpeg
+    type: teacher
+    id: nerea
+    company: SNGULAR
+    links:
+      - type: twitter
+        url: https://twitter.com/sailormerqury
+      - type: linkedin
+        url: https://www.linkedin.com/in/nerealuis/
+      - type: link
+        url: https://nerealuis.es/
+    bio: >-
+      Nerea Luis es doctora en Ciencias de la Computación, cofundadora de
+      T3chFest y trabaja como Ingeniera en Inteligencia Artificial en Sngular
+      donde lidera proyectos relacionados con Machine Learning y Computer
+      Vision, entre otros. Es una apasionada de la divulgación, la inteligencia
+      artificial y la robótica.
+
+
+      Nerea es  Women Techmaker Scholar en 2016 por Google. En 2019, Nerea fue galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil y también ha sido seleccionada dentro del Top 100 mujeres líderes en España en la categoría revelación. En 2020 ha sido incluida en el ranking de Future Leaders elaborado por LlyC y entre los 21 changemakers de Forbes España. 
+    position: " Artificial Intelligence Engineer Lead"
