@@ -3,8 +3,6 @@ intro: >
   El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
   son los awesómicos invitados con los que contaremos este año:
 teacher_title: Responsables de Talleres
-teacher_intro: |
-  Y también contaremos con la sabiduría y buen hacer de los siguientes invitados para los talleres:
 speakers:
   - name: Ana Freire
     type: speaker
@@ -207,3 +205,23 @@ speakers:
 
       Nerea es  Women Techmaker Scholar en 2016 por Google. En 2019, Nerea fue galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil y también ha sido seleccionada dentro del Top 100 mujeres líderes en España en la categoría revelación. En 2020 ha sido incluida en el ranking de Future Leaders elaborado por LlyC y entre los 21 changemakers de Forbes España. 
     position: " Artificial Intelligence Engineer Lead"
+  - name: Cris Carrascosa
+    type: teacher
+    id: cris
+    image: /img/speakers/w_zntktk_400x400.jpeg
+    bio: "Cris es una abogada especializada en los retos legales que han surgido
+      alrededor de la descentralización del Blockchain en general y de la
+      fiscalidad de las criptomonedas en particular. Fundadora y Managing
+      Partner de ATH21 —primera firma legal española especializada en crypto y
+      blockchain—, profesora en el IE y el ESADE, antigua miembro del
+      Observatorio Europeo de Blockchain, co-autora del libro “Blockchain: la
+      revolución industrial“ y fanática del Valencia F.C."
+    links:
+      - type: twitter
+        url: https://twitter.com/CarrascosaCris_
+      - type: linkedin
+        url: https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/
+      - type: link
+        url: https://criscarrascosa.substack.com/
+    company: ATH21
+    position: Founder & Managing Partner
