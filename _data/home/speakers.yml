@@ -164,4 +164,21 @@ speakers:
     id: diego
     type: teacher
     image: /img/speakers/diego-marino.jpeg
-    bio: TBD
+    bio: >-
+      Diego tiene más de 15 años de experiencia creando y escalando productos
+      tecnológicos. Primero lo hizo como fundador de Abiquo en 2006, cuando la
+      palabra cloud era desconocida para la gran mayoría; después creó
+      Ducksboard, que fue comprada por New Relic y donde trabajó como Principal
+      Product Manager durante 3 años.
+
+
+      Ahora Diego ayuda a otros a recorrer el camino por el que ya ha transitado, aportanso su granito de area en múltiples proyectos como *business angel* y consultor.
+    links:
+      - title: "@diegomarino"
+        type: twitter
+        url: https://twitter.com/diegomarino
+      - type: linkedin
+        url: https://www.linkedin.com/in/diegomarino/
+      - type: link
+        url: https://blog.productiza.me/
+    position: Emprendedor y Product Manager
