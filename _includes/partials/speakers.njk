@@ -8,75 +8,17 @@
   <ul class="speakers-list">
     {% for speaker in content.speakers %}
     {% if speaker.type == "speaker" %}
-    <li>
-      <tarugo-buttons>
-        <button class="speaker" data-action="open" data-target="dialog-{{ speaker.id }}">
-          <img class="speaker-image" src="{{ speaker.image }}">
-          <h4 class="speaker-name">{{ speaker.name }}</h4>
+    {% include "./speaker.njk" %}
+    {% endif %}
+    {% endfor %}
+  </ul>
 
-          <p class="speaker-company">
-            {% if speaker.company | trim %}
-            {{ speaker.company }}<br>
-            {% endif %}
-            <em class="speaker-position">{{ speaker.position }}</em>
-          </p>
-        </button>
-      </tarugo-buttons>
+  <h3 class="speakers-subtitle">{{ content.teacher_title | md(true) | safe }}</h3>
 
-      <dialog class="speaker-modal" id="dialog-{{ speaker.id }}">
-        <tarugo-buttons>
-          <button data-action="close" class="speaker-modal-close" aria-label="Cerrar">
-            <img src="/img/icons/close.svg">
-          </button>
-        </tarugo-buttons>
-        
-        <div class="speaker-modal-content">
-          <header class="speaker-modal-header">
-            <div class="speaker-modal-photo">
-              <img src="{{ speaker.image }}">
-            </div>
-
-            <div class="speaker-modal-title">
-                <h4 class="speaker-name">{{ speaker.name }}</h4>
-                <p class="speaker-company">{{ speaker.company }}</p>
-                <em class="speaker-position">{{ speaker.position }}</em>
-            </div>
-
-            <address class="speaker-modal-links">
-                {% for link in speaker.links %}
-                <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
-                  <img src="/img/icons/{{ link.type }}.svg" inline>
-                </a>
-                {% endfor %}
-            </address>
-          </header>
-
-          <div class="speaker-modal-bio">
-              {{ speaker.bio | md | safe }}
-          </div>
-          <ul class="speaker-modal-events">
-              {% for day in home.calendar.days %}
-              {% for event in day.events %}
-              {% for id in event.speakers %}
-              {% if id == speaker.id %}
-              <li>
-                <details>
-                  <summary>
-                      <time>{{ day.day }} - {{ event.time }}</time>
-                      <strong>{{ event.title }}</strong>
-                  </summary>
-
-                  {{ event.details | md | safe }}
-                </details>
-              </li>
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              {% endfor %}
-            </ul>
-        </div>
-      </dialog>
-    </li>
+  <ul class="speakers-list">
+    {% for speaker in content.speakers %}
+    {% if speaker.type == "teacher" %}
+    {% include "./speaker.njk" %}
     {% endif %}
     {% endfor %}
   </ul>
