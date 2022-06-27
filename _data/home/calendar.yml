@@ -57,7 +57,14 @@ days:
         time: 15:00-18:00h
         speakers:
           - cris
-        details: En este taller
+        details: >-
+          En este taller repasaremos la lesgislación nacional y europea que
+          afecta a las criptomonedas, otros activos digitales —como los NFT— y
+          los distintos servicios financieros forman el ecosistema de finanzas
+          descentralizadas (DeFi). 
+
+
+          Además, estudiaremos en profundidad su fiscalidad, resolveremos las dudas más frecuentes y presentaremos casos prácticos que nos ayuden a optimizar nuestras inversiones en el mundo cripto.
       - title: "TALLER: TBA ⚙️ "
         time: 15:00-18:00h
         speakers:
