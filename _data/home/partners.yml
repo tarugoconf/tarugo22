@@ -48,17 +48,18 @@ partners:
     url: https://www.redegal.com/es/
     text: Agencia de comunicación experta en SEO, SEM, Social Media, Ecommerce y
       marketing digital.
-  - alt: Eventbrite
-    img: /img/partners/eventbrite_logo_2018.png
-    url: https://www.eventbrite.es/
-    text: Proveedor Oficial de Ticketing de la Tarugoconf.
+  - img: /img/partners/personio1d7ad.png
+    url: https://www.personio.es/rrhh/software-para-recursos-humanos/
+    text: El sistema operativo de RRHH para startups y PYMES.
+    alt: Personio
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
     text: Media Partner de la Tarugoconf
-  - img: /img/partners/personio1d7ad.png
-    url: https://www.personio.es/rrhh/software-para-recursos-humanos/
-    text: El sistema operativo de RRHH para startups y PYMES.
+  - alt: Eventbrite
+    img: /img/partners/eventbrite_logo_2018.png
+    url: https://www.eventbrite.es/
+    text: Proveedor Oficial de Ticketing de la Tarugoconf.
 patrons:
   - img: /img/partners/logo_str.png
     url: https://www.strsistemas.com/
