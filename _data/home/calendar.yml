@@ -34,11 +34,23 @@ days:
           En este taller repasaremos los fundamentos de la Inteligencia Artificial —Gödel y Turing—, conoceremos los tipos de IA y ejemplos de sus aplicaciones en diferentes negocios, aprenderemos las mejores prácticas para implementar exitosamente IA en las empresas y realizaremos ejercicios prácticos que te permitan desarrollar y complementar los conocimientos adquiridos en casa.
         speakers:
           - nerea
-      - title: "TALLER: TBA ⚙️ "
+      - title: "TALLER: Somos guapas, somos listas, somos todas analistas (de
+          Ciberseguridad) 🔐"
         time: 11:00-14:00h
         speakers:
           - tba1
-        details: Un taller práctico del que saldrás con un nuevo superpoder.
+        details: >-
+          No, no vais a convertiros en hackers de nivel 33 en un taller de 3
+          horas, pero **aprenderéis de manera práctica las distintas fases del
+          Cyber Kill Chain** —los distintos pasos de un ataque informático— a
+          través de las alertas y de las investigaciones que se realizan a
+          partir de las mismas.
+
+
+          **Aprenderéis a interpretar los logs de diferentes fuentes (firewalls, EDR, Windows...) para detectar anomalías y poner en marcha las primeras contramedidas**. Ni más, ni menos.
+
+
+          Un taller perfecto para equipos que quieran ampliar sus conocimientos y **ganar cierta autonomía a la hora de diseñar y gestionar el bastionado de software e infraestructura**.
       - title: "Comida 🥪 "
         time: 14:00-15:00h
         details: >-
