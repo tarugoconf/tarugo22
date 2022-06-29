@@ -65,11 +65,21 @@ days:
 
 
           Además, estudiaremos en profundidad su fiscalidad, resolveremos las dudas más frecuentes y presentaremos casos prácticos que nos ayuden a optimizar nuestras inversiones en el mundo cripto.
-      - title: "TALLER: TBA ⚙️ "
+      - title: "TALLER: herramientas y procesos para equipos de desarrollo de alto
+          rendimiento 🛠️"
         time: 15:00-18:00h
         speakers:
           - tba3
-        details: Un taller práctico del que saldrás con un nuevo superpoder.
+        details: >-
+          En este taller conoceremos **las herramientas y procesos necesarios
+          para que nuestro ciclo de desarrollo de software sea lo más productivo
+          posible.
+
+
+          Desde definir OKRs que nos ayuden a medir nuestro progreso hasta establecer el flujo de trabajo necesario para **conseguir que el despliegue en producción de nuestro software sea tan frecuente como ABURRIDO** —porque nunca pase nada— pasando por los radiadores de información necesarios para que todo el mundo sepa lo que está pasando en cada momento.
+
+
+          Da igual si tu equipo de desarrollo es mejor o peor, de este taller te llevarás un montón de ideas y buenas prácticas para que sea MEJOR.
       - title: Icebreakers y Networking 🤝
         time: 18:00-19:30h
         details: >
