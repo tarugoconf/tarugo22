@@ -83,9 +83,9 @@ days:
         speakers:
           - tba3
         details: >-
-          En este taller conoceremos **las herramientas y procesos necesarios
-          para que nuestro ciclo de desarrollo de software sea lo más productivo
-          posible.
+          En este taller conoceremos las herramientas y procesos necesarios para
+          **conseguir que nuestro ciclo de desarrollo de software sea lo más
+          productivo posible**.
 
 
           Desde definir OKRs que nos ayuden a medir nuestro progreso hasta establecer el flujo de trabajo necesario para **conseguir que el despliegue en producción de nuestro software sea tan frecuente como ABURRIDO** —porque nunca pase nada— pasando por los radiadores de información necesarios para que todo el mundo sepa lo que está pasando en cada momento.
