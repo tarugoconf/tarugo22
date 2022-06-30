@@ -234,8 +234,9 @@ speakers:
     image: /img/speakers/marta-lopez.jpeg
     type: teacher
     id: martixx
-    position: ""
+    position: Analista de Seguridad
     links:
       - type: twitter
         title: "@Martixx  "
         url: https://twitter.com/Martixx
+    company: Eleven Paths
