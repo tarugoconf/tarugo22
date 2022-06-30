@@ -38,7 +38,7 @@ days:
           Ciberseguridad) 🔐"
         time: 11:00-14:00h
         speakers:
-          - tba1
+          - martixx
         details: >-
           No, no vais a convertiros en hackers de nivel 33 en un taller de 3
           horas, pero **aprenderéis de manera práctica las distintas fases del
@@ -59,9 +59,11 @@ days:
 
 
           Una comida informal, en la que nos juntaremos todos los asistentes a los talleres —tanto los de la mañana como los de la tarde— para compartir experiencias y conversaciones.
-      - title: "TALLER: TBA ⚙️ "
+      - title: "TALLER: Cómo atraer talento técnico sin tocar LinkedIn ni con un palo
+          ❤️"
         time: 15:00-18:00h
-        details: Un taller práctico del que saldrás con un nuevo superpoder.
+        details: En esta charla, conocerás todos los secretos de Manfred para conseguir
+          cerrar los procesos de selección más difíciles del mundo.
         speakers:
           - tba3
       - title: "TALLER: Regulación y fiscalidad de criptomonedas y otros activos
