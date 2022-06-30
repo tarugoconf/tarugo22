@@ -226,3 +226,16 @@ speakers:
         url: https://criscarrascosa.substack.com/
     company: ATH21
     position: Founder & Managing Partner
+  - name: Marta López
+    bio: Marta es ex-administradora de sistemas y analista de seguridad. Lee logs,
+      libros y PCAPs, no necesariamente por ese orden. Un día le llamó la
+      Guardia Civil y no fue para ponerle una multa, sino para pedirle que fuera
+      mentora en la National Cyberleague.
+    image: /img/speakers/marta-lopez.jpeg
+    type: teacher
+    id: martixx
+    position: ""
+    links:
+      - type: twitter
+        title: "@Martixx  "
+        url: https://twitter.com/Martixx
