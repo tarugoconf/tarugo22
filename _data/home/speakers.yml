@@ -240,3 +240,29 @@ speakers:
         title: "@Martixx  "
         url: https://twitter.com/Martixx
     company: Entelgy Innotec Security
+  - name: Leonardo Poza
+    type: teacher
+    id: leo
+    company: Manfred
+    position: Scout
+    image: /img/speakers/q7yio7eu_400x400.jpeg
+    links:
+      - type: twitter
+        url: https://twitter.com/leonardopoza
+        title: "@leonardopoza"
+      - url: https://www.linkedin.com/in/leonardopoza/
+        type: linkedin
+        title: Leonardo Poza
+  - name: Manuel Recena
+    type: teacher
+    id: recena
+    links:
+      - title: "@recena"
+        type: twitter
+        url: https://twitter.com/recena
+      - title: Manuel Recena
+        type: linkedin
+        url: https://www.linkedin.com/in/recena
+    company: VMware
+    position: " Senior Engineering Manager"
+    image: /img/speakers/rzyvkq8__400x400.jpeg
