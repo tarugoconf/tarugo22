@@ -100,7 +100,7 @@ tickets:
     pricing: 350€ + IVA
     description: >-
       Esta entrada incluye todos los beneficios de la entrada Tarug@; y además
-      acceso a dos talleres prácticos el jueves 20 a precio reducido.
+      acceso a dos talleres prácticos el jueves 20.
 
 
       ### Incluye:
@@ -109,6 +109,9 @@ tickets:
       * Todos los beneficios incluidos en la entrada Tarug@
 
       * **Acceso a dos talleres (uno por la mañana y otro por la tarde)**
+
+
+      ¡La mejor opción en relación coste/valor!
     includes:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
           además...
