@@ -71,11 +71,11 @@ patrons:
   - alt: Manfred
     img: /img/partners/logo-manfred-sponsor-2.png
     url: https://www.getmanfred.com/
+  - alt: Adagio
+    img: /img/partners/adagio-amati.png
   - alt: Jordi Mon
     img: /img/partners/jordi-mon.jpeg
     url: https://twitter.com/MordodeMaru
-  - alt: Adagio
-    img: /img/partners/adagio-amati.png
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
