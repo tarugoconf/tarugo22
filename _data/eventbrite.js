@@ -13,7 +13,7 @@ export const days_left = Math.round(Math.abs((now - future) / day));
 
 const event = await get();
 
-export const url = event.url;
+export const url = event.vanity_url;
 
 export const tickets = {};
 
