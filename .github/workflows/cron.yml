@@ -1,0 +1,31 @@
+name: Publish
+
+on:
+  schedule:
+    - cron:  '*/30 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Deno environment
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Run lume
+        run: |
+          deno task build --location=https://www.tarugoconf.com/
+
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_KEY }}
+          SOURCE: "_site/"
+          REMOTE_HOST: www.tarugoconf.com
+          REMOTE_USER: ${{ secrets.SERVER_USER }}
+          TARGET: ${{ secrets.SERVER_PATH }}
+          EXCLUDE: "/dist/, /node_modules/"
