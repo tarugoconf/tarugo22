@@ -7,7 +7,7 @@ const future = new Date(2022, 9, 20);
 
 export const days_left = Math.round(Math.abs((now - future) / day));
 
-const event = await get(`/events/${EVENT_ID}/`, "expand=ticket_classes");
+const event = await get();
 
 export const url = event.url;
 
@@ -32,8 +32,9 @@ for (const ticket of event.ticket_classes) {
     Math.round(tickets[name].sold / tickets[name].capacity) * 100;
 }
 
-async function get(path, query) {
-  const url = `https://www.eventbriteapi.com/v3${path}?${query}`;
+async function get() {
+  const url =
+    `https://www.eventbriteapi.com/v3/events/${EVENT_ID}/?expand=ticket_classes`;
   const response = await fetch(url, {
     headers: {
       "Authorization": `Bearer ${API_KEY}`,
