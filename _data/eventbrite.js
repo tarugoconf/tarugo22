@@ -1,6 +1,10 @@
 const API_KEY = Deno.env.get("API_KEY");
 const EVENT_ID = Deno.env.get("EVENT_ID");
 
+if (!API_KEY || !EVENT_ID) {
+  throw new Error("API_KEY and EVENT_ID must be set");
+}
+
 const day = 24 * 60 * 60 * 1000;
 const now = new Date();
 const future = new Date(2022, 9, 20);
