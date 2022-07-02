@@ -52,6 +52,10 @@ partners:
     url: https://www.personio.es/rrhh/software-para-recursos-humanos/
     text: El sistema operativo de RRHH para startups y PYMES.
     alt: Personio
+  - alt: Tuio
+    img: /img/partners/tuio1.png
+    url: http://tuio.com/
+    text: Un seguro más digital, más ágil y más tuyo.
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
@@ -67,6 +71,9 @@ patrons:
   - alt: Manfred
     img: /img/partners/logo-manfred-sponsor-2.png
     url: https://www.getmanfred.com/
+  - alt: Jordi Mon
+    img: /img/partners/jordi-mon.jpeg
+    url: https://twitter.com/MordodeMaru
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
