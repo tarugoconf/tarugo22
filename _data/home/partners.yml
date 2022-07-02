@@ -41,7 +41,7 @@ partners:
     text: Soluciones de hosting diseñadas para una fácil gestión del sitio web.
   - img: /img/partners/0282020-logo-bv-asesores-v05-aaff-rgb-_marca-c1-color.png
     alt: BV Asesores
-    url: https://bvasesores.com/
+    url: https://bvonline.com/
     text: Tus aliados de confianza.
   - img: /img/partners/logo-redegal-blue.svg
     alt: Redegal
@@ -74,6 +74,8 @@ patrons:
   - alt: Jordi Mon
     img: /img/partners/jordi-mon.jpeg
     url: https://twitter.com/MordodeMaru
+  - alt: Adagio
+    img: /img/partners/adagio-amati.png
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
