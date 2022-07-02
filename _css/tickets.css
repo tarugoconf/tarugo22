@@ -64,3 +64,15 @@
     margin: 0.5em 0;
   }
 }
+
+.ticket-sales {
+  display: block;
+  font: var(--font-small-bold);
+  background-color: var(--color-gray-light);
+  background-image: linear-gradient(to right, var(--color-gray-medium), var(--color-gray-medium));
+  background-repeat: no-repeat;
+  background-size: var(--percentage, 0%) 100%;
+  padding: .3em 1em;
+  margin: 5px 0;
+  text-align: center;
+}
