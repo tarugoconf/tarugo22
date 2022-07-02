@@ -39,13 +39,12 @@ for (const ticket of event.ticket_classes) {
 async function get() {
   const url =
     `https://www.eventbriteapi.com/v3/events/${EVENT_ID}/?expand=ticket_classes`;
-    console.log({url});
+
   const response = await fetch(url, {
     headers: {
       "Authorization": `Bearer ${API_KEY}`,
     },
   });
-  console.log({response});
 
   const result = await response.json();
 

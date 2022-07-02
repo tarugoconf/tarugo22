@@ -7,9 +7,9 @@ import cms from "lume/plugins/netlify_cms.ts";
 import metas from "lume/plugins/metas.ts";
 import { config } from "https://deno.land/std@0.146.0/dotenv/mod.ts";
 
-await config({
-  export: true,
-});
+if (!Deno.env.get("API_KEY")) {
+  await config({ export: true });
+}
 
 const site = lume({
   location: new URL("https://tarugoconf.github.io/tarugo22/"),
