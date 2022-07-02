@@ -19,7 +19,10 @@ jobs:
       - name: Run lume
         run: |
           deno task build --location=https://www.tarugoconf.com/
-
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          EVENT_ID: ${{ secrets.EVENT_ID }}
+          
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
         env:
