@@ -33,7 +33,7 @@ for (const ticket of event.ticket_classes) {
   tickets[name].sold += ticket.quantity_sold;
   tickets[name].remaining = tickets[name].capacity - tickets[name].sold;
   tickets[name].percent =
-    Math.round(tickets[name].sold / tickets[name].capacity) * 100;
+    Math.round((tickets[name].sold / tickets[name].capacity) * 100);
 }
 
 async function get() {
