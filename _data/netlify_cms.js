@@ -62,6 +62,8 @@ data.file("Agenda", "/_data/home/calendar.yml", [
   .file("Partners", "/_data/home/partners.yml", [
     f.string("Title"),
     f.markdown("Intro"),
+    f.string("Title patrons"),
+    f.markdown("Intro patrons"),
     f.object("Main", [
       f.string("Alt"),
       f.image("Img").mediaFolder("/img/partners"),
@@ -73,6 +75,11 @@ data.file("Agenda", "/_data/home/calendar.yml", [
       f.image("Img").mediaFolder("/img/partners"),
       f.string("Url"),
       f.markdown("Text"),
+    ]),
+    f.list("Collaborators", [
+      f.string("Alt"),
+      f.image("Img").mediaFolder("/img/partners"),
+      f.string("Url"),
     ]),
     f.list("Patrons", [
       f.string("Alt"),

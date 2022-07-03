@@ -16,6 +16,11 @@
     text-align: center;
     margin: 0;
   }
+
+  &.is-subheader {
+    max-width: 30rem;
+    text-align: center;
+  }
 }
 .partners-list {
   list-style: none;
@@ -36,7 +41,7 @@
 
   &.has-partners {
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-    font: var(--font-14);
+    font: var(--font-small);
 
     & img {
       height: 130px;
@@ -44,14 +49,54 @@
       object-fit: contain;
     }
   }
-  &.has-patrons {
+  &.has-collaborators {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    font: var(--font-14);
 
     & img {
       height: 100px;
       width: 100%;
       object-fit: contain;
+    }
+  }
+  &.has-patrons {
+    grid-template-columns: repeat(auto-fit, 120px);
+    justify-content: center;
+
+    & img {
+      height: 100px;
+      width: 100%;
+      object-fit: contain;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    & a {
+      text-decoration: none;
+      color: var(--color-gray);
+      font: var(--font-small);
+    }
+
+    & .partner a {
+      perspective: 500px;
+    }
+
+    & img {
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+      transition: transform 300s;
+      will-change: transform;
+      transition: transform .2s ease-in-out;
+    }
+
+    & > li:nth-child(1n) > a:not(:hover) img {
+      transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-5deg);
+    }
+
+    & > li:nth-child(2n) > a:not(:hover) img {
+      transform: rotateX(10deg) rotateY(20deg) rotateZ(-5deg);
+    }
+
+    & > li:nth-child(3n) > a:not(:hover) img {
+      transform: rotateX(-10deg) rotateY(20deg) rotateZ(5deg);
     }
   }
 }

@@ -38,8 +38,8 @@
 
   <hr>
 
-  <ul class="partners-list has-patrons" aria-label="Lista de mecenas">
-    {% for partner in content.patrons %}
+  <ul class="partners-list has-collaborators" aria-label="Lista de colaboradores">
+    {% for partner in content.collaborators %}
       <li class="partner">
         <a href="{{ partner.url }}" rel="noopener">
           <img src="{{ partner.img }}" alt="{{ partner.alt }}">
@@ -62,4 +62,23 @@
       </p>
     </div>
   </section>
+</section>
+
+<section class="partners" id="patreons">
+  <header class="partners-header is-subheader">
+    <h2>{{ content.title_patrons | md(true) | safe }}</h2>
+  
+    {{ content.intro_patrons | md | safe }}
+  </header>
+
+  <ul class="partners-list has-patrons" aria-label="Lista de mecenas">
+    {% for partner in content.patrons %}
+      <li class="partner">
+        <a href="{{ partner.url }}" rel="noopener">
+          <img src="{{ partner.img }}" alt="{{ partner.alt }}">
+          {{ partner.alt }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
