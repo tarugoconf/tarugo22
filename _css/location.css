@@ -23,8 +23,15 @@
 .location-map {
   display: block;
   position: relative;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-  overflow: auto;
+
+  @media (min-width: 1000px) {
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  & iframe {
+    width: 100%;
+    max-height: 80vh;
+  }
 
   & img {
     display: block;
