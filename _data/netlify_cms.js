@@ -282,6 +282,48 @@ const pages = f.files("Pages")
       f.number("Stock")
     ])
   ])
+  .file("Tarugoff", "/tarugoff.yml", [
+    f.hidden("layout"),
+    metas(),
+    f.string("Title"),
+    f.string("Description"),
+    f.list("Menu", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Cta", [
+      f.string("Text"),
+      f.string("url"),
+    ]),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Header", [
+      f.string("Title"),
+      f.markdown("Intro"),
+    ]),
+    f.object("Intro", [
+      f.string("Title"),
+      f.markdown("Text"),
+      f.markdown("Aside"),
+    ]),
+    f.object("Sessions", [
+      f.string("Title"),
+      f.markdown("Text"),
+      f.object("Cta", [
+        f.string("Text"),
+        f.string("url"),
+      ]),
+    ]),
+    f.object("Faq", [
+      f.string("Title"),
+      f.list("Questions", [
+        f.string("Question"),
+        f.markdown("Answer"),
+      ]),
+    ])
+  ])
   .file("Aviso Legal", "/aviso-legal.md", [
     f.hidden("layout"),
     metas(),

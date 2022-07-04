@@ -6,8 +6,8 @@
     grid-column-gap: var(--font-size-big);
     background-image: url('data:image/svg+xml;utf8,<svg width="56" height="97" viewBox="0 0 56 97" xmlns="http://www.w3.org/2000/svg"><path d="M56 64.667L0 97V32.333L56 0z" fill="%23f0e300" fill-rule="evenodd"/></svg>');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 33% 0;
+    background-size: min(100%, 250px) auto;
+    background-position: 40% 0;
     padding-top: 6rem;
     animation: introAnim 200s both;
     animation-iteration-count: infinite;

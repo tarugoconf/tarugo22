@@ -1,0 +1,81 @@
+layout: layouts/tarugoff.njk
+title: Tarugoff
+description: |
+  Aqui descripción
+
+menu:
+  - text: Qué
+    href: '#what'
+  - text: Participar
+    href: '#participate'
+  - text: Sesiones
+    href: '#sessions'
+back:
+  text: ← Home
+  href: /
+
+cta:
+  text: Enviar sesión
+  url: 'https://forms.gle/QsDQSLx5NBdGWw3K8'
+
+header:
+  title: 'Tarugoff'
+  intro: |
+    La Tarugoff es un Open Space dentro de la Tarugoconf. Si no sabes lo que es un Open Space, puedes aprender más en el vídeo incluido en esta web, o en este [enlace](https://en.wikipedia.org/wiki/Open_Space_Technology).
+
+    Siguiendo el modelo de desconferencia, los principios en los que se basa un Open Space son:
+
+    * Las personas presentes son las que tienen que estar.
+    * Lo que ocurra es lo que tiene que ocurrir.
+    * Empezará en el momento adecuado.
+    * Acabará cuando tenga que acabar.
+    * Cualquier lugar es el lugar correcto.
+
+intro:
+  title: Participar
+  aside: |
+    Por muy loco que suene, un
+    evento gestionado por los 
+    propios asistentes y con 
+    una única regla:
+    la **Regla de los 2 Pies**-
+    Si la sesión no te aporta nada, 
+    y tú no aportas nada, vete a 
+    otra sesión.
+  text: |
+    Es posible que solo quieras asistir a las sesiones y tener una experiencia en la que pases desapercibido/a, pero si de verdad quieres sacar el mayor partido de la Tarugoff propón una sesión.
+    
+    Se pueden proponer sesiones de todos los tipos y temáticas, puedes ser novato o experta, puedes proponer una charla magistral o una mesa redonda, que la sesión se lleve a cabo tan solo depende del interés del resto de asistentes.
+    
+    Al ser online, la presentación de sesiones se realizará grabando un vídeo y enviándolo en el botón que dice "Enviar sesión".
+  
+    ### ¿Cómo votar las sesiones?
+
+    Todas las sesiones presentadas están disponibles [aquí](/sesiones/), desde donde podrás votarlas haciendo click en el botón «Votar». Nosotros nos encargaremos de revisar todos los tweets y actualizar las estadísticas.
+
+sessions:
+  title: Sesiones
+  text: |
+    Nada más sencillo, todas las sesiones están disponibles en la web en dónde podrás verlas a tu propio ritmo y votarlas fácilmente haciendo uso del botón «Votar».
+  cta:
+    text: Ver sesiones
+    url: /sesiones/
+
+faq:
+  title: FAQ
+  questions:      
+    - question: Mi sesión no ha salido elegida, ¿y ahora qué hago?
+      answer: |
+        Es un evento online en donde no estamos restringidos por el espacio, así que nada más fácil. Coméntalo en el chat del evento y, si hay personas interesadas en hacer esa sesión de forma paralela a las propuestas, tan sólo tenéis que crear una sesión en vuestro sistema de video-conferencia favorito y relizar la sesión.
+
+    - question: ¿De qué temas se pueden hablar?
+      answer: |
+        En honor al espíritu abierto de un Open Space, se puede proponer cualquier tema. Pero en un evento basado en desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
+
+    - question: ¿Puedo proponer más de una sesión?
+      answer: |
+        Sí, puedes presentar tantas como quieras.
+
+    - question: ¿Tengo que tener entrada en la Tarugoconf para poder participar en la Tarugoff?
+      answer: |
+        Sí, no tiene sentido la Tarugoff sin la Tarugoconf porque se trata de un evento complementario.
