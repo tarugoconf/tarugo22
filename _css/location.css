@@ -3,7 +3,7 @@
   display: grid;
   column-gap: var(--column-space);
   row-gap: var(--row-space);
-  
+
   @media (min-width: 850px) {
     grid-template-columns: 400px 1fr;
   }
@@ -24,6 +24,7 @@
   display: block;
   position: relative;
   clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  overflow: auto;
 
   & img {
     display: block;
