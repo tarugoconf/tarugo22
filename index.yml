@@ -36,7 +36,7 @@ quote:
     menos **3 nuevos conocimientos** que pueda aplicar en su día a día y **3
     nuevos contactos** que puedan ayudarles a en su carrera profesional, pero,
     sobre todo **que, dentro de 3 años, aun sigan sonriendo cuando recuerden el
-    evento.**
+    evento.
   footer: David Bonilla, organizador del evento
 intro:
   title: |-
@@ -123,7 +123,3 @@ location:
     **La nave**  
     Calle Cifuentes 5  
     28021 Madrid
-  map:
-    src: /img/mapa.jpg
-    url: https://goo.gl/maps/VXBiqhUvz8onSLmd9
-    text: Abrir en Google Maps
