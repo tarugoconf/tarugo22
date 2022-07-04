@@ -3,7 +3,7 @@
   display: grid;
   column-gap: var(--column-space);
   row-gap: var(--row-space);
-  
+
   @media (min-width: 850px) {
     grid-template-columns: 400px 1fr;
   }
@@ -23,7 +23,15 @@
 .location-map {
   display: block;
   position: relative;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+  @media (min-width: 1000px) {
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  & iframe {
+    width: 100%;
+    max-height: 80vh;
+  }
 
   & img {
     display: block;
