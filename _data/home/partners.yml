@@ -87,7 +87,12 @@ patrons:
   - img: /img/partners/sqclxakt73xbwvtouebg.webp
     alt: Juan Pablo, CEO de Metricool
     url: https://twitter.com/jptejela
-  - {}
+  - url: https://twitter.com/danielramosl
+    alt: Daniel Ramos
+    img: /img/partners/2ybyn6aq_400x400.jpeg
+  - alt: David Pardo
+    url: https://twitter.com/dei_biz
+    img: /img/partners/loymc4yu_400x400.jpeg
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
