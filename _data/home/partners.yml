@@ -57,6 +57,16 @@ partners:
     img: /img/partners/tuio1.png
     url: http://tuio.com/
     text: Un seguro más digital, más ágil y más tuyo.
+  - alt: Cabify
+    url: https://cabify.com/
+    text: Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las
+      ciudades a base de reducir el uso del vehículo privado.
+    img: /img/partners/cabify-logo-moradul-rgb.png
+  - alt: Paradigma
+    url: https://www.paradigmadigital.com/
+    text: Tecnología, talento y cultura. Acompañamos a las grandes compañías en su
+      camino hacia el éxito digital.
+    img: /img/partners/descarga.png
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
