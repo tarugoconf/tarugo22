@@ -75,6 +75,10 @@ partners:
     img: /img/partners/eventbrite_logo_2018.png
     url: https://www.eventbrite.es/
     text: Proveedor Oficial de Ticketing de la Tarugoconf.
+  - img: /img/partners/lanave_logo_footer.png
+    alt: Ayuntamiento de Madrid / La Nave
+    url: https://www.lanavemadrid.com/
+    text: Ayuntamiento de Madrid
 collaborators:
   - img: /img/partners/logo_str.png
     url: https://www.strsistemas.com/
