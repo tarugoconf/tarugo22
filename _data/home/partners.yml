@@ -72,6 +72,10 @@ partners:
     img: /img/partners/idealista-7-.png
     url: https://www.idealista.com/
     text: Casas y tecnología.
+  - alt: Pleo
+    img: /img/partners/59e4555639a67562e561d0f58186480a.png
+    url: https://www.pleo.io/es
+    text: La solución para gestionar tus gastos de empresa.
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
@@ -84,10 +88,6 @@ partners:
     alt: Ayuntamiento de Madrid / La Nave
     url: https://www.lanavemadrid.com/
     text: Ayuntamiento de Madrid
-  - alt: Pleo
-    img: /img/partners/59e4555639a67562e561d0f58186480a.png
-    url: https://www.pleo.io/es
-    text: La solución para gestionar tus gastos de empresa.
 collaborators:
   - img: /img/partners/logo_str.png
     url: https://www.strsistemas.com/
