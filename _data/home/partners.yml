@@ -119,6 +119,9 @@ patrons:
   - url: https://ricardo.bartolo.me/
     alt: Ricardo Bartolomé
     img: /img/partners/ricbartm_profile_pic.jpg
+  - img: /img/partners/curro-maturana.jpeg
+    alt: Curro Maturana
+    url: https://twitter.com/fmaturanac
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
