@@ -94,23 +94,23 @@ speakers:
       - type: linkedin
         url: https://www.linkedin.com/in/ramonnafria/
         text: Ramón Nafría
-  - id: tba1
-    name: TBA
+  - id: macame
+    name: Macame Dopazo
     type: speaker
-    bio: Uno de los awesómicos ponentes que quedan por anunciar.
-    company: ""
-    position: ""
-    image: /img/speakers/placeholder_amarillo.png
+    bio: Macame es CIO de Hijos de Rivera —la empresa detrás de productos tan
+      conocidos como la cerveza Estrella Galicia, el agua Cabreiroá o la sidra
+      Maeloc —donde es responsable de digitalizar toda la cadena de suministro,
+      desde la producción a la venta pasando por la distribución, de millones de
+      litros de bebidas que se consumen por todo el mundo. Aunque Física de
+      formación, lleva más de 20 años en tecnología y digitalización de
+      procesos.
+    company: Hijos de Rivera (Estrella Galicia)
+    position: CIO
+    image: /img/speakers/1585476618770.jpeg
     links:
-      - text: "@tarugoconf"
-        type: twitter
-        url: https://twitter.com/tarugoconf
       - text: Tarugoconf
         type: linkedin
-        url: https://www.linkedin.com/company/rcdeportivo/
-      - type: link
-        url: https://www.tarugoconf.com/
-        text: Tarugoconf
+        url: https://www.linkedin.com/in/macame/
   - name: TBA
     id: tba2
     type: speaker
