@@ -192,11 +192,18 @@ days:
 
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
-      - title: TBA
+      - title: La tecnología necesaria para que te tomes una buena caña
         time: 13:00-13:45h
         speakers:
-          - tba4
-        details: Una charla awesómica que te dejará con el culo torcido.
+          - macame
+        details: >-
+          Pocos saben hasta qué punto la industría cervecera lleva al límite la
+          logística para poder funcionar y cómo usa la tecnología para
+          optimizarla al máximo. Dicen que, si eres capaz de distribuir cerveza,
+          eres capaz de distribuir cualquier cosa.
+
+
+          En esta charla conoceremos la tecnología que usa Estrella Galicia, la cerveza más querida para gran parte de humanos normales y la inmensa mayoría de gallegos.
       - title: Como producir un videojuego
         speakers:
           - ramon
