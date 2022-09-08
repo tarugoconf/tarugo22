@@ -145,23 +145,29 @@ speakers:
       - type: link
         url: https://www.tarugoconf.com/
         text: Tarugoconf
-  - name: TBA
-    id: tba4
+  - name: Paulo Rodriguez
+    id: paulo
     type: speaker
-    bio: Uno de los awesómicos ponentes que quedan por anunciar.
-    company: ""
-    position: ""
-    image: /img/speakers/placeholder_azul.png
+    bio: Paulo es un informático gallego que ha trabajado en alguna de las
+      principales compañías tecnológicas del mundo. Durante los primeros años de
+      su carrera ha ejercido puestos técnicos en  Oracle, Symantec, o Amazon. En
+      los últimos diez años ha ido evolucionando de un perfil más técnico a
+      roles de negocio, lo que le ha proporcionado una perspectiva única sobre
+      las mejores prácticas comerciales del sector. Ha trabajado en diferentes
+      roles en departamentos de ventas en Google, Dropbox y actualmente lidera
+      el equipo de ventas internacional de Vanta, una startup de seguridad y
+      compliance.
+    company: Vanta
+    position: Head Of International
+    image: /img/speakers/paulo.png
     links:
       - text: "@tarugoconf"
-        url: https://twitter.com/tarugoconf
+        url: https://twitter.com/paulorf
         type: twitter
+        title: "@paulorf"
       - text: Tarugoconf
         type: linkedin
-        url: https://www.linkedin.com/company/rcdeportivo/
-      - text: Tarugoconf
-        url: https://www.tarugoconf.com/
-        type: link
+        url: https://www.linkedin.com/in/paulorf/
   - name: Diego Mariño
     id: diego
     type: teacher
