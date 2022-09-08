@@ -239,11 +239,23 @@ days:
 
 
           **El contenido final lo decidirán los asistentes a la #tarugo22**.
-      - title: TBA
-        details: Una charla awesómica que te dejará con el culo torcido.
+      - title: Ventas para Ingenieros
+        details: >-
+          Desgraciadamente, la imagen del comercial sigue asociada al vendedor
+          de enciclopedias a puerta fría o al truculento vendedor de coches
+          usados de aquellas películas de Antena 3 a las 4 de la tarde. Lo
+          cierto es que las habilidades de ventas son extremadamente útiles en
+          la vida pero solemos verlas como algo inutil, inalcanzable y a veces
+          incluso “sucio”.  
+
+
+          En esta charla conoceremos los **procesos, buenas prácticas y herramientas que hacen funcionar como un mecanismo bien engrasado a un departamento de ventas que es clave para CUALQUIER compañía tecnológica de éxito, desde startups a grandes mergacorporaciones.**
+
+
+          Al final de esta sesión, los tarugos conocerán cómo funciona un departamento de ventas, adquiriran algunas habilidades básicas (ya las tenían, pero no lo sabían), proporcionándoles un vocabulario común que les permita comunicarse y colaborar entre técnicos y vendedores, uno de los retos más habituales en la industria digital.
         time: 16:45-17:30h
         speakers:
-          - tba2
+          - paulo
       - title: ¿Debe un abogado aprender a programar?
         time: 17:30-18:15h
         speakers:
