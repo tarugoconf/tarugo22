@@ -209,6 +209,9 @@
   }
   & .calendar-event-text {
     color: white;
+    & a {
+      color: var(--color-yellow-light);
+    }
   }
 
   & .calendar-event {
