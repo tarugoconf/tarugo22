@@ -14,12 +14,10 @@ menu:
     href: "#location"
   - text: Agenda
     href: "#calendar"
-  - text: Speakers
-    href: "#speakers"
   - text: Sponsors
     href: "#partners"
-  - text: Contacto
-    href: "#contacto"
+  - text: ¡Sábado Tarugo!
+    href: /sabado-tarugo/
   - text: FAQ
     href: "#faq"
   - text: Blog

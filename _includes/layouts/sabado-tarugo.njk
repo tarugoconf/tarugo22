@@ -10,23 +10,20 @@ layout: layouts/base.njk
   </div>
 </header>
 
-
-
 <section class="intro">
   <h2 class="intro-title">{{ openspace.title }}</h2>
-
-
-
   <div class="intro-aside">{{ openspace.aside | md | safe }}</div>
 
   <div class="intro-text">
     {{ openspace.excerpt | md | safe }}
-    <figure class="video">
+
+    <figure class="intro-video">
       <tarugo-video id="video" class="video-ratio" data-id="746603787">
         <img src="/img/open-space-snapshot.jpg" alt="Open Space Tarugo">
         <a href="https://vimeo.com/746603787">#tarugoff</a>
       </tarugo-video>
     </figure>
+
     {{ openspace.text | md | safe }}
     <a href="{{ cta.url }}" class="button is-primary">{{ cta.text }}</a>
   </div>
