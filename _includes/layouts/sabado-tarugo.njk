@@ -29,6 +29,19 @@ layout: layouts/base.njk
   </div>
 </section>
 
+<ul id="activities" class="activities">  
+  {% for activity in activities %}
+  <li class="activity" data-filter="{{ activity.ages | dump }}">
+    <img src="{{ activity.img }}" alt="" class="activity-image">
+    <h2 class="activity-title">{{ activity.title }}</h2>
+
+    <div class="activity-description">
+      {{ activity.description | md | safe }}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
 <!--
 <section class="header">
   <h2 class="header-title">{{ sessions.title }}</h2>

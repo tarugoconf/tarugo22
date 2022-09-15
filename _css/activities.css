@@ -1,0 +1,27 @@
+.activities {
+  grid-column: 2 / 3;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
+  justify-content: space-between;
+  text-align: center;
+}
+.activity-image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.activity-title {
+  display: block;
+  max-width: 100%;
+  font: var(--font-small-bold);
+  margin: 1em 0 0;
+}
+.activity-description p {
+  margin: .25em 0 0;
+  font: var(--font-small);
+  color: var(--color-gray);
+}
