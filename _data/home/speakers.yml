@@ -212,40 +212,6 @@ speakers:
 
       Nerea es  Women Techmaker Scholar en 2016 por Google. En 2019, Nerea fue galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil y también ha sido seleccionada dentro del Top 100 mujeres líderes en España en la categoría revelación. En 2020 ha sido incluida en el ranking de Future Leaders elaborado por LlyC y entre los 21 changemakers de Forbes España. 
     position: " Artificial Intelligence Engineer Lead"
-  - name: Cris Carrascosa
-    type: teacher
-    id: cris
-    image: /img/speakers/w_zntktk_400x400.jpeg
-    bio: "Cris es una abogada especializada en los retos legales que han surgido
-      alrededor de la descentralización del Blockchain en general y de la
-      fiscalidad de las criptomonedas en particular. Fundadora y Managing
-      Partner de ATH21 —primera firma legal española especializada en crypto y
-      blockchain—, profesora en el IE y el ESADE, antigua miembro del
-      Observatorio Europeo de Blockchain, co-autora del libro “Blockchain: la
-      revolución industrial“ y fanática del Valencia F.C."
-    links:
-      - type: twitter
-        url: https://twitter.com/CarrascosaCris_
-      - type: linkedin
-        url: https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/
-      - type: link
-        url: https://criscarrascosa.substack.com/
-    company: ATH21
-    position: Founder & Managing Partner
-  - name: Marta López
-    bio: Marta es ex-administradora de sistemas y analista de seguridad. Lee logs,
-      libros y PCAPs, no necesariamente por ese orden. Un día le llamó la
-      Guardia Civil y no fue para ponerle una multa, sino para pedirle que fuera
-      mentora en la National Cyberleague.
-    image: /img/speakers/marta-lopez.jpeg
-    type: teacher
-    id: martixx
-    position: Analista de Seguridad
-    links:
-      - type: twitter
-        title: "@Martixx  "
-        url: https://twitter.com/Martixx
-    company: Entelgy Innotec Security
   - name: Leonardo Poza
     type: teacher
     id: leo
@@ -269,6 +235,26 @@ speakers:
 
 
       Así, como cliente, fue como contactó con [Manfred](https://www.getmanfred.com/){target="_blank"} y, poco tiempo después, se unió a la misma para intentar cambiar el mundo del recruiting técnico para siempre.
+  - name: Cris Carrascosa
+    type: teacher
+    id: cris
+    image: /img/speakers/w_zntktk_400x400.jpeg
+    bio: "Cris es una abogada especializada en los retos legales que han surgido
+      alrededor de la descentralización del Blockchain en general y de la
+      fiscalidad de las criptomonedas en particular. Fundadora y Managing
+      Partner de ATH21 —primera firma legal española especializada en crypto y
+      blockchain—, profesora en el IE y el ESADE, antigua miembro del
+      Observatorio Europeo de Blockchain, co-autora del libro “Blockchain: la
+      revolución industrial“ y fanática del Valencia F.C."
+    links:
+      - type: twitter
+        url: https://twitter.com/CarrascosaCris_
+      - type: linkedin
+        url: https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/
+      - type: link
+        url: https://criscarrascosa.substack.com/
+    company: ATH21
+    position: Founder & Managing Partner
   - name: Manuel Recena
     type: teacher
     id: recena
