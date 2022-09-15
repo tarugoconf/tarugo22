@@ -81,6 +81,10 @@ partners:
     url: https://www.tinybird.co/
     text: Construye proyectos de software basados en datos —TODOS los datos que
       quieras— de forma sencilla y escalable.
+  - alt: Twilio
+    img: /img/partners/2560px-twilio-logo-red.svg.png
+    url: https://www.twilio.com/
+    text: Interacción inteligente con el cliente, a escala.
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
@@ -93,10 +97,6 @@ partners:
     alt: Ayuntamiento de Madrid / La Nave
     url: https://www.lanavemadrid.com/
     text: Ayuntamiento de Madrid
-  - alt: Twilio
-    img: /img/partners/2560px-twilio-logo-red.svg.png
-    url: https://www.twilio.com/
-    text: Interacción inteligente con el cliente, a escala.
 collaborators:
   - img: /img/partners/logo_str.png
     url: https://www.strsistemas.com/
