@@ -279,8 +279,8 @@ const pages = f.files("Pages")
         f.string("Address"),
       ]),
       f.boolean("Complements"),
-      f.number("Stock")
-    ])
+      f.number("Stock"),
+    ]),
   ])
   .file("Tarugoff", "/tarugoff.yml", [
     f.hidden("layout"),
@@ -322,7 +322,7 @@ const pages = f.files("Pages")
         f.string("Question"),
         f.markdown("Answer"),
       ]),
-    ])
+    ]),
   ])
   .file("Aviso Legal", "/aviso-legal.md", [
     f.hidden("layout"),

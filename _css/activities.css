@@ -1,5 +1,13 @@
 .activities {
   grid-column: 2 / 3;
+}
+.activities-filter {
+  text-align: center;
+}
+.activities-tags span {
+  font-size: 3em;
+}
+.activities-items {
   list-style: none;
   padding: 0;
   display: grid;

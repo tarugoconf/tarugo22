@@ -20,66 +20,71 @@ header:
     semanas.
 
 activities:
+  tags:
+    1: Niños <span>🧒</span>
+    2: Jóvenes <span>🧑</span>
+    3: Mayores <span>👨‍🦳</span>
+  items:
   - title: Twister gigante
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Scalextric gigante
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Lucha de sumo inflable
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [2, 3]
   - title: Juegos de mesa
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Mesas de pintura
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
   - title: Set de podcasting
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [3]
+    img: https://via.placeholder.com/350x200
+    tags: [3]
   - title: Jenga gigante
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Futbolín humano
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Máquinas recreativas
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Taller de iniciación al ajedrez
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2, 3]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2, 3]
   - title: Taller de dibujo para pequeños grandes artistas
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
   - title: Taller de chapas (Autentia)
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
   - title: Taller de primeros pasos en la programación
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
   - title: Pintacaras
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
   - title: Pintacuentos
     description: Aquí la descripción
-    img: https://via.placeholder.com/350x150
-    ages: [1, 2]
+    img: https://via.placeholder.com/350x200
+    tags: [1, 2]
 
 openspace:
   title: El Open Space
