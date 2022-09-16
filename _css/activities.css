@@ -4,9 +4,7 @@
 .activities-filter {
   text-align: center;
 }
-.activities-tags span {
-  font-size: 3em;
-}
+
 .activities-items {
   list-style: none;
   padding: 0;
@@ -32,4 +30,56 @@
   margin: .25em 0 0;
   font: var(--font-small);
   color: var(--color-gray);
+}
+.activity-filters {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter {
+  --bg-color: white;
+
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  padding: .3em .5em;
+  accent-color: var(--bg-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
+  border-radius: 6px;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+  }
+
+  &.is-peque.is-active {
+    --bg-color: var(--color-yellow);
+  }
+  &.is-joven.is-active {
+    --bg-color: var(--color-blue);
+    color: white;
+  }
+  &.is-mayor.is-active {
+    --bg-color: var(--color-gray);
+    color: white;
+  }
+}
+a.filter {
+  text-decoration: none;
+  color: black;
+  font: var(--font-small-bold);
+
+  &.is-peque {
+    --bg-color: var(--color-yellow);
+  }
+  &.is-joven {
+    --bg-color: var(--color-blue);
+    color: white;
+  }
+  &.is-mayor {
+    --bg-color: var(--color-gray);
+    color: white;
+  }
 }

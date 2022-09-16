@@ -29,11 +29,11 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<tarugo-filter class="activities">
+<tarugo-filter class="activities" id="activities">
   <form class="activities-filter">
     <div class="activities-tags">
     {% for value, name in activities.tags %}
-      <label>
+      <label class="filter is-{{ value }}">
         <input type="checkbox" name="{{ value }}" value="1">
         <strong>{{ name | md(true) | safe }}</strong>
       </label>
@@ -50,9 +50,12 @@ layout: layouts/base.njk
       <div class="activity-description">
         {{ item.description | md | safe }}
       </div>
+
+      <p class="activity-filters">
       {% for tag in item.tags %}
-        {{ activities.tags[tag] | md(true) | safe }}
+        <a class="filter is-{{tag}}" href="?{{tag}}=1#activities">{{ activities.tags[tag] | md(true) | safe }}</a>
       {% endfor %}
+      </p>
     </li>
     {% endfor %}
   </ul>

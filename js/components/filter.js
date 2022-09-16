@@ -2,11 +2,10 @@ class Filter extends HTMLElement {
   connectedCallback() {
     const form = document.querySelector("form");
     const items = document.querySelectorAll(".item");
-    
     const initialParams = new URLSearchParams(document.location.search);
     
     for (const name of initialParams.keys()) {
-      if (name === "title") {
+      if (form[name]) {
         form[name].checked = true;
       }
     }
@@ -22,6 +21,7 @@ class Filter extends HTMLElement {
 }
 
 function onChange(form, items) {
+  form.querySelectorAll("input[type='checkbox']").forEach((input) => input.parentElement.classList.toggle("is-active", input.checked));
   const data = new FormData(form);
   filter(data, items);
   const permalink = new URLSearchParams(data);
@@ -46,7 +46,7 @@ function matches(item, tags) {
   const data = JSON.parse(item.dataset.tags);
 
   for (const tag of tags) {
-    if (data.includes(parseInt(tag))) {
+    if (data.includes(tag)) {
       return true;
     }
   }
