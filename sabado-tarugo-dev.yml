@@ -1,105 +1,146 @@
 layout: layouts/sabado-tarugo-dev.njk
+metas:
+  robots: noindex, nofollow, noarchive
 title: Sábado Tarugo
-description: |
-  El Sábado Tarugo es un día reservado para que los asistentes puedan asistir con sus familias y además de seguir aprendiendo puedan pasar un buen rato con todas las actividades que hemos preparado.
-
-menu:
+description: >
+  El Sábado Tarugo es un día reservado para que los asistentes puedan asistir
+  con sus familias y además de seguir aprendiendo puedan pasar un buen rato con
+  todas las actividades que hemos preparado.
+menu: null
+cta:
+  text: Enviar sesión
+  url: https://forms.gle/L6AH6R3YwjgvHuWW6
 back:
   text: ← Home
   href: /
-
-cta:
-  text: Enviar sesión
-  url: 'https://forms.gle/L6AH6R3YwjgvHuWW6'
-
 header:
-  title: '🎉 Sábado Tarugo'
-  intro: |
-    El Sábado Tarugo es un día diferente dentro de la Tarugoconf en el que no sólo se hablará de trabajo, además del 
-    Open Space tendremos una multitud de actividades que iremos descubriendo en esta página a lo largo de las próximas
-    semanas.
+  title: 🎉 Sábado Tarugo
+  intro: >
+    El Sábado Tarugo es un día diferente dentro de la Tarugoconf en el que no
+    sólo se hablará de trabajo, además del 
 
+    Open Space tendremos una multitud de actividades que iremos descubriendo en esta página a lo largo de las próximas
+
+    semanas.
 activities:
   tags:
     peque: Niños <span>🧒</span>
     joven: Jóvenes <span>🧑</span>
     mayor: Mayores <span>👨‍🦳</span>
   items:
-  - title: Twister gigante
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Scalextric gigante
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Lucha de sumo inflable
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [joven, mayor]
-  - title: Juegos de mesa
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Mesas de pintura
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-  - title: Set de podcasting
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [mayor]
-  - title: Jenga gigante
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Futbolín humano
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Máquinas recreativas
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Taller de iniciación al ajedrez
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven, mayor]
-  - title: Taller de dibujo para pequeños grandes artistas
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-  - title: Taller de chapas (Autentia)
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-  - title: Taller de primeros pasos en la programación
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-  - title: Pintacaras
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-  - title: Pintacuentos
-    description: Aquí la descripción
-    img: https://via.placeholder.com/350x200
-    tags: [peque, joven]
-
+    - title: Twister gigante
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Scalextric gigante
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Lucha de sumo inflable
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - joven
+        - mayor
+    - title: Juegos de mesa
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Mesas de pintura
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+    - title: Set de podcasting
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - mayor
+    - title: Jenga gigante
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Futbolín humano
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Máquinas recreativas
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Taller de iniciación al ajedrez
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Taller de dibujo para pequeños grandes artistas
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+    - title: Taller de chapas (Autentia)
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+    - title: Taller de primeros pasos en la programación
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+    - title: Pintacaras
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
+    - title: Pintacuentos
+      description: Aquí la descripción
+      img: https://via.placeholder.com/350x200
+      tags:
+        - peque
+        - joven
 faq:
   title: FAQ
   questions:
     - question: Mi sesión no ha salido elegida, ¿y ahora qué hago?
-      answer: |
-        Pues no pasa nada, disfruta de las sesiones que han salido, o si te encuentras por los pasillos con personas a las 
+      answer: >
+        Pues no pasa nada, disfruta de las sesiones que han salido, o si te
+        encuentras por los pasillos con personas a las 
+
         que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
+
         los 2 pies ;-)
-
     - question: ¿De qué temas se pueden hablar?
-      answer: |
-        En honor al espíritu abierto de un Open Space, se puede proponer cualquier tema. Pero en un evento basado en 
-        desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
+      answer: >
+        En honor al espíritu abierto de un Open Space, se puede proponer
+        cualquier tema. Pero en un evento basado en 
 
+        desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
     - question: ¿Puedo proponer más de una sesión?
       answer: |
         Sí, puedes presentar tantas como quieras.

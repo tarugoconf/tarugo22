@@ -406,5 +406,6 @@ function metas() {
     f.string("Title"),
     f.string("Description"),
     f.image("Image").mediaFolder("img"),
+    f.string("Robots"),
   ]);
 }
