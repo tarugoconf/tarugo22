@@ -1,0 +1,151 @@
+layout: layouts/sabado-tarugo.njk
+title: Sábado Tarugo
+description: |
+  El Sábado Tarugo es un día reservado para que los asistentes puedan asistir con sus familias y además de seguir aprendiendo puedan pasar un buen rato con todas las actividades que hemos preparado.
+
+menu:
+back:
+  text: ← Home
+  href: /
+
+cta:
+  text: Enviar sesión
+  url: 'https://forms.gle/L6AH6R3YwjgvHuWW6'
+
+header:
+  title: '🎉 Sábado Tarugo'
+  intro: |
+    El Sábado Tarugo es un día diferente dentro de la Tarugoconf en el que no sólo se hablará de trabajo, además del 
+    Open Space tendremos una multitud de actividades que iremos descubriendo en esta página a lo largo de las próximas
+    semanas.
+
+activities:
+  tags:
+    "peque": Niños <span>🧒</span>
+    "joven": Jóvenes <span>🧑</span>
+    "mayor": Mayores <span>👨‍🦳</span>
+  items:
+  - title: Twister gigante
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Scalextric gigante
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Lucha de sumo inflable
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [joven, mayor]
+  - title: Juegos de mesa
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Mesas de pintura
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+  - title: Set de podcasting
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [mayor]
+  - title: Jenga gigante
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Futbolín humano
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Máquinas recreativas
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Taller de iniciación al ajedrez
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven, mayor]
+  - title: Taller de dibujo para pequeños grandes artistas
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+  - title: Taller de chapas (Autentia)
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+  - title: Taller de primeros pasos en la programación
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+  - title: Pintacaras
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+  - title: Pintacuentos
+    description: Aquí la descripción
+    img: https://via.placeholder.com/350x200
+    tags: [peque, joven]
+
+openspace:
+  title: El Open Space
+  aside: |
+    Por muy loco que suene, un
+    evento gestionado por los 
+    propios asistentes y con 
+    una única regla:
+    la **Regla de los 2 Pies**-
+    Si la sesión no te aporta nada, 
+    y tú no aportas nada, vete a 
+    otra sesión.
+  excerpt: |     
+    Si no sabes lo que es un Open Space, tienes varias opciones, leer la definición de la Wikipedia [aquí](https://en.wikipedia.org/wiki/Open_Space_Technology), 
+    continuar leyendo el resto de esta página, o ver el vídeo que tienes a continuación :-)
+  text: |
+    Siguiendo el modelo de desconferencia, los principios en los que se basa un Open Space son:
+
+    * Las personas presentes son las que tienen que estar.
+    * Lo que ocurra es lo que tiene que ocurrir.
+    * Empezará en el momento adecuado.
+    * Acabará cuando tenga que acabar.
+    * Cualquier lugar es el lugar correcto.
+    
+    Es posible que solo quieras asistir a las sesiones y tener una experiencia en la que pases desapercibido/a, pero si 
+    de verdad quieres sacar el mayor partido del Open, propón una sesión.
+    
+    Se pueden proponer sesiones de todos los tipos y temáticas, puedes ser novato o experta, puedes proponer una charla 
+    magistral o una mesa redonda, que la sesión se lleve a cabo tan solo depende del interés del resto de asistentes.
+    
+    Aunque este año volvemos al modo presencial, mantendremos abierto un formulario para que puedas proponer la sesión de 
+    antemano, grabándolo en la tranquilidad de casa y sin nervios. Para ello puedes usar el botón que indica "Enviar sesión" :-)
+  
+    ### ¿Y cuándo sabremos qué sesiones son las seleccionadas?
+    
+    Pues como en todo Open Space, el mismo día del evento dejaremos un tiempo para que todos los asistentes puedan votar
+    las sesiones que más les interesen. Con esas votaciones la organización montará los tracks y tan sólo quedará participar 
+    y disfrutar.
+
+sessions:
+  title: Sesiones
+  text: |
+    Nada más sencillo, todas las sesiones están disponibles en la web en dónde podrás verlas a tu propio ritmo y votarlas fácilmente haciendo uso del botón «Votar».
+  cta:
+    text: Ver sesiones
+    url: /sesiones/
+
+faq:
+  title: FAQ
+  questions:
+    - question: Mi sesión no ha salido elegida, ¿y ahora qué hago?
+      answer: |
+        Pues no pasa nada, disfruta de las sesiones que han salido, o si te encuentras por los pasillos con personas a las 
+        que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
+        los 2 pies ;-)
+
+    - question: ¿De qué temas se pueden hablar?
+      answer: |
+        En honor al espíritu abierto de un Open Space, se puede proponer cualquier tema. Pero en un evento basado en 
+        desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
+
+    - question: ¿Puedo proponer más de una sesión?
+      answer: |
+        Sí, puedes presentar tantas como quieras.
