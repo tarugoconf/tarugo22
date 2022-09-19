@@ -1,4 +1,4 @@
-layout: layouts/sabado-tarugo.njk
+layout: layouts/sabado-tarugo-dev.njk
 title: Sábado Tarugo
 description: |
   El Sábado Tarugo es un día reservado para que los asistentes puedan asistir con sus familias y además de seguir aprendiendo puedan pasar un buen rato con todas las actividades que hemos preparado.
@@ -21,9 +21,9 @@ header:
 
 activities:
   tags:
-    "peque": Niños <span>🧒</span>
-    "joven": Jóvenes <span>🧑</span>
-    "mayor": Mayores <span>👨‍🦳</span>
+    peque: Niños <span>🧒</span>
+    joven: Jóvenes <span>🧑</span>
+    mayor: Mayores <span>👨‍🦳</span>
   items:
   - title: Twister gigante
     description: Aquí la descripción
@@ -85,52 +85,6 @@ activities:
     description: Aquí la descripción
     img: https://via.placeholder.com/350x200
     tags: [peque, joven]
-
-openspace:
-  title: El Open Space
-  aside: |
-    Por muy loco que suene, un
-    evento gestionado por los 
-    propios asistentes y con 
-    una única regla:
-    la **Regla de los 2 Pies**-
-    Si la sesión no te aporta nada, 
-    y tú no aportas nada, vete a 
-    otra sesión.
-  excerpt: |     
-    Si no sabes lo que es un Open Space, tienes varias opciones, leer la definición de la Wikipedia [aquí](https://en.wikipedia.org/wiki/Open_Space_Technology), 
-    continuar leyendo el resto de esta página, o ver el vídeo que tienes a continuación :-)
-  text: |
-    Siguiendo el modelo de desconferencia, los principios en los que se basa un Open Space son:
-
-    * Las personas presentes son las que tienen que estar.
-    * Lo que ocurra es lo que tiene que ocurrir.
-    * Empezará en el momento adecuado.
-    * Acabará cuando tenga que acabar.
-    * Cualquier lugar es el lugar correcto.
-    
-    Es posible que solo quieras asistir a las sesiones y tener una experiencia en la que pases desapercibido/a, pero si 
-    de verdad quieres sacar el mayor partido del Open, propón una sesión.
-    
-    Se pueden proponer sesiones de todos los tipos y temáticas, puedes ser novato o experta, puedes proponer una charla 
-    magistral o una mesa redonda, que la sesión se lleve a cabo tan solo depende del interés del resto de asistentes.
-    
-    Aunque este año volvemos al modo presencial, mantendremos abierto un formulario para que puedas proponer la sesión de 
-    antemano, grabándolo en la tranquilidad de casa y sin nervios. Para ello puedes usar el botón que indica "Enviar sesión" :-)
-  
-    ### ¿Y cuándo sabremos qué sesiones son las seleccionadas?
-    
-    Pues como en todo Open Space, el mismo día del evento dejaremos un tiempo para que todos los asistentes puedan votar
-    las sesiones que más les interesen. Con esas votaciones la organización montará los tracks y tan sólo quedará participar 
-    y disfrutar.
-
-sessions:
-  title: Sesiones
-  text: |
-    Nada más sencillo, todas las sesiones están disponibles en la web en dónde podrás verlas a tu propio ritmo y votarlas fácilmente haciendo uso del botón «Votar».
-  cta:
-    text: Ver sesiones
-    url: /sesiones/
 
 faq:
   title: FAQ

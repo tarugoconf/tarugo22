@@ -324,6 +324,48 @@ const pages = f.files("Pages")
       ]),
     ]),
   ])
+  .file("Sábado Tarugo", "/sabado-tarugo-dev.yml", [
+    f.hidden("layout"),
+    metas(),
+    f.string("Title"),
+    f.string("Description"),
+    f.list("Menu", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Cta", [
+      f.string("Text"),
+      f.string("url"),
+    ]),
+    f.object("Back", [
+      f.string("Text"),
+      f.string("Href"),
+    ]),
+    f.object("Header", [
+      f.string("Title"),
+      f.markdown("Intro"),
+    ]),
+    f.object("activities", [
+      f.object("Tags", [
+        f.string("Peque"),
+        f.string("Joven"),
+        f.string("Mayor"),
+      ]),
+      f.list("Items", [
+        f.string("Title"),
+        f.string("Description"),
+        f.image("Img"),
+        f.list("Tags")
+      ]),
+    ]),
+    f.object("Faq", [
+      f.string("Title"),
+      f.list("Questions", [
+        f.string("Question"),
+        f.markdown("Answer"),
+      ]),
+    ]),
+  ])
   .file("Aviso Legal", "/aviso-legal.md", [
     f.hidden("layout"),
     metas(),

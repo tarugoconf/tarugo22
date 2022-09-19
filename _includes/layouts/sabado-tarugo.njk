@@ -29,38 +29,6 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<tarugo-filter class="activities" id="activities">
-  <form class="activities-filter">
-    <div class="activities-tags">
-    {% for value, name in activities.tags %}
-      <label class="filter is-{{ value }}">
-        <input type="checkbox" name="{{ value }}" value="1">
-        <strong>{{ name | md(true) | safe }}</strong>
-      </label>
-    {% endfor %}
-    </div>
-  </form>
-
-  <ul class="activities-items">  
-    {% for item in activities.items %}
-    <li class="activity item" data-tags="{{ item.tags | dump }}">
-      <img src="{{ item.img }}" alt="" class="activity-image">
-      <h2 class="activity-title">{{ item.title }}</h2>
-
-      <div class="activity-description">
-        {{ item.description | md | safe }}
-      </div>
-
-      <p class="activity-filters">
-      {% for tag in item.tags %}
-        <a class="filter is-{{tag}}" href="?{{tag}}=1#activities">{{ activities.tags[tag] | md(true) | safe }}</a>
-      {% endfor %}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-</tarugo-filter>
-
 <!--
 <section class="header">
   <h2 class="header-title">{{ sessions.title }}</h2>
