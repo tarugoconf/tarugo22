@@ -29,8 +29,9 @@ activities:
     mayor: Mayores <span>👨‍🦳</span>
   items:
     - title: Twister gigante
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Un sueño hecho realidad, poder espanzurrarte con tus seres queridos
+        y demostrar quién es más flexible.
+      img: /img/juegos-gigantes-19-4.jpeg
       tags:
         - peque
         - joven
