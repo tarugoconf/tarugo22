@@ -29,16 +29,16 @@ activities:
     mayor: Mayores <span>👨‍🦳</span>
   items:
     - title: Twister gigante
-      description: Un sueño hecho realidad, poder espanzurrarte con tus seres queridos
-        y demostrar quién es más flexible.
+      description: Podrás espanzurrarte con tus colegas y seres queridos, para
+        demostrar quién es más flexible.
       img: /img/tar_twister.jpg
       tags:
         - peque
         - joven
         - mayor
     - title: Scalextric gigante
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Compite en el circuito GIGANTE que siempre soñaste montar en tu salón.
+      img: /img/tar_excalextric.jpg
       tags:
         - peque
         - joven
