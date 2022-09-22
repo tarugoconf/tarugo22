@@ -85,10 +85,10 @@ activities:
         - peque
         - joven
         - mayor
-    - title: Taller de fundamentos a la Programación
-      description: "David Bonilla explicará a los más pequeños (a partir de 4 años)
-        los fundamentos básicos de la programación con la ayuda de un buen
-        amigo... "
+    - title: Taller de fundamentos de la Programación
+      description: David Bonilla explicará a los más pequeños (a partir de 4 años) los
+        fundamentos básicos de la programación con la ayuda de un buen amigo...
+        ¡Cubetto!
       img: /img/tar_cubetto.jpg
       tags:
         - peque
