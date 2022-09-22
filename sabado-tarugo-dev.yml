@@ -28,17 +28,36 @@ activities:
     joven: Jóvenes <span>🧑</span>
     mayor: Mayores <span>👨‍🦳</span>
   items:
-    - title: Twister gigante
-      description: Podrás espanzurrarte con tus colegas y seres queridos, para
-        demostrar quién es más flexible.
-      img: /img/tar_twister.jpg
+    - title: Taller de Sketchnoting
+      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
+        href="https://dibujandocharlas.com/"
+        target="_blank">dibujandocharlas.com</a>
+      img: /img/tar_sketchnoting.jpg
       tags:
-        - peque
         - joven
         - mayor
     - title: Scalextric gigante
       description: Compite en el circuito GIGANTE que siempre soñaste montar en tu salón.
       img: /img/tar_excalextric.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Set de podcasting
+      description: Podrás asistir a la grabación en directo de algunos de tus podcast
+        favoritos como Heavy Mental o Code on the Rocks
+      img: /img/tar_podcast.jpg
+      tags:
+        - mayor
+    - title: Ludoteca
+      description: Zona de juegos para niños de 3 a 6 años, con monitores titulados.
+      img: /img/tar_ludoteca.jpg
+      tags:
+        - peque
+    - title: Twister gigante
+      description: Podrás espanzurrarte con tus colegas y seres queridos, para
+        demostrar quién es más flexible.
+      img: /img/tar_twister.jpg
       tags:
         - peque
         - joven
@@ -50,37 +69,18 @@ activities:
       tags:
         - joven
         - mayor
-    - title: Juegos de mesa
-      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
-        desde el Parchís a MoneyLand, el juego que enseña finanzas personales. "
-      img: /img/tar_juegos_mesa.jpg
-      tags:
-        - peque
-        - joven
-        - mayor
-    - title: Ludoteca
-      description: Zona de juegos para niños de 3 a 6 años, con monitores titulados.
-      img: /img/tar_ludoteca.jpg
-      tags:
-        - peque
-    - title: Set de podcasting
-      description: Podrás asistir a la grabación en directo de algunos de tus podcast
-        favoritos como Heavy Mental o Code on the Rocks
-      img: /img/tar_podcast.jpg
-      tags:
-        - mayor
-    - title: Taller de Sketchnoting
-      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
-        href="https://dibujandocharlas.com/"
-        target="_blank">dibujandocharlas.com</a>
-      img: /img/tar_sketchnoting.jpg
-      tags:
-        - joven
-        - mayor
     - title: Jenga Gigante
       description: "Ya veréis. El juego del Jenga va a ser MUY importante en la
         #tarugo22... el sábado, también :)"
       img: /img/tar_jenga.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Juegos de mesa
+      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
+        desde el Parchís a MoneyLand, el juego que enseña finanzas personales. "
+      img: /img/tar_juegos_mesa.jpg
       tags:
         - peque
         - joven
