@@ -85,13 +85,13 @@ activities:
         - peque
         - joven
         - mayor
-    - title: Máquinas recreativas
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Taller de fundamentos a la Programación
+      description: "David Bonilla explicará a los más pequeños (a partir de 4 años)
+        los fundamentos básicos de la programación con la ayuda de un buen
+        amigo... "
+      img: /img/tar_cubetto.jpg
       tags:
         - peque
-        - joven
-        - mayor
     - title: Taller de iniciación al ajedrez
       description: Aquí la descripción
       img: https://via.placeholder.com/350x200
