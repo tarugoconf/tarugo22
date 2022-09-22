@@ -69,17 +69,18 @@ activities:
       img: /img/tar_podcast.jpg
       tags:
         - mayor
+    - title: Taller de Sketchnoting
+      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
+        href="https://dibujandocharlas.com/"
+        target="_blank">dibujandocharlas.com</a>
+      img: /img/tar_sketchnoting.jpg
+      tags:
+        - joven
+        - mayor
     - title: Jenga Gigante
       description: "Ya veréis. El juego del Jenga va a ser MUY importante en la
         #tarugo22... el sábado, también :)"
       img: /img/tar_jenga.jpg
-      tags:
-        - peque
-        - joven
-        - mayor
-    - title: Futbolín humano
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
       tags:
         - peque
         - joven
