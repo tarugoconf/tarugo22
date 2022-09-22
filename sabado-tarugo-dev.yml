@@ -190,3 +190,7 @@ faq:
     - question: ¿Puedo proponer más de una sesión en la TarugOff?
       answer: |
         Sí, puedes presentar tantas como quieras.
+    - question: ¡Tengo más dudas!
+      answer: No pasa nada. Como siempre, escribe a
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
+        estaremos encantados de atenderte.
