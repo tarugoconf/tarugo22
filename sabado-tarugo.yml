@@ -1,6 +1,5 @@
-layout: layouts/sabado-tarugo-dev.njk
+layout: layouts/sabado-tarugo.njk
 metas:
-  robots: ""
   title: Sábado Tarugo
   description: "La jornada más festiva de la #tarugo22"
   image: ""

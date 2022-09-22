@@ -324,7 +324,7 @@ const pages = f.files("Pages")
       ]),
     ]),
   ])
-  .file("Sábado Tarugo", "/sabado-tarugo-dev.yml", [
+  .file("Sábado Tarugo", "/sabado-tarugo.yml", [
     f.hidden("layout"),
     metas(),
     f.string("Title"),
@@ -355,7 +355,7 @@ const pages = f.files("Pages")
         f.string("Title"),
         f.string("Description"),
         f.image("Img"),
-        f.list("Tags")
+        f.list("Tags"),
       ]),
     ]),
     f.object("Faq", [
@@ -406,6 +406,5 @@ function metas() {
     f.string("Title"),
     f.string("Description"),
     f.image("Image").mediaFolder("img"),
-    f.string("Robots"),
   ]);
 }
