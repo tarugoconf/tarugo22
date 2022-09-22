@@ -37,16 +37,16 @@ activities:
       tags:
         - joven
         - mayor
-    - title: Scalextric gigante
-      description: Compite en el circuito GIGANTE que siempre soñaste montar en tu salón.
+    - title: Scalextric Gigante
+      description: Compite en el circuito que siempre soñaste montar en tu salón.
       img: /img/tar_excalextric.jpg
       tags:
         - peque
         - joven
         - mayor
     - title: Set de podcasting
-      description: Podrás asistir a la grabación en directo de algunos de tus podcast
-        favoritos como Heavy Mental o Code on the Rocks
+      description: Podrás participar en la grabación en directo de algunos de tus podcast
+        favoritos como **Heavy Mental** o **Code on the Rocks**.
       img: /img/tar_podcast.jpg
       tags:
         - mayor
@@ -55,9 +55,8 @@ activities:
       img: /img/tar_ludoteca.jpg
       tags:
         - peque
-    - title: Twister gigante
-      description: Podrás espanzurrarte con tus colegas y seres queridos, para
-        demostrar quién es más flexible.
+    - title: Twister Gigante
+      description: Podrás espanzurrarte con tus colegas y seres queridos. El único juego donde esperamos que realmente seas retorcido.
       img: /img/tar_twister.jpg
       tags:
         - peque
@@ -65,7 +64,7 @@ activities:
         - mayor
     - title: Cineclub de Informática
       description: Proyectaremos en el auditorio películas y documentales sobre
-        informática durante todo el día.
+        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la vida de Aaron Schwartz o el clásico de 1982, «TRON».
       img: /img/tar_auditorio.jpg
       tags:
         - joven
