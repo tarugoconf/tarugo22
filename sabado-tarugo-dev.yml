@@ -105,9 +105,10 @@ activities:
       tags:
         - peque
         - joven
-    - title: Taller de chapas (Autentia)
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Taller de personalización de chapas
+      description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
+        nuestros amigos de Autentia.
+      img: /img/tar_chapas.jpg
       tags:
         - peque
         - joven
