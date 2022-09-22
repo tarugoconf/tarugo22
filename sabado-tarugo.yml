@@ -155,25 +155,33 @@ activities:
 faq:
   title: FAQ
   questions:
-    - question: ¿Quién puede ir al Sábado Tarugo?
-      answer: >
-        Pueden ir todos los asistentes con entrada del evento principal y,
-        además, traer consigo a los acompañantes que quieran: amigos,
-        familiares, compañeros de trabajo...
-    - question: ¿Cuesta algo?
-      answer: |
-        No, el Sábado Tarugo es completamente gratuito.
     - question: ¿Es una jornada solo para familias con niños?
       answer: ¡N﻿o! Hay actividades para grandes y pequeños, pero si quieres pasarte
         con tus hijos, padres o amigos para acercarles un poco más a la realidad
         de tu profesión, se lo pasarán PIRATA :)
+    - question: ¿Quién puede ir al Sábado Tarugo?
+      answer: >-
+        Pueden ir todos los asistentes con entrada del evento principal y,
+        además, traer consigo a los acompañantes que quieran: amigos,
+        familiares, compañeros de trabajo...
+
+
+        No podrán acceder personas *random* que no acompañen a un asistente de la Tarugoconf.
+    - question: ¿Cuesta algo?
+      answer: No, al contrario que en pasadas ediciones, **el Sábado Tarugo es
+        completamente gratuito**. Solo tendréis que pagar los servicios de
+        restauración (comida y bebida) gestionados por terceros que consumáis.
     - question: ¿Habrá comida y bebida?
-      answer: Sí. Tendréis varias opciones de catering (de pago) para beber y picar
-        durante la jornada.
+      answer: Sí. Tendréis varias opciones de catering (de pago) para beber y comer
+        durante toda la jornada.
     - question: ¿Qué horario tiene?
-      answer: A partir de las 11:00h de la mañana y hasta después de comer.
-    - question: ¿Hay sitio para aparcar?
+      answer: A partir de las 11:00h de la mañana y hasta después de comer (a las
+        17:00h, tiene que estar todo recogido).
+    - question: ¿Habrá sitio para aparcar?
       answer: Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
+    - question: ¿Hay un límite de aforo?
+      answer: S﻿í, 1.000 personas. Si llegamos a ese límite, el próximo año alquilamos
+        la Plaza de Toros.
     - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
       answer: >
         Pues no pasa nada, disfruta de las sesiones que han salido, o si te
