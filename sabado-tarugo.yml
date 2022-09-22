@@ -6,7 +6,7 @@ metas:
   image: ""
 title: Sábado Tarugo
 description: >
-  Después de las emociones fuertes del viernes, el Sábado Tarugo es una jornada diseñada para **que los asistentes 
+  Después de las emociones fuertes del viernes, el Sábado Tarugo es **una jornada diseñada para que los asistentes 
   puedan disfrutar relajadamente sin una agenda marcada**. No solo podrán participar en la TarugOff 
   ——nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar 
   un buen rato con todas las actividades que hemos preparado que disfrutarán por igual, mayores y pequeños.
@@ -19,10 +19,10 @@ back:
   href: /
 header:
   title: 🎉 Sábado Tarugo
-  intro: El Sábado Tarugo es un día diferente dentro de la Tarugoconf en el que no
-    sólo se hablará de trabajo, además del **Open Space** tendremos una multitud
-    de actividades que iremos descubriendo en esta página a lo largo de las
-    próximas semanas.
+  intro: Después de las emociones fuertes del viernes, el Sábado Tarugo es **una jornada diseñada para que los asistentes 
+  puedan disfrutar relajadamente sin una agenda marcada**. No solo podrán participar en la TarugOff 
+  ——nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar 
+  un buen rato con todas las actividades que hemos preparado que disfrutarán por igual, mayores y pequeños.
 activities:
   tags:
     peque: Niños <span>🧒</span>
