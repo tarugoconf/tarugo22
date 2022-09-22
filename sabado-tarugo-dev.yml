@@ -93,8 +93,9 @@ activities:
       tags:
         - peque
     - title: Taller de iniciación al ajedrez
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Grandes y pequeños aprenderán a dar sus primeros pasos en el mundo
+        del ajedrez.
+      img: /img/tar_chess.jpg
       tags:
         - peque
         - joven
