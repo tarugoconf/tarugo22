@@ -69,9 +69,10 @@ activities:
       img: /img/tar_podcast.jpg
       tags:
         - mayor
-    - title: Jenga gigante
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Jenga Gigante
+      description: "Ya veréis. El juego del Jenga va a ser MUY importante en la
+        #tarugo22... el sábado, también :)"
+      img: /img/tar_jenga.jpg
       tags:
         - peque
         - joven
