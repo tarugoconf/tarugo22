@@ -32,14 +32,12 @@ activities:
     joven: Jóvenes <span>🧑</span>
     mayor: Mayores <span>👨‍🦳</span>
   items:
-    - title: Taller de Sketchnoting
-      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
-        href="https://dibujandocharlas.com/"
-        target="_blank">dibujandocharlas.com</a>
-      img: /img/tar_sketchnoting.jpg
+    - title: TarugOff
       tags:
-        - joven
         - mayor
+      img: /img/tar_tarugoff.jpg
+      description: El Open Space de la Tarugo, donde los asistentes podréis proponer
+        vuestros propios contenidos y votar los que mas os interesen.
     - title: Scalextric Gigante
       description: Compite en el circuito que siempre soñaste montar en tu salón.
       img: /img/tar_excalextric.jpg
@@ -59,6 +57,14 @@ activities:
       img: /img/tar_ludoteca.jpg
       tags:
         - peque
+    - title: Taller de Sketchnoting
+      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
+        href="https://dibujandocharlas.com/"
+        target="_blank">dibujandocharlas.com</a>
+      img: /img/tar_sketchnoting.jpg
+      tags:
+        - joven
+        - mayor
     - title: Twister Gigante
       description: Podrás espanzurrarte con tus colegas y seres queridos. El único
         juego donde esperamos que realmente seas retorcido.
@@ -158,6 +164,17 @@ faq:
     - question: ¿Cuesta algo?
       answer: |
         No, el Sábado Tarugo es completamente gratuito.
+    - question: ¿Es una jornada solo para familias con niños?
+      answer: ¡N﻿o! Hay actividades para grandes y pequeños, pero si quieres pasarte
+        con tus hijos, padres o amigos para acercarles un poco más a la realidad
+        de tu profesión, se lo pasarán PIRATA :)
+    - question: ¿Habrá comida y bebida?
+      answer: Sí. Tendréis varias opciones de catering (de pago) para beber y picar
+        durante la jornada.
+    - question: ¿Qué horario tiene?
+      answer: A partir de las 11:00h de la mañana y hasta después de comer.
+    - question: ¿Hay sitio para aparcar?
+      answer: Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
     - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
       answer: >
         Pues no pasa nada, disfruta de las sesiones que han salido, o si te
@@ -175,3 +192,7 @@ faq:
     - question: ¿Puedo proponer más de una sesión en la TarugOff?
       answer: |
         Sí, puedes presentar tantas como quieras.
+    - question: ¡Tengo más dudas!
+      answer: No pasa nada. Como siempre, escribe a
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
+        estaremos encantados de atenderte.
