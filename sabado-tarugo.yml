@@ -85,50 +85,62 @@ activities:
         - peque
         - joven
         - mayor
-    - title: Taller de fundamentos a la Programación
-      description: "David Bonilla explicará a los más pequeños (a partir de 4 años)
-        los fundamentos básicos de la programación con la ayuda de un buen
-        amigo... "
+    - title: Taller de fundamentos de la Programación
+      description: David Bonilla explicará a los más pequeños (a partir de 4 años) los
+        fundamentos básicos de la programación con la ayuda de un buen amigo...
+        ¡Cubetto!
       img: /img/tar_cubetto.jpg
       tags:
         - peque
     - title: Taller de iniciación al ajedrez
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Grandes y pequeños aprenderán a dar sus primeros pasos en el mundo
+        del ajedrez.
+      img: /img/tar_chess.jpg
       tags:
         - peque
         - joven
         - mayor
     - title: Taller de dibujo para pequeños grandes artistas
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Aprende técnicas básicas de dibujo de la mano de Hugo Tobio ¡El
+        mismísimo ilustrador de la Bonilista!
+      img: /img/tar_hugo.jpg
+      tags:
+        - joven
+        - mayor
+    - title: Taller de personalización de chapas
+      description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
+        nuestros amigos de Autentia.
+      img: /img/tar_chapas.jpg
       tags:
         - peque
         - joven
-    - title: Taller de chapas (Autentia)
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Puestos de Realidad Virtual
+      description: Da tus primeros pasos en la realidad virtual de la mano de los
+        desarrolladores del juego CoolPaintr VR, SNGULAR Studios.
+      img: /img/tar_vr.jpg
       tags:
         - peque
         - joven
-    - title: Taller de primeros pasos en la programación
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
-      tags:
-        - peque
-        - joven
+        - mayor
     - title: Pintacaras
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Un clásico que nunca falla.
+      img: /img/tar_pintacaras.jpg
+      tags:
+        - peque
+    - title: Juegos «Desenchufados»
+      description: Juegos tradicionales para que las nuevas generaciones conozcan la
+        vida que hay más allá de la consola ¿Jugamos a las chapas?
+      img: /img/tar_chapas_carreras.jpg
       tags:
         - peque
         - joven
-    - title: Pintacuentos
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: "Debriefing de la #Tarugo22"
       tags:
-        - peque
-        - joven
+        - mayor
+      img: /img/tar_debriefing.jpg
+      description: Comenta y conoce todos los detalles del evento, charlando
+        relajadamente con sus principales protagonistas —ponentes,
+        patrocinadores y organizadores— en un ambiente relajado y amigable.
 faq:
   title: FAQ
   questions:
