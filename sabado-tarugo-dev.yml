@@ -122,8 +122,8 @@ activities:
         - peque
         - joven
     - title: Pintacaras
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Un clásico que nunca falla.
+      img: /img/tar_pintacaras.jpg
       tags:
         - peque
     - title: Juegos «Desenchufados»
