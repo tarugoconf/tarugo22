@@ -58,12 +58,11 @@ activities:
         - peque
         - joven
         - mayor
-    - title: Mesas de pintura
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Ludoteca
+      description: Zona de juegos para niños de 3 a 6 años, con monitores experimentados.
+      img: /img/tar_ludoteca.jpg
       tags:
         - peque
-        - joven
     - title: Set de podcasting
       description: Podrás asistir a la grabación en directo de algunos de tus podcast
         favoritos como Heavy Mental o Code on the Rocks
