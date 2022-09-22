@@ -1,7 +1,7 @@
 layout: layouts/sabado-tarugo-dev.njk
 metas:
   robots: ""
-  title: Sabado Tarugo
+  title: Sábado Tarugo
   description: "La jornada más festiva de la #tarugo22"
   image: ""
 title: Sábado Tarugo
@@ -63,8 +63,9 @@ activities:
         - peque
         - joven
     - title: Set de podcasting
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Podrás asistir a la grabación en directo de algunos de tus podcast
+        favoritos como Heavy Mental o Code on the Rocks
+      img: /img/37a00ab3-f455-45e6-89a8-058dc2116bc7.jpeg
       tags:
         - mayor
     - title: Jenga gigante
