@@ -114,9 +114,10 @@ activities:
       tags:
         - peque
         - joven
-    - title: Taller de primeros pasos en la programación
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Puestos de Realidad Virtual
+      description: Da tus primeros pasos en la realidad virtual de la mano de los
+        desarrolladores del juego CoolPaintr VR, SNGULAR Studios.
+      img: /img/tar_vr.jpg
       tags:
         - peque
         - joven
@@ -125,10 +126,10 @@ activities:
       img: https://via.placeholder.com/350x200
       tags:
         - peque
-        - joven
-    - title: Pintacuentos
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Juegos «Desenchufados»
+      description: Juegos tradicionales para que las nuevas generaciones conozcan la
+        vida que hay más allá de la consola ¿Jugamos a las chapas?
+      img: /img/tar_chapas_carreras.jpg
       tags:
         - peque
         - joven
