@@ -6,9 +6,10 @@ metas:
   image: ""
 title: Sábado Tarugo
 description: >
-  El Sábado Tarugo es un día reservado para que los asistentes puedan asistir
-  con sus familias y además de seguir aprendiendo puedan pasar un buen rato con
-  todas las actividades que hemos preparado.
+  Después de las emociones fuertes del viernes, el Sábado Tarugo es **una jornada diseñada para que los asistentes 
+  puedan disfrutar relajadamente sin una agenda marcada**. No solo podrán participar en la TarugOff 
+  ——nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar 
+  un buen rato con todas las actividades que hemos preparado que disfrutarán por igual, mayores y pequeños.
 menu: null
 cta:
   text: Enviar sesión
@@ -18,10 +19,10 @@ back:
   href: /
 header:
   title: 🎉 Sábado Tarugo
-  intro: El Sábado Tarugo es un día diferente dentro de la Tarugoconf en el que no
-    sólo se hablará de trabajo, además del **Open Space** tendremos una multitud
-    de actividades que iremos descubriendo en esta página a lo largo de las
-    próximas semanas.
+  intro: Después de las emociones fuertes del viernes, el Sábado Tarugo es **una jornada diseñada para que los asistentes 
+  puedan disfrutar relajadamente sin una agenda marcada**. No solo podrán participar en la TarugOff 
+  ——nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar 
+  un buen rato con todas las actividades que hemos preparado que disfrutarán por igual, mayores y pequeños.
 activities:
   tags:
     peque: Niños <span>🧒</span>
@@ -36,16 +37,16 @@ activities:
       tags:
         - joven
         - mayor
-    - title: Scalextric gigante
-      description: Compite en el circuito GIGANTE que siempre soñaste montar en tu salón.
+    - title: Scalextric Gigante
+      description: Compite en el circuito que siempre soñaste montar en tu salón.
       img: /img/tar_excalextric.jpg
       tags:
         - peque
         - joven
         - mayor
     - title: Set de podcasting
-      description: Podrás asistir a la grabación en directo de algunos de tus podcast
-        favoritos como Heavy Mental o Code on the Rocks
+      description: Podrás participar en la grabación en directo de algunos de tus podcast
+        favoritos como **Heavy Mental** o **Code on the Rocks**.
       img: /img/tar_podcast.jpg
       tags:
         - mayor
@@ -54,9 +55,8 @@ activities:
       img: /img/tar_ludoteca.jpg
       tags:
         - peque
-    - title: Twister gigante
-      description: Podrás espanzurrarte con tus colegas y seres queridos, para
-        demostrar quién es más flexible.
+    - title: Twister Gigante
+      description: Podrás espanzurrarte con tus colegas y seres queridos. El único juego donde esperamos que realmente seas retorcido.
       img: /img/tar_twister.jpg
       tags:
         - peque
@@ -64,13 +64,13 @@ activities:
         - mayor
     - title: Cineclub de Informática
       description: Proyectaremos en el auditorio películas y documentales sobre
-        informática durante todo el día.
+        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la vida de Aaron Schwartz o el clásico de 1982, «TRON».
       img: /img/tar_auditorio.jpg
       tags:
         - joven
         - mayor
     - title: Jenga Gigante
-      description: "Ya veréis. El juego del Jenga va a ser MUY importante en la
+      description: "El juego del Jenga va a ser MUY importante en la
         #tarugo22... el sábado, también :)"
       img: /img/tar_jenga.jpg
       tags:
@@ -144,7 +144,13 @@ activities:
 faq:
   title: FAQ
   questions:
-    - question: Mi sesión no ha salido elegida, ¿y ahora qué hago?
+    - question: ¿Quién puede ir al Sábado Tarugo?
+      answer: >
+        Pueden ir todos los asistentes con entrada del evento principal y, además, traer consigo a los acompañantes que quieran: amigos, familiares, compañeros de trabajo...
+    - question: ¿Cuesta algo?
+      answer: >
+        No, el Sábado Tarugo es completamente gratuito.
+    - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
       answer: >
         Pues no pasa nada, disfruta de las sesiones que han salido, o si te
         encuentras por los pasillos con personas a las 
@@ -152,12 +158,12 @@ faq:
         que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
 
         los 2 pies ;-)
-    - question: ¿De qué temas se pueden hablar?
+    - question: ¿De qué temas se pueden hablar en la TarugoOff?
       answer: >
         En honor al espíritu abierto de un Open Space, se puede proponer
         cualquier tema. Pero en un evento basado en 
 
         desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
-    - question: ¿Puedo proponer más de una sesión?
+    - question: ¿Puedo proponer más de una sesión en la TarugOff?
       answer: |
         Sí, puedes presentar tantas como quieras.
