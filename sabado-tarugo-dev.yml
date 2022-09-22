@@ -121,6 +121,7 @@ activities:
       tags:
         - peque
         - joven
+        - mayor
     - title: Pintacaras
       description: Un clásico que nunca falla.
       img: /img/tar_pintacaras.jpg
@@ -133,6 +134,13 @@ activities:
       tags:
         - peque
         - joven
+    - title: "Debriefing de la #Tarugo22"
+      tags:
+        - mayor
+      img: /img/tar_debriefing.jpg
+      description: Comenta y conoce todos los detalles del evento, charlando
+        relajadamente con sus principales protagonistas —ponentes,
+        patrocinadores y organizadores— en un ambiente relajado y amigable.
 faq:
   title: FAQ
   questions:
