@@ -5,8 +5,12 @@ metas:
   description: "La jornada más festiva de la #tarugo22"
   image: ""
 title: Sábado Tarugo
-description: >
-  INTRO
+description: Después de las emociones fuertes del viernes, el Sábado Tarugo es
+  **una jornada diseñada para que los asistentes puedan disfrutar relajadamente
+  sin una agenda marcada**. No solo podrán participar en la TarugOff  —nuestro
+  Open Space— sino también traer a familia, amigos y compañeros de trabajo para
+  pasar un buen rato con todas las actividades que hemos preparado que
+  disfrutarán por igual, mayores y pequeños.
 menu: null
 cta:
   text: Enviar sesión
@@ -39,18 +43,20 @@ activities:
         - joven
         - mayor
     - title: Set de podcasting
-      description: Podrás participar en la grabación en directo de algunos de tus podcast
-        favoritos como **Heavy Mental** o **Code on the Rocks**.
+      description: Podrás participar en la grabación en directo de algunos de tus
+        podcast favoritos como **Heavy Mental** o **Code on the Rocks**.
       img: /img/tar_podcast.jpg
       tags:
         - mayor
     - title: Ludoteca
-      description: Zona para que los niños de 3 a 6 años puedan jugar vigilados por monitores titulados.
+      description: Zona para que los niños de 3 a 6 años puedan jugar vigilados por
+        monitores titulados.
       img: /img/tar_ludoteca.jpg
       tags:
         - peque
     - title: Twister Gigante
-      description: Podrás espanzurrarte con tus colegas y seres queridos. El único juego donde esperamos que realmente seas retorcido.
+      description: Podrás espanzurrarte con tus colegas y seres queridos. El único
+        juego donde esperamos que realmente seas retorcido.
       img: /img/tar_twister.jpg
       tags:
         - peque
@@ -58,14 +64,15 @@ activities:
         - mayor
     - title: Cineclub de Informática
       description: Proyectaremos en el auditorio películas y documentales sobre
-        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la vida de Aaron Schwartz o el clásico de 1982, «TRON».
+        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la
+        vida de Aaron Schwartz o el clásico de 1982, «TRON».
       img: /img/tar_auditorio.jpg
       tags:
         - joven
         - mayor
     - title: Jenga Gigante
-      description: "El juego del Jenga va a ser MUY importante en la
-        #tarugo22... el sábado, también :)"
+      description: "El juego del Jenga va a ser MUY importante en la #tarugo22... el
+        sábado, también :)"
       img: /img/tar_jenga.jpg
       tags:
         - peque
@@ -140,9 +147,11 @@ faq:
   questions:
     - question: ¿Quién puede ir al Sábado Tarugo?
       answer: >
-        Pueden ir todos los asistentes con entrada del evento principal y, además, traer consigo a los acompañantes que quieran: amigos, familiares, compañeros de trabajo...
+        Pueden ir todos los asistentes con entrada del evento principal y,
+        además, traer consigo a los acompañantes que quieran: amigos,
+        familiares, compañeros de trabajo...
     - question: ¿Cuesta algo?
-      answer: >
+      answer: |
         No, el Sábado Tarugo es completamente gratuito.
     - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
       answer: >
