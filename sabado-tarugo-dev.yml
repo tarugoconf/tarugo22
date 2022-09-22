@@ -51,7 +51,7 @@ activities:
       tags:
         - mayor
     - title: Ludoteca
-      description: Zona de juegos para niños de 3 a 6 años, con monitores titulados.
+      description: Zona para que los niños de 3 a 6 años puedan jugar vigilados por monitores titulados.
       img: /img/tar_ludoteca.jpg
       tags:
         - peque
