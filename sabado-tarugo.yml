@@ -144,7 +144,13 @@ activities:
 faq:
   title: FAQ
   questions:
-    - question: Mi sesión no ha salido elegida, ¿y ahora qué hago?
+    - question: ¿Quién puede ir al Sábado Tarugo?
+      answer: >
+        Pueden ir todos los asistentes con entrada del evento principal y, además, traer consigo a los acompañantes que quieran: amigos, familiares, compañeros de trabajo...
+    - question: ¿Cuesta algo?
+      answer: >
+        No, el Sábado Tarugo es completamente gratuito.
+    - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
       answer: >
         Pues no pasa nada, disfruta de las sesiones que han salido, o si te
         encuentras por los pasillos con personas a las 
@@ -152,12 +158,12 @@ faq:
         que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
 
         los 2 pies ;-)
-    - question: ¿De qué temas se pueden hablar?
+    - question: ¿De qué temas se pueden hablar en la TarugoOff?
       answer: >
         En honor al espíritu abierto de un Open Space, se puede proponer
         cualquier tema. Pero en un evento basado en 
 
         desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
-    - question: ¿Puedo proponer más de una sesión?
+    - question: ¿Puedo proponer más de una sesión en la TarugOff?
       answer: |
         Sí, puedes presentar tantas como quieras.
