@@ -3,6 +3,11 @@
     margin: 0;
     padding-top: 6rem;
 
+    &.is-sabado {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
     @media (min-width: 500px) {
         grid-column: 2 / 3;
     }
