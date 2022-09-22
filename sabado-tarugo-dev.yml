@@ -43,9 +43,10 @@ activities:
         - peque
         - joven
         - mayor
-    - title: Lucha de sumo inflable
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+    - title: Cineclub de Informática
+      description: Proyectaremos en el auditorio películas y documentales sobre
+        informática durante todo el día.
+      img: /img/tar_auditorio.jpg
       tags:
         - joven
         - mayor
