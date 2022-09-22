@@ -51,8 +51,9 @@ activities:
         - joven
         - mayor
     - title: Juegos de mesa
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
+        desde el Parchís a MoneyLand, el juego que enseña finanzas personales. "
+      img: /img/tar_juegos_mesa.jpg
       tags:
         - peque
         - joven
