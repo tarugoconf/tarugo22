@@ -100,11 +100,12 @@ activities:
         - joven
         - mayor
     - title: Taller de dibujo para pequeños grandes artistas
-      description: Aquí la descripción
-      img: https://via.placeholder.com/350x200
+      description: Aprende técnicas básicas de dibujo de la mano de Hugo Tobio ¡El
+        mismísimo ilustrador de la Bonilista!
+      img: /img/tar_hugo.jpg
       tags:
-        - peque
         - joven
+        - mayor
     - title: Taller de personalización de chapas
       description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
         nuestros amigos de Autentia.
