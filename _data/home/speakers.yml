@@ -111,40 +111,26 @@ speakers:
       - text: Tarugoconf
         type: linkedin
         url: https://www.linkedin.com/in/macame/
-  - name: TBA
-    id: tba2
+  - name: Alex Urbón y Ezequiel Maldjian
+    id: hundred
     type: speaker
-    bio: Uno de los awesómicos ponentes que quedan por anunciar.
-    company: ""
-    position: ""
-    image: /img/speakers/placeholder_azul.png
+    bio: Eze y Alex viajaron por todo el planeta durante tres años, descubriendo las
+      mejores burgers del mundo. Visitaron decenas de países en 3 continentes y
+      se lo pasaron tan bien que decidieron **dedicar sus vidas a crear la mejor
+      burger posible al mejor precio posible**. Ahora venden 12.000 burgers a la
+      semana y siguen intentando mejorar un poquito cada día.
+    company: Hundred Burgers
+    position: Cofundadores
+    image: /img/speakers/hundred.jpg
     links:
-      - text: "@varisb"
-        url: https://twitter.com/tarugoconf
-        type: twitter
-      - text: Evaristo Babé
-        type: linkedin
-        url: https://www.linkedin.com/company/rcdeportivo/
-      - text: Pulpomatic
-        url: https://www.tarugoconf.com/
-        type: link
-  - name: TBA
-    id: tba3
-    type: speaker
-    bio: Uno de los awesómicos ponentes que quedan por anunciar.
-    company: ""
-    position: ""
-    image: /img/speakers/placeholder_amarillo.png
-    links:
-      - text: "@tarugoconf"
-        type: twitter
-        url: https://twitter.com/tarugoconf
       - text: Tarugoconf
-        type: linkedin
-        url: https://www.linkedin.com/company/rcdeportivo/
+        type: link
+        url: https://www.instagram.com/hundredburgers_/?hl=es
+        title: "Hundred Burgers - Instagram "
       - type: link
-        url: https://www.tarugoconf.com/
+        url: https://www.hundredburgers.com/
         text: Tarugoconf
+        title: Hundred Burgers - Web
   - name: Paulo Rodriguez
     id: paulo
     type: speaker
@@ -284,3 +270,20 @@ speakers:
 
 
       Desde principios de 2021, Manuel trabaja en VMWare como Senior Engineering Manager, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día.
+  - name: TBA
+    id: tba2
+    type: speaker
+    bio: Uno de los awesómicos ponentes que quedan por anunciar.
+    company: ""
+    position: ""
+    image: /img/speakers/placeholder_azul.png
+    links:
+      - text: "@varisb"
+        url: https://twitter.com/tarugoconf
+        type: twitter
+      - text: Evaristo Babé
+        type: linkedin
+        url: https://www.linkedin.com/company/rcdeportivo/
+      - text: Pulpomatic
+        url: https://www.tarugoconf.com/
+        type: link
