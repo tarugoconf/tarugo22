@@ -288,6 +288,11 @@ days:
         time: 19:15-20:00h
         speakers:
           - paulo
+      - time: 20:00-20:15h
+        title: Megasorteo ✨
+        details: "Sorteo de jugosos premios entre todos los que hayan tuiteado con el
+          hashtag #tarugo22. Cuanto más tuitees, más posibilidades tendrás de
+          ganar."
       - title: Despedida y ajuste de cuentas
         time: "20:15-20:30h "
         speakers:
