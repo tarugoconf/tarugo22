@@ -186,15 +186,15 @@ days:
 
 
           El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
-      - title: "Concurso: El Precio Justo 💰"
+      - title: "Concurso: Juegos de Niños 🎲"
         time: 12:45-13:00h
         details: >-
-          Los asistentes podrán participar desde sus casas en **un disparatado
-          concurso** en el que tendrán que estimar el coste más aproximado, sin
-          pasarse, de famosos proyectos de software públicos y privados.
+          Los asistentes podrán participar en **un disparatado concurso** en el
+          que tendrán que averiguar qué concepto informático están describiendo
+          —como buenamente pueden— unos niños.
 
 
-          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+          Los ganadores se llevarán jugosos premios a casa.
       - title: La tecnología necesaria para que te tomes una buena caña
         time: 13:00-13:45h
         speakers:
@@ -207,6 +207,34 @@ days:
 
 
           En esta charla conoceremos la tecnología que usa Estrella Galicia para ser la cerveza más querida para gran parte de humanos normales y la inmensa mayoría de gallegos.
+      - title: Como hacer un desarrollo iterativo en un proyecto de hostelería
+        time: 13:45-14:30h
+        speakers:
+          - hundred
+        details: E﻿n esta charla, Alex y Eze nos contarán cómo crearon el concepto de
+          Hundred Burgers —considerada una de las mejores hamburgueserías del
+          mundo mundial de la vida vital— siguiendo un proceso de prueba y error
+          que parece más propio de la industria informática y —también—
+          **conoceremos si hay procesos y buenas practicas en el mundo de la
+          hostelería que podríamos aplicar a otros sectores**.
+      - title: "COMIDA: pulpo, churrasco y empanada como si no hubiese mañana 🐙"
+        time: 14:30-16:30h
+        details: Tranquilos, también habrá opciones para vegetarianos.
+      - title: "Concurso: El Precio Justo 💰"
+        time: 16:30-16:40h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que estimar el coste más aproximado, sin
+          pasarse, de famosos proyectos de software públicos y privados.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+        time: 16:40-16:45h
+        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
+          mano, para averiguar hasta qué punto el público general -sin
+          experiencia técnica- conoce conceptos como "criptomoneda", "huella
+          digital" u "open source" y cuál es su opinión al respecto.
       - title: Como producir un videojuego
         speakers:
           - ramon
@@ -217,31 +245,32 @@ days:
 
 
           En esta charla, Ramón nos explicará **cómo producir un videojuego —desde la búsqueda de financiación hasta su comercialización pasando por la planificación de un software tan complicado** como para que su desarrollo sólo se considere «terminado» cuando sea suficientemente «divertido»— mostrando experiencias y cifras reales de uno de los últimos éxitos de la industria nacional: el estupendo remake del mítico videojuego «Alex Kidd in Miracle World».
-        time: 13:45-14:25h
-      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
-        time: 14:25-14:30h
+        time: 16:45-17:30h
+      - title: ¿Debe un abogado aprender a programar?
+        time: 17:30-18:15h
+        speakers:
+          - elen
         details: >-
-          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
-          Profesional y Grado universitario de Informática sobre **su
-          perspectiva de la profesión y las expectativas que tienen puestas en
-          la misma**.
+          La industria informática ha ignorado sistemáticamente el ámbito
+          jurídico que queda más allá de la mera gestión documental, sin
+          embargo, este es uno de los que más impacto puede tener en nuestra
+          vida, tanto personal como profesionalmente.
 
 
-          Sus respuestas no te dejarán indiferente.
-      - title: "COMIDA: pulpo, churrasco y empanada como si no hubiese mañana 🐙"
-        time: 14:30-16:30h
-        details: Tranquilos, también habrá opciones para vegetarianos.
-      - title: Reportaje 📹
-        time: 16:30-16:45h
+          Todo el que haya tenido la desgracia de tener que demandar o ser demandado, sabe hasta qué punto. En esta charla Elen nos explicará **cómo la tecnología puede acercar el sistema jurídico al ciudadano**, pero también ayudar a sus profesionales a hacer mucho más efectivo su trabajo dentro de la misma.
+      - title: "MERIENDA: café y bollería artesanal para aguantar hasta el final 🍪"
         details: >-
-          Reportaje original de calidad profesional, como los que ya produjimos
-          el año pasado sobre [la primera programadora
-          española](https://vimeo.com/659889179){target="_blank"} o hace dos,
-          sobre [cohetes espaciales
-          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/){target="_blank"}.
+          Pausa para que cojamos fuerzas para llegar al final del día A TOPE DE
+          POWER.
 
 
-          **El contenido final lo decidirán los asistentes a la #tarugo22**.
+          El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de BUENAS VIBRACIONES.
+        time: 18:15-19:00h
+      - title: TBA
+        details: Una charla awesómica que te dejará con el culo torcido.
+        speakers:
+          - tba4
+        time: 19:00-19:15h
       - title: Ventas para Ingenieros
         details: >-
           Desgraciadamente, la imagen del comercial sigue asociada al vendedor
@@ -256,49 +285,9 @@ days:
 
 
           Al final de esta sesión, los tarugos conocerán cómo funciona un departamento de ventas, adquirirán algunas habilidades básicas (ya las tenían, pero no lo sabían), proporcionándoles un vocabulario común que les permita comunicarse y colaborar entre técnicos y vendedores, uno de los retos más habituales en la industria digital.
-        time: 16:45-17:30h
+        time: 19:15-20:00h
         speakers:
           - paulo
-      - title: ¿Debe un abogado aprender a programar?
-        time: 17:30-18:15h
-        speakers:
-          - elen
-        details: >-
-          La industria informática ha ignorado sistemáticamente el ámbito
-          jurídico que queda más allá de la mera gestión documental, sin
-          embargo, este es uno de los que más impacto puede tener en nuestra
-          vida, tanto personal como profesionalmente.
-
-
-          Todo el que haya tenido la desgracia de tener que demandar o ser demandado, sabe hasta qué punto. En esta charla Elen nos explicará **cómo la tecnología puede acercar el sistema jurídico al ciudadano**, pero también ayudar a sus profesionales a hacer mucho más efectivo su trabajo dentro de la misma.
-      - title: "Concurso: Juegos de Niños 🎲"
-        time: 18:15-18:30h
-        details: >-
-          Los asistentes podrán participar en **un disparatado concurso** en el
-          que tendrán que averiguar cuales de las absurdas anécdotas
-          informáticas que presentaremos son reales y cuales no.
-
-
-          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
-      - title: "MERIENDA: café y bollería artesanal para aguantar hasta el final 🍪"
-        details: >-
-          Pausa para que cojamos fuerzas para llegar al final del día A TOPE DE
-          POWER.
-
-
-          El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de BUENAS VIBRACIONES.
-        time: 18:30-19:15h
-      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
-        time: 19:15-19:30h
-        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
-          mano, para averiguar hasta qué punto el público general -sin
-          experiencia técnica- conoce conceptos como "criptomoneda", "huella
-          digital" u "open source" y cuál es su opinión al respecto.
-      - title: TBA
-        details: Una charla awesómica que te dejará con el culo torcido.
-        speakers:
-          - tba4
-        time: 19:30-20:15h
       - title: Despedida y ajuste de cuentas
         time: "20:15-20:30h "
         speakers:
