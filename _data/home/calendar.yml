@@ -266,10 +266,17 @@ days:
 
           El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de BUENAS VIBRACIONES.
         time: 18:15-19:00h
-      - title: TBA
-        details: Una charla awesómica que te dejará con el culo torcido.
+      - title: Cómo aplicar la Inteligencia Artificial para hacer el bien
+        details: >-
+          M﻿ucha gente mira con recelo la Inteligencia Artificial y teme que sea
+          la tecnología que haga obsoleto su puesto de trabajo, pero eso sería
+          una visión tan reducida como si un médico creyera que la penicilina
+          iba a dejarle sin pacientes.
+
+
+          En esta charla, Conchita te mostrará **algunas aplicaciones awesómicas de la Inteligencia Artificial** que ya están mejorando el día a día de cientos de miles de personas.
         speakers:
-          - tba2
+          - conchi
         time: 19:00-19:15h
       - title: Ventas para Ingenieros
         details: >-
