@@ -273,15 +273,15 @@ speakers:
   - name: Conchita Diaz Cantarero
     id: conchi
     type: speaker
-    bio: Después de una larga trayectoria en CISCO, Conchi se marchó a trabajar en
-      el programa de AI for Social Good de Google para **intentar mejorar la
-      vida de las personas con la tecnología**. Allí, trabaja en proyectos que
-      pueden salvar a Comunidades enteras —como la IA que puede predecir el
-      alcance de las inundaciones en India durante la época de los monzones— o
-      mejorar el día a día de personas, como asistentes para personas
-      invidentes.
+    bio: Después de una larga trayectoria en CISCO, Conchi se marchó a trabajar a
+      Google para **intentar mejorar la vida de las personas con la
+      tecnología**. Por ejemplo, en el programa de AI for Social Good, donde se
+      desarrollan proyectos que pueden salvar a Comunidades enteras —como la IA
+      que puede predecir el alcance de las inundaciones en India durante la
+      época de los monzones— o mejorar el día a día de personas, como asistentes
+      para personas invidentes.
     company: Google
-    position: AI / Data / Machine Learning
+    position: Responsable de Formación de IA en Europa
     image: /img/speakers/conchi.jpg
     links:
       - text: Evaristo Babé
