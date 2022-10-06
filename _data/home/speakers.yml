@@ -270,20 +270,25 @@ speakers:
 
 
       Desde principios de 2021, Manuel trabaja en VMWare como Senior Engineering Manager, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día.
-  - name: TBA
-    id: tba2
+  - name: Conchita Diaz Cantarero
+    id: conchi
     type: speaker
-    bio: Uno de los awesómicos ponentes que quedan por anunciar.
-    company: ""
-    position: ""
-    image: /img/speakers/placeholder_azul.png
+    bio: Después de una larga trayectoria en CISCO, Conchi se marchó a trabajar en
+      el programa de AI for Social Good de Google para **intentar mejorar la
+      vida de las personas con la tecnología**. Allí, trabaja en proyectos que
+      pueden salvar a Comunidades enteras —como la IA que puede predecir el
+      alcance de las inundaciones en India durante la época de los monzones— o
+      mejorar el día a día de personas, como asistentes para personas
+      invidentes.
+    company: Google
+    position: AI/ Data / Machine Learning
+    image: /img/speakers/conchi.jpg
     links:
-      - text: "@varisb"
-        url: https://twitter.com/tarugoconf
-        type: twitter
       - text: Evaristo Babé
         type: linkedin
         url: https://www.linkedin.com/company/rcdeportivo/
+        title: https://www.linkedin.com/in/concepcion-conchita-diaz-cantarero-4a841819/
       - text: Pulpomatic
-        url: https://www.tarugoconf.com/
+        url: https://ai.google/social-good/
         type: link
+        title: AI for social Good de Google
