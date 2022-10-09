@@ -141,6 +141,9 @@ patrons:
   - img: /img/partners/curro-maturana.jpeg
     alt: Curro Maturana
     url: https://twitter.com/fmaturanac
+  - alt: Javier Alonso "Oyabun"
+    img: /img/partners/lfb2pa7b_400x400.jpeg
+    url: https://twitter.com/oyabun
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-
