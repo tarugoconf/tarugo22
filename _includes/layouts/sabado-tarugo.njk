@@ -10,13 +10,6 @@ layout: layouts/base.njk
   </div>
 </header>
 
-<figure class="video is-sabado">
-  <tarugo-video id="video" class="video-ratio" data-id="746603787">
-    <img src="/img/open-space-snapshot.jpg" alt="Open Space Tarugo">
-    <a href="https://vimeo.com/746603787">#tarugoff</a>
-  </tarugo-video>
-</figure>
-
 <tarugo-filter class="activities" id="activities">
   <form class="activities-filter">
     <div class="activities-tags">
@@ -29,7 +22,7 @@ layout: layouts/base.njk
     </div>
   </form>
 
-  <ul class="activities-items">  
+  <ul class="activities-items">
     {% for item in activities.items %}
     <li class="activity item" data-tags="{{ item.tags | dump }}">
       <img src="{{ item.img }}" alt="" class="activity-image">
@@ -48,18 +41,6 @@ layout: layouts/base.njk
     {% endfor %}
   </ul>
 </tarugo-filter>
-
-<!--
-<section class="header">
-  <h2 class="header-title">{{ sessions.title }}</h2>
-  <div class="header-intro">
-      {{ sessions.text | md | safe }}
-  </div>
-  <div class="header-cta">
-    <a href="{{ sessions.cta.url }}" class="button is-primary">{{ sessions.cta.text }}</a>
-  </div>
-</section>
--->
 
 {% set content = faq %}
 {% include "partials/faq.njk" %}

@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+{% include "partials/navbar.njk" %}
+
+<header class="header">
+  <h1 class="header-title">{{ header.title }}</h1>
+  <div class="header-intro">
+      {{ header.intro | md | safe }}
+  </div>
+</header>
+
+<figure class="video is-sabado">
+  <tarugo-video id="video" class="video-ratio" data-id="746603787">
+    <img src="/img/open-space-snapshot.jpg" alt="Open Space Tarugo">
+    <a href="https://vimeo.com/746603787">#tarugoff</a>
+  </tarugo-video>
+</figure>
+
+<div class="text">
+  {{ participating.description | md | safe }}
+</div>
+
+{% set content = faq %}
+{% include "partials/faq.njk" %}

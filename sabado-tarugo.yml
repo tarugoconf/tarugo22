@@ -11,9 +11,6 @@ description: Después de las emociones fuertes del viernes, el Sábado Tarugo es
   pasar un buen rato con todas las actividades que hemos preparado que
   disfrutarán por igual, mayores y pequeños.
 menu: null
-cta:
-  text: Enviar sesión
-  url: https://forms.gle/L6AH6R3YwjgvHuWW6
 back:
   text: ← Home
   href: /
@@ -21,8 +18,8 @@ header:
   title: 🎉 Sábado Tarugo
   intro: Después de las emociones fuertes del viernes, el Sábado Tarugo es **una
     jornada diseñada para que los asistentes puedan disfrutar relajadamente sin
-    una agenda marcada**. No solo podrán participar en la TarugOff  —nuestro
-    Open Space— sino también traer a familia, amigos y compañeros de trabajo
+    una agenda marcada**. No solo podrán participar en la <a href="/open-space">TarugOff  
+    —nuestro Open Space—</a> sino también traer a familia, amigos y compañeros de trabajo
     para pasar un buen rato con todas las actividades que hemos preparado que
     disfrutarán por igual, mayores y pequeños.
 activities:
@@ -182,23 +179,6 @@ faq:
     - question: ¿Hay un límite de aforo?
       answer: S﻿í, 1.000 personas. Si llegamos a ese límite, el próximo año alquilamos
         la Plaza de Toros.
-    - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
-      answer: >
-        Pues no pasa nada, disfruta de las sesiones que han salido, o si te
-        encuentras por los pasillos con personas a las 
-
-        que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
-
-        los 2 pies ;-)
-    - question: ¿De qué temas se pueden hablar en la TarugoOff?
-      answer: >
-        En honor al espíritu abierto de un Open Space, se puede proponer
-        cualquier tema. Pero en un evento basado en 
-
-        desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
-    - question: ¿Puedo proponer más de una sesión en la TarugOff?
-      answer: |
-        Sí, puedes presentar tantas como quieras.
     - question: ¡Tengo más dudas!
       answer: No pasa nada. Como siempre, escribe a
         [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí

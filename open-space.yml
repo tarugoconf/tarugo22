@@ -1,0 +1,69 @@
+layout: layouts/open-space.njk
+metas:
+  title: Sábado Tarugo
+  description: "La jornada más festiva de la #tarugo22"
+  image: ""
+title: Tarugoff
+description: > 
+  La Tarugoff es el Open Space de la Tarugoconf y nació como un
+  espacio para que los asistentes pudiesen hablar y debatir de 
+  sus propios intereses.
+menu: null
+cta:
+  text: Enviar sesión
+  url: https://forms.gle/L6AH6R3YwjgvHuWW6
+back:
+  text: ← Home
+  href: /
+header:
+  title: Tarugoff
+  intro: >
+    La Tarugoff es el Open Space de la Tarugoconf y nació como un
+    espacio para que los asistentes pudiesen hablar y debatir de 
+    sus propios intereses. 
+    
+    
+    El formato es muy conocido por muchos de los asistentes, pero si no
+    sabes lo que es un Open Space, <a href="https://www.agilealliance.org/glossary/open-space/" target="_blank">
+    aquí tienes una web</a> que lo explica muy
+    bien. Además siempre puedes ver el vídeo de Yeray, que será la persona
+    encargada de organizar y facilitar este espacio dentro del 
+    <a href="/sabado-tarugo">Sábado Tarugo</a>
+participating:
+  description: >
+    Para participar puedes hacer click en el botón de la barra superior con
+    la etiqueta "Enviar sesión", o si lo prefieres puede hacer 
+    <a href="https://forms.gle/L6AH6R3YwjgvHuWW6" target="_blank">click aquí</a> :-)
+  
+    
+    Proponer una sesión es realmente sencillo, sólo tienes que grabar un vídeo
+    y enviarlo, luego nosotros colgaremos todos los vídeos para que los asistentes
+    sepan de qué temas se quiere hablar.
+    
+    ¿Y si no se me ocurre nada ahora? No te preocupes, el sábado dejaremos tiempo para 
+    que la gente proponga otros temas antes de pasar a la votación de sesiones. **Pero 
+    recuerda que si proponemos las charlas con antelación el proceso será más fluido**.
+faq:
+  title: FAQ
+  questions:
+    - question: Mi sesión no ha salido elegida en la TarugOff, ¿y ahora qué hago?
+      answer: >
+        Pues no pasa nada, disfruta de las sesiones que han salido, o si te
+        encuentras por los pasillos con personas a las 
+
+        que les interesaba tu propuesta, id a tomar un café y hablad sobre ello. Recuerda que la única regla es la regla de 
+
+        los 2 pies ;-)
+    - question: ¿De qué temas se pueden hablar en la TarugoOff?
+      answer: >
+        En honor al espíritu abierto de un Open Space, se puede proponer
+        cualquier tema. Pero en un evento basado en 
+
+        desarrollo de producto, es posible que no haya gente experta en el cultivo de la vid, por lo que es más productivo limitarse a la temática propuesta. Desarrollo de producto es una temática bastante amplia que abarca desde aspectos técnicos a logísticos, pasando por marketing, financiación, diseño y un largo etcétera.
+    - question: ¿Puedo proponer más de una sesión en la TarugOff?
+      answer: |
+        Sí, puedes presentar tantas como quieras.
+    - question: ¡Tengo más dudas!
+      answer: No pasa nada. Como siempre, escribe a
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
+        estaremos encantados de atenderte.
