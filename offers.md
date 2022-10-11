@@ -15,3 +15,5 @@
 [Backend Engineer @ Tinybird](https://www.tinybird.co/job-offers/backend-engineer)
 
 [Senior React Engineer / Lead Developer @ CARTO](https://jobs.lever.co/cartodb/cd74077f-bd85-43a9-b559-2c72c0e4d0e1)
+
+![offers-image](assets/offers-image.jpg)
