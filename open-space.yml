@@ -51,12 +51,12 @@ sessions:
     text: Ver sesiones
     url: /sesiones/
   sessions:
-    - title: Tutu
+    - title: ¿Producto nacional o de importación?
       tags:
-        - Tech
+        - Dev
         - People
-      code: 0023klas
-    - title: Foo
+      code: bpfqJqSy-6o
+    - title: Título más largo de lo normal para probar la maquetación y blah blah blah ... lorem ipsum blah blah
       tags:
         - Tech
       code: 002laslas
