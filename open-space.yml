@@ -60,6 +60,15 @@ sessions:
       tags:
         - Tech
       code: 002laslas
+    - title: Tutu
+      tags:
+        - Tech
+        - People
+      code: 0023klas
+    - title: Foo
+      tags:
+        - Tech
+      code: 002laslas
 faq:
   title: FAQ
   questions:
