@@ -43,6 +43,23 @@ participating:
     ¿Y si no se me ocurre nada ahora? No te preocupes, el sábado dejaremos tiempo para 
     que la gente proponga otros temas antes de pasar a la votación de sesiones. **Pero 
     recuerda que si proponemos las charlas con antelación el proceso será más fluido**.
+sessions:
+  title: Sesiones
+  text: |
+    Para que vayáis abriendo boca, aquí están las propuestas que nos han ido enviando. Si quieres que la tuya también esté aquí, no dudes en enviarnosla, así colaborarás en que el día del Open Space todo vaya más fluido.
+  cta:
+    text: Ver sesiones
+    url: /sesiones/
+  sessions:
+    - title: Tutu
+      tags:
+        - Tech
+        - People
+      code: 0023klas
+    - title: Foo
+      tags:
+        - Tech
+      code: 002laslas
 faq:
   title: FAQ
   questions:
