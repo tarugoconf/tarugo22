@@ -1,0 +1,44 @@
+.sessions {
+  grid-column: 2 / 3;
+}
+.sessions-header {
+  max-width: 30rem;
+  margin: 0 auto;
+  font: var(--font-normal);
+  text-align: center;
+
+  & h2 {
+    font: var(--font-big);
+    font-weight: var(--bold);
+    letter-spacing: var(--font-big-spacing);
+    margin: 0;
+  }
+}
+
+.sessions-list {
+  list-style: none;
+  margin: 4em auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
+  justify-content: space-around;
+}
+
+.session-video {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+  & iframe {
+    display: block;
+    aspect-ratio: 4/3;
+    width: 100%;
+    height: auto;
+  }
+}
+.session-title {
+  font: var(--font-small-bold);
+}
