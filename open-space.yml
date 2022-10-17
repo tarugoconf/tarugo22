@@ -56,19 +56,6 @@ sessions:
         - Dev
         - People
       code: bpfqJqSy-6o
-    - title: Título más largo de lo normal para probar la maquetación y blah blah blah ... lorem ipsum blah blah
-      tags:
-        - Tech
-      code: 002laslas
-    - title: Tutu
-      tags:
-        - Tech
-        - People
-      code: 0023klas
-    - title: Foo
-      tags:
-        - Tech
-      code: 002laslas
 faq:
   title: FAQ
   questions:
