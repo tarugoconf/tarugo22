@@ -21,5 +21,26 @@ layout: layouts/base.njk
   {{ participating.description | md | safe }}
 </div>
 
+<section class="sessions" id="sessions">
+  <header class="sessions-header">
+    <h2 class="sessions-title">{{ sessions.title }}</h2>
+
+    <div class="sessions-intro">{{ sessions.text }}</div>
+  </header>
+
+  <div id="sessions" class="sessions-list">
+    {% for session in sessions.sessions %}
+    <article class="session" data-filter="{{ session | dump }}">
+      <figure class="session-video">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/{{ session.code }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </figure>
+      <header class="session-header">
+        <h2 class="session-title">{{ session.title }}</h2>
+      </header>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 {% set content = faq %}
 {% include "partials/faq.njk" %}
