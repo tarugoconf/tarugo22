@@ -16,4 +16,20 @@
 
 [Senior React Engineer / Lead Developer @ CARTO](https://jobs.lever.co/cartodb/cd74077f-bd85-43a9-b559-2c72c0e4d0e1)
 
+[Java Developer @ DEISER](https://www.deiser.com/es/empleo-desarrollador-java)
+
+[DevOps @ Sngular](https://www.sngular.com/job/devops-con-ingles-alto/)
+
+[Backend Developer @ Stackscale](https://www.stackscale.com/es/empleo/desarrollador-backend/)
+
+[Lead Software Engineer @ Personio](https://hyperjob.io/personio/ads/1127/lead-software-engineer-corehr-dfm)
+
+[Full-Stack Developer @ Avantgarde](mailto:seleccion@avantgardeit.es)
+
+[Software Engineer @ IKEA Group Digital](https://www.linkedin.com/jobs/search/?currentJobId=3285504430&keywords=payments&refresh=true)
+
+[Frontend Developer @ Tuio](mailto:tarugo@tuio.com)
+
+[Desarrollador Java Experto en Microservicios](https://www.panel.es/talento-empleo/desarrollo-java-microservicios/)
+
 ![offers-image](assets/offers-image.jpg)
