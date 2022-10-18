@@ -30,6 +30,6 @@
 
 [Frontend Developer @ Tuio](mailto:tarugo@tuio.com)
 
-[Desarrollador Java Experto en Microservicios](https://www.panel.es/talento-empleo/desarrollo-java-microservicios/)
+[Desarrollador Java Experto en Microservicios @ Panel Sistemas](https://www.panel.es/talento-empleo/desarrollo-java-microservicios/)
 
 ![offers-image](assets/offers-image.jpg)
