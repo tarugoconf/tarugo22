@@ -123,14 +123,6 @@ activities:
       tags:
         - peque
         - joven
-    - title: Puestos de Realidad Virtual
-      description: Da tus primeros pasos en la realidad virtual de la mano de los
-        desarrolladores del juego CoolPaintr VR, SNGULAR Studios.
-      img: /img/tar_vr.jpg
-      tags:
-        - peque
-        - joven
-        - mayor
     - title: Pintacaras
       description: Un clásico que nunca falla.
       img: /img/tar_pintacaras.jpg
