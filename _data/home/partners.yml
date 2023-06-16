@@ -33,7 +33,7 @@ partners:
     text: Ayudamos a las empresas que están transformando el mundo a resolver sus
       problemas tecnológicos y llegar más allá.
   - img: /img/partners/sngular-logo-big.png
-    url: https://www.sngular.com/
+    url: https://www.sngular.com/es/careers-home/?utm_source=Qr+Tarugoconf&utm_medium=Qr&utm_campaign=TarugoConf+2022&utm_id=0001
     alt: SNGULAR
     text: Adaptive Advantage  for a world in constant change.
   - img: /img/partners/web-color-black-transparent.png
@@ -89,6 +89,10 @@ partners:
     img: /img/partners/image.jpeg
     url: https://join.ingka.com
     text: We deliver the IKEA of tomorrow, today.
+  - img: /img/partners/credito_caucion_logo.png
+    alt: Credito y Caución
+    url: https://www.creditoycaucion.es/es
+    text: Protegemos su negocio, protegemos su mercado.
   - alt: Autentia
     img: /img/partners/ddj3yqju8aarwsx.png
     url: https://www.autentia.com/
@@ -113,7 +117,7 @@ collaborators:
   - img: /img/partners/report-logo-metricool-1.png
     alt: Metricool
     url: https://metricool.com/es/
-  - url: Create remarkable experiences using light-speed transfers
+  - url: https://devengo.com/
     alt: Devengo
     img: /img/partners/screen-logo-devengo-horizontal-color-fides.png
   - alt: CARTO
@@ -144,6 +148,9 @@ patrons:
   - alt: Javier Alonso "Oyabun"
     img: /img/partners/lfb2pa7b_400x400.jpeg
     url: https://twitter.com/oyabun
+  - alt: Daniel Lopez
+    url: https://twitter.com/vomkriege
+    img: /img/partners/daniel-lopez.jpg
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >-

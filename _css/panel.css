@@ -1,0 +1,81 @@
+.panel {
+  grid-column: 2 / 3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.panel-image-button {
+  position: relative;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+
+  & img {
+    max-width: 100%;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, #3334);
+  }
+
+  &:hover::before {
+    display: none;
+  }
+}
+
+.panel-image-big {
+  display: block;
+  overflow: auto;
+  max-width: calc(90vw - 2rem);
+  max-height: calc(90vh - 2rem);
+  padding: 1rem;
+
+  & img {
+    max-width: 100%;
+    display: block;
+  }
+}
+.panel-dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  overflow: hidden;
+}
+.panel-dialog-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-gray);
+  background: var(--color-gray-light);
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+
+  & svg {
+    display: block;
+  }
+
+  &:hover {
+    color: var(--black);
+    background: var(--color-yellow);
+  }
+}

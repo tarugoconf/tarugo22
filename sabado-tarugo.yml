@@ -18,10 +18,14 @@ header:
   title: 🎉 Sábado Tarugo
   intro: Después de las emociones fuertes del viernes, el Sábado Tarugo es **una
     jornada diseñada para que los asistentes puedan disfrutar relajadamente sin
-    una agenda marcada**. No solo podrán participar en la <a href="/open-space">TarugOff  
-    —nuestro Open Space—</a> sino también traer a familia, amigos y compañeros de trabajo
-    para pasar un buen rato con todas las actividades que hemos preparado que
-    disfrutarán por igual, mayores y pequeños.
+    una agenda marcada**. No solo podrán participar en la <a
+    href="/open-space">TarugOff —nuestro Open Space—</a> sino también traer a
+    familia, amigos y compañeros de trabajo para pasar un buen rato con todas
+    las actividades que hemos preparado y que disfrutarán por igual, mayores y
+    pequeños.
+picture:
+  src: /img/sabado_tarugo.png
+  alt: Panel de actividades Sábado Tarugo
 activities:
   tags:
     peque: Niños <span>🧒</span>
@@ -122,14 +126,6 @@ activities:
       tags:
         - peque
         - joven
-    - title: Puestos de Realidad Virtual
-      description: Da tus primeros pasos en la realidad virtual de la mano de los
-        desarrolladores del juego CoolPaintr VR, SNGULAR Studios.
-      img: /img/tar_vr.jpg
-      tags:
-        - peque
-        - joven
-        - mayor
     - title: Pintacaras
       description: Un clásico que nunca falla.
       img: /img/tar_pintacaras.jpg

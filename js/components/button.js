@@ -18,7 +18,7 @@ class Buttons extends HTMLElement {
         break;
 
       case "open":
-        open(target);
+        open(this, target);
         break;
 
       case "toggle":
@@ -38,10 +38,10 @@ function close(target, button) {
   }
 }
 
-function open(target) {
+function open(root, target) {
   const dialog = target
     ? document.getElementById(target)
-    : this.parentElement.querySelector("dialog");
+    : root.parentElement.querySelector("dialog");
 
   if (dialog) {
     dialog.showModal();

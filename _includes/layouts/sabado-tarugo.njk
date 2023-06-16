@@ -10,6 +10,24 @@ layout: layouts/base.njk
   </div>
 </header>
 
+<picture class="panel">
+  <tarugo-buttons>
+    <button data-action="open" class="panel-image-button">
+      <img src="{{ picture.src }}" alt="{{ picture.alt }}">
+    </button>
+  </tarugo-buttons>
+  <dialog id="big-image" class="panel-dialog">
+    <tarugo-buttons class="panel-dialog-buttons">
+      <button data-action="close" class="panel-dialog-close">
+        <img src="/img/icons/close.svg">
+      </button>
+    </tarugo-buttons>
+    <div class="panel-image-big">
+      <img src="{{ picture.src }}" alt="{{ picture.alt }}">
+    </div>
+  </dialog>
+</picture>
+
 <tarugo-filter class="activities" id="activities">
   <form class="activities-filter">
     <div class="activities-tags">
