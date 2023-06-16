@@ -3,6 +3,36 @@ layout: layouts/base.njk
 body_class: needs-scroll
 ---
 
+<style>
+  .aviso {
+    max-width: 600px;
+    font: var(--font-normal-bold);
+    background: var(--color-yellow);
+    box-shadow: 0 5px 25px #0006;
+    border-width: 1px;
+    padding: 2em;
+  }
+  .aviso a {
+    outline: none;
+  }
+  .aviso h2 {
+    font: var(--font-medium-bold);
+    margin-top: 0;
+  }
+  .aviso p {
+    margin-bottom: 0;
+  }
+</style>
+
+<dialog class="aviso" id="warning">
+    <h2>¡Nos hemos mudado!</h2>
+    <p>La Tarugoconf se convierte en la TRGCON cuya edición de 2023 se celebrará el próximo 27 de octubre.</p>
+    <p>Tienes toda la info en <a href="https://trgcon.com">trgcon.com</a></p>
+</dialog>
+<script>
+    document.getElementById("warning").showModal();
+</script>
+
 {% include "partials/navbar.njk" %}
 
 <header class="homeHeader">
